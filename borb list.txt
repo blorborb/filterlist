@@ -513,7 +513,6 @@ www.youtube.com##button.ytp-button:nth-of-type(7)
 www.youtube.com##a.bold.yt-formatted-string
 www.youtube.com###clarify-box
 www.youtube.com##.smartimation__border
-www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 www.youtube.com###background
 www.youtube.com###teaser-carousel
