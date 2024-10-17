@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Name: borbs personal list
+! title: borbs personal list
 ! Expires: 1 day
 
 01b4075d6c.
