@@ -49,6 +49,7 @@ ablinks.
 ably.
 abtasty.
 ||ac.$important
+/actiontray
 /activeview?xai
 actualdeals.
 actuallysheep.
@@ -96,6 +97,7 @@ adsco.
 /adsense
 adserver.$important
 adserver-$important
+ad-service
 adservice.$important
 adservice-$important
 adservices.$important
@@ -172,7 +174,9 @@ crunchyroll.
 /csp/reporting
 /data/data
 /detroitchicago
+/diagnostic-
 discord.*/widget
+/displayadswc
 distillery.wistia.
 doubleclick.$important
 d.reddit.
@@ -183,6 +187,7 @@ elfsight.
 /eu-cookie-law
 /eventpromotionbar
 eviltracker.
+/experiencetrackerviewsdata
 extmaps-api.
 /ezais
 ezoic.
@@ -302,6 +307,7 @@ mlcdn.
 ?modules=KeyframesRenderer
 mouseflow.
 myhuaweicloud.
+NativeAdService_
 /newsletters
 nmetrics.
 nocookie.
@@ -370,6 +376,8 @@ snowplow.
 snowplow/
 /snowplow
 snowplowanalytics.
+/socialdata
+/social-data
 /s/search/audio
 stripe.
 stripecdn.
@@ -387,6 +395,7 @@ taboola.
 technologyadvice.
 telemetry.
 telemetry-
+-telemetry_
 /telemetry
 themes.jifo.
 ton.twitter
@@ -408,6 +417,7 @@ udcm.
 unityads.
 upsell-
 userway.
+/viewsnativead
 visualwebsiteoptimizer.
 widgets.pinterest.com
 yandexadexchange.
@@ -467,6 +477,7 @@ whorls.js
 ||wp.com^*/fonts/$3p,important
 ||typekit.$3p,important
 
+||www.youtube.com/live_chat
 @@||jnn-pa.googleapis.com
 www.youtube.com###voice-search-button
 www.youtube.com##.ytd-page-top-ad-layout-renderer
@@ -506,6 +517,9 @@ www.youtube.com###header > .ytd-rich-grid-renderer.style-scope
 www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 www.youtube.com###background
 www.youtube.com###teaser-carousel
+www.youtube.com##.ytp-paid-content-overlay
+www.youtube.com##.ytd-badge-supported-renderer
+www.youtube.com###chat-container
 
 www.miruro.tv##.vds-volume
 www.miruro.tv##.vds-menu.vds-chapters-menu
