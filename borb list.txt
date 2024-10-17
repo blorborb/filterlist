@@ -68,6 +68,8 @@ ad3.
 ad4game.
 ad4mat.
 ada.
+adasitecompliance.
+adaptivechatbot.
 adcolony.
 &adcontext
 /addtoany
@@ -379,8 +381,6 @@ snowplowanalytics.
 /socialdata
 /social-data
 /s/search/audio
-stripe.
-stripecdn.
 subscription_popups
 suggestqueries.
 suggestqueries-
@@ -461,6 +461,7 @@ whorls.js
 ##.CookieConsent_cookieConsent__pIj_y
 ##.ta-campaign-widget__popup-wrapper
 ##.ta-campaign-widget
+##.chatbot
 
 ! Breaks too many sites:
 ||cloudfront.net^$font,3p,important
