@@ -245,6 +245,7 @@ googlesyndication.
 googletagmanager.
 /gsi
 /gtag
+gstatic.*/feedback
 -h5log
 heapanalytics.
 hicloud.
@@ -609,3 +610,6 @@ genius.com##div.dpvJOK.InnerSectionDivider-sc-1x4onqw-0
 @@||github.githubassets.com/assets/vendors-node_modules_github_hydro-analytics-
 
 bsky.app##div.css-175oi2r:nth-of-type(22)
+bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
+
+@@/streetviewpixels-pa.googleapis.com
