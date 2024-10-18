@@ -524,6 +524,8 @@ www.youtube.com##.ytd-badge-supported-renderer
 www.youtube.com###chat-container
 www.youtube.com##yt-inline-player-controls, #inline-preview-player #ytp-caption-window-container
 www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
+www.youtube.com##ytd-compact-radio-renderer
+www.youtube.com##ytd-rich-item-renderer:has([radio-meta])
 
 www.miruro.tv##.vds-volume
 www.miruro.tv##.vds-menu.vds-chapters-menu
