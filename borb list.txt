@@ -606,3 +606,5 @@ genius.com##div.dpvJOK.InnerSectionDivider-sc-1x4onqw-0
 @@||coveryourtracks.eff.org/static/dist/fp2.*.js
 
 @@||github.githubassets.com/assets/vendors-node_modules_github_hydro-analytics-
+
+bsky.app##div.css-175oi2r:nth-of-type(22)
