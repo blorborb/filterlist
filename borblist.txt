@@ -528,6 +528,10 @@ www.youtube.com##ytd-compact-radio-renderer
 www.youtube.com##ytd-radio-renderer
 www.youtube.com##ytd-rich-item-renderer:has([radio-meta])
 www.youtube.com##.ytp-ce-element-show.ytp-ce-website
+www.youtube.com###search-icon-legacy
+www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(3)
+www.youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 
 www.miruro.tv##.vds-volume
 www.miruro.tv##.vds-menu.vds-chapters-menu
@@ -620,3 +624,6 @@ bsky.app##div.css-175oi2r:nth-of-type(22)
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
 @@/streetviewpixels-pa.googleapis.com
+
+zenless.hoyoverse.com##.footer-crm
+zenless.hoyoverse.com##.home-btn-container
