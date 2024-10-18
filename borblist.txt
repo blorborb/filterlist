@@ -527,6 +527,7 @@ www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later 
 www.youtube.com##ytd-compact-radio-renderer
 www.youtube.com##ytd-radio-renderer
 www.youtube.com##ytd-rich-item-renderer:has([radio-meta])
+www.youtube.com##.ytp-ce-element-show.ytp-ce-website
 
 www.miruro.tv##.vds-volume
 www.miruro.tv##.vds-menu.vds-chapters-menu
