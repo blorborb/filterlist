@@ -525,6 +525,7 @@ www.youtube.com###chat-container
 www.youtube.com##yt-inline-player-controls, #inline-preview-player #ytp-caption-window-container
 www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
 www.youtube.com##ytd-compact-radio-renderer
+www.youtube.com##ytd-radio-renderer
 www.youtube.com##ytd-rich-item-renderer:has([radio-meta])
 
 www.miruro.tv##.vds-volume
@@ -611,7 +612,8 @@ genius.com##div.dpvJOK.InnerSectionDivider-sc-1x4onqw-0
 @@||firstpartysimulator.org/static/dist/fp2.*.js
 @@||coveryourtracks.eff.org/static/dist/fp2.*.js
 
-@@||github.githubassets.com/assets/vendors-node_modules_github_hydro-analytics-
+@@||github.githubassets.com/assets/*_hydro-analytics-
+github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
 
 bsky.app##div.css-175oi2r:nth-of-type(22)
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
