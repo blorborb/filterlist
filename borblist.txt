@@ -532,6 +532,8 @@ www.youtube.com###search-icon-legacy
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(3)
 www.youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
+www.youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(3)
 
 www.miruro.tv##.vds-volume
 www.miruro.tv##.vds-menu.vds-chapters-menu
@@ -627,3 +629,5 @@ bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
 zenless.hoyoverse.com##.footer-crm
 zenless.hoyoverse.com##.home-btn-container
+
+@@||static.wikia.nocookie.net^$image
