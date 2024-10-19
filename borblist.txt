@@ -550,8 +550,11 @@ www.miruro.tv##.kwOkka.sc-dKeGJQ > div:nth-of-type(2)
 www.miruro.tv##div.dgaPWb.sc-fDeYYK
 www.miruro.tv##.fofruE
 www.miruro.tv##.bxvZLL.sc-fLqhfm
+www.miruro.tv##.ecbQaw.sc-fLqhfm
 www.miruro.tv##.bDovtp.sc-hqLrE > div:nth-of-type(2) > div:nth-of-type(2)
 www.miruro.tv##div.jIGpdU.sc-cgxxSg:nth-of-type(3)
+www.miruro.tv##button.jSZSUR.sc-byRyzU:nth-of-type(1)
+www.miruro.tv##div.iCIZLZ.sc-kvmDxl > svg
 
 anilist.co##.recent-threads
 anilist.co##.recent-reviews
@@ -617,7 +620,6 @@ github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
 
 bsky.app##div.css-175oi2r:nth-of-type(22)
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
-||woodear.us-west.host.bsky.network/xrpc/chat.bsky.convo.getLog
 
 @@/streetviewpixels-pa.googleapis.com
 
