@@ -243,7 +243,6 @@ googleadservices.
 /googlesitekit-consent-
 googlesyndication.
 googletagmanager.
-/gsi
 /gtag
 gstatic.*/feedback
 -h5log
