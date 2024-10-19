@@ -57,9 +57,9 @@ actuallysnake.
 actuallything.
 acuityads.
 acuityplatform.
-ad.$important
+ad.
 ad_
-ad&$important
+ad&
 ad0.
 ad01.
 ad1.
@@ -121,7 +121,6 @@ advertising.$important
 advertising-$important
 advg.
 affiliationjs.
-/ai
 almonryminuter.
 alwingulla.
 amazonaax.
@@ -129,12 +128,12 @@ amazonclix.
 amung.
 an.$important
 an-$important
-analytics.$important
+analytics.
 analytics-
-analytics/$important
-/analytics$important
-analytics?$important
-?analytics$important
+analytics/
+/analytics
+analytics?
+?analytics
 analyticsengine.
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 /api/stats
@@ -198,7 +197,6 @@ ezoic.
 facebook.
 fastclick.
 fbcdn.
-firebaseinstallations.
 firebaseremoteconfig.
 fingerprint.js
 /fingerprint.js
@@ -623,6 +621,7 @@ github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
 
 bsky.app##div.css-175oi2r:nth-of-type(22)
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
+||woodear.us-west.host.bsky.network/xrpc/chat.bsky.convo.getLog
 
 @@/streetviewpixels-pa.googleapis.com
 
@@ -630,3 +629,5 @@ zenless.hoyoverse.com##.footer-crm
 zenless.hoyoverse.com##.home-btn-container
 
 @@||static.wikia.nocookie.net^$image
+
+@@||www.gstatic.com/firebasejs/
