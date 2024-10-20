@@ -412,6 +412,7 @@ udcm.
 unityads.
 upsell-
 userway.
+/?utm_source=sourceforge&amp;utm_medium=unitad&
 /viewsnativead
 visualwebsiteoptimizer.
 widgets.pinterest.com
@@ -428,11 +429,9 @@ whorls.js
 *$important,script,redirect-rule=noop.js
 *$important,css,redirect-rule=noop.css
 *$important,xhr,redirect-rule=nooptext
-*$important,beacon
 *$important,shide
 *$important,ghide
 *$important,csp=*
-*$important,ping
 
 ##.banner_ads
 ##.banner-ads
@@ -457,6 +456,7 @@ whorls.js
 ##.ta-campaign-widget__popup-wrapper
 ##.ta-campaign-widget
 ##.chatbot
+##.csbannertrackevent
 
 ! Breaks too many sites:
 ||cloudfront.net^$font,3p,important
@@ -629,3 +629,16 @@ zenless.hoyoverse.com##.home-btn-container
 @@||static.wikia.nocookie.net^$image
 
 @@||www.gstatic.com/firebasejs/
+
+game8.co##.l-3colSide
+game8.co##.l-3colMain__left
+game8.co##.c-share
+game8.co##.p-archiveHeader__count
+game8.co##.a-announce
+
+||a.fsdn.com/con/images/sandiego/shift-nav.png
+sourceforge.net##.main-nav-button
+sourceforge.net##.m-wide-projects-widget
+sourceforge.net##.m-project-related-keywords
+sourceforge.net##.m-project-list
+sourceforge.net###share-project-button
