@@ -360,7 +360,6 @@ sentry.
 sentry-
 sentry/
 sentry_
-seo_
 setupcmp.
 shoplazza.
 slack.
