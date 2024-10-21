@@ -302,6 +302,7 @@ mktoedge.
 mktossl.
 mlcdn.
 ?modules=KeyframesRenderer
+/monitoring?
 mouseflow.
 myhuaweicloud.
 NativeAdService_
@@ -648,3 +649,6 @@ sourceforge.net###share-project-button
 linktr.ee###TopBar
 linktr.ee##.contents
 linktr.ee##.bhdLno.jBicvQ
+
+||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
+aternos.org###ulenYrScPGuk
