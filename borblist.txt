@@ -644,3 +644,7 @@ sourceforge.net##.m-wide-projects-widget
 sourceforge.net##.m-project-related-keywords
 sourceforge.net##.m-project-list
 sourceforge.net###share-project-button
+
+linktr.ee###TopBar
+linktr.ee##.contents
+linktr.ee##.bhdLno.jBicvQ
