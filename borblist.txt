@@ -428,7 +428,6 @@ whorls.js
 *$important,script,redirect-rule=noop.js
 *$important,css,redirect-rule=noop.css
 *$important,xhr,redirect-rule=nooptext
-*$important,shide
 *$important,ghide
 *$important,csp=*
 
@@ -459,6 +458,7 @@ whorls.js
 ##.g-footer
 ##.g-header-menu
 ##.g-profile__qr-code-btn
+##.g-profile__about-actions
 
 ! Breaks too many sites:
 ||cloudfront.net^$font,3p,important
