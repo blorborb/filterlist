@@ -456,6 +456,9 @@ whorls.js
 ##.ta-campaign-widget
 ##.chatbot
 ##.csbannertrackevent
+##.g-footer
+##.g-header-menu
+##.g-profile__qr-code-btn
 
 ! Breaks too many sites:
 ||cloudfront.net^$font,3p,important
