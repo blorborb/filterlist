@@ -1,1 +1,1 @@
-adblock list i made
+list i made for ublock origin
