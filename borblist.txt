@@ -130,6 +130,7 @@ analytics/
 /analytics
 analytics?
 ?analytics
+&analytics_
 analyticsengine.
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 /api/stats
@@ -460,6 +461,11 @@ whorls.js
 ##.g-header-menu
 ##.g-profile__qr-code-btn
 ##.g-profile__about-actions
+##.newsletter-section
+##shop-login-button
+##.shopify-section-group-footer-group
+##.announcements-bar
+##shopify-payment-terms
 
 ! Breaks too many sites:
 ||cloudfront.net^$font,3p,important
@@ -530,6 +536,7 @@ www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-sc
 www.youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 www.youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
 www.youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(3)
+www.youtube.com###country-code
 
 www.miruro.tv##.vds-volume
 www.miruro.tv##.vds-menu.vds-chapters-menu
