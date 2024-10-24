@@ -171,6 +171,7 @@ crunchyroll.
 /csp-report
 /csp_report
 /csp/reporting
+||d3e54v103j8qbb.cloudfront.net^
 /data/data
 /detroitchicago
 /diagnostic-
@@ -262,6 +263,7 @@ ip-
 ipdata.
 ipify.
 /js.cookie
+||js.stripe.com/v3/fingerprinted/
 klaviyo.
 kunlunca.
 /live_chat
@@ -547,24 +549,16 @@ www.miruro.tv##button.vds-button:nth-of-type(8)
 www.miruro.tv##button.vds-button:nth-of-type(9)
 www.miruro.tv##button.vds-button:nth-of-type(10)
 www.miruro.tv##button.shortcuts-button
-www.miruro.tv##a.cHKJPX.sc-fmtPfW:nth-of-type(3)
-www.miruro.tv##a.cHKJPX.sc-fmtPfW:nth-of-type(2)
-www.miruro.tv##div.hPsey.sc-eDiJSd
-www.miruro.tv##button.ylCoC.sc-dspCDH:nth-of-type(1)
-www.miruro.tv##a.lgumFs.sc-fwzISk:nth-of-type(2)
-www.miruro.tv##.hOlDle.sc-uYFMi
 www.miruro.tv##.gfBhh.sc-eFGuOL > .fhvXGv.sc-hMEFUH
 www.miruro.tv##.gYzhej.sc-ehIYnC > div > div > button.hpAVCI.sc-fmtPfW
 www.miruro.tv##div.ebPqgt.sc-fDeYYK > svg
-www.miruro.tv##.kwOkka.sc-dKeGJQ > div:nth-of-type(2)
-www.miruro.tv##div.dgaPWb.sc-fDeYYK
-www.miruro.tv##.fofruE
-www.miruro.tv##.bxvZLL.sc-fLqhfm
-www.miruro.tv##.ecbQaw.sc-fLqhfm
+www.miruro.tv##.dtNaar.sc-byRyzU
 www.miruro.tv##.bDovtp.sc-hqLrE > div:nth-of-type(2) > div:nth-of-type(2)
-www.miruro.tv##div.jIGpdU.sc-cgxxSg:nth-of-type(3)
-www.miruro.tv##button.jSZSUR.sc-byRyzU:nth-of-type(1)
+www.miruro.tv##div.dXOUQN.sc-zlfrG:nth-of-type(3)
 www.miruro.tv##div.iCIZLZ.sc-kvmDxl > svg
+www.miruro.tv##.fhvXGv.sc-hMEFUH > div:nth-of-type(2)
+www.miruro.tv##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
+www.miruro.tv##.iQAcuJ.sc-kJZLhT
 
 anilist.co##.recent-threads
 anilist.co##.recent-reviews
