@@ -352,6 +352,7 @@ quantserve.
 /quantserve
 quickcep.
 railway.
+/reporter-api
 /reporting.js
 rereddit.
 /RotateCookies
@@ -425,13 +426,10 @@ yu8s.live
 whorls.js
 /wp-consent
 
-*$important,subdocument,redirect-rule=noop.html
-*$important,image,media,redirect-rule=nooptext
-*$important,script,redirect-rule=noop.json
+*$important,image,media,xhr,redirect-rule=nooptext
 *$important,frame,redirect-rule=noop.html
 *$important,script,redirect-rule=noop.js
 *$important,css,redirect-rule=noop.css
-*$important,xhr,redirect-rule=nooptext
 *$important,ghide
 *$important,csp=*
 
@@ -539,6 +537,7 @@ www.youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-fil
 www.youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
 www.youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(3)
 www.youtube.com###country-code
+www.youtube.com###sponsor-button
 
 www.miruro.tv##.vds-volume
 www.miruro.tv##.vds-menu.vds-chapters-menu
@@ -566,6 +565,8 @@ anilist.co##div.home:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > 
 anilist.co##.episodes
 anilist.co##.watch
 anilist.co##.shadow
+anilist.co##div:nth-of-type(3) > .media-preview
+anilist.co##div:nth-of-type(3) > .link.section-header
 
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-kemksi.css-175oi2r
 x.com##.r-nsbfu8.r-1xpp3t0.r-1q9bdsx.r-1eltapf.css-175oi2r
