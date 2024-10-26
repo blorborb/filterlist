@@ -67,7 +67,6 @@ ad2.
 ad3.
 ad4game.
 ad4mat.
-ada.
 adasitecompliance.
 adaptivechatbot.
 adcolony.
@@ -108,6 +107,7 @@ adskeeper.
 adsninja.
 adsrvr.
 adsterra.
+ads.adthrive.com$important
 adsystem.
 adtago.
 adtarget.
@@ -151,6 +151,7 @@ chargebee.
 claritybt.
 click.$important
 .click$important
+cloudflareinsights.$important
 /collect?
 .cmp
 /cmp
@@ -167,6 +168,7 @@ cookiepro.
 cookieyes.
 crazyegg.
 crunchyroll.
+cse.google.com/cse
 /csp-report
 /csp_report
 /csp/reporting
@@ -234,13 +236,13 @@ getCanvasFingerprint:
 getsentry.
 /gfplib
 goaffpro.$important
-googleadsense.
-googleadservices.
-/GoogleAnalytics
+googleadsense.$important
+googleadservices.$important
+/GoogleAnalytics$important
 /googlesitekit-consent-
-googlesyndication.
-googletagmanager.
-/gtag
+googlesyndication.$important
+googletagmanager.$important
+/gtag$important
 gstatic.*/feedback
 -h5log
 /hashflags
@@ -268,6 +270,8 @@ ipify.
 ||js.stripe.com/v3/fingerprinted/
 klaviyo.
 kunlunca.
+laylo.
+/laylo-sdk.js
 /live_chat
 /live_pipeline/events
 localiq.
@@ -470,6 +474,15 @@ whorls.js
 ##.shopify-section-group-footer-group
 ##.announcements-bar
 ##shopify-payment-terms
+##.go-plus
+##.page-footer
+##.global-footer
+###footer
+###infinite-footer
+##.page_footer
+##.footer-crm
+##.l-footer
+##.c-footer
 
 ! Breaks too many sites:
 ||cloudfront.net^$font,3p,important
@@ -590,6 +603,8 @@ fandom.com##.sitenotice-wrapper
 fandom.com##.global-navigation
 fandom.com##.global-registration-buttons
 fandom.com###p-views
+fandom.com##.page-counter
+fandom.com##.wds-button-group.wiki-tools
 
 @@||www.redditstatic.com/shreddit/
 www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
@@ -599,14 +614,12 @@ www.reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-asyn
 www.reddit.com##alert-controller
 
 disqus.com###reactions__container
-disqus.com###footer
 disqus.com###main-nav
 disqus.com##.nav-secondary-refresh__list-item
 
 www.tumblr.com##.smX3m
 
 wordpress.com###marketingbar
-wordpress.com###infinite-footer
 
 @@||s.pximg.net/www/js/build/common-path,sentry-setup
 www.pixiv.net##.fvDibl.sc-74lrq-0
@@ -620,6 +633,7 @@ genius.com##.About__Title-ut4i9m-2
 genius.com##.UnreviewedAnnotation__Container-sc-1fjei54-0
 genius.com##.QuestionList__Container-sc-1a58vti-0
 genius.com##div.dpvJOK.InnerSectionDivider-sc-1x4onqw-0
+genius.com##.header-nav_menu
 
 @@||tr.rbxcdn.com^$image
 
@@ -634,7 +648,6 @@ bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
 @@/streetviewpixels-pa.googleapis.com
 
-zenless.hoyoverse.com##.footer-crm
 zenless.hoyoverse.com##.home-btn-container
 
 @@||static.wikia.nocookie.net^$image
@@ -648,7 +661,6 @@ game8.co##.p-archiveHeader__count
 game8.co##.a-announce
 game8.co##.p-archiveBreadcrumb
 game8.co##.p-archiveFeedback
-game8.co##.l-footer
 game8.co##.l-header
 
 ||a.fsdn.com/con/images/sandiego/shift-nav.png
