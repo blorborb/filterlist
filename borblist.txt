@@ -458,7 +458,6 @@ whorls.js
 ##.chatbot
 ##.csbannertrackevent
 ##.g-footer
-##.g-header-menu
 ##.g-profile__qr-code-btn
 ##.g-profile__about-actions
 ##.newsletter-section
@@ -558,6 +557,8 @@ www.miruro.tv##div.iCIZLZ.sc-kvmDxl > svg
 www.miruro.tv##.fhvXGv.sc-hMEFUH > div:nth-of-type(2)
 www.miruro.tv##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
 www.miruro.tv##.iQAcuJ.sc-kJZLhT
+www.miruro.tv##.ekGAxL.sc-epnzzT
+www.miruro.tv##.hWsKWH.sc-jhVLmh
 
 anilist.co##.recent-threads
 anilist.co##.recent-reviews
