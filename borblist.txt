@@ -12,6 +12,7 @@
 127.net
 163.com
 /1.1/jot
+/1.1/users/recommendations
 1rx.
 2020mustang.
 247-inc.
@@ -122,8 +123,6 @@ alwingulla.
 amazonaax.
 amazonclix.
 amung.
-an.
-an-
 analytics.
 analytics-
 analytics/
@@ -153,8 +152,8 @@ claritybt.
 click.$important
 .click$important
 /collect?
+.cmp
 /cmp
-/cmp-
 consent.
 -consent-
 consent-banner_
@@ -172,6 +171,7 @@ crunchyroll.
 /csp_report
 /csp/reporting
 ||d3e54v103j8qbb.cloudfront.net^
+/DataSaverMode?variables=
 /data/data
 /detroitchicago
 /diagnostic-
@@ -216,6 +216,7 @@ gatekeeperconsent.
 gdpr-
 /gdpr
 gemini.
+/gen_204
 /generate_204
 genius.com/images/apple-touch-icon.png?
 geo.
@@ -242,6 +243,7 @@ googletagmanager.
 /gtag
 gstatic.*/feedback
 -h5log
+/hashflags
 heapanalytics.
 hicloud.
 hotjar.
@@ -267,6 +269,7 @@ ipify.
 klaviyo.
 kunlunca.
 /live_chat
+/live_pipeline/events
 localiq.
 localization-
 /location
@@ -411,6 +414,7 @@ trackersimulator.
 translate.google.com/translate_a/element.js
 translate-pa.googleapis.com/v1/
 trk.
+twitch.tv$3p,frame
 udc.
 udcm.
 unityads.
@@ -422,6 +426,7 @@ visualwebsiteoptimizer.
 widgets.pinterest.com
 yandexadexchange.
 yu8s.live
+/youtubei/v1/updated_metadata
 /webstats
 whorls.js
 /wp-consent
@@ -641,6 +646,10 @@ game8.co##.l-3colMain__left
 game8.co##.c-share
 game8.co##.p-archiveHeader__count
 game8.co##.a-announce
+game8.co##.p-archiveBreadcrumb
+game8.co##.p-archiveFeedback
+game8.co##.l-footer
+game8.co##.l-header
 
 ||a.fsdn.com/con/images/sandiego/shift-nav.png
 sourceforge.net##.main-nav-button
