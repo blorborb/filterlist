@@ -483,6 +483,7 @@ whorls.js
 ##.l-footer
 ##.c-footer
 ##.g-profile__verified-accounts > span
+##.footer
 
 ! Breaks too many sites:
 ||cloudfront.net^$font,3p,important
@@ -678,3 +679,11 @@ linktr.ee##.bhdLno.jBicvQ
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
 aternos.org###ulenYrScPGuk
 
+proton.me##.button-promotion
+mail.proton.me##.no-print.md\:inline
+mail.proton.me##.text-sm.justify-space-between.gap-4.flex-nowrap.flex.py-3.px-4
+mail.proton.me##li.mt-4.navigation-link-header-group--expandable.navigation-link-header-group.mb-0\.5.px-3.w-full.navigation-item
+mail.proton.me##.color-weak.text-sm.ml-7.py-2
+pass.proton.me##div.shrink-0:nth-of-type(5) > .collapsible-header--clickable.gap-2.items-center.flex-nowrap.flex.pl-4.shrink-0.py-1.pr-2.mx-3
+pass.proton.me##div.mx-3.shrink-0.relative:nth-of-type(1)
+pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex
