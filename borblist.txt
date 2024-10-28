@@ -256,10 +256,6 @@ hsforms.
 hubspot.
 iadsdk.
 /identity-service
-/iframe
-_iframe
-/iframes
-_iframes
 infogram.
 inmobi.
 iubenda.
@@ -576,7 +572,8 @@ www.miruro.tv##.fhvXGv.sc-hMEFUH > div:nth-of-type(2)
 www.miruro.tv##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
 www.miruro.tv##.iQAcuJ.sc-kJZLhT
 www.miruro.tv##.ekGAxL.sc-epnzzT
-www.miruro.tv##.hWsKWH.sc-jhVLmh
+www.miruro.tv##.hgVStn
+www.miruro.tv##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
 
 anilist.co##.recent-threads
 anilist.co##.recent-reviews
@@ -590,6 +587,7 @@ anilist.co##div:nth-of-type(3) > .link.section-header
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-kemksi.css-175oi2r
 x.com##.r-nsbfu8.r-1xpp3t0.r-1q9bdsx.r-1eltapf.css-175oi2r
 x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/verified-programs/discount_upsell"])
+x.com##.r-12kyg2d.r-e7q0ms.css-175oi2r
 
 www.instagram.com##.xzkaem6.x1n2onr6
 
