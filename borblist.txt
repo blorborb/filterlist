@@ -463,7 +463,6 @@ whorls.js
 ##.csbannertrackevent
 ##.g-footer
 ##.g-profile__qr-code-btn
-##.g-profile__about-actions
 ##.newsletter-section
 ##shop-login-button
 ##.shopify-section-group-footer-group
@@ -480,9 +479,10 @@ whorls.js
 ##.c-footer
 ##.g-profile__verified-accounts > span
 ##.footer
+##.cookies-modal
 
 ! Breaks too many sites:
-||cloudfront.net^$font,3p,important
+! ||cloudfront.net^$font,3p,important
 ||fastly.net^$font,3p,important
 !$font,3p
 /fonts/*.ttf$font,3p,important
@@ -604,12 +604,18 @@ fandom.com###p-views
 fandom.com##.page-counter
 fandom.com##.wds-button-group.wiki-tools
 
+@@||w3-reporting.reddit.com/policy
 @@||www.redditstatic.com/shreddit/
 www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
 www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
 www.reddit.com###credential_picker_container
-www.reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-loader:nth-of-type(2)
 www.reddit.com##alert-controller
+www.reddit.com##div.h-\[40px\].flex:nth-of-type(1) > span.contents:nth-of-type(1)
+www.reddit.com##span.contents:nth-of-type(3)
+www.reddit.com###RESOURCES
+www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.pt-md.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0
+www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
+www.reddit.com##hr.border-neutral-border-weak.my-sm.w-100
 
 disqus.com###reactions__container
 disqus.com###main-nav
