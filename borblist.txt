@@ -107,12 +107,12 @@ adskeeper.
 adsninja.
 adsrvr.
 adsterra.
-ads.adthrive.com$important
 adsystem.
 adtago.
 adtarget.
 adtech.
 adtelligent.
+adthrive.$important
 adunit&
 advertising.
 advertising-
@@ -138,6 +138,7 @@ app.chat.
 app-measurement.
 appmetrica.
 assoc-amazon.
+baiduads.
 beehiiv.
 /beardeddragon
 /blockadblock
@@ -305,6 +306,7 @@ metrics=
 =metrics
 metrika.
 mistat.
+/mktgtagmanager
 mktoedge.
 mktossl.
 mlcdn.
@@ -317,6 +319,7 @@ NativeAdService_
 nmetrics.
 nocookie.
 offerwall.
+/onerfstatics
 onesignal.
 /OneSignal
 onetrust.
@@ -479,6 +482,7 @@ whorls.js
 ##.c-footer
 ##.g-profile__verified-accounts > span
 ##.cookies-modal
+##.a8c-cookie-banner
 
 ! Breaks too many sites:
 ! ||cloudfront.net^$font,3p,important
@@ -528,7 +532,6 @@ www.youtube.com##.ytd-emergency-onebox-renderer.style-scope
 www.youtube.com##ytd-merch-shelf-renderer
 www.youtube.com##+js(trusted-click-element, #player-error-message-container button[aria-label="I understand and wish to proceed"])
 www.youtube.com##button.ytp-button:nth-of-type(7)
-www.youtube.com##a.bold.yt-formatted-string
 www.youtube.com###clarify-box
 www.youtube.com##.smartimation__border
 www.youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
@@ -554,24 +557,16 @@ www.youtube.com###sponsor-button
 www.youtube.com##.ytd-single-option-survey-renderer
 
 www.miruro.tv##.vds-volume
-www.miruro.tv##.vds-menu.vds-chapters-menu
 www.miruro.tv##button.vds-button:nth-of-type(4)
+www.miruro.tv##button.vds-button:nth-of-type(5)
 www.miruro.tv##button.vds-button:nth-of-type(6)
 www.miruro.tv##button.vds-button:nth-of-type(7)
 www.miruro.tv##button.vds-button:nth-of-type(8)
 www.miruro.tv##button.vds-button:nth-of-type(9)
 www.miruro.tv##button.vds-button:nth-of-type(10)
+www.miruro.tv##button.vds-button:nth-of-type(11)
 www.miruro.tv##button.shortcuts-button
-www.miruro.tv##.gfBhh.sc-eFGuOL > .fhvXGv.sc-hMEFUH
-www.miruro.tv##.gYzhej.sc-ehIYnC > div > div > button.hpAVCI.sc-fmtPfW
-www.miruro.tv##div.ebPqgt.sc-fDeYYK > svg
-www.miruro.tv##.dtNaar.sc-byRyzU
-www.miruro.tv##.bDovtp.sc-hqLrE > div:nth-of-type(2) > div:nth-of-type(2)
-www.miruro.tv##div.iCIZLZ.sc-kvmDxl > svg
-www.miruro.tv##.fhvXGv.sc-hMEFUH > div:nth-of-type(2)
 www.miruro.tv##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
-www.miruro.tv##.iQAcuJ.sc-kJZLhT
-www.miruro.tv##.ekGAxL.sc-epnzzT
 www.miruro.tv##.hgVStn
 www.miruro.tv##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
 www.miruro.tv##footer
@@ -591,8 +586,6 @@ x.com###layers:has([src^="https://ton.twitter.com/twitter_blue_for_business/veri
 x.com##.r-12kyg2d.r-e7q0ms.css-175oi2r
 
 www.instagram.com##.xzkaem6.x1n2onr6
-
-adblock-tester.com##.svelte-1h1i54z.includeWrapper
 
 @@||fandom.com/load.php
 fandom.com##.page__right-rail
