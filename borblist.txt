@@ -627,11 +627,6 @@ www.pixiv.net##.fmRZHy.sc-1t7vxzj-5
 
 wikipedia.org##.invite.mw-mmv-ttf-ellipsis-container
 
-genius.com##.SongComments__Grid-sc-131p4fy-0
-genius.com##.About__Title-ut4i9m-2
-genius.com##.UnreviewedAnnotation__Container-sc-1fjei54-0
-genius.com##.QuestionList__Container-sc-1a58vti-0
-genius.com##div.dpvJOK.InnerSectionDivider-sc-1x4onqw-0
 genius.com##.header-nav_menu
 
 @@||tr.rbxcdn.com^$image
