@@ -169,6 +169,7 @@ cookiepro.
 cookieyes.
 crazyegg.
 crunchyroll.
+crunchyrollstore.$important
 cse.google.com/cse
 /csp-report
 /csp_report
