@@ -507,6 +507,9 @@ whorls.js
 ||typekit.$3p,important
 
 ||www.youtube.com/live_chat
+||www.gstatic.com/youtube/img/lottie/subscribe_action/$important
+||i.ytimg.com/sb/*/storyboard_live$important
+||www.youtube.com/youtubei/v1/player/heartbeat$important
 @@||jnn-pa.googleapis.com
 www.youtube.com###voice-search-button
 www.youtube.com##.ytd-page-top-ad-layout-renderer
