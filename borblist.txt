@@ -78,6 +78,7 @@ adcolony.
 adfox.
 adfstat.
 aditude.
+||adjust.^$important
 adlightning.
 @@/ad-listeners
 /adm
@@ -382,7 +383,7 @@ shoplazza.
 slack.
 /silver-surfer
 /silversurfer
-||simplelocalize.^
+||simplelocalize.$important
 slickstream.
 smetrics.
 snowplow.
@@ -565,6 +566,7 @@ www.youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type
 www.youtube.com###country-code
 www.youtube.com###sponsor-button
 www.youtube.com##.ytd-single-option-survey-renderer
+www.youtube.com###offer-module
 
 www.miruro.tv##.vds-volume
 www.miruro.tv##button.vds-button:nth-of-type(4)
