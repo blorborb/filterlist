@@ -131,6 +131,7 @@ analytics?
 ?analytics
 &analytics_
 analyticsengine.
+||/api/fingerprint/
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 /api/stats
 app.chat.
@@ -152,6 +153,7 @@ chargebee.
 claritybt.
 click.$important
 .click$important
+/client_log$important
 cloudflareinsights.$important
 /collect?
 .cmp
@@ -163,7 +165,7 @@ consent-banner_
 /cookieconsent
 cookiefirst.
 /cookiefirst
-cookielaw.
+cookielaw.$important
 /cookienotificationbar
 cookiepro.
 cookieyes.
@@ -199,6 +201,7 @@ ezoic.
 facebook.
 fastclick.
 fbcdn.
+||firebase-analytics.js$important
 firebaseremoteconfig.
 fingerprint.js
 /fingerprint.js
@@ -228,7 +231,7 @@ geo.
 geoip.
 /geoip
 geojs.
-geolocation.
+geolocation.$important
 /georouting
 /georoutingv1
 /georoutingv2
@@ -242,6 +245,7 @@ goaffpro.$important
 googleadsense.$important
 googleadservices.$important
 /GoogleAnalytics$important
+||www.google.com/js/th/$important
 /googlesitekit-consent-
 googlesyndication.$important
 googletagmanager.$important
@@ -359,6 +363,7 @@ quantserve.
 /quantserve
 quickcep.
 railway.
+||www.recaptcha.net/recaptcha/*?render=$important
 /reporter-api
 /reporting.js
 rereddit.
@@ -376,7 +381,8 @@ setupcmp.
 shoplazza.
 slack.
 /silver-surfer
-/silversurfer/prod
+/silversurfer
+||simplelocalize.^
 slickstream.
 smetrics.
 snowplow.
@@ -598,6 +604,8 @@ fandom.com##.global-registration-buttons
 fandom.com###p-views
 fandom.com##.page-counter
 fandom.com##.wds-button-group.wiki-tools
+fandom.com##.page-side-tools__wrapper
+fandom.com##.mbox
 
 @@||w3-reporting.reddit.com/policy
 @@||www.redditstatic.com/shreddit/
@@ -648,8 +656,6 @@ zenless.hoyoverse.com##.home-btn-container
 
 @@||static.wikia.nocookie.net^$image
 
-@@||www.gstatic.com/firebasejs/
-
 game8.co##.l-3colSide
 game8.co##.l-3colMain__left
 game8.co##.c-share
@@ -681,3 +687,14 @@ mail.proton.me##.color-weak.text-sm.ml-7.py-2
 pass.proton.me##div.shrink-0:nth-of-type(5) > .collapsible-header--clickable.gap-2.items-center.flex-nowrap.flex.pl-4.shrink-0.py-1.pr-2.mx-3
 pass.proton.me##div.mx-3.shrink-0.relative:nth-of-type(1)
 pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex
+
+bandcamp.com###pgFt
+bandcamp.com##page-footer
+bandcamp.com##.tralbum-tags
+bandcamp.com###user-nav
+
+||dwt.soundcloud.com^
+
+||api.steampowered.com/IClientMetricsService$important
+||api.steampowered.com/IParentalService$important
+||api.steampowered.com/usabilitytracking$important
