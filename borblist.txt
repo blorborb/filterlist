@@ -38,7 +38,6 @@ _track
 /adsbygoogle
 /adsense
 /analytics
-/api/stats
 /apple_music_player
 /beardeddragon
 /blockadblock
@@ -203,7 +202,6 @@ _track
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
 ||www.gstatic.com/youtube/img/lottie/subscribe_action/$important
 ||www.recaptcha.net/recaptcha/*?render=$important
-||www.youtube.com/api/jnn/*/GenerateIT$important
 ||www.youtube.com/live_chat
 ||www.youtube.com/youtubei/*/player/heartbeat$important
 ||ybs2ffs7v.com^$important
@@ -758,8 +756,11 @@ linktr.ee##.bhdLno.jBicvQ
 
 aternos.org###ulenYrScPGuk
 
+proton.me##.bg-promotion
 proton.me##.button-promotion
+account.proton.me###your-plan
 mail.proton.me##.no-print.md\:inline
+mail.proton.me##.flex-column.flex.shrink-0
 mail.proton.me##.color-weak.text-sm.ml-7.py-2
 pass.proton.me##div.mx-3.shrink-0.relative:nth-of-type(1)
 pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex
