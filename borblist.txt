@@ -197,8 +197,9 @@ _track
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
 ||www.gstatic.com/youtube/img/lottie/subscribe_action/$important
 ||www.recaptcha.net/recaptcha/*?render=$important
+||www.youtube.com/api/jnn/*/GenerateIT$important
 ||www.youtube.com/live_chat
-||www.youtube.com/youtubei/v1/player/heartbeat$important
+||www.youtube.com/youtubei/*/player/heartbeat$important
 ||ybs2ffs7v.com^$important
 |about:$popup,important
 01b4075d6c.
@@ -498,7 +499,6 @@ whorls.js
 widgets.pinterest.com
 yandexadexchange.
 yu8s.live
-
 
 *$important,image,media,xhr,redirect-rule=nooptext
 *$important,frame,redirect-rule=noop.html
