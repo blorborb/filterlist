@@ -13,6 +13,7 @@ _track
 -marketing
 -pa.
 -telemetry_
+-tracker/
 ?analytics
 ?fingerprint
 ?marketing$important
@@ -91,6 +92,7 @@ _track
 /gtag$important
 /hashflags
 /identity-service
+/InnovaMicroAppNuxt
 /js.cookie
 /laylo-sdk.js
 /live_chat
@@ -123,6 +125,7 @@ _track
 /reporting.js
 /RotateCookies
 /s/search/audio
+/shitake
 /silver-surfer
 /silversurfer
 /snowplow
@@ -153,6 +156,7 @@ _track
 ||api.steampowered.com/IClientMetricsService$important
 ||api.steampowered.com/IParentalService$important
 ||api.steampowered.com/usabilitytracking$important
+||api.themoviedb.org^$3p
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
 ||bigdata.ssp.samsung.com^$important
@@ -180,7 +184,9 @@ _track
 ||js.stripe.com/v3/fingerprinted/
 ||jsdelivr.*/*/prebid/$important
 ||mc.yandex.ru^$important
+||megastatics.*/thumbnails/
 ||merequartz.$important
+||miruro-no-kuon.disqus.com/count.js
 ||mopinion.^$important
 ||mopinion.com^$important
 ||narrativ.$important
@@ -345,6 +351,7 @@ datadoghq.$important
 discord.*/widget
 distillery.wistia.
 doubleclick.$important
+dyn=true&$important
 elfsight.
 eviltracker.
 extmaps-api.
@@ -369,6 +376,7 @@ geolocation.$important
 getCanvasFingerprint:
 getsentry.
 goaffpro.$important
+google-one-tap.
 googleadsense.$important
 googleadservices.$important
 googlesyndication.$important
@@ -485,8 +493,7 @@ track.
 tracker.
 trackersimulator.
 tracking.
-translate-pa.googleapis.com/v1/
-translate.google.com/translate_a/element.js
+translate.google.
 trk.
 twitch.tv$3p,frame
 udc.
@@ -500,13 +507,13 @@ widgets.pinterest.com
 yandexadexchange.
 yu8s.live
 
-*$important,image,media,xhr,redirect-rule=nooptext
-*$important,frame,redirect-rule=noop.html
-*$important,script,redirect-rule=noop.js
-*$important,css,redirect-rule=noop.css
-*##+js(nostif, .call(null), 10)
-*$important,ghide
 *$important,csp=*
+*$important,ghide
+*##+js(nostif, .call(null), 10)
+*$important,css,redirect-rule=noop.css
+*$important,script,redirect-rule=noop.js
+*$important,frame,redirect-rule=noop.html
+*$important,image,media,xhr,redirect-rule=nooptext
 
 ##.a-ads
 ##.a8c-cookie-banner
@@ -535,6 +542,7 @@ yu8s.live
 ##.grecaptcha-badge
 ##.l-footer
 ##.marketing-content
+##.microapp-slot-innova
 ##.newsletter-section
 ##.newsub-box
 ##.page_footer
@@ -546,6 +554,7 @@ yu8s.live
 ##.svelte-1h1i54z.includeWrapper
 ##.ta-campaign-widget
 ##.ta-campaign-widget__popup-wrapper
+##.uma-hero
 ##.v-snack
 ##.widget_block.widget
 ##.zone__ads
@@ -571,143 +580,142 @@ yu8s.live
 ||wp.com^*/fonts/$3p,important
 ||typekit.$3p,important
 
+youtube.com###player-ads
+youtube.com###background
+youtube.com###masthead-ad
+youtube.com###clarify-box
+youtube.com###country-code
+youtube.com###offer-module
+youtube.com###chat-container
+youtube.com###sponsor-button
+youtube.com##.ytp-volume-area
+youtube.com###teaser-carousel
+youtube.com##ytd-radio-renderer
+youtube.com###search-icon-legacy
 youtube.com###voice-search-button
-youtube.com##.ytd-page-top-ad-layout-renderer
-youtube.com##button.ytp-button:nth-of-type(6)
-youtube.com##.ytp-button.ytp-miniplayer-button
+youtube.com##ytd-ad-slot-renderer
+youtube.com##.smartimation__border
+youtube.com##.ytp-featured-product
+youtube.com##ytd-reel-shelf-renderer
+youtube.com##ytd-display-ad-renderer
+youtube.com###mealbar-promo-renderer
+youtube.com##.ytd-feed-nudge-renderer
+youtube.com##ytd-merch-shelf-renderer
+youtube.com##.ytp-paid-content-overlay
+youtube.com##.ytd-rich-section-renderer
+youtube.com##ytd-compact-radio-renderer
 youtube.com##.ytp-button.ytp-size-button
 youtube.com##.ytp-button.ytp-next-button
-youtube.com##.ytp-volume-area
-youtube.com##ytd-reel-shelf-renderer
-youtube.com##.ytd-enforcement-message-view-model
-youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer:nth-of-type(1)
 youtube.com##.style-default.ytd-masthead
+youtube.com##yt-related-chip-cloud-renderer
+youtube.com##.ytd-page-top-ad-layout-renderer
+youtube.com##button.ytp-button:nth-of-type(6)
+youtube.com##button.ytp-button:nth-of-type(7)
+youtube.com##.ytp-button.ytp-miniplayer-button
+youtube.com##ytd-ad-inline-playback-meta-block
+youtube.com##.ytd-single-option-survey-renderer
+youtube.com##.ytd-enforcement-message-view-model
+youtube.com##ytd-metadata-row-container-renderer
+youtube.com##.ytp-ce-element-show.ytp-ce-website
+youtube.com##yt-button-view-model.ytd-menu-renderer
+youtube.com##+js(set-constant, google_ad_status, 1)
+youtube.com##ytd-rich-item-renderer:has([radio-meta])
+youtube.com##.ytd-emergency-onebox-renderer.style-scope
+youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
+youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
+youtube.com##.ytd-structured-description-content-renderer.style-scope
+youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
+youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
+youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(3)
+youtube.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.web_bind_fetch, false)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
-youtube.com##.ytd-feed-nudge-renderer
-youtube.com##.ytd-rich-section-renderer
-youtube.com##ytd-ad-inline-playback-meta-block
-youtube.com##ytd-display-ad-renderer
-youtube.com###masthead-ad
-youtube.com###player-ads
-youtube.com###mealbar-promo-renderer
-youtube.com##ytd-ad-slot-renderer
-youtube.com##ytd-metadata-row-container-renderer
-youtube.com##.ytd-structured-description-content-renderer.style-scope
-youtube.com##yt-related-chip-cloud-renderer
-youtube.com##yt-button-view-model.ytd-menu-renderer
-youtube.com##.ytd-emergency-onebox-renderer.style-scope
-youtube.com##ytd-merch-shelf-renderer
-youtube.com##+js(trusted-click-element, #player-error-message-container button[aria-label="I understand and wish to proceed"])
-youtube.com##button.ytp-button:nth-of-type(7)
-youtube.com###clarify-box
-youtube.com##.smartimation__border
-youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
-youtube.com###background
-youtube.com###teaser-carousel
-youtube.com##.ytp-paid-content-overlay
-youtube.com###chat-container
-youtube.com##yt-inline-player-controls, #inline-preview-player #ytp-caption-window-container
 youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
-youtube.com##ytd-compact-radio-renderer
-youtube.com##ytd-radio-renderer
-youtube.com##ytd-rich-item-renderer:has([radio-meta])
-youtube.com##.ytp-ce-element-show.ytp-ce-website
-youtube.com###search-icon-legacy
+youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer:nth-of-type(1)
+youtube.com##yt-inline-player-controls, #inline-preview-player #ytp-caption-window-container
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(3)
-youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
-youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(3)
-youtube.com###country-code
-youtube.com###sponsor-button
-youtube.com##.ytd-single-option-survey-renderer
-youtube.com###offer-module
-youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
-youtube.com##.ytp-featured-product
-youtube.com##+js(set-constant, google_ad_status, 1)
-youtube.com##+js(set-constant, yt.config_.EXPERIMENT_FLAGS.web_bind_fetch, false)
-youtube.com##+js(adjust-setTimeout, [native code], 17000, 0.001)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
+youtube.com##+js(trusted-click-element, #player-error-message-container button[aria-label="I understand and wish to proceed"])
 youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots, , propsToMatch, /playlist?)
-youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots, , propsToMatch, /player?)
 youtube.com##.ytlr-horizontal-list-renderer__items > .yt-virtual-list__container > .yt-virtual-list__item--visible.yt-virtual-list__item--selected.yt-virtual-list__item:has-text(Ad)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
+youtube.com###button-shape > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-button.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots, , propsToMatch, /player?)
+youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune-fetch-response, reelWatchSequenceResponse.entries.[-].command.reelWatchEndpoint.adClientParams.isAd entries.[-].command.reelWatchEndpoint.adClientParams.isAd, , propsToMatch, url:/reel_watch_sequence?)
 !#if cap_html_filtering
-youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
-youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, /\/player(?:\?.+)?$/)
 youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , player?)
 youtube.com##+js(trusted-replace-fetch-response, /"adSlots.*?\}\}\]\,"adBreakHeartbeatParams/, "adBreakHeartbeatParams, player?)
+youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, /\/player(?:\?.+)?$/)
+youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
 !#else
-||youtube.com/playlist?list=$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
-||youtube.com/playlist?list=$xhr,1p,replace=/"adSlots.*?\}\}\]\,"adBreakHeartbeatParams/"adBreakHeartbeatParams/
 ||youtube.com/watch?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
-||youtube.com/watch?$xhr,1p,replace=/"adSlots.*?\}\}\]\,"adBreakHeartbeatParams/"adBreakHeartbeatParams/
+||youtube.com/playlist?list=$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
 ||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,//
+||youtube.com/watch?$xhr,1p,replace=/"adSlots.*?\}\}\]\,"adBreakHeartbeatParams/"adBreakHeartbeatParams/
+||youtube.com/playlist?list=$xhr,1p,replace=/"adSlots.*?\}\}\]\,"adBreakHeartbeatParams/"adBreakHeartbeatParams/
 ||youtube.com/youtubei/v1/player?$xhr,1p,replace=/"adSlots.*?\}\}\]\,"adBreakHeartbeatParams/"adBreakHeartbeatParams/
 !#endif
 
-www.miruro.tv##.vds-volume
-www.miruro.tv##button.vds-button:nth-of-type(4)
-www.miruro.tv##button.vds-button:nth-of-type(5)
-www.miruro.tv##button.vds-button:nth-of-type(6)
-www.miruro.tv##button.vds-button:nth-of-type(7)
-www.miruro.tv##button.vds-button:nth-of-type(8)
-www.miruro.tv##button.vds-button:nth-of-type(9)
-www.miruro.tv##button.vds-button:nth-of-type(10)
-www.miruro.tv##button.vds-button:nth-of-type(11)
-www.miruro.tv##button.shortcuts-button
-www.miruro.tv##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
-www.miruro.tv##.hgVStn
-www.miruro.tv##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
 www.miruro.tv##footer
+www.miruro.tv##.hgVStn
+www.miruro.tv##.vds-volume
+www.miruro.tv##button.shortcuts-button
+www.miruro.tv##button.vds-button:nth-of-type(9)
+www.miruro.tv##button.vds-button:nth-of-type(8)
+www.miruro.tv##button.vds-button:nth-of-type(7)
+www.miruro.tv##button.vds-button:nth-of-type(6)
+www.miruro.tv##button.vds-button:nth-of-type(5)
+www.miruro.tv##button.vds-button:nth-of-type(4)
+www.miruro.tv##button.vds-button:nth-of-type(10)
+www.miruro.tv##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
+www.miruro.tv##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
 
-anilist.co##.recent-threads
-anilist.co##.recent-reviews
-anilist.co##div.home:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)
-anilist.co##.episodes
 anilist.co##.watch
 anilist.co##.shadow
+anilist.co##.episodes
+anilist.co##.recent-threads
+anilist.co##.recent-reviews
 anilist.co##div:nth-of-type(3) > .media-preview
 anilist.co##div:nth-of-type(3) > .link.section-header
+anilist.co##div.home:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)
 
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-kemksi.css-175oi2r
-x.com##.r-nsbfu8.r-1xpp3t0.r-1q9bdsx.r-1eltapf.css-175oi2r
 x.com##.r-12kyg2d.r-e7q0ms.css-175oi2r
+x.com##.r-nsbfu8.r-1xpp3t0.r-1q9bdsx.r-1eltapf.css-175oi2r
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-kemksi.css-175oi2r
 
 www.instagram.com##.xzkaem6.x1n2onr6
 
-fandom.com##.page__right-rail
-fandom.com##.WikiaRail
-fandom.com###WikiaBar
-fandom.com##.sitenotice-wrapper
-fandom.com##.global-navigation
-fandom.com##.global-registration-buttons
-fandom.com###p-views
-fandom.com##.page-counter
-fandom.com##.wds-button-group.wiki-tools
-fandom.com##.page-side-tools__wrapper
 fandom.com##.mbox
+fandom.com###p-views
+fandom.com###WikiaBar
+fandom.com##.WikiaRail
+fandom.com##.page-counter
+fandom.com##.page__right-rail
+fandom.com##.global-navigation
+fandom.com##.sitenotice-wrapper
+fandom.com##.page-side-tools__wrapper
+fandom.com##.global-registration-buttons
+fandom.com##.wds-button-group.wiki-tools
 
-www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
-www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
-www.reddit.com###credential_picker_container
-www.reddit.com##alert-controller
-www.reddit.com##div.h-\[40px\].flex:nth-of-type(1) > span.contents:nth-of-type(1)
-www.reddit.com##span.contents:nth-of-type(3)
 www.reddit.com###RESOURCES
-www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.pt-md.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0
-www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
+www.reddit.com##alert-controller
+www.reddit.com###credential_picker_container
+www.reddit.com##span.contents:nth-of-type(3)
 www.reddit.com##hr.border-neutral-border-weak.my-sm.w-100
+www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
+www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
+www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
+www.reddit.com##div.h-\[40px\].flex:nth-of-type(1) > span.contents:nth-of-type(1)
+www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.pt-md.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0
 
-disqus.com###reactions__container
 disqus.com###main-nav
+disqus.com###reactions__container
 disqus.com##.nav-secondary-refresh__list-item
 
 www.tumblr.com##.smX3m
@@ -752,17 +760,17 @@ aternos.org###ulenYrScPGuk
 
 proton.me##.button-promotion
 mail.proton.me##.no-print.md\:inline
-mail.proton.me##.text-sm.justify-space-between.gap-4.flex-nowrap.flex.py-3.px-4
-mail.proton.me##li.mt-4.navigation-link-header-group--expandable.navigation-link-header-group.mb-0\.5.px-3.w-full.navigation-item
 mail.proton.me##.color-weak.text-sm.ml-7.py-2
-pass.proton.me##div.shrink-0:nth-of-type(5) > .collapsible-header--clickable.gap-2.items-center.flex-nowrap.flex.pl-4.shrink-0.py-1.pr-2.mx-3
 pass.proton.me##div.mx-3.shrink-0.relative:nth-of-type(1)
 pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex
+mail.proton.me##.text-sm.justify-space-between.gap-4.flex-nowrap.flex.py-3.px-4
+mail.proton.me##li.mt-4.navigation-link-header-group--expandable.navigation-link-header-group.mb-0\.5.px-3.w-full.navigation-item
+pass.proton.me##div.shrink-0:nth-of-type(5) > .collapsible-header--clickable.gap-2.items-center.flex-nowrap.flex.pl-4.shrink-0.py-1.pr-2.mx-3
 
 bandcamp.com###pgFt
+bandcamp.com###user-nav
 bandcamp.com##page-footer
 bandcamp.com##.tralbum-tags
-bandcamp.com###user-nav
 
 @@/ad-listeners
 @@/streetviewpixels-pa.googleapis.com
