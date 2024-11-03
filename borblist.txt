@@ -125,6 +125,7 @@ _track
 /reporting.js
 /RotateCookies
 /s/search/audio
+/SecurePubs$important
 /shitake
 /silver-surfer
 /silversurfer
