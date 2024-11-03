@@ -180,7 +180,6 @@ _track
 ||fvcwqkkqmuv.com^$important
 ||gew4-spclient.spotify.com/gabo-receiver-service/
 ||googleusercontent.com/proxy/
-||i.ytimg.com/sb$important
 ||intergient.$important
 ||js.stripe.com/v3/fingerprinted/
 ||jsdelivr.*/*/prebid/$important
