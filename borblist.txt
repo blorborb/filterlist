@@ -507,6 +507,7 @@ whorls.js
 widgets.pinterest.com
 yandexadexchange.
 yu8s.live
+||accounts.google.com/gsi/$subdocument
 
 *$important,csp=*
 *$important,css,redirect-rule=noop.css
