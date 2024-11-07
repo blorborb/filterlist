@@ -38,6 +38,7 @@ _track
 /ads
 /adsbygoogle
 /adsense
+/adsninja_worker_$important
 /analytics
 /apple_music_player
 /beardeddragon
@@ -55,6 +56,7 @@ _track
 /csp-report
 /csp/reporting
 /data/data
+/data/event
 /DataSaverMode?variables=
 /detroitchicago
 /diagnostic-
@@ -106,7 +108,6 @@ _track
 /mktgtagmanager
 /monitoring?
 /newsletters
-/onerfstatics
 /OneSignal
 /onetrust/$important
 /pagead
@@ -155,12 +156,14 @@ _track
 ||adjust.^$important
 ||adsdk.yandex.ru^$important
 ||an.yandex.ru^$important
+||api.locize.app^$important
 ||api.steampowered.com/IClientMetricsService$important
 ||api.steampowered.com/IParentalService$important
 ||api.steampowered.com/usabilitytracking$important
 ||api.themoviedb.org^$3p
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
+||azure.com/scripts/*/*analytics$important
 ||bigdata.ssp.samsung.com^$important
 ||bitmovin.$important
 ||btloader.$important
@@ -170,7 +173,6 @@ _track
 ||clickadu&*$important
 ||cloud.google.com/ai/$important
 ||cohesionapps.$important
-||d3e54v103j8qbb.cloudfront.net^
 ||dotmetrics.$important
 ||dwt.soundcloud.com^
 ||emailsys1a.net^
@@ -199,6 +201,7 @@ _track
 ||simplelocalize.$important
 ||static.ads-twitter.com^$important
 ||stats.wp.com^$important
+||trafficmanager.net^$important
 ||vntsm.$important
 ||www.antiadblocksystems.com^$important
 ||www.google.com/js/th/$important
@@ -610,6 +613,7 @@ youtube.com##.ytp-button.ytp-size-button
 youtube.com##.ytp-button.ytp-next-button
 youtube.com##.style-default.ytd-masthead
 youtube.com##yt-related-chip-cloud-renderer
+youtube.com##div.ytp-menuitem:nth-of-type(2)
 youtube.com##.ytd-page-top-ad-layout-renderer
 youtube.com##button.ytp-button:nth-of-type(6)
 youtube.com##button.ytp-button:nth-of-type(7)
@@ -622,6 +626,8 @@ youtube.com##.ytp-ce-element-show.ytp-ce-website
 youtube.com##yt-button-view-model.ytd-menu-renderer
 youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
+youtube.com##yt-icon#search-icon.style-scope.ytd-searchbox
+youtube.com##.ytd-menu-service-item-download-renderer.style-scope
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 youtube.com##.ytd-structured-description-content-renderer.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
@@ -632,10 +638,13 @@ youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-ty
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
+youtube.com###ytp-id-18 > .ytp-panel > .ytp-panel-menu > div.ytp-menuitem:nth-of-type(5)
 youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer:nth-of-type(1)
 youtube.com##yt-inline-player-controls, #inline-preview-player #ytp-caption-window-container
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(3)
+youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(4)
+youtube.com##div#search-clear-button.style-scope.ytd-searchbox > ytd-button-renderer.style-scope.ytd-searchbox
 
 www.miruro.tv##footer
 www.miruro.tv##.hgVStn
@@ -649,6 +658,11 @@ www.miruro.tv##button.vds-button:nth-of-type(5)
 www.miruro.tv##button.vds-button:nth-of-type(4)
 www.miruro.tv##button.vds-button:nth-of-type(10)
 www.miruro.tv##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
+www.miruro.tv##div.llztLx.sc-jYWXzj:nth-of-type(1)
+www.miruro.tv##div.llztLx.sc-jYWXzj:nth-of-type(3)
+www.miruro.tv##div.hKmumH.sc-jYWXzj:nth-of-type(3)
+www.miruro.tv##div.hKmumH.sc-jYWXzj:nth-of-type(1)
+www.miruro.tv##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
 
 anilist.co##.watch
 anilist.co##.shadow
@@ -710,14 +724,14 @@ bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
 zenless.hoyoverse.com##.home-btn-container
 
-game8.co##.l-3colSide
-game8.co##.l-3colMain__left
 game8.co##.c-share
-game8.co##.p-archiveHeader__count
-game8.co##.a-announce
-game8.co##.p-archiveBreadcrumb
-game8.co##.p-archiveFeedback
 game8.co##.l-header
+game8.co##.l-3colSide
+game8.co##.a-announce
+game8.co##.l-3colMain__left
+game8.co##.p-archiveFeedback
+game8.co##.p-archiveBreadcrumb
+game8.co##.p-archiveHeader__count
 
 sourceforge.net##.main-nav-button
 sourceforge.net##.m-wide-projects-widget
