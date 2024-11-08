@@ -4,7 +4,7 @@
 _ad_
 _ads_
 _clickadu_$important
-_marketing$important
+_marketing
 _track
 -adfuel-$important
 -consent-
@@ -104,7 +104,6 @@ _track
 /loginmanager_sniff.
 /logstreamz
 /marketingtech
-/metrics
 /mktgtagmanager
 /monitoring?
 /newsletters
@@ -148,7 +147,6 @@ _track
 /youtubei/v1/updated_metadata
 &adcontext
 &adformat
-&analytics_
 =metrics
 ||/api/fingerprint/
 ||ac.
@@ -185,8 +183,8 @@ _track
 ||gew4-spclient.spotify.com/gabo-receiver-service/
 ||googleusercontent.com/proxy/
 ||intergient.$important
-||js.stripe.com/v3/fingerprinted/
 ||jsdelivr.*/*/prebid/$important
+||m.stripe.network^
 ||mc.yandex.ru^$important
 ||megastatics.*/thumbnails/
 ||merequartz.$important
@@ -201,6 +199,7 @@ _track
 ||simplelocalize.$important
 ||static.ads-twitter.com^$important
 ||stats.wp.com^$important
+||stripe.com/ajax/metrics_batch
 ||trafficmanager.net^$important
 ||vntsm.$important
 ||www.antiadblocksystems.com^$important
@@ -344,7 +343,6 @@ claritybt.
 click.$important
 cloudflareinsights.$important
 consent-banner_
-consent.
 cookiefirst.
 cookielaw.$important
 cookiepro.
@@ -414,7 +412,7 @@ logger.
 logser.
 luckyorange.
 mailerlite.
-marketing_$important
+marketing_
 marketing-
 marketing?$important
 marketing.
@@ -646,23 +644,23 @@ youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(4)
 youtube.com##div#search-clear-button.style-scope.ytd-searchbox > ytd-button-renderer.style-scope.ytd-searchbox
 
-www.miruro.tv##footer
-www.miruro.tv##.hgVStn
-www.miruro.tv##.vds-volume
-www.miruro.tv##button.shortcuts-button
-www.miruro.tv##button.vds-button:nth-of-type(9)
-www.miruro.tv##button.vds-button:nth-of-type(8)
-www.miruro.tv##button.vds-button:nth-of-type(7)
-www.miruro.tv##button.vds-button:nth-of-type(6)
-www.miruro.tv##button.vds-button:nth-of-type(5)
-www.miruro.tv##button.vds-button:nth-of-type(4)
-www.miruro.tv##button.vds-button:nth-of-type(10)
-www.miruro.tv##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
-www.miruro.tv##div.llztLx.sc-jYWXzj:nth-of-type(1)
-www.miruro.tv##div.llztLx.sc-jYWXzj:nth-of-type(3)
-www.miruro.tv##div.hKmumH.sc-jYWXzj:nth-of-type(3)
-www.miruro.tv##div.hKmumH.sc-jYWXzj:nth-of-type(1)
-www.miruro.tv##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
+www.miruro.*##footer
+www.miruro.*##.hgVStn
+www.miruro.*##.vds-volume
+www.miruro.*##button.shortcuts-button
+www.miruro.*##button.vds-button:nth-of-type(9)
+www.miruro.*##button.vds-button:nth-of-type(8)
+www.miruro.*##button.vds-button:nth-of-type(7)
+www.miruro.*##button.vds-button:nth-of-type(6)
+www.miruro.*##button.vds-button:nth-of-type(5)
+www.miruro.*##button.vds-button:nth-of-type(4)
+www.miruro.*##button.vds-button:nth-of-type(10)
+www.miruro.*##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
+www.miruro.*##div.llztLx.sc-jYWXzj:nth-of-type(1)
+www.miruro.*##div.llztLx.sc-jYWXzj:nth-of-type(3)
+www.miruro.*##div.hKmumH.sc-jYWXzj:nth-of-type(3)
+www.miruro.*##div.hKmumH.sc-jYWXzj:nth-of-type(1)
+www.miruro.*##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
 
 anilist.co##.watch
 anilist.co##.shadow
@@ -690,15 +688,21 @@ fandom.com##.page-side-tools__wrapper
 fandom.com##.global-registration-buttons
 fandom.com##.wds-button-group.wiki-tools
 
+www.reddit.com###TOPICS
+www.reddit.com###get-app
 www.reddit.com###RESOURCES
 www.reddit.com##alert-controller
+www.reddit.com##li > .nd\:visible
+www.reddit.com##left-nav-top-section
 www.reddit.com###credential_picker_container
 www.reddit.com##span.contents:nth-of-type(3)
 www.reddit.com##hr.border-neutral-border-weak.my-sm.w-100
+www.reddit.com##auth-landing-experience-xpromo-cbau-wrapper
 www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
 www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
 www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
 www.reddit.com##div.h-\[40px\].flex:nth-of-type(1) > span.contents:nth-of-type(1)
+www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.pt-md.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0
 www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.pt-md.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0
 
 disqus.com###main-nav
@@ -717,7 +721,10 @@ wikipedia.org##.invite.mw-mmv-ttf-ellipsis-container
 
 genius.com##.header-nav_menu
 
+github.com##.js-for-you-feed-items
 github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
+github.com##.border-bottom.mb-5.feed-right-sidebar
+github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
 
 bsky.app##div.css-175oi2r:nth-of-type(22)
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
@@ -733,11 +740,11 @@ game8.co##.p-archiveFeedback
 game8.co##.p-archiveBreadcrumb
 game8.co##.p-archiveHeader__count
 
+sourceforge.net##.m-project-list
 sourceforge.net##.main-nav-button
+sourceforge.net###share-project-button
 sourceforge.net##.m-wide-projects-widget
 sourceforge.net##.m-project-related-keywords
-sourceforge.net##.m-project-list
-sourceforge.net###share-project-button
 
 linktr.ee###TopBar
 linktr.ee##.contents
@@ -778,7 +785,8 @@ bandcamp.com##.tralbum-tags
 @@||static.parastorage.com/services/wix-thunderbolt/
 @@||static.wikia.nocookie.net^$image
 @@||tr.rbxcdn.com^$image
-@@||w3-reporting.reddit.com/policy
 @@||webstatic.hoyoverse.com/dora/lib/$domain=webstatic.hoyoverse.com
 @@||wordpress.com/calypso/evergreen/async-load-calypso-lib-analytics-track-resurrections.
-@@||www.redditstatic.com/shreddit/
+@@||www.patreon.com/_marketing_assets/_next/static/css/$1p
+@@||www.redditstatic.com/shreddit/en-US/*telemetry-
+@@||www.redditstatic.com/shreddit/en-US/outbound-link-tracking-controller-
