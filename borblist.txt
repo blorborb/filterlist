@@ -5,13 +5,11 @@
 _ad_
 _ads_
 _clickadu_$important
-_track
 -adfuel-$important
 -consent-
 -fp
 -h5log
 -marketing
--tracker/
 ?analytics
 ?fingerprint
 ?marketing$important
@@ -63,6 +61,7 @@ _track
 /experiencetrackerviewsdata
 /ezais
 /ezoic
+/favicon-192x192.png
 /fingerprint.js
 /fingerprint2.
 /fingerprint3.
@@ -129,7 +128,6 @@ _track
 /tardisrocinante
 /targeting
 /tr/consent
-/track
 /tracking-opt-in/$important
 /trackingevent
 /viewsnativead
@@ -168,12 +166,21 @@ _track
 ||bigdata.ssp.samsung.com^$important
 ||bitmovin.$important
 ||btloader.$important
+||cdn.discordapp.com/assets/profile_effects/effects/*/reduced-motion.png
+||cdn.discordapp.com/avatars/*.webp?size=16
+||cdn.discordapp.com/avatars/*.webp?size=24
+||cdn.discordapp.com/avatars/*.webp?size=32
+||cdn.discordapp.com/bad-domains/
+||cdn.discordapp.com/changelogs/
 ||cdn77.org^$important
 ||chartbeat.$important
 ||cleverads.$important
 ||clickadu&*$important
 ||cloud.google.com/ai/$important
 ||cohesionapps.$important
+||discord.com/api/*/science
+||discord.com/assets/sentry.*.js
+||discord.com/error-reporting-proxy/
 ||dotmetrics.$important
 ||dwt.soundcloud.com^
 ||emailsys1a.net^
@@ -207,6 +214,8 @@ _track
 ||scorecardresearch.$important
 ||signaler-pa.clients6.google.com
 ||simplelocalize.$important
+||spotify.com/ads-identity-web-enricher/
+||spotifycdn.com/cdn/build/web-player/dwp-billboard-ad.
 ||static.ads-twitter.com^$important
 ||static.assetlab.io/consent/
 ||stats.wp.com^$important
@@ -216,6 +225,7 @@ _track
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
+||wp.com/wp-content/mu-plugins/a8c-analytics/
 ||www.antiadblocksystems.com^$important
 ||www.google.com/js/th/$important
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
@@ -287,7 +297,6 @@ actuallything.
 acuityads.
 acuityplatform.
 ad-service
-ad.
 ad&
 ad0.
 ad01.
@@ -342,7 +351,6 @@ amazonaax.
 amazonclix.
 amung.
 analytics?
-analytics/
 app-measurement.
 app.chat.
 appmetrica.
@@ -515,7 +523,6 @@ widgets.pinterest.com
 yandexadexchange.
 yu8s.live
 
-*$important,csp=*
 *$important,css,redirect-rule=noop.css
 *$important,script,redirect-rule=noop.js
 *$important,frame,redirect-rule=noop.html
