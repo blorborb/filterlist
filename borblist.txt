@@ -462,7 +462,6 @@ privacy-center.
 privacy-mgmt.
 privacymanager.
 pubtech.
-quantcast.$domain=quantcast
 quantcount.
 quantserve.
 quickcep.
