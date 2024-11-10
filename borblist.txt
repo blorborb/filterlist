@@ -185,6 +185,7 @@ _track
 ||fvcwqkkqmuv.com^$important
 ||googleusercontent.com/proxy/
 ||intergient.$important
+||jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/Create$important
 ||jsdelivr.*/*/prebid/$important
 ||m.stripe.network^
 ||mc.yandex.ru^$important
@@ -215,10 +216,14 @@ _track
 ||www.antiadblocksystems.com^$important
 ||www.google.com/js/th/$important
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
+||www.gstatic.com/cv/js/sender/v1/cast_sender.js
+||www.gstatic.com/youtube/img/annotations/
 ||www.gstatic.com/youtube/img/lottie/subscribe_action/$important
 ||www.recaptcha.net/recaptcha/*?render=$important
 ||www.youtube.com/live_chat
+||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
 ||www.youtube.com/youtubei/*/player/heartbeat$important
+||www.youtube.com/youtubei/v1/notification/get_unseen_count
 ||x.com/i/api/*/badge_count/
 ||x.com/i/api/1.1/dm/user_updates.json?nsfw_filtering_enabled=false&
 ||x.com/i/api/fleets/v1/fleetline
