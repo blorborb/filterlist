@@ -24,7 +24,6 @@ _track
 .snowplow
 /?utm_source=sourceforge&amp;utm_medium=unitad&
 /#breadcrumb
-/1.1/jot
 /1.1/users/recommendations
 /actiontray
 /activeview?xai
@@ -36,7 +35,6 @@ _track
 /adsbygoogle
 /adsense
 /adsninja_worker_$important
-/analytics
 /apple_music_player
 /beardeddragon
 /blockadblock
@@ -54,7 +52,6 @@ _track
 /csp/reporting
 /data/data
 /data/event
-/DataSaverMode?variables=
 /detroitchicago
 /diagnostic-
 /displayadswc
@@ -89,13 +86,11 @@ _track
 /GoogleAnalytics$important
 /googlesitekit-consent-
 /gtag$important
-/hashflags
 /identity-service
 /InnovaMicroAppNuxt
 /js.cookie
 /laylo-sdk.js
 /live_chat
-/live_pipeline/events
 /location
 /log
 /loginmanager_sniff.
@@ -146,18 +141,24 @@ _track
 &adformat
 =metrics
 ||/api/fingerprint/
+||abs.twimg.com/responsive-web/client-sentry/
+||abs.twimg.com/responsive-web/client-web/shared~bundle.*Premium.
+||abs.twimg.com/responsive-web/client-web/shared~bundle.*PremiumHub~bundle.
+||abs.twimg.com/sticky/animations/like.
 ||ac.
 ||accounts.google.com/gsi/$subdocument
 ||addons-pa.clients6.google.com
 ||adjust.^$important
 ||adsdk.yandex.ru^$important
 ||an.yandex.ru^$important
+||analytics.twitter.com^
 ||api.locize.app^$important
 ||api.steampowered.com/IClientMetricsService$important
 ||api.steampowered.com/IParentalService$important
 ||api.steampowered.com/usabilitytracking$important
 ||api.themoviedb.org^$3p
 ||api.transcy.io/api/store_front/switcher
+||api.x.com/live_pipeline/events
 ||apis.google.com/_/scs/abc-static/*=ytsubscribe/
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 ||apis.google.com/js/rpc:shindig_random.js?onload=init
@@ -199,6 +200,8 @@ _track
 ||open.oneplus.net^$important
 ||peoplestack-pa.clients6.google.com
 ||peoplestackwebexperiments-pa.clients6.google.com
+||platform.twitter.com/widgets.js
+||platform.twitter.com/widgets/$subdocument
 ||qualtrics.$important
 ||sa.api.intl.miui.com^$important
 ||scorecardresearch.$important
@@ -225,8 +228,11 @@ _track
 ||www.youtube.com/youtubei/*/player/heartbeat$important
 ||www.youtube.com/youtubei/v1/notification/get_unseen_count
 ||x.com/i/api/*/badge_count/
+||x.com/i/api/*/hashflags.json
 ||x.com/i/api/1.1/dm/user_updates.json?nsfw_filtering_enabled=false&
+||x.com/i/api/1.1/jot/
 ||x.com/i/api/fleets/v1/fleetline
+||x.com/i/api/graphql/*/DataSaverMode
 ||ybs2ffs7v.com^$important
 01b4075d6c.
 03a17e7986.
@@ -336,7 +342,6 @@ amazonaax.
 amazonclix.
 amung.
 analytics?
-analytics.
 analytics/
 app-measurement.
 app.chat.
@@ -477,9 +482,6 @@ samsungadhub.
 samsungads.
 securemetrics.
 segment.
-sentry_
-sentry.
-sentry/
 setupcmp.
 shoplazza.
 slack.
@@ -592,6 +594,7 @@ yu8s.live
 ||encore.scdn.co/fonts/$font,3p,important
 /cdn/fonts$font,3p,important
 /fonts/inter$font,3p,important
+||abs.twimg.com/fonts/$font,important
 
 @@/ad-listeners
 @@||coveryourtracks.eff.org/static/dist/fp2.*.js
@@ -684,9 +687,6 @@ anilist.co##.recent-reviews
 anilist.co##div:nth-of-type(3) > .media-preview
 anilist.co##div:nth-of-type(3) > .link.section-header
 anilist.co##div.home:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)
-
-x.com##.r-12kyg2d.r-e7q0ms.css-175oi2r
-x.com##.r-nsbfu8.r-1xpp3t0.r-1q9bdsx.r-1eltapf.css-175oi2r
 
 www.instagram.com##.xzkaem6.x1n2onr6
 
