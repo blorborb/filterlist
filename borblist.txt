@@ -1,20 +1,17 @@
 ! title: borbs personal list
 ! Expires: 12 hours
 
+
 _ad_
 _ads_
 _clickadu_$important
-_marketing
 _track
 -adfuel-$important
 -consent-
 -fp
 -h5log
 -marketing
--pa.
--telemetry_
 -tracker/
--tracking-
 ?analytics
 ?fingerprint
 ?marketing$important
@@ -136,9 +133,9 @@ _track
 /ta-
 /tardisrocinante
 /targeting
-/telemetry
+/tr/consent
 /track
-/tracking-opt-in
+/tracking-opt-in/$important
 /trackingevent
 /viewsnativead
 /wbdotp/consent/*$important
@@ -151,6 +148,7 @@ _track
 ||/api/fingerprint/
 ||ac.
 ||accounts.google.com/gsi/$subdocument
+||addons-pa.clients6.google.com
 ||adjust.^$important
 ||adsdk.yandex.ru^$important
 ||an.yandex.ru^$important
@@ -159,7 +157,11 @@ _track
 ||api.steampowered.com/IParentalService$important
 ||api.steampowered.com/usabilitytracking$important
 ||api.themoviedb.org^$3p
+||api.transcy.io/api/store_front/switcher
+||apis.google.com/_/scs/abc-static/*=ytsubscribe/
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
+||apis.google.com/js/rpc:shindig_random.js?onload=init
+||appsgrowthpromo-pa.clients6.google.com
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
 ||azure.com/scripts/*/*analytics$important
 ||bigdata.ssp.samsung.com^$important
@@ -176,11 +178,11 @@ _track
 ||emailsys1a.net^
 ||events.reddit.com^$important
 ||events.redditmedia.com^$important
+||featureassets.org/v1/initialize
 ||firebase-analytics.js$important
 ||frugalfiestas.com^$important
 ||fundingchoicesmessages.$important
 ||fvcwqkkqmuv.com^$important
-||gew4-spclient.spotify.com/gabo-receiver-service/
 ||googleusercontent.com/proxy/
 ||intergient.$important
 ||jsdelivr.*/*/prebid/$important
@@ -192,16 +194,24 @@ _track
 ||mopinion.^$important
 ||mopinion.com^$important
 ||narrativ.$important
+||ogads-pa.clients6.google.com
 ||open.oneplus.net^$important
+||peoplestack-pa.clients6.google.com
+||peoplestackwebexperiments-pa.clients6.google.com
 ||qualtrics.$important
 ||sa.api.intl.miui.com^$important
 ||scorecardresearch.$important
+||signaler-pa.clients6.google.com
 ||simplelocalize.$important
 ||static.ads-twitter.com^$important
+||static.assetlab.io/consent/
 ||stats.wp.com^$important
 ||stripe.com/ajax/metrics_batch
+||tc.cdnhub.co/not-found/
 ||trafficmanager.net^$important
 ||vntsm.$important
+||waa-pa.clients6.google.com
+||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
 ||www.antiadblocksystems.com^$important
 ||www.google.com/js/th/$important
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
@@ -213,7 +223,6 @@ _track
 ||x.com/i/api/1.1/dm/user_updates.json?nsfw_filtering_enabled=false&
 ||x.com/i/api/fleets/v1/fleetline
 ||ybs2ffs7v.com^$important
-|about:$popup,important
 01b4075d6c.
 03a17e7986.
 0cf.
@@ -321,11 +330,9 @@ alwingulla.
 amazonaax.
 amazonclix.
 amung.
-analytics-
 analytics?
 analytics.
 analytics/
-analyticsengine.
 app-measurement.
 app.chat.
 appmetrica.
@@ -412,7 +419,6 @@ logger.
 logser.
 luckyorange.
 mailerlite.
-marketing_
 marketing-
 marketing?$important
 marketing.
@@ -434,8 +440,8 @@ mpulse.$important
 myhuaweicloud.
 NativeAdService_
 nmetrics.
-nocookie.
 offerwall.
+one-trust.
 onesignal.
 onetag.$important
 onetrust.
@@ -456,7 +462,7 @@ privacy-center.
 privacy-mgmt.
 privacymanager.
 pubtech.
-quantcast.
+quantcast.$domain=quantcast
 quantcount.
 quantserve.
 quickcep.
@@ -468,7 +474,6 @@ samsungads.
 securemetrics.
 segment.
 sentry_
-sentry-
 sentry.
 sentry/
 setupcmp.
@@ -486,16 +491,10 @@ supportmetrics.
 sur.ly
 taboola.
 technologyadvice.
-telemetry-
-telemetry.
 themes.jifo.
 ton.twitter
-tr.
-track-
-track.
 tracker.
 trackersimulator.
-tracking.
 translate.google.
 trk.
 twitch.tv$3p,frame
@@ -514,7 +513,7 @@ yu8s.live
 *$important,css,redirect-rule=noop.css
 *$important,script,redirect-rule=noop.js
 *$important,frame,redirect-rule=noop.html
-*$important,image,media,xhr,redirect-rule=nooptext
+*$important,font,image,media,xhr,redirect-rule=nooptext
 
 ##.a-ads
 ##.a8c-cookie-banner
@@ -541,6 +540,7 @@ yu8s.live
 ##.global-footer
 ##.go-plus
 ##.grecaptcha-badge
+##.is-verified-accounts.g-profile__card
 ##.l-footer
 ##.marketing-content
 ##.microapp-slot-innova
@@ -560,11 +560,13 @@ yu8s.live
 ##.widget_block.widget
 ##.zone__ads
 ###cmp-app-container
+###cookieDialog
 ###eu_cookie_law_widget-2
 ###footer
 ###ghost-newsletter
 ###infinite-footer
 ###js-banner-eizo
+###ot-sdk-btn
 ###pojo-a11y-toolbar
 ##shop-login-button
 ##shopify-payment-terms
@@ -576,12 +578,20 @@ yu8s.live
 ||maxcdn.bootstrapcdn.com^*/fonts/$font,3p,important
 /wp-$font,3p,important
 /wp-content/themes/*/assets/fonts$font,important
-||fontawesome.$3p,important
-/font*awesome$important
-/fontawesome$important
+||fontawesome.$font,3p,important
+/font*awesome$font,3p,important
+/fontawesome$font,3p,important
 ||wp.com^*/fonts/$3p,important
 ||typekit.$3p,important
-||sqspcdn.com/fonts/$font,important
+||sqspcdn.com/fonts/$font,3p,important
+||nocookie*/fonts/$font,3p,important
+||encore.scdn.co/fonts/$font,3p,important
+/cdn/fonts$font,3p,important
+/fonts/inter$font,3p,important
+
+@@/ad-listeners
+@@||coveryourtracks.eff.org/static/dist/fp2.*.js
+@@||firstpartysimulator.org/static/dist/fp2.*.js
 
 youtube.com###player-ads
 youtube.com###background
@@ -610,6 +620,7 @@ youtube.com##ytd-compact-radio-renderer
 youtube.com##.ytp-button.ytp-size-button
 youtube.com##.ytp-button.ytp-next-button
 youtube.com##.style-default.ytd-masthead
+youtube.com##.ytd-download-button-renderer
 youtube.com##yt-related-chip-cloud-renderer
 youtube.com##div.ytp-menuitem:nth-of-type(2)
 youtube.com##.ytd-page-top-ad-layout-renderer
@@ -625,7 +636,6 @@ youtube.com##yt-button-view-model.ytd-menu-renderer
 youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
 youtube.com##yt-icon#search-icon.style-scope.ytd-searchbox
-youtube.com##.ytd-menu-service-item-download-renderer.style-scope
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 youtube.com##.ytd-structured-description-content-renderer.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
@@ -684,6 +694,7 @@ fandom.com##.page-counter
 fandom.com##.page__right-rail
 fandom.com##.global-navigation
 fandom.com##.sitenotice-wrapper
+fandom.com###mixed-content-footer
 fandom.com##.page-side-tools__wrapper
 fandom.com##.global-registration-buttons
 fandom.com##.wds-button-group.wiki-tools
@@ -752,7 +763,6 @@ linktr.ee##.bhdLno.jBicvQ
 
 aternos.org###ulenYrScPGuk
 
-proton.me##.modal-two
 proton.me##.offer-modal
 proton.me##.bg-promotion
 proton.me##.button-promotion
@@ -762,6 +772,8 @@ mail.proton.me##.no-print.md\:inline
 proton.me##.button-promotion--bf-2024
 mail.proton.me##.flex-column.flex.shrink-0
 mail.proton.me##.color-weak.text-sm.ml-7.py-2
+account.proton.me##li.dropdown-item:nth-of-type(1)
+account.proton.me##li.dropdown-item:nth-of-type(5)
 pass.proton.me##div.mx-3.shrink-0.relative:nth-of-type(1)
 pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex
 mail.proton.me##.text-sm.justify-space-between.gap-4.flex-nowrap.flex.py-3.px-4
@@ -773,20 +785,11 @@ bandcamp.com###user-nav
 bandcamp.com##page-footer
 bandcamp.com##.tralbum-tags
 
-@@/ad-listeners
-@@/streetviewpixels-pa.googleapis.com
-@@||coveryourtracks.eff.org/static/dist/fp2.*.js
-@@||fandom.com/load.php
-@@||firstpartysimulator.org/static/dist/fp2.*.js
-@@||geotargetly-api-1.com^$domain=modelousa.com
-@@||github.githubassets.com/assets/*_hydro-analytics-
-@@||jnn-pa.googleapis.com
-@@||s.pximg.net/www/js/build/common-path,sentry-setup
-@@||static.parastorage.com/services/wix-thunderbolt/
-@@||static.wikia.nocookie.net^$image
-@@||tr.rbxcdn.com^$image
-@@||webstatic.hoyoverse.com/dora/lib/$domain=webstatic.hoyoverse.com
-@@||wordpress.com/calypso/evergreen/async-load-calypso-lib-analytics-track-resurrections.
-@@||www.patreon.com/_marketing_assets/_next/static/css/$1p
-@@||www.redditstatic.com/shreddit/en-US/*telemetry-
-@@||www.redditstatic.com/shreddit/en-US/outbound-link-tracking-controller-
+spotify.com##li.rQ6LXqVlEOGZdGIG0LgP:nth-of-type(3)
+spotify.com##.main-view-container__mh-footer-container
+spotify.com##.encore-text-body-small-bold.iJUiBm.Button-sc-qlcn5g-0
+spotify.com##.MKCgGhu_c8l6hsVuee46.Shelf.QyANtc_r7ff_tqrf5Bvc.SsbbQFeJun2Ts_EIktpr
+
+www.idrlabs.com###test-agreement
+
+discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad:nth-of-type(1)
