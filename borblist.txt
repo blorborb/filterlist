@@ -226,6 +226,7 @@ _clickadu_$important
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
 ||wp.com/wp-content/mu-plugins/a8c-analytics/
 ||www.antiadblocksystems.com^$important
+||www.figma.com/api/web_logger/
 ||www.google.com/js/th/$important
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js
