@@ -165,9 +165,6 @@ _clickadu_$important
 ||bitmovin.$important
 ||btloader.$important
 ||cdn.discordapp.com/assets/profile_effects/effects/*/reduced-motion.png
-||cdn.discordapp.com/avatars/*.webp?size=16
-||cdn.discordapp.com/avatars/*.webp?size=24
-||cdn.discordapp.com/avatars/*.webp?size=32
 ||cdn.discordapp.com/bad-domains/
 ||cdn.discordapp.com/changelogs/
 ||cdn77.org^$important
