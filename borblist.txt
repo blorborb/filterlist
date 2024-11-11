@@ -140,8 +140,6 @@ _clickadu_$important
 =metrics
 ||/api/fingerprint/
 ||abs.twimg.com/responsive-web/client-sentry/
-||abs.twimg.com/responsive-web/client-web/shared~bundle.*Premium.
-||abs.twimg.com/responsive-web/client-web/shared~bundle.*PremiumHub~bundle.
 ||abs.twimg.com/sticky/animations/like.
 ||ac.
 ||accounts.google.com/gsi/$subdocument
