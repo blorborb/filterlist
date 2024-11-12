@@ -164,6 +164,8 @@ _clickadu_$important
 ||bigdata.ssp.samsung.com^$important
 ||bitmovin.$important
 ||btloader.$important
+||cdn.ampproject.org^
+||cdn.cookielaw.org^$important
 ||cdn.discordapp.com/assets/profile_effects/effects/*/reduced-motion.png
 ||cdn.discordapp.com/bad-domains/
 ||cdn.discordapp.com/changelogs/
@@ -177,6 +179,7 @@ _clickadu_$important
 ||discord.com/assets/sentry.*.js
 ||discord.com/error-reporting-proxy/
 ||dotmetrics.$important
+||dw-api.servicecloudweb.com/*/event
 ||dwt.soundcloud.com^
 ||emailsys1a.net^
 ||events.reddit.com^$important
@@ -228,6 +231,7 @@ _clickadu_$important
 ||www.gstatic.com/youtube/img/annotations/
 ||www.gstatic.com/youtube/img/lottie/subscribe_action/$important
 ||www.recaptcha.net/recaptcha/*?render=$important
+||www.youtube.com/api/stats/
 ||www.youtube.com/live_chat
 ||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
 ||www.youtube.com/youtubei/*/player/heartbeat$important
@@ -362,7 +366,6 @@ click.$important
 cloudflareinsights.$important
 consent-banner_
 cookiefirst.
-cookielaw.$important
 cookiepro.
 cookieyes.
 crazyegg.
@@ -554,6 +557,7 @@ yu8s.live
 ##.newsub-box
 ##.page_footer
 ##.page-footer
+##.privacy_popup
 ##.promotedlink
 ##.shopify-section-group-footer-group
 ##.slice-container-newsletterForm
@@ -567,6 +571,7 @@ yu8s.live
 ##.zone__ads
 ###cmp-app-container
 ###cookieDialog
+###default-ads
 ###eu_cookie_law_widget-2
 ###footer
 ###ghost-newsletter
@@ -791,7 +796,7 @@ github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
 bsky.app##div.css-175oi2r:nth-of-type(22)
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
-zenless.hoyoverse.com##.home-btn-container
+hoyoverse.com##.home-btn-container
 
 game8.co##.c-share
 game8.co##.l-header
@@ -844,3 +849,9 @@ spotify.com##.MKCgGhu_c8l6hsVuee46.Shelf.QyANtc_r7ff_tqrf5Bvc.SsbbQFeJun2Ts_EIkt
 www.idrlabs.com###test-agreement
 
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad:nth-of-type(1)
+
+www.aliexpress.com##._3KrBP
+www.aliexpress.com##.cosmos-drawer-wrap
+www.aliexpress.com##body > div:nth-of-type(12)
+
+lenovo.com##.partsPspBannerBox
