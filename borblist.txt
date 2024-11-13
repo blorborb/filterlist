@@ -855,3 +855,6 @@ www.aliexpress.com##.cosmos-drawer-wrap
 www.aliexpress.com##body > div:nth-of-type(12)
 
 lenovo.com##.partsPspBannerBox
+
+www.twitch.tv##.tw-callout-message
+www.twitch.tv##.top-nav__prime
