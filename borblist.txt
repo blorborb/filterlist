@@ -409,7 +409,6 @@ gstatic.*/feedback
 heapanalytics.
 hicloud.
 hotjar.
-hs-
 hsappstatic.
 hsforms.
 hubspot.
@@ -856,5 +855,4 @@ www.aliexpress.com##body > div:nth-of-type(12)
 
 lenovo.com##.partsPspBannerBox
 
-www.twitch.tv##.tw-callout-message
 www.twitch.tv##.top-nav__prime
