@@ -616,6 +616,7 @@ yu8s.live
 ||gotraffic.net^$font
 ||kinja-static.com/assets/fonts/$font,3p
 ||maxcdn.bootstrapcdn.com^*/fonts/$font,3p
+||media-amazon.com/*/AmazonUIFont-$font
 ||myfontastic.com^$3p
 ||myfonts.net^$3p
 ||netdna-cdn.com^*/webfonts/
@@ -850,3 +851,13 @@ www.aliexpress.com##body > div:nth-of-type(12)
 lenovo.com##.partsPspBannerBox
 
 www.twitch.tv##.top-nav__prime
+
+www.amazon.com###va-related-videos-widget_feature_div
+www.amazon.com###avs-iwa_feature_div
+www.amazon.com###gridgetWrapper
+www.amazon.com##.a-divider-normal
+www.amazon.com##.nav-flyout.nav-coreFlyout.glow-toaster-slot-default.glow-toaster-theme-default.glow-toaster.a-section
+www.amazon.com##.bucketDivider
+www.amazon.com##hr
+www.amazon.com###rhf
+www.amazon.com###navFooter
