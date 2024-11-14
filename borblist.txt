@@ -190,6 +190,7 @@ _clickadu_$important
 ||fundingchoicesmessages.$important
 ||fvcwqkkqmuv.com^$important
 ||googleusercontent.com/proxy/
+||i.ytimg.com/vi/*/oar*.jpg
 ||intergient.$important
 ||jsdelivr.*/*/prebid/$important
 ||m.stripe.network^
@@ -525,6 +526,7 @@ yu8s.live
 
 ##.a-ads
 ##.a8c-cookie-banner
+##.ad-parent
 ##.ad-slot-header__wrapper
 ##.ad-unit-wrapper
 ##.announcements-bar
@@ -655,14 +657,11 @@ youtube.com###player-ads
 youtube.com###background
 youtube.com###masthead-ad
 youtube.com###clarify-box
-youtube.com###country-code
 youtube.com###offer-module
 youtube.com###chat-container
 youtube.com###sponsor-button
-youtube.com##.ytp-volume-area
 youtube.com###teaser-carousel
 youtube.com##ytd-radio-renderer
-youtube.com###search-icon-legacy
 youtube.com###voice-search-button
 youtube.com##ytd-ad-slot-renderer
 youtube.com##.smartimation__border
@@ -677,7 +676,6 @@ youtube.com##.ytd-rich-section-renderer
 youtube.com##ytd-compact-radio-renderer
 youtube.com##.ytp-button.ytp-size-button
 youtube.com##.ytp-button.ytp-next-button
-youtube.com##.style-default.ytd-masthead
 youtube.com##.ytd-download-button-renderer
 youtube.com##yt-related-chip-cloud-renderer
 youtube.com##div.ytp-menuitem:nth-of-type(2)
@@ -690,12 +688,9 @@ youtube.com##.ytd-single-option-survey-renderer
 youtube.com##.ytd-enforcement-message-view-model
 youtube.com##ytd-metadata-row-container-renderer
 youtube.com##.ytp-ce-element-show.ytp-ce-website
-youtube.com##yt-button-view-model.ytd-menu-renderer
 youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
-youtube.com##yt-icon#search-icon.style-scope.ytd-searchbox
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
-youtube.com##.ytd-structured-description-content-renderer.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
@@ -709,8 +704,6 @@ youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer:nth
 youtube.com##yt-inline-player-controls, #inline-preview-player #ytp-caption-window-container
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(3)
-youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(4)
-youtube.com##div#search-clear-button.style-scope.ytd-searchbox > ytd-button-renderer.style-scope.ytd-searchbox
 
 www.miruro.*##footer
 www.miruro.*##.hgVStn
