@@ -149,6 +149,7 @@ _clickadu_$important
 ||an.yandex.ru^$important
 ||analytics.twitter.com^
 ||api.locize.app^$important
+||api.modrinth.com/analytics/
 ||api.steampowered.com/IClientMetricsService$important
 ||api.steampowered.com/IParentalService$important
 ||api.steampowered.com/usabilitytracking$important
