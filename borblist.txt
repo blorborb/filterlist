@@ -170,7 +170,9 @@ _clickadu_$important
 ||cdn.discordapp.com/assets/profile_effects/effects/*/reduced-motion.png
 ||cdn.discordapp.com/bad-domains/
 ||cdn.discordapp.com/changelogs/
+||cdn.socket.io^
 ||cdn77.org^$important
+||cdnjs.cloudflare.com/ajax/libs/Chart*
 ||chartbeat.$important
 ||cleverads.$important
 ||clickadu&*$important
@@ -555,6 +557,7 @@ yu8s.live
 ##.l-footer
 ##.marketing-content
 ##.microapp-slot-innova
+##.newsletter
 ##.newsletter-section
 ##.newsub-box
 ##.page_footer
