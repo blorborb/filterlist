@@ -23,6 +23,8 @@ _clickadu_$important
 /?utm_source=sourceforge&amp;utm_medium=unitad&
 /#breadcrumb
 /1.1/users/recommendations
+/a8c_
+/a8c-
 /actiontray
 /activeview?xai
 /addtoany
@@ -226,7 +228,6 @@ _clickadu_$important
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
-||wp.com/wp-content/mu-plugins/a8c-analytics/
 ||www.antiadblocksystems.com^$important
 ||www.figma.com/api/web_logger/
 ||www.google.com/js/bg/$important
