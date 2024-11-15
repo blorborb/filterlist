@@ -64,6 +64,7 @@ _clickadu_$important
 /ezais
 /ezoic
 /favicon-192x192.png
+/favicon-194x194.png
 /fingerprint.js
 /fingerprint2.
 /fingerprint3.
@@ -595,8 +596,8 @@ yu8s.live
 ##shopify-payment-terms
 
 ! Breaks too many sites:
-.ttf$css,font
-*woff*$css,font
+.ttf$css,font,3p
+*woff*$css,font,3p
 /AmazonUIFont$font,css
 /font*$font,css,3p
 /font*awesome$font,3p
@@ -610,12 +611,12 @@ yu8s.live
 ||fastly.net^$font,3p
 ||fontawesome.$font,css,3p
 ||fonticons.com^$3p
-||gfonts.jifo.co^
+||gfonts.jifo.co^$3p
 ||google.com/swg/$font,3p
-||gotraffic.net^$font
+||gotraffic.net^$font,3p
 ||myfontastic.com^$3p
 ||myfonts.net^$3p
-||qmerce.com/assets/$font
+||qmerce.com/assets/$font,3p
 ||typefront.com^$3p
 ||typekit.$3p
 ||typesquare.com^$font,3p
