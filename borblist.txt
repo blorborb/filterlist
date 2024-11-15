@@ -229,11 +229,13 @@ _clickadu_$important
 ||wp.com/wp-content/mu-plugins/a8c-analytics/
 ||www.antiadblocksystems.com^$important
 ||www.figma.com/api/web_logger/
+||www.google.com/js/bg/$important
 ||www.google.com/js/th/$important
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
+||www.google.com/recaptcha/api2/webworker.js$important
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js
+||www.gstatic.com/recaptcha/api2/audio$image,important
 ||www.gstatic.com/youtube/img/annotations/
-||www.gstatic.com/youtube/img/lottie/subscribe_action/$important
 ||www.recaptcha.net/recaptcha/*?render=$important
 ||www.youtube.com/api/stats/
 ||www.youtube.com/live_chat
@@ -588,12 +590,13 @@ yu8s.live
 ##shopify-payment-terms
 
 ! Breaks too many sites:
+.ttf$font
+*woff*$font
 /cdn/fonts$font,3p
 /csp/fonts^$3p
 /font*awesome$font,3p
 /fontawesome$font,3p
 /fonts/*.ttf$font,3p
-/fonts/*woff*$font
 /fonts/inter$font,3p
 /wp-$font,3p
 /wp-content/themes/*/assets/fonts$font
@@ -634,7 +637,7 @@ yu8s.live
 ||use.fonticons.com^$3p
 ||vidible.tv/prod/fonts/$font
 ||webfont.$3p
-||wp.com^*/fonts/$3p
+||wp.com*/fonts/$3p
 
 @@/-icon
 @@/-icons
@@ -855,12 +858,16 @@ lenovo.com##.partsPspBannerBox
 
 www.twitch.tv##.top-nav__prime
 
-www.amazon.com###va-related-videos-widget_feature_div
-www.amazon.com###avs-iwa_feature_div
-www.amazon.com###gridgetWrapper
-www.amazon.com##.a-divider-normal
-www.amazon.com##.nav-flyout.nav-coreFlyout.glow-toaster-slot-default.glow-toaster-theme-default.glow-toaster.a-section
-www.amazon.com##.bucketDivider
 www.amazon.com##hr
 www.amazon.com###rhf
 www.amazon.com###navFooter
+www.amazon.com##.bucketDivider
+www.amazon.com###gridgetWrapper
+www.amazon.com##.a-divider-normal
+www.amazon.com###avs-iwa_feature_div
+www.amazon.com###va-related-videos-widget_feature_div
+www.amazon.com##.nav-flyout.nav-coreFlyout.glow-toaster-slot-default.glow-toaster-theme-default.glow-toaster.a-section
+
+www.google.com##.audio-button-holder
+
+x.com##.r-8dgmk1.css-175oi2r
