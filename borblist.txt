@@ -90,6 +90,7 @@ _clickadu_$important
 /identity-service
 /InnovaMicroAppNuxt
 /js.cookie
+/language-cookie.
 /laylo-sdk.js
 /live_chat
 /location
@@ -99,7 +100,9 @@ _clickadu_$important
 /marketingtech
 /mktgtagmanager
 /monitoring?
+/newsletter-enrollment.
 /newsletters
+/ninetynine-analytics
 /OneSignal
 /onetrust/$important
 /pagead
@@ -139,6 +142,7 @@ _clickadu_$important
 /youtubei/v1/updated_metadata
 &adcontext
 &adformat
+&locale=en_DK
 =metrics
 ||/api/fingerprint/
 ||abs.twimg.com/responsive-web/client-sentry/
