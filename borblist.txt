@@ -34,8 +34,9 @@ _clickadu_$important
 /adsbygoogle
 /adsense
 /adsninja_worker_$important
+/analytics.js
 /apple_music_player
-/apple-touch-icon.png$important
+/apple-touch-icon$important
 /beardeddragon
 /blockadblock
 /browser/stats
@@ -43,6 +44,7 @@ _clickadu_$important
 /cmp
 /cohesion/*$important
 /collect?
+/consent-tracking-api.js
 /cookie
 /cookieconsent
 /cookiefirst
@@ -243,6 +245,7 @@ _clickadu_$important
 ||www.gstatic.com/recaptcha/api2/audio$image,important
 ||www.gstatic.com/youtube/img/annotations/
 ||www.recaptcha.net/recaptcha/*?render=$important
+||www.youtube.com/*/player/*/player_ias.vflset/*/remote.js$3p
 ||www.youtube.com/api/stats/
 ||www.youtube.com/live_chat
 ||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
@@ -621,27 +624,16 @@ yu8s.live
 ||typekit.$3p
 ||typesquare.com^$font,3p
 
-@@/-icon
-@@/-icons
-@@/ad-listeners
-@@/family=Material+Icons
+@@*Icon*$font,css
+@@*Symbol*$font,css
 @@/font-awesome
-@@/fonts/*Icons*$font
-@@/glyphicons
 @@/icomoon
-@@/icon
-@@/icons
-@@/materialicons
-@@/materialsymbols
-@@/materialsymbolsoutlined
 @@/wp-content/themes$font
-@@/wp-content/uploads/fusion-icons
+@@||fontawesome.com^
+
+@@/ad-listeners
 @@||coveryourtracks.eff.org/static/dist/fp2.*.js
 @@||firstpartysimulator.org/static/dist/fp2.*.js
-@@||fontawesome.com^
-@@family=Material+Icons
-@@family=Material+Symbols
-@@Material+Icons
 
 youtube.com###player-ads
 youtube.com###background
@@ -680,6 +672,7 @@ youtube.com##ytd-metadata-row-container-renderer
 youtube.com##.ytp-ce-element-show.ytp-ce-website
 youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
+www.youtube.com###buttons > .ytd-rich-grid-media.style-scope
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
