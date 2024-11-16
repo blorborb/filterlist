@@ -28,6 +28,7 @@ _clickadu_$important
 /a8c-
 /actiontray
 /activeview?xai
+/ad.js
 /addtoany
 /adengine
 /adengloadtimes
@@ -67,6 +68,7 @@ _clickadu_$important
 /experiencetrackerviewsdata
 /ezais
 /ezoic
+/favicon-180.png
 /favicon-192x192.png
 /favicon-194x194.png
 /fingerprint.js
@@ -101,6 +103,7 @@ _clickadu_$important
 /location
 /log
 /loginmanager_sniff.
+/logo-ios.png
 /logstreamz
 /marketingtech
 /mktgtagmanager
@@ -238,6 +241,7 @@ _clickadu_$important
 ||stripe.com/ajax/metrics_batch
 ||tc.cdnhub.co/not-found/
 ||trafficmanager.net^$important
+||transcend-cdn.com/*/airgap.js$important
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
