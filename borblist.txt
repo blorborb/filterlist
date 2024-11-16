@@ -6,21 +6,18 @@ _ad_
 _ads_
 _clickadu_$important
 -adfuel-$important
--consent-
 -fp
 -h5log
--marketing
 ?analytics
 ?fingerprint
 ?locale=en-DK
-?marketing$important
 ?metrics
 ?modules=KeyframesRenderer
 .click$important
 .cmp
-.marketing
 .open
 .snowplow
+*upsell.png
 /?utm_source=sourceforge&amp;utm_medium=unitad&
 /#breadcrumb
 /1.1/users/recommendations
@@ -37,6 +34,7 @@ _clickadu_$important
 /adsense
 /adsninja_worker_$important
 /analytics.js
+/api/*/analytics/*
 /apple_music_player
 /apple-touch-icon$important
 /beardeddragon
@@ -62,7 +60,6 @@ _clickadu_$important
 /displayadswc
 /edmontonalberta
 /error-reporter
-/errors
 /eu-cookie-law
 /eventpromotionbar
 /experiencetrackerviewsdata
@@ -116,6 +113,7 @@ _clickadu_$important
 /pagead
 /parsonsmaize
 /partner.ads
+/popover.js
 /porpoiseant
 /privacy-banner
 /promos
@@ -151,8 +149,10 @@ _clickadu_$important
 &adcontext
 &adformat
 &locale=en_DK
+&region=DK
 =metrics
 ||/api/fingerprint/
+||3blackdot.com/browsing_context_suggestions.json?source=geolocation_recommendation
 ||abs.twimg.com/responsive-web/client-sentry/
 ||abs.twimg.com/sticky/animations/like.
 ||ac.
@@ -163,6 +163,7 @@ _clickadu_$important
 ||an.yandex.ru^$important
 ||analytics.twitter.com^
 ||api.ecomsend.com/*/popups/
+||api.github.com/_private/browser/errors
 ||api.ipstack.com^$important
 ||api.locize.app^$important
 ||api.modrinth.com/analytics/
@@ -208,7 +209,13 @@ _clickadu_$important
 ||frugalfiestas.com^$important
 ||fundingchoicesmessages.$important
 ||fvcwqkkqmuv.com^$important
+||github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include
+||github.githubassets.com/assets/chunk-ui_packages_cookie-consent
+||github.githubassets.com/assets/notifications-global
+||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
+||github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_remote-form_dist
 ||googleusercontent.com/proxy/
+||gumroad.com^
 ||i.ytimg.com/vi/*/oar*.jpg
 ||intergient.$important
 ||jsdelivr.*/*/prebid/$important
@@ -218,6 +225,7 @@ _clickadu_$important
 ||mepsmarketing.com^
 ||merequartz.$important
 ||miruro-no-kuon.disqus.com/count.js
+||mmstat.com^$important
 ||mopinion.^$important
 ||mopinion.com^$important
 ||narrativ.$important
@@ -439,8 +447,6 @@ hubspot.
 iadsdk.
 infogram.
 inmobi.
-ip-
-ip.
 ipdata.
 ipify.
 iubenda.
@@ -456,9 +462,6 @@ logger.
 logser.
 luckyorange.
 mailerlite.
-marketing-
-marketing?$important
-marketing.
 marketingplatform.$important
 marketo.$important
 media.net
@@ -565,6 +568,7 @@ yu8s.live
 ##.cookies-modal
 ##.csbannertrackevent
 ##.DAnUZ
+##.footer-copywrite
 ##.footer-crm
 ##.g-footer
 ##.g-profile__qr-code-btn
@@ -588,9 +592,11 @@ yu8s.live
 ##.slice-container-newsletterForm
 ##.stack__ads
 ##.svelte-1h1i54z.includeWrapper
+##.svelte-deweka.tc-capture-kit-wrapper
 ##.ta-campaign-widget
 ##.ta-campaign-widget__popup-wrapper
 ##.uma-hero
+##.upsell
 ##.v-snack
 ##.widget_block.widget
 ##.zone__ads
@@ -599,22 +605,25 @@ yu8s.live
 ###default-ads
 ###eu_cookie_law_widget-2
 ###footer
+###footer-wrap
 ###ghost-newsletter
 ###infinite-footer
 ###js-banner-eizo
 ###ot-sdk-btn
 ###pojo-a11y-toolbar
+###shopify-section-announcement-bar
+###shopify-section-footer
 ##shop-login-button
 ##shopify-payment-terms
 
-! Breaks too many sites:
+! Breaks? many sites
 .ttf$css,font,3p
 *woff*$css,font,3p
 /AmazonUIFont$font,css
 /font*$font,css,3p
 /font*awesome$font,3p
-/webfont*$font,css,3p
-||alluremedia.com.au^$font,3p
+/webfont$font,css,3p
+||alluremedia.com^$font,3p
 ||amazonaws.com^$font,3p
 ||bootstrapcdn.com/bootstrap/$font,3p
 ||cloud.$font,3p
@@ -623,11 +632,10 @@ yu8s.live
 ||fastly.net^$font,3p
 ||fontawesome.$font,css,3p
 ||fonticons.com^$3p
-||gfonts.jifo.co^$3p
+||gfonts.jifo^$3p
 ||google.com/swg/$font,3p
 ||gotraffic.net^$font,3p
 ||myfontastic.com^$3p
-||myfonts.net^$3p
 ||qmerce.com/assets/$font,3p
 ||typefront.com^$3p
 ||typekit.$3p
