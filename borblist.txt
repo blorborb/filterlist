@@ -12,6 +12,7 @@ _clickadu_$important
 -marketing
 ?analytics
 ?fingerprint
+?locale=en-DK
 ?marketing$important
 ?metrics
 ?modules=KeyframesRenderer
@@ -46,6 +47,7 @@ _clickadu_$important
 /collect?
 /consent-tracking-api.js
 /cookie
+/Cookie*Preferences
 /cookieconsent
 /cookiefirst
 /cookienotificationbar
@@ -157,6 +159,8 @@ _clickadu_$important
 ||adsdk.yandex.ru^$important
 ||an.yandex.ru^$important
 ||analytics.twitter.com^
+||api.ecomsend.com/*/popups/
+||api.ipstack.com^$important
 ||api.locize.app^$important
 ||api.modrinth.com/analytics/
 ||api.steampowered.com/IClientMetricsService$important
@@ -208,6 +212,7 @@ _clickadu_$important
 ||m.stripe.network^
 ||mc.yandex.ru^$important
 ||megastatics.*/thumbnails/
+||mepsmarketing.com^
 ||merequartz.$important
 ||miruro-no-kuon.disqus.com/count.js
 ||mopinion.^$important
@@ -229,6 +234,7 @@ _clickadu_$important
 ||static.ads-twitter.com^$important
 ||static.assetlab.io/consent/
 ||stats.wp.com^$important
+||storage.googleapis.com/gsf-scripts/global-remarketing/
 ||stripe.com/ajax/metrics_batch
 ||tc.cdnhub.co/not-found/
 ||trafficmanager.net^$important
@@ -377,7 +383,6 @@ c=TVHTML5&oad=
 chargebee.
 chartbeat_$important
 claritybt.
-click.$important
 cloudflareinsights.$important
 consent-banner_
 cookiefirst.
@@ -672,7 +677,7 @@ youtube.com##ytd-metadata-row-container-renderer
 youtube.com##.ytp-ce-element-show.ytp-ce-website
 youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
-www.youtube.com###buttons > .ytd-rich-grid-media.style-scope
+youtube.com###buttons > .ytd-rich-grid-media.style-scope
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
