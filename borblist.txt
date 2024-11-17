@@ -91,6 +91,7 @@ _clickadu_$important
 /GoogleAnalytics$important
 /googlesitekit-consent-
 /gtag$important
+/icon192x192.png
 /identity-service
 /InnovaMicroAppNuxt
 /js.cookie
@@ -550,15 +551,20 @@ yu8s.live
 *$important,frame,redirect-rule=noop.html
 *$important,font,image,media,xhr,redirect-rule=nooptext
 
+##.--framer-cookie-banner-container
 ##.a-ads
 ##.a8c-cookie-banner
 ##.ad-parent
 ##.ad-slot-header__wrapper
 ##.ad-unit-wrapper
+##.announcement-bar
 ##.announcements-bar
+##.ask_create_booth
 ##.banner_ads
 ##.banner-ads
+##.bg-promotion
 ##.block-widget.widget
+##.button-promotion
 ##.c-footer
 ##.chatbot
 ##.Cookie
@@ -568,6 +574,7 @@ yu8s.live
 ##.cookies-modal
 ##.csbannertrackevent
 ##.DAnUZ
+##.footer__menu
 ##.footer-copywrite
 ##.footer-crm
 ##.g-footer
@@ -584,6 +591,7 @@ yu8s.live
 ##.newsletter
 ##.newsletter-section
 ##.newsub-box
+##.offer-modal
 ##.page_footer
 ##.page-footer
 ##.privacy_popup
@@ -602,6 +610,7 @@ yu8s.live
 ##.zone__ads
 ###cmp-app-container
 ###cookieDialog
+###cozyCRModal
 ###default-ads
 ###eu_cookie_law_widget-2
 ###footer
@@ -609,10 +618,13 @@ yu8s.live
 ###ghost-newsletter
 ###infinite-footer
 ###js-banner-eizo
+###marketingbar
 ###ot-sdk-btn
+###pgFt
 ###pojo-a11y-toolbar
 ###shopify-section-announcement-bar
 ###shopify-section-footer
+##page-footer
 ##shop-login-button
 ##shopify-payment-terms
 
@@ -648,7 +660,6 @@ yu8s.live
 @@/wp-content/themes$font
 @@||fontawesome.com^
 
-@@/ad-listeners
 @@||coveryourtracks.eff.org/static/dist/fp2.*.js
 @@||firstpartysimulator.org/static/dist/fp2.*.js
 
@@ -726,6 +737,7 @@ www.miruro.*##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
 anilist.co##.watch
 anilist.co##.shadow
 anilist.co##.episodes
+anilist.co##.scroller
 anilist.co##.recent-threads
 anilist.co##.recent-reviews
 anilist.co##div:nth-of-type(3) > .media-preview
@@ -770,8 +782,6 @@ disqus.com##.nav-secondary-refresh__list-item
 
 www.tumblr.com##.smX3m
 
-wordpress.com###marketingbar
-
 www.pixiv.net##.fvDibl.sc-74lrq-0
 www.pixiv.net##.lfaZnj.sc-oh3a2p-0
 www.pixiv.net##.fmRZHy.sc-1t7vxzj-5
@@ -811,9 +821,6 @@ linktr.ee##.bhdLno.jBicvQ
 
 aternos.org###ulenYrScPGuk
 
-proton.me##.offer-modal
-proton.me##.bg-promotion
-proton.me##.button-promotion
 account.proton.me###your-plan
 proton.me##.modal-two-backdrop
 mail.proton.me##.no-print.md\:inline
@@ -828,9 +835,7 @@ mail.proton.me##.text-sm.justify-space-between.gap-4.flex-nowrap.flex.py-3.px-4
 mail.proton.me##li.mt-4.navigation-link-header-group--expandable.navigation-link-header-group.mb-0\.5.px-3.w-full.navigation-item
 pass.proton.me##div.shrink-0:nth-of-type(5) > .collapsible-header--clickable.gap-2.items-center.flex-nowrap.flex.pl-4.shrink-0.py-1.pr-2.mx-3
 
-bandcamp.com###pgFt
 bandcamp.com###user-nav
-bandcamp.com##page-footer
 bandcamp.com##.tralbum-tags
 
 spotify.com##li.rQ6LXqVlEOGZdGIG0LgP:nth-of-type(3)
