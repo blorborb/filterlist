@@ -262,6 +262,7 @@ _clickadu_$important
 ||www.google.com/js/th/$important
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
 ||www.google.com/recaptcha/api2/webworker.js$important
+||www.gstatic.com/*/m=view
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js
 ||www.gstatic.com/recaptcha/api2/audio$image,important
 ||www.gstatic.com/youtube/img/annotations/
