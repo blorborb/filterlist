@@ -196,6 +196,7 @@ _clickadu_$important
 ||cleverads.$important
 ||clickadu&*$important
 ||cloud.google.com/ai/$important
+||cloudfront.net/*promote.js
 ||cohesionapps.$important
 ||discord.com/api/*/science
 ||discord.com/assets/sentry.*.js
@@ -208,6 +209,8 @@ _clickadu_$important
 ||events.redditmedia.com^$important
 ||featureassets.org/v1/initialize
 ||firebase-analytics.js$important
+||firebaseio.com/.lp
+||firebaseio.com/.ws?
 ||frugalfiestas.com^$important
 ||fundingchoicesmessages.$important
 ||fvcwqkkqmuv.com^$important
@@ -222,6 +225,7 @@ _clickadu_$important
 ||i.ytimg.com/vi/*/oar*.jpg
 ||intergient.$important
 ||jsdelivr.*/*/prebid/$important
+||lnk.to/~/tr/
 ||m.stripe.network^
 ||mc.yandex.ru^$important
 ||megastatics.*/thumbnails/
@@ -233,6 +237,7 @@ _clickadu_$important
 ||mopinion.com^$important
 ||narrativ.$important
 ||ogads-pa.clients6.google.com
+||onesignal.com^$important
 ||open.oneplus.net^$important
 ||peoplestack-pa.clients6.google.com
 ||peoplestackwebexperiments-pa.clients6.google.com
@@ -247,6 +252,8 @@ _clickadu_$important
 ||spotifycdn.com/cdn/build/web-player/dwp-billboard-ad.
 ||static.ads-twitter.com^$important
 ||static.assetlab.io/consent/
+||static.assetlab.io/redirector-prod/*/post-action-tray-component.js
+||static.assetlab.io/redirector-prod/*/release-classic-nosample.js
 ||stats.wp.com^$important
 ||storage.googleapis.com/gsf-scripts/global-remarketing/
 ||stripe.com/ajax/metrics_batch
@@ -333,7 +340,6 @@ actuallything.
 acuityads.
 acuityplatform.
 ad-service
-ad&
 ad0.
 ad01.
 ad1.
@@ -422,6 +428,7 @@ fastclick.
 Fingerprint;
 fingerprint.js
 firebaseremoteconfig.
+footer.$css
 freshmarketer.
 fwtracks.
 gannettdigital.
@@ -483,6 +490,7 @@ mouseflow.
 mpulse.$important
 myhuaweicloud.
 NativeAdService_
+newsletter.$css
 nmetrics.
 offerwall.
 one-trust.
@@ -542,6 +550,7 @@ udc.
 udcm.
 unityads.
 upsell-
+upsell.$css
 userway.
 visualwebsiteoptimizer.
 whorls.js
@@ -577,9 +586,11 @@ yu8s.live
 ##.cookies-modal
 ##.csbannertrackevent
 ##.DAnUZ
+##.desktop-content-ad-container
 ##.footer__menu
 ##.footer-copywrite
 ##.footer-crm
+##.formkit-form
 ##.g-footer
 ##.g-profile__qr-code-btn
 ##.g-profile__verified-accounts > span
@@ -592,6 +603,7 @@ yu8s.live
 ##.marketing-content
 ##.microapp-slot-innova
 ##.newsletter
+##.newsletter-container
 ##.newsletter-section
 ##.newsub-box
 ##.offer-modal
@@ -599,9 +611,11 @@ yu8s.live
 ##.page-footer
 ##.privacy_popup
 ##.promotedlink
+##.relative.footer
 ##.shopify-section-group-footer-group
 ##.slice-container-newsletterForm
 ##.stack__ads
+##.sticky-footer
 ##.svelte-1h1i54z.includeWrapper
 ##.svelte-deweka.tc-capture-kit-wrapper
 ##.ta-campaign-widget
@@ -622,11 +636,13 @@ yu8s.live
 ###infinite-footer
 ###js-banner-eizo
 ###marketingbar
+###newsletter
 ###ot-sdk-btn
 ###pgFt
 ###pojo-a11y-toolbar
 ###shopify-section-announcement-bar
 ###shopify-section-footer
+###shopify-section-q-footer
 ##page-footer
 ##shop-login-button
 ##shopify-payment-terms
@@ -699,6 +715,7 @@ youtube.com##.ytd-single-option-survey-renderer
 youtube.com##.ytd-enforcement-message-view-model
 youtube.com##ytd-metadata-row-container-renderer
 youtube.com##.ytp-ce-element-show.ytp-ce-website
+youtube.com##yt-video-attributes-section-view-model
 youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
 youtube.com###buttons > .ytd-rich-grid-media.style-scope
@@ -707,6 +724,7 @@ youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
 youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(3)
+youtube.com##.ytd-video-description-infocards-section-renderer.yt-simple-endpoint
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
