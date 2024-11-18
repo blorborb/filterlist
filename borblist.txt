@@ -36,6 +36,7 @@ _clickadu_$important
 /analytics.js
 /api/*/analytics/*
 /apple_music_player
+/apple-icon-180x180.png
 /apple-touch-icon$important
 /beardeddragon
 /blockadblock
@@ -210,11 +211,12 @@ _clickadu_$important
 ||frugalfiestas.com^$important
 ||fundingchoicesmessages.$important
 ||fvcwqkkqmuv.com^$important
+||geolocation_recommendation
+||geolocation-recommendation
 ||github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include
 ||github.githubassets.com/assets/chunk-ui_packages_cookie-consent
 ||github.githubassets.com/assets/notifications-global
 ||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
-||github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_remote-form_dist
 ||googleusercontent.com/proxy/
 ||gumroad.com^
 ||i.ytimg.com/vi/*/oar*.jpg
@@ -638,8 +640,6 @@ yu8s.live
 ||alluremedia.com^$font,3p
 ||amazonaws.com^$font,3p
 ||bootstrapcdn.com/bootstrap/$font,3p
-||cloud.$font,3p
-||cloudfront.net^$font,3p
 ||edgefonts.net^$3p
 ||fastly.net^$font,3p
 ||fontawesome.$font,css,3p
@@ -715,8 +715,8 @@ youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer:nth
 youtube.com##yt-inline-player-controls, #inline-preview-player #ytp-caption-window-container
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(3)
+youtube.com##ytd-video-description-transcript-section-renderer.ytd-structured-description-content-renderer
 
-www.miruro.*##footer
 www.miruro.*##.hgVStn
 www.miruro.*##.vds-volume
 www.miruro.*##button.shortcuts-button
@@ -854,6 +854,7 @@ www.aliexpress.com##body > div:nth-of-type(12)
 lenovo.com##.partsPspBannerBox
 
 www.twitch.tv##.top-nav__prime
+www.twitch.tv##.disclosure-tool
 
 www.amazon.com##hr
 www.amazon.com###rhf
