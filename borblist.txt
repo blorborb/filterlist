@@ -757,7 +757,6 @@ anilist.co###app > .wrap
 anilist.co##.recent-threads
 anilist.co##.recent-reviews
 anilist.co##.external-links
-anilist.co##.overview > .staff
 anilist.co##.data-set.el-tooltip
 anilist.co##a.link:has-text(Watch)
 anilist.co##a.link:has-text(forum)
