@@ -1,7 +1,6 @@
 ! title: borbs personal list
 ! Expires: 12 hours
 
-
 _ad_
 _ads_
 _clickadu_$important
@@ -19,7 +18,6 @@ _clickadu_$important
 .snowplow
 *upsell.png
 /?utm_source=sourceforge&amp;utm_medium=unitad&
-/*consent*js
 /#breadcrumb
 /1.1/users/recommendations
 /a8c_
@@ -47,6 +45,7 @@ _clickadu_$important
 /cmp
 /cohesion/*$important
 /collect?
+/consent*js
 /cookie
 /Cookie*Preferences
 /cookieconsent
