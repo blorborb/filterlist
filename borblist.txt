@@ -19,6 +19,7 @@ _clickadu_$important
 .snowplow
 *upsell.png
 /?utm_source=sourceforge&amp;utm_medium=unitad&
+/*consent*js
 /#breadcrumb
 /1.1/users/recommendations
 /a8c_
@@ -40,12 +41,12 @@ _clickadu_$important
 /apple-touch-icon$important
 /beardeddragon
 /blockadblock
+/browser-check*js
 /browser/stats
 /client_log$important
 /cmp
 /cohesion/*$important
 /collect?
-/consent-tracking-api.js
 /cookie
 /Cookie*Preferences
 /cookieconsent
@@ -90,7 +91,6 @@ _clickadu_$important
 /get_live_chat?
 /gfplib
 /GoogleAnalytics$important
-/googlesitekit-consent-
 /gtag$important
 /icon192x192.png
 /identity-service
@@ -140,13 +140,10 @@ _clickadu_$important
 /ta-
 /tardisrocinante
 /targeting
-/tr/consent
 /tracking-opt-in/$important
 /trackingevent
 /viewsnativead
-/wbdotp/consent/*$important
 /webstats
-/wp-consent
 /youtubei/v1/updated_metadata
 &adcontext
 &adformat
@@ -218,7 +215,6 @@ _clickadu_$important
 ||geolocation_recommendation
 ||geolocation-recommendation
 ||github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include
-||github.githubassets.com/assets/chunk-ui_packages_cookie-consent
 ||github.githubassets.com/assets/notifications-global
 ||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
 ||googleusercontent.com/proxy/
@@ -229,6 +225,7 @@ _clickadu_$important
 ||lnk.to/~/tr/
 ||m.media-amazon.com/images/*/csm/showads.*.js$important
 ||m.stripe.network^
+||mailchimp.com^
 ||mc.yandex.ru^$important
 ||megastatics.*/thumbnails/
 ||mepsmarketing.com^
@@ -250,10 +247,10 @@ _clickadu_$important
 ||scorecardresearch.$important
 ||signaler-pa.clients6.google.com
 ||simplelocalize.$important
+||spot.im^
 ||spotify.com/ads-identity-web-enricher/
 ||spotifycdn.com/cdn/build/web-player/dwp-billboard-ad.
 ||static.ads-twitter.com^$important
-||static.assetlab.io/consent/
 ||static.assetlab.io/redirector-prod/*/post-action-tray-component.js
 ||static.assetlab.io/redirector-prod/*/release-classic-nosample.js
 ||stats.wp.com^$important
@@ -401,14 +398,11 @@ baiduads.
 beehiiv.
 blogger.l.google.
 bugsnag.
-business-
-business.$important
 c=TVHTML5&oad=
 chargebee.
 chartbeat_$important
 claritybt.
 cloudflareinsights.$important
-consent-banner_
 cookiefirst.
 cookiepro.
 cookieyes.
@@ -434,7 +428,6 @@ footer.$css
 freshmarketer.
 fwtracks.
 gannettdigital.
-gatekeeperconsent.
 gdpr-
 gemini.
 genius.com/images/apple-touch-icon.png?
@@ -622,6 +615,7 @@ yu8s.live
 ##.svelte-deweka.tc-capture-kit-wrapper
 ##.ta-campaign-widget
 ##.ta-campaign-widget__popup-wrapper
+##.text_promo
 ##.uma-hero
 ##.upsell
 ##.v-snack
@@ -645,6 +639,7 @@ yu8s.live
 ###shopify-section-announcement-bar
 ###shopify-section-footer
 ###shopify-section-q-footer
+##footer
 ##page-footer
 ##shop-login-button
 ##shopify-payment-terms
