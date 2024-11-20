@@ -758,6 +758,7 @@ anilist.co##.recent-threads
 anilist.co##.recent-reviews
 anilist.co##.external-links
 anilist.co##.data-set.el-tooltip
+anilist.co##a.link:has-text(home)
 anilist.co##a.link:has-text(Watch)
 anilist.co##a.link:has-text(forum)
 anilist.co##div.data-set:has-text(Romaji)
@@ -768,6 +769,7 @@ anilist.co##div.data-set:has-text(Synonyms)
 anilist.co##div.data-set:has-text(Favorites)
 anilist.co##div.data-set:has-text(Producers)
 anilist.co##div.grid-section-wrap:has-text(Trailer)
+anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
 
 www.instagram.com##.xzkaem6.x1n2onr6
 
