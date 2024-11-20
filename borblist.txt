@@ -189,6 +189,7 @@ _clickadu_$important
 ||cdn.discordapp.com/assets/profile_effects/effects/*/reduced-motion.png
 ||cdn.discordapp.com/bad-domains/
 ||cdn.discordapp.com/changelogs/
+||cdn.iubenda.com^
 ||cdn.socket.io^
 ||cdn77.org^$important
 ||cdnjs.cloudflare.com/ajax/libs/Chart*
@@ -226,6 +227,7 @@ _clickadu_$important
 ||intergient.$important
 ||jsdelivr.*/*/prebid/$important
 ||lnk.to/~/tr/
+||m.media-amazon.com/images/*/csm/showads.*.js$important
 ||m.stripe.network^
 ||mc.yandex.ru^$important
 ||megastatics.*/thumbnails/
@@ -460,7 +462,6 @@ infogram.
 inmobi.
 ipdata.
 ipify.
-iubenda.
 klaviyo.
 kunlunca.
 laylo.
@@ -587,6 +588,7 @@ yu8s.live
 ##.csbannertrackevent
 ##.DAnUZ
 ##.desktop-content-ad-container
+##.elementor-location-footer
 ##.footer__menu
 ##.footer-copywrite
 ##.footer-crm
@@ -736,32 +738,43 @@ youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-video-description-transcript-section-renderer.ytd-structured-description-content-renderer
 
-www.miruro.*##.hgVStn
+www.miruro.*##.sc-dRlUCX
+www.miruro.*##.sc-lgprfV
 www.miruro.*##.vds-volume
 www.miruro.*##button.shortcuts-button
-www.miruro.*##button.vds-button:nth-of-type(9)
-www.miruro.*##button.vds-button:nth-of-type(8)
-www.miruro.*##button.vds-button:nth-of-type(7)
-www.miruro.*##button.vds-button:nth-of-type(6)
-www.miruro.*##button.vds-button:nth-of-type(5)
+www.miruro.*##button.sc-geXuza:nth-child(3)
+www.miruro.*##button.vds-button:nth-of-type(1)
+www.miruro.*##button.vds-button:nth-of-type(3)
 www.miruro.*##button.vds-button:nth-of-type(4)
-www.miruro.*##button.vds-button:nth-of-type(10)
-www.miruro.*##a.gsdRdr.sc-hJRrWL:nth-of-type(2)
-www.miruro.*##div.llztLx.sc-jYWXzj:nth-of-type(1)
-www.miruro.*##div.llztLx.sc-jYWXzj:nth-of-type(3)
-www.miruro.*##div.hKmumH.sc-jYWXzj:nth-of-type(3)
-www.miruro.*##div.hKmumH.sc-jYWXzj:nth-of-type(1)
-www.miruro.*##.hvryfl.sc-iDAWOb > div > div > button.iUDbNm.sc-kUiVwB
+www.miruro.*##button.vds-button:nth-of-type(5)
+www.miruro.*##button.vds-button:nth-of-type(7)
+www.miruro.*##button.vds-button:nth-of-type(8)
+www.miruro.*##button.vds-button:nth-of-type(11)
+www.miruro.*##.sc-iDAWOb > div:nth-child(2) > div:nth-child(2)
+www.miruro.*##.sc-fijUiK > div:nth-child(1) > div:nth-child(1) > div:nth-child(4)
 
 anilist.co##.watch
 anilist.co##.shadow
 anilist.co##.episodes
 anilist.co##.scroller
+anilist.co##.rankings
+anilist.co##.el-message
+anilist.co###app > .wrap
 anilist.co##.recent-threads
 anilist.co##.recent-reviews
-anilist.co##div:nth-of-type(3) > .media-preview
-anilist.co##div:nth-of-type(3) > .link.section-header
-anilist.co##div.home:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)
+anilist.co##.external-links
+anilist.co##.overview > .staff
+anilist.co##.data-set.el-tooltip
+anilist.co##a.link:has-text(Watch)
+anilist.co##a.link:has-text(forum)
+anilist.co##div.data-set:has-text(Romaji)
+anilist.co##div.data-set:has-text(Native)
+anilist.co##div.data-set:has-text(Hashtag)
+anilist.co##div.data-set:has-text(English)
+anilist.co##div.data-set:has-text(Synonyms)
+anilist.co##div.data-set:has-text(Favorites)
+anilist.co##div.data-set:has-text(Producers)
+anilist.co##div.grid-section-wrap:has-text(Trailer)
 
 www.instagram.com##.xzkaem6.x1n2onr6
 
@@ -888,3 +901,5 @@ www.amazon.com##.nav-flyout.nav-coreFlyout.glow-toaster-slot-default.glow-toaste
 www.google.com##.audio-button-holder
 
 x.com##.r-8dgmk1.css-175oi2r
+
+carrd.co###credits
