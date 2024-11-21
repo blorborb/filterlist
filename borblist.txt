@@ -40,6 +40,7 @@ _clickadu_$important
 /beardeddragon
 /blockadblock
 /browser-check*js
+/browser/client.js
 /browser/stats
 /client_log$important
 /cmp
@@ -47,10 +48,6 @@ _clickadu_$important
 /collect?
 /consent*js
 /cookie
-/Cookie*Preferences
-/cookieconsent
-/cookiefirst
-/cookienotificationbar
 /csp_report
 /csp-report
 /csp/reporting
@@ -81,7 +78,6 @@ _clickadu_$important
 /gdpr
 /gen_204
 /generate_204
-/geo$xhr,script
 /geoip
 /georouting
 /georoutingv1
@@ -602,7 +598,6 @@ yu8s.live
 ##.newsub-box
 ##.offer-modal
 ##.page_footer
-##.page-footer
 ##.privacy_popup
 ##.promotedlink
 ##.relative.footer
@@ -646,10 +641,11 @@ yu8s.live
 ! Breaks? many sites
 .ttf$css,font,3p
 *woff*$css,font,3p
+/*otf$font
 /AmazonUIFont$font,css
 /font*$font,css,3p
 /font*awesome$font,3p
-/webfont$font,css,3p
+/webfont$font,css,script,3p
 ||alluremedia.com^$font,3p
 ||amazonaws.com^$font,3p
 ||bootstrapcdn.com/bootstrap/$font,3p
@@ -758,7 +754,6 @@ anilist.co##.recent-threads
 anilist.co##.recent-reviews
 anilist.co##.external-links
 anilist.co##.data-set.el-tooltip
-anilist.co##a.link:has-text(home)
 anilist.co##a.link:has-text(Watch)
 anilist.co##a.link:has-text(forum)
 anilist.co##div.data-set:has-text(Romaji)
@@ -781,7 +776,6 @@ fandom.com##.page-counter
 fandom.com##.page__right-rail
 fandom.com##.global-navigation
 fandom.com##.sitenotice-wrapper
-fandom.com###mixed-content-footer
 fandom.com##.page-side-tools__wrapper
 fandom.com##.global-registration-buttons
 fandom.com##.wds-button-group.wiki-tools
