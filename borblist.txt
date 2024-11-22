@@ -35,8 +35,6 @@ _clickadu_$important
 /analytics.js
 /api/*/analytics/*
 /apple_music_player
-/apple-icon-180x180.png
-/apple-touch-icon$important
 /beardeddragon
 /blockadblock
 /browser-check*js
@@ -63,9 +61,6 @@ _clickadu_$important
 /experiencetrackerviewsdata
 /ezais
 /ezoic
-/favicon-180.png
-/favicon-192x192.png
-/favicon-194x194.png
 /fingerprint.js
 /fingerprint2.
 /fingerprint3.
@@ -87,10 +82,8 @@ _clickadu_$important
 /gfplib
 /GoogleAnalytics$important
 /gtag$important
-/icon192x192.png
 /identity-service
 /InnovaMicroAppNuxt
-/js.cookie
 /language-cookie.
 /laylo-sdk.js
 /live_chat
@@ -425,7 +418,6 @@ fwtracks.
 gannettdigital.
 gdpr-
 gemini.
-genius.com/images/apple-touch-icon.png?
 geo.
 geoip.
 geojs.
