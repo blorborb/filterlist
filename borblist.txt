@@ -141,8 +141,7 @@ _clickadu_$important
 ||/api/fingerprint/
 ||3blackdot.com/browsing_context_suggestions.json?source=geolocation_recommendation
 ||abs.twimg.com/responsive-web/client-sentry/
-||abs.twimg.com/sticky/animations/like.
-||ac.
+||abs.twimg.com/sticky/animations/
 ||accounts.google.com/gsi/$subdocument
 ||addons-pa.clients6.google.com
 ||adjust.^$important
@@ -245,8 +244,10 @@ _clickadu_$important
 ||storage.googleapis.com/gsf-scripts/global-remarketing/
 ||stripe.com/ajax/metrics_batch
 ||tc.cdnhub.co/not-found/
-||trafficmanager.net^$important
+||trafficmanager.net^
 ||transcend-cdn.com/*/airgap.js$important
+||twimg.com*/shared~loader.EventSummaryHandler
+||twimg.com*CarouselScroller
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
@@ -267,6 +268,7 @@ _clickadu_$important
 ||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
 ||www.youtube.com/youtubei/*/player/heartbeat$important
 ||www.youtube.com/youtubei/v1/notification/get_unseen_count
+||x.com*getAltTextPromptPreference
 ||x.com/i/api/*/badge_count/
 ||x.com/i/api/*/hashflags.json
 ||x.com/i/api/1.1/dm/user_updates.json?nsfw_filtering_enabled=false&
@@ -704,6 +706,7 @@ youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
 youtube.com###buttons > .ytd-rich-grid-media.style-scope
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
+youtube.com##.yt-formatted-string.style-scope.bold.yt-simple-endpoint
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
@@ -725,7 +728,6 @@ www.miruro.*##.sc-lgprfV
 www.miruro.*##.vds-volume
 www.miruro.*##button.shortcuts-button
 www.miruro.*##button.sc-geXuza:nth-child(3)
-www.miruro.*##button.vds-button:nth-of-type(1)
 www.miruro.*##button.vds-button:nth-of-type(3)
 www.miruro.*##button.vds-button:nth-of-type(4)
 www.miruro.*##button.vds-button:nth-of-type(5)
