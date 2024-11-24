@@ -229,6 +229,7 @@ _clickadu_$important
 ||peoplestackwebexperiments-pa.clients6.google.com
 ||platform.twitter.com/widgets.js
 ||platform.twitter.com/widgets/$subdocument
+||playsaurusstats.com^
 ||qualtrics.$important
 ||sa.api.intl.miui.com^$important
 ||scorecardresearch.$important
@@ -540,6 +541,7 @@ whorls.js
 widgets.pinterest.com
 yandexadexchange.
 yu8s.live
+/showads.js
 
 *$important,css,redirect-rule=noop.css
 *$important,script,redirect-rule=noop.js
@@ -571,7 +573,7 @@ yu8s.live
 ##.DAnUZ
 ##.desktop-content-ad-container
 ##.elementor-location-footer
-##.footer__menu
+##.features-card
 ##.footer-copywrite
 ##.footer-crm
 ##.formkit-form
@@ -609,6 +611,7 @@ yu8s.live
 ##.v-snack
 ##.widget_block.widget
 ##.zone__ads
+###__external__footer
 ###cmp-app-container
 ###cookieDialog
 ###cozyCRModal
@@ -627,7 +630,6 @@ yu8s.live
 ###shopify-section-announcement-bar
 ###shopify-section-footer
 ###shopify-section-q-footer
-##footer
 ##page-footer
 ##shop-login-button
 ##shopify-payment-terms
@@ -740,7 +742,6 @@ www.miruro.*##.sc-fijUiK > div:nth-child(1) > div:nth-child(1) > div:nth-child(4
 anilist.co##.watch
 anilist.co##.shadow
 anilist.co##.episodes
-anilist.co##.scroller
 anilist.co##.rankings
 anilist.co##.el-message
 anilist.co###app > .wrap
