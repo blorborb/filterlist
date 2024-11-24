@@ -119,6 +119,7 @@ _clickadu_$important
 /s/search/audio
 /SecurePubs$important
 /shitake
+/showads.js
 /silver-surfer
 /silversurfer
 /snowplow
@@ -174,6 +175,7 @@ _clickadu_$important
 ||cdn.discordapp.com/bad-domains/
 ||cdn.discordapp.com/changelogs/
 ||cdn.iubenda.com^
+||cdn.privacy-mgmt.com^$important
 ||cdn.socket.io^
 ||cdn77.org^$important
 ||cdnjs.cloudflare.com/ajax/libs/Chart*
@@ -207,6 +209,7 @@ _clickadu_$important
 ||googleusercontent.com/proxy/
 ||gumroad.com^
 ||i.ytimg.com/vi/*/oar*.jpg
+||inmobi.com^$important
 ||intergient.$important
 ||jsdelivr.*/*/prebid/$important
 ||lnk.to/~/tr/
@@ -541,7 +544,6 @@ whorls.js
 widgets.pinterest.com
 yandexadexchange.
 yu8s.live
-/showads.js
 
 *$important,css,redirect-rule=noop.css
 *$important,script,redirect-rule=noop.js
@@ -613,6 +615,7 @@ yu8s.live
 ##.zone__ads
 ###__external__footer
 ###cmp-app-container
+###cookie-announcement
 ###cookieDialog
 ###cozyCRModal
 ###default-ads
@@ -754,8 +757,6 @@ anilist.co##a.link:has-text(forum)
 anilist.co##div.data-set:has-text(Romaji)
 anilist.co##div.data-set:has-text(Native)
 anilist.co##div.data-set:has-text(Hashtag)
-anilist.co##div.data-set:has-text(English)
-anilist.co##div.data-set:has-text(Synonyms)
 anilist.co##div.data-set:has-text(Favorites)
 anilist.co##div.data-set:has-text(Producers)
 anilist.co##div.grid-section-wrap:has-text(Trailer)
