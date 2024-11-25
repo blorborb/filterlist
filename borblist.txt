@@ -247,7 +247,6 @@ _clickadu_$important
 ||storage.googleapis.com/gsf-scripts/global-remarketing/
 ||stripe.com/ajax/metrics_batch
 ||tc.cdnhub.co/not-found/
-||trafficmanager.net^
 ||transcend-cdn.com/*/airgap.js$important
 ||twimg.com*/shared~loader.EventSummaryHandler
 ||twimg.com*CarouselScroller
