@@ -32,7 +32,9 @@ _clickadu_$important
 /adsbygoogle
 /adsense
 /adsninja_worker_$important
+/advertisement*.js
 /analytics.js
+/analytics*.js
 /api/*/analytics/*
 /apple_music_player
 /beardeddragon
@@ -49,6 +51,7 @@ _clickadu_$important
 /csp_report
 /csp-report
 /csp/reporting
+/customErrorHandler*.js
 /data/data
 /data/event
 /detroitchicago
@@ -570,6 +573,7 @@ yu8s.live
 ##.csbannertrackevent
 ##.DAnUZ
 ##.desktop-content-ad-container
+##.DiscordIntegrator
 ##.elementor-location-footer
 ##.features-card
 ##.footer-copywrite
@@ -606,10 +610,12 @@ yu8s.live
 ##.text_promo
 ##.uma-hero
 ##.upsell
+##.v-footer
 ##.v-snack
 ##.widget_block.widget
 ##.zone__ads
 ###__external__footer
+###__ZONE__footer
 ###cmp-app-container
 ###cookie-announcement
 ###cookieDialog
@@ -634,17 +640,18 @@ yu8s.live
 ##shopify-payment-terms
 
 ! Breaks? many sites
-*font*$font,css,script,3p
-*tf*$css,font,3p
-*woff*$css,font,3p
-||amazonaws.com^$font,3p
-||bootstrapcdn.com^$font,3p
-||edgefonts.net^$3p
-||fastly.net^$font,3p
-||google.com/swg/$font,3p
-||gotraffic.net^$font,3p
-||qmerce.com/assets/$font,3p
-||type*$font,3p
+*font*$font,css,script,strict3p
+*otf*$css,font,strict3p
+*ttf*$css,font,strict3p
+*woff*$css,font,strict3p
+||amazonaws.com^$font,strict3p
+||bootstrapcdn.com^$font,strict3p
+||edgefonts.net^$strict3p
+||fastly.net^$font,strict3p
+||google.com/swg/$font,strict3p
+||gotraffic.net^$font,strict3p
+||qmerce.com/assets/$font,strict3p
+||type*$font,strict3p
 
 @@*Icon*$font,css
 @@*Symbol*$font,css
