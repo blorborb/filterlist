@@ -137,7 +137,6 @@ _clickadu_$important
 &adcontext
 &adformat
 &locale=en_DK
-&region=DK
 =metrics
 ||/api/fingerprint/
 ||3blackdot.com/browsing_context_suggestions.json?source=geolocation_recommendation
@@ -257,8 +256,6 @@ _clickadu_$important
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
 ||www.antiadblocksystems.com^$important
 ||www.figma.com/api/web_logger/
-||www.google.com/js/bg/$important
-||www.google.com/js/th/$important
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
 ||www.google.com/recaptcha/api2/webworker.js$important
 ||www.gstatic.com/*/m=view
@@ -638,35 +635,24 @@ yu8s.live
 ##shopify-payment-terms
 
 ! Breaks? many sites
-.ttf$css,font,3p
+*font*$font,css,script,3p
+*tf*$css,font,3p
 *woff*$css,font,3p
-/*otf$font
-/AmazonUIFont$font,css
-/font*$font,css,3p
-/font*awesome$font,3p
-/webfont$font,css,script,3p
-||alluremedia.com^$font,3p
 ||amazonaws.com^$font,3p
-||bootstrapcdn.com/bootstrap/$font,3p
+||bootstrapcdn.com^$font,3p
 ||edgefonts.net^$3p
 ||fastly.net^$font,3p
-||fontawesome.$font,css,3p
-||fonticons.com^$3p
-||gfonts.jifo^$3p
 ||google.com/swg/$font,3p
 ||gotraffic.net^$font,3p
-||myfontastic.com^$3p
 ||qmerce.com/assets/$font,3p
-||typefront.com^$3p
-||typekit.$3p
-||typesquare.com^$font,3p
+||type*$font,3p
 
 @@*Icon*$font,css
 @@*Symbol*$font,css
 @@/font-awesome
 @@/icomoon
 @@/wp-content/themes$font
-@@||fontawesome.com^
+@@||fontawesome.com
 
 @@||coveryourtracks.eff.org/static/dist/fp2.*.js
 @@||firstpartysimulator.org/static/dist/fp2.*.js
@@ -747,7 +733,6 @@ anilist.co##.shadow
 anilist.co##.episodes
 anilist.co##.rankings
 anilist.co##.el-message
-anilist.co###app > .wrap
 anilist.co##.recent-threads
 anilist.co##.recent-reviews
 anilist.co##.external-links
@@ -872,6 +857,7 @@ lenovo.com##.partsPspBannerBox
 
 www.twitch.tv##.top-nav__prime
 www.twitch.tv##.disclosure-tool
+www.twitch.tv##.chat-line__message > chat-line__message--deleted-notice
 
 www.amazon.com##hr
 www.amazon.com###rhf
