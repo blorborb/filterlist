@@ -161,7 +161,6 @@ _clickadu_$important
 ||api.steampowered.com/usabilitytracking$important
 ||api.themoviedb.org^$3p
 ||api.transcy.io/api/store_front/switcher
-||api.x.com/live_pipeline/events
 ||apis.google.com/_/scs/abc-static/*=ytsubscribe/
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 ||apis.google.com/js/rpc:shindig_random.js?onload=init
@@ -172,13 +171,6 @@ _clickadu_$important
 ||bitmovin.$important
 ||btloader.$important
 ||cdn.ampproject.org^
-||cdn.cookielaw.org^$important
-||cdn.discordapp.com/assets/profile_effects/effects/*/reduced-motion.png
-||cdn.discordapp.com/bad-domains/
-||cdn.discordapp.com/changelogs/
-||cdn.iubenda.com^
-||cdn.privacy-mgmt.com^$important
-||cdn.socket.io^
 ||cdn77.org^$important
 ||cdnjs.cloudflare.com/ajax/libs/Chart*
 ||chartbeat.$important
@@ -187,9 +179,13 @@ _clickadu_$important
 ||cloud.google.com/ai/$important
 ||cloudfront.net/*promote.js
 ||cohesionapps.$important
+||cookielaw.org^$important
 ||discord.com/api/*/science
 ||discord.com/assets/sentry.*.js
 ||discord.com/error-reporting-proxy/
+||discordapp.com/assets/profile_effects/effects/*/reduced-motion.png
+||discordapp.com/bad-domains/
+||discordapp.com/changelogs/
 ||dotmetrics.$important
 ||dw-api.servicecloudweb.com/*/event
 ||dwt.soundcloud.com^
@@ -213,6 +209,7 @@ _clickadu_$important
 ||i.ytimg.com/vi/*/oar*.jpg
 ||inmobi.com^$important
 ||intergient.$important
+||iubenda.com^
 ||jsdelivr.*/*/prebid/$important
 ||lnk.to/~/tr/
 ||m.media-amazon.com/images/*/csm/showads.*.js$important
@@ -235,11 +232,13 @@ _clickadu_$important
 ||platform.twitter.com/widgets.js
 ||platform.twitter.com/widgets/$subdocument
 ||playsaurusstats.com^
+||privacy-mgmt.$important
 ||qualtrics.$important
 ||sa.api.intl.miui.com^$important
 ||scorecardresearch.$important
 ||signaler-pa.clients6.google.com
 ||simplelocalize.$important
+||socket.io^
 ||spot.im^
 ||spotify.com/ads-identity-web-enricher/
 ||spotifycdn.com/cdn/build/web-player/dwp-billboard-ad.
@@ -278,6 +277,7 @@ _clickadu_$important
 ||x.com/i/api/1.1/jot/
 ||x.com/i/api/fleets/v1/fleetline
 ||x.com/i/api/graphql/*/DataSaverMode
+||x.com/live_pipeline/events
 ||ybs2ffs7v.com^$important
 01b4075d6c.
 03a17e7986.
@@ -348,6 +348,7 @@ aditude.
 adlightning.
 admanagement.
 admanager.
+adManager.$script,important
 admixer.
 adnetwork-
 adnetwork.
@@ -497,7 +498,6 @@ pipedrive.
 pixel.facebook.
 pokalive.$important
 privacy-center.
-privacy-mgmt.
 privacymanager.
 pubtech.
 quantcount.
@@ -587,6 +587,9 @@ yu8s.live
 ##.go-plus
 ##.grecaptcha-badge
 ##.is-verified-accounts.g-profile__card
+##.js_more-below-post
+##.js_sticky-second-scroll
+##.js_suggested-stories
 ##.l-footer
 ##.marketing-content
 ##.microapp-slot-innova
@@ -632,6 +635,7 @@ yu8s.live
 ###ot-sdk-btn
 ###pgFt
 ###pojo-a11y-toolbar
+###secondscroll_sidebar_wrapper
 ###shopify-section-announcement-bar
 ###shopify-section-footer
 ###shopify-section-q-footer
@@ -702,6 +706,7 @@ youtube.com##yt-video-attributes-section-view-model
 youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
 youtube.com###buttons > .ytd-rich-grid-media.style-scope
+youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 youtube.com##.yt-formatted-string.style-scope.bold.yt-simple-endpoint
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
