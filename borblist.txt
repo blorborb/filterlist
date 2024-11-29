@@ -207,6 +207,8 @@ _clickadu_$important
 ||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
 ||googleusercontent.com/proxy/
 ||gumroad.com^
+||hsforms.com^
+||hubspot.com^
 ||i.ytimg.com/vi/*/oar*.jpg
 ||inmobi.com^$important
 ||intergient.$important
@@ -442,8 +444,6 @@ heapanalytics.
 hicloud.
 hotjar.
 hsappstatic.
-hsforms.
-hubspot.
 iadsdk.
 infogram.
 inmobi.
@@ -716,6 +716,7 @@ youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(2)
 youtube.com##yt-list-item-view-model.yt-list-item-view-model-wiz:nth-of-type(3)
 youtube.com##.ytd-video-description-infocards-section-renderer.yt-simple-endpoint
+youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
@@ -743,6 +744,7 @@ www.miruro.*##.sc-fijUiK > div:nth-child(1) > div:nth-child(1) > div:nth-child(4
 
 anilist.co##.watch
 anilist.co##.shadow
+anilist.co##.trailer
 anilist.co##.episodes
 anilist.co##.rankings
 anilist.co##.el-message
@@ -753,11 +755,8 @@ anilist.co##.data-set.el-tooltip
 anilist.co##a.link:has-text(Watch)
 anilist.co##a.link:has-text(forum)
 anilist.co##div.data-set:has-text(Romaji)
-anilist.co##div.data-set:has-text(Native)
 anilist.co##div.data-set:has-text(Hashtag)
 anilist.co##div.data-set:has-text(Favorites)
-anilist.co##div.data-set:has-text(Producers)
-anilist.co##div.grid-section-wrap:has-text(Trailer)
 anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
 
 www.instagram.com##.xzkaem6.x1n2onr6
