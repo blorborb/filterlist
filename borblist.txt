@@ -46,6 +46,7 @@ _clickadu_$important
 /cmp
 /cohesion/*$important
 /collect?
+/consent-mode/*.css
 /consent*js
 /cookie
 /csp_report
@@ -98,6 +99,7 @@ _clickadu_$important
 /marketingtech
 /mktgtagmanager
 /monitoring?
+/newsletter_embed
 /newsletter-enrollment.
 /newsletters
 /ninetynine-analytics
@@ -121,6 +123,7 @@ _clickadu_$important
 /RotateCookies
 /s/search/audio
 /SecurePubs$important
+/session_tracking
 /shitake
 /showads.js
 /silver-surfer
@@ -237,6 +240,7 @@ _clickadu_$important
 ||playsaurusstats.com^
 ||privacy-mgmt.$important
 ||qualtrics.$important
+||recommendations.displate.com^$important
 ||sa.api.intl.miui.com^$important
 ||scorecardresearch.$important
 ||signaler-pa.clients6.google.com
@@ -531,7 +535,6 @@ ton.twitter
 tracker.
 trackersimulator.
 translate.google.
-trk.
 twitch.tv$3p,frame
 udc.
 udcm.
@@ -583,7 +586,6 @@ yu8s.live
 ##.g-footer
 ##.g-profile__qr-code-btn
 ##.g-profile__verified-accounts > span
-##.ga-impression
 ##.global-footer
 ##.go-plus
 ##.grecaptcha-badge
@@ -604,6 +606,7 @@ yu8s.live
 ##.promotedlink
 ##.relative.footer
 ##.shopify-section-group-footer-group
+##.site-footer
 ##.slice-container-newsletterForm
 ##.stack__ads
 ##.sticky-footer
@@ -653,10 +656,10 @@ yu8s.live
 ||bootstrapcdn.com^$font,strict3p
 ||edgefonts.net^$strict3p
 ||fastly.net^$font,strict3p
-||google.com/swg/$font,strict3p
+||google.com/swg/$font,css,strict3p
 ||gotraffic.net^$font,strict3p
 ||qmerce.com/assets/$font,strict3p
-||type*$font,strict3p
+||type*$font,css,strict3p
 
 @@*Icon*$font,css
 @@*Symbol*$font,css
@@ -726,6 +729,7 @@ youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer:nth
 youtube.com##yt-inline-player-controls, #inline-preview-player #ytp-caption-window-container
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer.style-scope:nth-of-type(3)
+youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-video-description-transcript-section-renderer.ytd-structured-description-content-renderer
 
 www.miruro.*##.sc-dRlUCX
