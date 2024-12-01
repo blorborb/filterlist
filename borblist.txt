@@ -604,6 +604,7 @@ yu8s.live
 ##.privacy_popup
 ##.promotedlink
 ##.relative.footer
+##.rh-cta
 ##.shopify-section-group-footer-group
 ##.site-footer
 ##.slice-container-newsletterForm
@@ -624,10 +625,13 @@ yu8s.live
 ###__ZONE__footer
 ###auth-unit-container
 ###cmp-app-container
+###colophon
 ###cookie-announcement
 ###cookieDialog
 ###cozyCRModal
 ###default-ads
+###discountBanner
+###discountBanner-sidebar
 ###eu_cookie_law_widget-2
 ###footer
 ###footer-wrap
