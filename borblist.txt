@@ -892,6 +892,26 @@ www.amazon.com##.nav-flyout.nav-coreFlyout.glow-toaster-slot-default.glow-toaste
 
 www.google.com##.audio-button-holder
 
-x.com##.r-8dgmk1.css-175oi2r
-
 carrd.co###credits
+
+x.com###wtf
+x.com###trends
+x.com##a:has-text(Jobs)
+x.com##.r-k200y.r-16dba41
+x.com##a:has-text(Premium)
+x.com##a:has-text(Communities)
+x.com##a:has-text(Verified Orgs)
+x.com##[aria-label$="trending now" i]
+x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
+x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7:nth-of-type(4)
+x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7:nth-of-type(5)
+x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-lp5zef
+x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
+x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
+x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
+x.com##.r-12vffkv.r-1p0dtai.r-1xcajam.r-1d2f490.r-zchlnj.r-aqfbo4.css-175oi2r
+x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
+x.com##article [aria-label^="Follow Topic"], [aria-label^="Recommended Topic" i]:upward(article)
+
+reddit.com##.w-full.masthead
+reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
