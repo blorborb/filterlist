@@ -424,7 +424,7 @@ fastclick.
 Fingerprint;
 fingerprint.js
 firebaseremoteconfig.
-footer.$css
+
 freshmarketer.
 fwtracks.
 gannettdigital.
@@ -481,7 +481,6 @@ mouseflow.
 mpulse.$important
 myhuaweicloud.
 NativeAdService_
-newsletter.$css
 nmetrics.
 offerwall.
 one-trust.
@@ -539,7 +538,6 @@ udc.
 udcm.
 unityads.
 upsell-
-upsell.$css
 userway.
 visualwebsiteoptimizer.
 whorls.js
