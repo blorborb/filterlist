@@ -1,8 +1,6 @@
 ! title: borbs personal list
 ! Expires: 12 hours
 
-_ad_
-_ads_
 _clickadu_$important
 -adfuel-$important
 -fp
@@ -167,6 +165,7 @@ _clickadu_$important
 ||apis.google.com/_/scs/abc-static/*=ytsubscribe/
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 ||apis.google.com/js/rpc:shindig_random.js?onload=init
+||app.wiki.gg/public/$image
 ||appsgrowthpromo-pa.clients6.google.com
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
 ||azure.com/scripts/*/*analytics$important
@@ -623,6 +622,7 @@ yu8s.live
 ##.zone__ads
 ###__external__footer
 ###__ZONE__footer
+###auth-unit-container
 ###cmp-app-container
 ###cookie-announcement
 ###cookieDialog
@@ -643,6 +643,7 @@ yu8s.live
 ###shopify-section-announcement-bar
 ###shopify-section-footer
 ###shopify-section-q-footer
+##floating-auth-unit-container
 ##page-footer
 ##shop-login-button
 ##shopify-payment-terms
@@ -681,6 +682,7 @@ youtube.com###chat-container
 youtube.com###sponsor-button
 youtube.com###teaser-carousel
 youtube.com##ytd-radio-renderer
+youtube.com##ytd-radio-renderer
 youtube.com###voice-search-button
 youtube.com##ytd-ad-slot-renderer
 youtube.com##.smartimation__border
@@ -692,6 +694,7 @@ youtube.com##.ytd-feed-nudge-renderer
 youtube.com##ytd-merch-shelf-renderer
 youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytd-rich-section-renderer
+youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-compact-radio-renderer
 youtube.com##.ytp-button.ytp-size-button
 youtube.com##.ytp-button.ytp-next-button
@@ -712,6 +715,8 @@ youtube.com##ytd-rich-item-renderer:has([radio-meta])
 youtube.com##.ytd-emergency-onebox-renderer.style-scope
 youtube.com###buttons > .ytd-rich-grid-media.style-scope
 youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
+youtube.com##ytd-rich-item-renderer:has([href$="start_radio=1"])
+youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 youtube.com###buttons > ytd-button-renderer.ytd-masthead.style-scope
 youtube.com##.yt-formatted-string.style-scope.bold.yt-simple-endpoint
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
