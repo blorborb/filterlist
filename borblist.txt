@@ -896,7 +896,6 @@ carrd.co###credits
 
 x.com###wtf
 x.com###trends
-x.com##.r-3o4zer
 x.com##a:has-text(Jobs)
 x.com##.r-k200y.r-16dba41
 x.com##a:has-text(Premium)
