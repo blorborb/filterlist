@@ -904,14 +904,17 @@ x.com##a:has-text(Premium)
 x.com##a:has-text(Communities)
 x.com##a:has-text(Verified Orgs)
 x.com##[aria-label$="trending now" i]
-x.com##.r-1559e4e.r-dnmrzs.css-175oi2r
+x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
 x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7:nth-of-type(4)
 x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7:nth-of-type(5)
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-lp5zef
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
+x.com##.r-1ny4l3l.r-3pj75a.r-1mmae3n.r-1wtj0ep.css-175oi2r
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
+x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
+x.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-3pj75a.r-w7s2jr.css-175oi2r
 x.com##.r-12vffkv.r-1p0dtai.r-1xcajam.r-1d2f490.r-zchlnj.r-aqfbo4.css-175oi2r
 x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
 x.com##article [aria-label^="Follow Topic"], [aria-label^="Recommended Topic" i]:upward(article)
