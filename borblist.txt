@@ -695,12 +695,14 @@ youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 youtube.com##.ytp-right-controls > button.ytp-button:nth-of-type(7)
 youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 youtube.com##ytd-menu-service-item-download-renderer.ytd-menu-popup-renderer
+youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
+youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 
 www.miruro.*##.sc-dRlUCX
