@@ -576,7 +576,9 @@ yu8s.live
 ##.features-card
 ##.footer-copywrite
 ##.footer-crm
+##.footer-ranking
 ##.formkit-form
+##.ga-impression.bottom-bar
 ##.g-footer
 ##.g-profile__qr-code-btn
 ##.g-profile__verified-accounts > span
@@ -629,6 +631,7 @@ yu8s.live
 ###discountBanner-sidebar
 ###eu_cookie_law_widget-2
 ###footer
+###footer-block
 ###footer-wrap
 ###ghost-newsletter
 ###infinite-footer
@@ -648,18 +651,18 @@ yu8s.live
 ##shopify-payment-terms
 
 ! Breaks? many sites
-*font*$font,css,script,strict3p
-*otf*$css,font,strict3p
-*ttf*$css,font,strict3p
-*woff*$css,font,strict3p
-||amazonaws.com^$font,strict3p
-||bootstrapcdn.com^$font,strict3p
-||edgefonts.net^$strict3p
-||fastly.net^$font,strict3p
-||google.com/swg/$font,css,strict3p
-||gotraffic.net^$font,strict3p
-||qmerce.com/assets/$font,strict3p
-||type*$font,css,strict3p
+*font*$font,css,script,3p
+*otf*$css,font,3p
+*ttf*$css,font,3p
+*woff*$css,font,3p
+||amazonaws.com^$font,3p
+||bootstrapcdn.com^$font,3p
+||edgefonts.net^$3p
+||fastly.net^$font,3p
+||google.com/swg/$font,css,3p
+||gotraffic.net^$font,3p
+||qmerce.com/assets/$font,3p
+||type*$font,css,3p
 
 @@*Icon*$font,css
 @@*Symbol*$font,css
@@ -893,7 +896,6 @@ carrd.co###credits
 x.com###wtf
 x.com###trends
 x.com##a:has-text(Jobs)
-x.com##.r-k200y.r-16dba41
 x.com##a:has-text(Premium)
 x.com##a:has-text(Communities)
 x.com##a:has-text(Verified Orgs)
@@ -903,10 +905,10 @@ x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
 x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7:nth-of-type(4)
 x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7:nth-of-type(5)
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-lp5zef
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Show more)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
 x.com##.r-y42jk5.r-1jte41z.r-hvns9x.r-1rtiivn.r-173mn98.css-175oi2r
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
-x.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-3pj75a.r-w7s2jr.css-175oi2r
 x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
 x.com##[data-testid="sidebarColumn"] [href="/i/topics/picker/home"]:upward(section)
 x.com##div.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new Communities)
