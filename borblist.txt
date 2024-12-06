@@ -680,13 +680,17 @@ youtube.com##.ytp-button.ytp-next-button
 youtube.com##.ytd-download-button-renderer
 youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
+youtube.com##span.bold.yt-formatted-string:has-text(products)
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
 youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 youtube.com##ytd-rich-item-renderer:has([href$="start_radio=1"])
 youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 youtube.com##.ytp-right-controls > button.ytp-button:nth-of-type(7)
+youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
 youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 youtube.com##ytd-menu-service-item-download-renderer.ytd-menu-popup-renderer
+youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(slop)
+youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(Hawk)
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
@@ -844,6 +848,7 @@ x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.c
 x.com##div.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new Communities)
 x.com##div.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
 x.com##article [aria-label^="Follow Topic"], [aria-label^="Recommended Topic" i]:upward(article)
+x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to make your timeline better.)
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-1jx8gzb.r-1h0z5md.r-kemksi.r-qocrb3.css-175oi2r > div.css-175oi2r > div.css-175oi2r:has-text(Monetization)
 
 reddit.com##.w-full.masthead
