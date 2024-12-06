@@ -87,9 +87,7 @@ _clickadu_$important
 /language-cookie.
 /laylo-sdk.js
 /location
-/log
 /loginmanager_sniff.
-/logo-ios.png
 /logstreamz
 /marketingtech
 /mktgtagmanager
@@ -201,8 +199,6 @@ _clickadu_$important
 ||fvcwqkkqmuv.com^$important
 ||geolocation_recommendation
 ||geolocation-recommendation
-||github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include
-||github.githubassets.com/assets/notifications-global
 ||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
 ||googleusercontent.com/proxy/
 ||gumroad.com^
@@ -221,7 +217,6 @@ _clickadu_$important
 ||megastatics.*/thumbnails/
 ||mepsmarketing.com^
 ||merequartz.$important
-||miruro-no-kuon.disqus.com/count.js
 ||mmstat.com^$important
 ||mopinion.^$important
 ||mopinion.com^$important
@@ -456,11 +451,6 @@ kunlunca.
 laylo.
 localiq.
 localization-
-log_
-log-
-log.
-logger.
-logser.
 luckyorange.
 mailerlite.
 marketingplatform.$important
@@ -682,6 +672,7 @@ youtube.com##ytd-radio-renderer
 youtube.com###voice-search-button
 youtube.com##.smartimation__border
 youtube.com###structured-description
+youtube.com##.ytp-paid-content-overlay
 youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-compact-radio-renderer
 youtube.com##.ytp-button.ytp-size-button
@@ -689,6 +680,7 @@ youtube.com##.ytp-button.ytp-next-button
 youtube.com##.ytd-download-button-renderer
 youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
+youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
 youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 youtube.com##ytd-rich-item-renderer:has([href$="start_radio=1"])
 youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
@@ -716,6 +708,7 @@ www.miruro.*##button.vds-button:nth-of-type(5)
 www.miruro.*##button.vds-button:nth-of-type(7)
 www.miruro.*##button.vds-button:nth-of-type(8)
 www.miruro.*##button.vds-button:nth-of-type(11)
+www.miruro.*##.hajhDX.sc-lbZXOw > .eibgdF.sc-dKeGJQ
 www.miruro.*##.sc-iDAWOb > div:nth-child(2) > div:nth-child(2)
 www.miruro.*##.sc-fijUiK > div:nth-child(1) > div:nth-child(1) > div:nth-child(4)
 
@@ -751,6 +744,7 @@ fandom.com##.global-registration-buttons
 fandom.com##.wds-button-group.wiki-tools
 
 disqus.com###main-nav
+disqus.com##.minimized.post
 disqus.com###reactions__container
 disqus.com##.nav-secondary-refresh__list-item
 
@@ -769,8 +763,8 @@ github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
 github.com##.border-bottom.mb-5.feed-right-sidebar
 github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
 
-bsky.app##div.css-175oi2r:nth-of-type(22)
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
+bsky.app##.r-13awgt0.css-175oi2r > .r-1pi2tsx.css-175oi2r > div.css-175oi2r > .css-175oi2r > .r-sa2ff0.r-13qz1uu.r-1ye8kvj.r-lchren.r-1jj8364.r-13l2t4g.r-1ljd8xs.css-175oi2r > div.css-175oi2r:has-text(Suggested for you)
 
 hoyoverse.com##.home-btn-container
 
@@ -839,7 +833,6 @@ x.com##a:has-text(Communities)
 x.com##a:has-text(Verified Orgs)
 x.com##[aria-label$="trending now" i]
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Show more)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
 x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
@@ -856,6 +849,7 @@ x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-1jx8gzb.r-1h0z5md.r-kemksi.r-qocrb3.css-1
 reddit.com##.w-full.masthead
 reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
 
+proton.me##.bg-promotion
 proton.me##.button-promotion
 proton.me##.spotlight:has-text(Upgrade)
 proton.me##.topnav-listItem:has-text(Upgrade)
