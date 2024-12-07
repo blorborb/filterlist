@@ -187,6 +187,7 @@ _clickadu_$important
 ||dotmetrics.$important
 ||dw-api.servicecloudweb.com/*/event
 ||dwt.soundcloud.com^
+||eko.com^
 ||emailsys1a.net^
 ||events.reddit.com^$important
 ||events.redditmedia.com^$important
@@ -247,6 +248,7 @@ _clickadu_$important
 ||storage.googleapis.com/gsf-scripts/global-remarketing/
 ||stripe.com/ajax/metrics_batch
 ||tc.cdnhub.co/not-found/
+||threadai.zip^
 ||transcend-cdn.com/*/airgap.js$important
 ||twimg.com*/shared~loader.EventSummaryHandler
 ||twimg.com*CarouselScroller
@@ -666,9 +668,11 @@ yu8s.live
 @@||coveryourtracks.eff.org/static/dist/fp2.*.js
 @@||firstpartysimulator.org/static/dist/fp2.*.js
 
+youtube.com###country-code
 youtube.com###sponsor-button
 youtube.com##ytd-radio-renderer
 youtube.com##ytd-radio-renderer
+youtube.com###search-icon-legacy
 youtube.com###voice-search-button
 youtube.com##.smartimation__border
 youtube.com###structured-description
@@ -685,6 +689,7 @@ youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
 youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 youtube.com##ytd-rich-item-renderer:has([href$="start_radio=1"])
 youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+youtube.com###header > .ytd-rich-grid-renderer:has-text(New to you)
 youtube.com##.ytp-right-controls > button.ytp-button:nth-of-type(7)
 youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
 youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
@@ -699,7 +704,9 @@ youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-ty
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
+youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(clips)
 youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
+youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(Your videos)
 
 www.miruro.*##.sc-dRlUCX
 www.miruro.*##.sc-lgprfV
@@ -729,11 +736,11 @@ anilist.co##.data-set.el-tooltip
 anilist.co##a.link:has-text(Watch)
 anilist.co##a.link:has-text(forum)
 anilist.co##div.data-set:has-text(Romaji)
+anilist.co##div.desktop:has-text(Activity)
 anilist.co##div.data-set:has-text(Hashtag)
 anilist.co##div.data-set:has-text(Favorites)
+anilist.co##[href="/user/blorborb/mangalist"]
 anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
-
-www.instagram.com##.xzkaem6.x1n2onr6
 
 fandom.com##.mbox
 fandom.com###p-views
@@ -763,8 +770,8 @@ wikipedia.org##.invite.mw-mmv-ttf-ellipsis-container
 genius.com##.header-nav_menu
 
 github.com##.js-for-you-feed-items
-github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
 github.com##.border-bottom.mb-5.feed-right-sidebar
+github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
 github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
 
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
@@ -830,6 +837,7 @@ carrd.co###credits
 
 x.com###wtf
 x.com###trends
+x.com##a:has-text(Grok)
 x.com##a:has-text(Jobs)
 x.com##.r-k200y.r-16dba41
 x.com##a:has-text(Premium)
@@ -837,6 +845,7 @@ x.com##a:has-text(Communities)
 x.com##a:has-text(Verified Orgs)
 x.com##[aria-label$="trending now" i]
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pyrocynical)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
 x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
@@ -849,6 +858,7 @@ x.com##div.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new 
 x.com##div.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
 x.com##article [aria-label^="Follow Topic"], [aria-label^="Recommended Topic" i]:upward(article)
 x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to make your timeline better.)
+x.com##.r-iyfy8q.r-1064s9p.r-ttdzmv.r-1c7gwzm.r-1c4vpko.r-kzbkwu.r-18u37iz.r-6koalj.r-1xfd6ze.css-175oi2r:has-text(Your likes are private)
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-1jx8gzb.r-1h0z5md.r-kemksi.r-qocrb3.css-175oi2r > div.css-175oi2r > div.css-175oi2r:has-text(Monetization)
 
 reddit.com##.w-full.masthead
