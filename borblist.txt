@@ -625,6 +625,7 @@ yu8s.live
 ###footer
 ###footer-block
 ###footer-wrap
+###footer-wrapper
 ###ghost-newsletter
 ###infinite-footer
 ###js-banner-eizo
@@ -684,27 +685,31 @@ youtube.com##.ytp-button.ytp-next-button
 youtube.com##.ytd-download-button-renderer
 youtube.com##.ytp-button.ytp-miniplayer-button
 youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
-youtube.com##span.bold.yt-formatted-string:has-text(products)
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+youtube.com##span.bold.yt-formatted-string:has-text(products)
 youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 youtube.com##ytd-rich-item-renderer:has([href$="start_radio=1"])
 youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
-youtube.com###header > .ytd-rich-grid-renderer:has-text(New to you)
-youtube.com##.ytp-right-controls > button.ytp-button:nth-of-type(7)
 youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
+youtube.com##.ytp-right-controls > button.ytp-button:nth-of-type(7)
+youtube.com###header > .ytd-rich-grid-renderer:has-text(New to you)
 youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 youtube.com##ytd-menu-service-item-download-renderer.ytd-menu-popup-renderer
+youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(New to you)
 youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(slop)
 youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(Hawk)
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
-youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
-youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(first)
+youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(First)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
 youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(clips)
+youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(if you liked this video)
 youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(Your videos)
 
@@ -845,6 +850,7 @@ x.com##a:has-text(Communities)
 x.com##a:has-text(Verified Orgs)
 x.com##[aria-label$="trending now" i]
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
+x.com##div.r-16y2uox.r-cpa5s6:has-text(Highlights)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pyrocynical)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
