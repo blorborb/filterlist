@@ -560,6 +560,7 @@ yu8s.live
 ##.cookie-notification
 ##.CookieConsent_cookieConsent__pIj_y
 ##.cookiefooter
+##.cookieTip
 ##.cookies-modal
 ##.csbannertrackevent
 ##.DAnUZ
@@ -569,6 +570,7 @@ yu8s.live
 ##.features-card
 ##.footer-copywrite
 ##.footer-crm
+##.footer-list
 ##.footer-ranking
 ##.formkit-form
 ##.ga-impression.bottom-bar
@@ -583,6 +585,7 @@ yu8s.live
 ##.js_sticky-second-scroll
 ##.js_suggested-stories
 ##.l-footer
+##.mailchimp
 ##.marketing-content
 ##.microapp-slot-innova
 ##.newsletter
