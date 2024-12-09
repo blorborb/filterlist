@@ -167,6 +167,8 @@ _clickadu_$important
 ||bigdata.ssp.samsung.com^$important
 ||bitmovin.$important
 ||btloader.$important
+||c1.neweggimages.com/tapa/$image,3p
+||c1.neweggimages.com/webresource/themes/Nest/banners/$image,3p
 ||cdn.ampproject.org^
 ||cdn77.org^$important
 ||cdnjs.cloudflare.com/ajax/libs/Chart*
@@ -666,6 +668,7 @@ yu8s.live
 @@*Symbol*$font,css
 @@/font-awesome
 @@/icomoon
+@@/Themes/*$font,css
 @@/wp-content/themes$font
 @@||cdnjs.cloudflare.com/ajax/libs/*/skins/
 @@||fontawesome.com
@@ -842,10 +845,15 @@ x.com##.r-iyfy8q.css-175oi2r:has-text(Your likes are private)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
+x.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-3pj75a.r-w7s2jr.css-175oi2r
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
 x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
+x.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-3pj75a.r-1mmae3n.r-1wtj0ep.css-175oi2r
 x.com##.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new Communities)
 x.com##.r-1ye8kvj.css-175oi2r > .css-175oi2r > .css-175oi2r > .css-175oi2r:has-text(Monetization)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to make your timeline better.)
+x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx.r-16y2uox.r-1awozwy.css-175oi2r:has-text(Something went wrong. Try reloading.)
 
 reddit.com##.w-full.masthead
 reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
@@ -866,3 +874,7 @@ www.reddit.com##faceplate-tracker:has-text(TOPICS)
 www.reddit.com##faceplate-tracker:has-text(Advertise)
 www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
 www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
+
+www.newegg.com##.price-financing-box
+www.newegg.com##.order-cutoffs.page-bar
+www.newegg.com##.items-grid-view:has-text(Sponsored)
