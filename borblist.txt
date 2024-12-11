@@ -250,6 +250,7 @@ _clickadu_$important
 ||tc.cdnhub.co/not-found/
 ||threadai.zip^
 ||transcend-cdn.com/*/airgap.js$important
+||trustedcareaccess.com^
 ||twimg.com*/shared~loader.EventSummaryHandler
 ||twimg.com*CarouselScroller
 ||vntsm.$important
@@ -841,6 +842,7 @@ x.com##.r-k200y.r-16dba41
 x.com##a:has-text(Premium)
 x.com##a:has-text(Communities)
 x.com##a:has-text(Verified Orgs)
+x.com##[aria-label="Grok actions"]
 x.com##div.r-1ifxtd0.r-rs99b7.css-175oi2r
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Highlights)
@@ -851,12 +853,13 @@ x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
 x.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-3pj75a.r-w7s2jr.css-175oi2r
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-kemksi.css-175oi2r
 x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
 x.com##.r-14gqq1x.r-is05cd.r-cnw61z.r-1wbh5a2.r-1xfd6ze.r-z32n2g.r-1habvwh.css-175oi2r
-x.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-3pj75a.r-1mmae3n.r-1wtj0ep.css-175oi2r
 x.com##.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new Communities)
 x.com##.r-1ye8kvj.css-175oi2r > .css-175oi2r > .css-175oi2r > .css-175oi2r:has-text(Monetization)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
+x.com##.r-1loqt21.r-enhg6t.r-1537yvj.r-1cwl3u0.r-n6v787.r-poiln3.r-qvutc0.r-1ttztb7.r-bcqeeo.css-1jxf684
 x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to make your timeline better.)
 x.com##.r-1q142lx.r-18u37iz.r-xoduu5.r-16dba41.r-rjixqe.r-a023e6.r-1qd0xha.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
 x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx.r-16y2uox.r-1awozwy.css-175oi2r:has-text(Something went wrong. Try reloading.)
