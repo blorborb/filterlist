@@ -7,7 +7,6 @@ _clickadu_$important
 -h5log
 ?analytics
 ?fingerprint
-?locale=en-DK
 ?metrics
 ?modules=KeyframesRenderer
 .click$important
@@ -85,7 +84,6 @@ _clickadu_$important
 /identity-service
 /InnovaMicroAppNuxt
 /language-cookie.
-/laylo-sdk.js
 /location
 /loginmanager_sniff.
 /logstreamz
@@ -133,7 +131,6 @@ _clickadu_$important
 /youtubei/v1/updated_metadata
 &adcontext
 &adformat
-&locale=en_DK
 =metrics
 ||/api/fingerprint/
 ||3blackdot.com/browsing_context_suggestions.json?source=geolocation_recommendation
@@ -851,7 +848,6 @@ x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
 x.com##.r-9iso6.r-poiln3.r-qvutc0.r-1ttztb7.r-bcqeeo.css-1jxf684
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
-x.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-3pj75a.r-w7s2jr.css-175oi2r
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-kemksi.css-175oi2r
 x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
