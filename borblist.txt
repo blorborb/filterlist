@@ -9,7 +9,6 @@ _clickadu_$important
 ?fingerprint
 ?metrics
 ?modules=KeyframesRenderer
-.click$important
 .cmp
 .open
 .snowplow
