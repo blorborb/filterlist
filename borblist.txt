@@ -156,6 +156,8 @@ _clickadu_$important
 ||apis.google.com/js/rpc:shindig_random.js?onload=init
 ||app.wiki.gg/public/$image
 ||appsgrowthpromo-pa.clients6.google.com
+||assets.twitch.tv/assets/features.ads
+||assets.twitch.tv/assets/features.upsell
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
 ||azure.com/scripts/*/*analytics$important
 ||bigdata.ssp.samsung.com^$important
@@ -553,8 +555,10 @@ yu8s.live
 ##.bottom-banner-area
 ##.button-promotion
 ##.c-footer
+##.c-footer
 ##.caas__footer--content
 ##.chatbot
+##.consent-banner
 ##.Cookie
 ##.cookie-consent-overlay
 ##.cookie-notification
@@ -581,6 +585,7 @@ yu8s.live
 ##.global-footer
 ##.go-plus
 ##.grecaptcha-badge
+##.input-newsletter
 ##.is-verified-accounts.g-profile__card
 ##.js_more-below-post
 ##.js_sticky-second-scroll
@@ -602,6 +607,7 @@ yu8s.live
 ##.rh-cta
 ##.shopify-section-group-footer-group
 ##.site-footer
+##.site-product-campaign-text
 ##.slice-container-newsletterForm
 ##.stack__ads
 ##.sticky-footer
@@ -680,6 +686,7 @@ yu8s.live
 @@||firstpartysimulator.org/static/dist/fp2.*.js
 
 www.youtube.com###sponsor-button
+www.youtube.com###mealbar-promo-renderer
 www.youtube.com###structured-description
 www.youtube.com##.ytp-paid-content-overlay
 www.youtube.com##.ytp-button.ytp-size-button
@@ -809,6 +816,8 @@ spotify.com##.MKCgGhu_c8l6hsVuee46.Shelf.QyANtc_r7ff_tqrf5Bvc.SsbbQFeJun2Ts_EIkt
 
 www.idrlabs.com###test-agreement
 
+discord.com##.upsellContainer_ad7baa
+discord.com##.tryItOutSection_eb2d2c
 discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad:nth-of-type(1)
 
 www.aliexpress.com##._3KrBP
@@ -820,15 +829,17 @@ lenovo.com##.partsPspBannerBox
 www.twitch.tv##.top-nav__prime
 www.twitch.tv##.disclosure-tool
 
-www.amazon.com##hr
-www.amazon.com###rhf
-www.amazon.com###navFooter
-www.amazon.com##.bucketDivider
-www.amazon.com###gridgetWrapper
-www.amazon.com##.a-divider-normal
-www.amazon.com###avs-iwa_feature_div
-www.amazon.com###va-related-videos-widget_feature_div
-www.amazon.com##.nav-flyout.nav-coreFlyout.glow-toaster-slot-default.glow-toaster-theme-default.glow-toaster.a-section
+www.amazon.*##hr
+www.amazon.*###rhf
+www.amazon.*###sp-cc
+www.amazon.*###navFooter
+www.amazon.*##.desktop-row
+www.amazon.*###gridgetWrapper
+www.amazon.*###avs-iwa_feature_div
+www.amazon.*##.copilot-secure-display
+www.amazon.*###va-related-videos-widget_feature_div
+www.amazon.*###nav-flyout-anchor:has-text(Change Address)
+www.amazon.*##div#similarities_feature_div.celwidget:has-text(Customers who bought this item also bought)
 
 www.google.com##.audio-button-holder
 
@@ -902,7 +913,7 @@ www.newegg.com##.items-grid-view:has-text(Sponsored)
 www.newegg.com##div.page-section > .page-content-inner > .col-w-2.gap-20px.grid
 newegg.com##.swiper-container-free-mode.swiper-container-initialized.swiper-container-horizontal.swiper-container
 
-www.proshop.dk##.site-background-banner
+www.proshop.*##.site-background-banner
 
 x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok yourself)
 
