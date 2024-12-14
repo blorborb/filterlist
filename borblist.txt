@@ -553,8 +553,10 @@ yu8s.live
 ##.bottom-banner-area
 ##.button-promotion
 ##.c-footer
+##.caas__footer--content
 ##.chatbot
 ##.Cookie
+##.cookie-consent-overlay
 ##.cookie-notification
 ##.CookieConsent_cookieConsent__pIj_y
 ##.cookiefooter
@@ -593,6 +595,7 @@ yu8s.live
 ##.newsub-box
 ##.offer-modal
 ##.page_footer
+##.page-footer
 ##.privacy_popup
 ##.promotedlink
 ##.relative.footer
@@ -684,6 +687,7 @@ www.youtube.com##.ytp-button.ytp-next-button
 www.youtube.com##.ytd-download-button-renderer
 www.youtube.com##.lockup.ytd-item-section-renderer
 www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com###expandable-metadata:has-text(Summary)
 www.youtube.com##ytd-rich-item-renderer:has-text(Mix – )
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
@@ -859,8 +863,9 @@ x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to
 x.com##.r-1q142lx.r-18u37iz.r-xoduu5.r-16dba41.r-rjixqe.r-a023e6.r-1qd0xha.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
 x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx.r-16y2uox.r-1awozwy.css-175oi2r:has-text(Something went wrong. Try reloading.)
 
-reddit.com##.w-full.masthead
-reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
+www.reddit.com##.w-full.masthead
+www.reddit.com##shreddit-async-loader:has-text(Cookie Notice)
+www.reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
 
 proton.me##.bg-promotion
 proton.me##.button-promotion
@@ -896,3 +901,20 @@ www.newegg.com##section.bento-grid-s:nth-of-type(4)
 www.newegg.com##.items-grid-view:has-text(Sponsored)
 www.newegg.com##div.page-section > .page-content-inner > .col-w-2.gap-20px.grid
 newegg.com##.swiper-container-free-mode.swiper-container-initialized.swiper-container-horizontal.swiper-container
+
+www.proshop.dk##.site-background-banner
+
+x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok yourself)
+
+www.imdb.com##.cTZHLL
+www.imdb.com##.imdb-footer
+www.imdb.com##.navbar__imdbpro
+www.imdb.com##.ipc-metadata-list__item:has-text(IMDbPro)
+www.imdb.com##.ipc-page-grid__item:has-text(More to explore)
+www.imdb.com##.navbar__coachmark--fadeIn.navbar__coachmark:has-text(New Customer?)
+www.imdb.com##li.ipc-metadata-list-item--link.ipc-metadata-list__item:has-text(Stars)
+www.imdb.com##.celwidget.ipc-page-section--base.ipc-page-section:has-text(Related news)
+www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Top picks)
+www.imdb.com##.ipc-coachmark.ipc-list-card.ipc-list-card--base:has-text(Language preference)
+www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Did you know)
+www.imdb.com##.ipc-page-content-container--center.ipc-page-content-container:has-text(Recently viewed)
