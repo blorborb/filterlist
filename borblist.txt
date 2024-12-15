@@ -701,14 +701,18 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
 www.youtube.com##span.bold.yt-formatted-string:has-text(products)
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+www.youtube.com###header > .ytd-rich-grid-renderer:has-text(New to you)
 www.youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer:has-text(M)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(My Mix)
 www.youtube.com##ytd-menu-service-item-download-renderer.ytd-menu-popup-renderer
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(New to you)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
