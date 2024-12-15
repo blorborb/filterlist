@@ -258,6 +258,8 @@ _clickadu_$important
 ||www.figma.com/api/web_logger/
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
 ||www.google.com/recaptcha/api2/webworker.js$important
+||www.gstatic.com/*/firebase-analytics.js
+||www.gstatic.com/*/firebase-messaging.js
 ||www.gstatic.com/*/m=view
 ||www.gstatic.com/cv/js/sender/v1/cast_sender.js
 ||www.gstatic.com/recaptcha/api2/audio$image,important
@@ -548,6 +550,7 @@ yu8s.live
 ##.announcement-bar
 ##.announcements-bar
 ##.ask_create_booth
+##.banner-250
 ##.banner_ads
 ##.banner-ads
 ##.bg-promotion
@@ -734,7 +737,6 @@ www.miruro.tv##.sc-iDAWOb > div:nth-child(2) > div:nth-child(2)
 www.miruro.tv##.sc-fijUiK > div:nth-child(1) > div:nth-child(1) > div:nth-child(4)
 
 anilist.co##.watch
-anilist.co##.shadow
 anilist.co##.trailer
 anilist.co##.episodes
 anilist.co##.rankings
@@ -853,12 +855,12 @@ x.com###wtf
 x.com###trends
 x.com##a:has-text(Grok)
 x.com##a:has-text(Jobs)
-x.com##.r-k200y.r-16dba41
 x.com##a:has-text(Premium)
 x.com##a:has-text(Communities)
 x.com##a:has-text(Verified Orgs)
 x.com##[aria-label="Grok actions"]
 x.com##div.r-1ifxtd0.r-rs99b7.css-175oi2r
+x.com##[aria-label="undefined unread items"]
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Highlights)
 x.com##.r-iyfy8q.css-175oi2r:has-text(Your likes are private)
@@ -869,8 +871,11 @@ x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .css-175oi2r > .r-kemksi.css-175oi2r
 x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
+x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok yourself)
 x.com##.r-14gqq1x.r-is05cd.r-cnw61z.r-1wbh5a2.r-1xfd6ze.r-z32n2g.r-1habvwh.css-175oi2r
 x.com##.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new Communities)
+x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(posted)
+x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(Tweeted)
 x.com##.r-1ye8kvj.css-175oi2r > .css-175oi2r > .css-175oi2r > .css-175oi2r:has-text(Monetization)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1loqt21.r-enhg6t.r-1537yvj.r-1cwl3u0.r-n6v787.r-poiln3.r-qvutc0.r-1ttztb7.r-bcqeeo.css-1jxf684
@@ -918,8 +923,6 @@ www.newegg.com##div.page-section > .page-content-inner > .col-w-2.gap-20px.grid
 newegg.com##.swiper-container-free-mode.swiper-container-initialized.swiper-container-horizontal.swiper-container
 
 www.proshop.*##.site-background-banner
-
-x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok yourself)
 
 www.imdb.com##.cTZHLL
 www.imdb.com##.imdb-footer
