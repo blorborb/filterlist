@@ -873,7 +873,9 @@ x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-t
 x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(Tweeted)
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ye8kvj.css-175oi2r > .css-175oi2r > .css-175oi2r > .css-175oi2r:has-text(Monetization)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to make your timeline better.)
+x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-175oi2r:has-text(What’s happening)
 x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx.r-16y2uox.r-1awozwy.css-175oi2r:has-text(Something went wrong. Try reloading.)
 
 www.reddit.com##.w-full.masthead
