@@ -762,9 +762,10 @@ fandom.com###WikiaBar
 fandom.com##.WikiaRail
 fandom.com##.page-counter
 fandom.com##.page__right-rail
-fandom.com##.global-navigation
 fandom.com##.sitenotice-wrapper
+fandom.com##.global-top-navigation
 fandom.com##.page-side-tools__wrapper
+fandom.com##.global-explore-navigation
 fandom.com##.global-registration-buttons
 fandom.com##.wds-button-group.wiki-tools
 
