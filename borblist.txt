@@ -609,6 +609,7 @@ yu8s.live
 ##.relative.footer
 ##.rh-cta
 ##.shopify-section-group-footer-group
+##.site-bannerCampaignElement
 ##.site-footer
 ##.site-product-campaign-text
 ##.slice-container-newsletterForm
@@ -717,6 +718,7 @@ www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-o
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(Your videos)
@@ -865,6 +867,7 @@ x.com##.r-iyfy8q.css-175oi2r:has-text(Your likes are private)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Go ad-free with Premium)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
 x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
 x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok yourself)
@@ -931,3 +934,5 @@ www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text
 www.imdb.com##.ipc-coachmark.ipc-list-card.ipc-list-card--base:has-text(Language preference)
 www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Did you know)
 www.imdb.com##.ipc-page-content-container--center.ipc-page-content-container:has-text(Recently viewed)
+
+camelcamelcamel.com###camelizer_top_promo
