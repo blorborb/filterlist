@@ -861,6 +861,7 @@ x.com##a:has-text(Premium)
 x.com##a:has-text(Communities)
 x.com##a:has-text(Verified Orgs)
 x.com##[aria-label="Grok actions"]
+x.com##[aria-label="Generate image"]
 x.com##[aria-label="undefined unread items"]
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
 x.com##div.r-16y2uox.r-cpa5s6:has-text(Highlights)
@@ -937,3 +938,5 @@ www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text
 www.imdb.com##.ipc-page-content-container--center.ipc-page-content-container:has-text(Recently viewed)
 
 camelcamelcamel.com###camelizer_top_promo
+
+www.pricerunner.*##div.pr-1u8qly9:has-text(ANNONCE)
