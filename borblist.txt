@@ -1,6 +1,415 @@
 ! title: borbs personal list
 ! Expires: 12 hours
 
+fanme.link##.css-imj3yb > div:has-text(FANME)
+
+www.pricerunner.*##div.pr-1u8qly9:has-text(ANNONCE)
+
+camelcamelcamel.com###camelizer_top_promo
+
+www.imdb.com##.ipc-page-content-container--center.ipc-page-content-container:has-text(Recently viewed)
+www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Did you know)
+www.imdb.com##.ipc-coachmark.ipc-list-card.ipc-list-card--base:has-text(Language preference)
+www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Top picks)
+www.imdb.com##.celwidget.ipc-page-section--base.ipc-page-section:has-text(Related news)
+www.imdb.com##li.ipc-metadata-list-item--link.ipc-metadata-list__item:has-text(Stars)
+www.imdb.com##.navbar__coachmark--fadeIn.navbar__coachmark:has-text(New Customer?)
+www.imdb.com##.ipc-page-grid__item:has-text(More to explore)
+www.imdb.com##.ipc-metadata-list__item:has-text(IMDbPro)
+www.imdb.com##.navbar__imdbpro
+www.imdb.com##.imdb-footer
+www.imdb.com##.cTZHLL
+
+www.proshop.*##.site-background-banner
+
+newegg.com##.swiper-container-free-mode.swiper-container-initialized.swiper-container-horizontal.swiper-container
+www.newegg.com##div.page-section > .page-content-inner > .col-w-2.gap-20px.grid
+www.newegg.com##.items-grid-view:has-text(Sponsored)
+www.newegg.com##section.bento-grid-s:nth-of-type(4)
+www.newegg.com##section.bento-grid-s:nth-of-type(3)
+www.newegg.com##.product-wrap > div:nth-of-type(7)
+www.newegg.com##.columns_3-5_row_2-3.bento-grid-m
+www.newegg.com##.columns_1-3_row_1-2.bento-grid-m
+www.newegg.com##.holiday-swiper.bento-grid-s
+newegg.com##.header2021-links.section-right
+www.newegg.com###homepage-featuredBrands
+www.newegg.com##.order-cutoffs.page-bar
+www.newegg.com##.col-w-1.gap-20px.grid
+newegg.com##.tag-list.header-trending
+www.newegg.com##.price-financing-box
+www.newegg.com###neweggFeatures
+newegg.com###personalization
+
+www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
+www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
+www.reddit.com##faceplate-tracker:has-text(Advertise)
+www.reddit.com##faceplate-tracker:has-text(TOPICS)
+www.reddit.com##hr.border-neutral-border-weak
+www.reddit.com###get-app
+www.reddit.com##hr.my-sm
+www.reddit.com###TOPICS
+
+proton.me##.collapsible-header--clickable:has-text(Get mobile apps)
+proton.me##.border.items-center.flex:has-text(Upgrade)
+proton.me##li.dropdown-item:has-text(Upgrade)
+proton.me##.topnav-listItem:has-text(Upgrade)
+proton.me##.spotlight:has-text(Upgrade)
+proton.me##.button-promotion
+proton.me##.bg-promotion
+
+www.reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
+www.reddit.com##shreddit-async-loader:has-text(Cookie Notice)
+www.reddit.com##.w-full.masthead
+
+x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
+x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx.r-16y2uox.r-1awozwy.css-175oi2r:has-text(Something went wrong. Try reloading.)
+x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-175oi2r:has-text(What’s happening)
+x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to make your timeline better.)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
+x.com##.r-1ye8kvj.css-175oi2r > .css-175oi2r > .css-175oi2r > .css-175oi2r:has-text(Monetization)
+x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
+x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(Tweeted)
+x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(posted)
+x.com##.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new Communities)
+x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok yourself)
+x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Go ad-free with Premium)
+x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
+x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
+x.com##.r-iyfy8q.css-175oi2r:has-text(Your likes are private)
+x.com##div.r-16y2uox.r-cpa5s6:has-text(Highlights)
+x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
+x.com##[aria-label="undefined unread items"]
+x.com##[aria-label="Generate image"]
+x.com##[aria-label="Grok actions"]
+x.com##a:has-text(Verified Orgs)
+x.com##a:has-text(Communities)
+x.com##a:has-text(Premium)
+x.com##a:has-text(Jobs)
+x.com##a:has-text(Grok)
+x.com###trends
+
+carrd.co###credits
+
+www.google.com##.audio-button-holder
+
+www.amazon.*##div#similarities_feature_div.celwidget:has-text(Customers who bought this item also bought)
+www.amazon.*###nav-flyout-anchor:has-text(Change Address)
+www.amazon.*###va-related-videos-widget_feature_div
+www.amazon.*##.copilot-secure-display
+www.amazon.*###avs-iwa_feature_div
+www.amazon.*###gridgetWrapper
+www.amazon.*##.desktop-row
+www.amazon.*###navFooter
+www.amazon.*###sp-cc
+www.amazon.*###rhf
+www.amazon.*##hr
+
+www.twitch.tv##.disclosure-tool
+www.twitch.tv##.top-nav__prime
+
+lenovo.com##.partsPspBannerBox
+
+www.aliexpress.com##body > div:nth-of-type(12)
+www.aliexpress.com##.cosmos-drawer-wrap
+www.aliexpress.com##._3KrBP
+
+discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad:nth-of-type(1)
+discord.com##.tryItOutSection_eb2d2c
+discord.com##.upsellContainer_ad7baa
+
+www.idrlabs.com###test-agreement
+
+spotify.com##.MKCgGhu_c8l6hsVuee46.Shelf.QyANtc_r7ff_tqrf5Bvc.SsbbQFeJun2Ts_EIktpr
+spotify.com##.encore-text-body-small-bold.iJUiBm.Button-sc-qlcn5g-0
+spotify.com##.main-view-container__mh-footer-container
+spotify.com##li.rQ6LXqVlEOGZdGIG0LgP:nth-of-type(3)
+
+bandcamp.com##.tralbum-tags
+bandcamp.com###user-nav
+
+aternos.org###ulenYrScPGuk
+
+linktr.ee##.bhdLno.jBicvQ
+linktr.ee##.contents
+linktr.ee###TopBar
+
+sourceforge.net##.m-project-related-keywords
+sourceforge.net##.m-wide-projects-widget
+sourceforge.net###share-project-button
+sourceforge.net##.main-nav-button
+sourceforge.net##.m-project-list
+
+game8.co##.p-archiveHeader__count
+game8.co##.p-archiveBreadcrumb
+game8.co##.p-archiveFeedback
+game8.co##.l-3colMain__left
+game8.co##.a-announce
+game8.co##.l-3colSide
+game8.co##.l-header
+game8.co##.c-share
+
+hoyoverse.com##.home-btn-container
+
+bsky.app##.r-13awgt0.css-175oi2r > .r-1pi2tsx.css-175oi2r > div.css-175oi2r > .css-175oi2r > .r-sa2ff0.r-13qz1uu.r-1ye8kvj.r-lchren.r-1jj8364.r-13l2t4g.r-1ljd8xs.css-175oi2r > div.css-175oi2r:has-text(Suggested for you)
+bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
+
+github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
+github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
+github.com##.border-bottom.mb-5.feed-right-sidebar
+github.com##.js-for-you-feed-items
+
+genius.com##.header-nav_menu
+
+wikipedia.org##.invite.mw-mmv-ttf-ellipsis-container
+
+www.pixiv.net##.fmRZHy.sc-1t7vxzj-5
+www.pixiv.net##.lfaZnj.sc-oh3a2p-0
+www.pixiv.net##.fvDibl.sc-74lrq-0
+
+www.tumblr.com##.smX3m
+
+disqus.com##.nav-secondary-refresh__list-item
+disqus.com###reactions__container
+disqus.com##.minimized.post
+disqus.com###main-nav
+
+fandom.com##.wds-button-group.wiki-tools
+fandom.com##.global-registration-buttons
+fandom.com##.global-explore-navigation
+fandom.com##.page-side-tools__wrapper
+fandom.com##.global-top-navigation
+fandom.com##.sitenotice-wrapper
+fandom.com##.page__right-rail
+fandom.com##.page-counter
+fandom.com##.WikiaRail
+fandom.com###WikiaBar
+fandom.com###p-views
+fandom.com##.mbox
+
+anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
+anilist.co##[href="/user/blorborb/mangalist"]
+anilist.co##div.data-set:has-text(Favorites)
+anilist.co##div.data-set:has-text(Hashtag)
+anilist.co##div.desktop:has-text(Activity)
+anilist.co##div.data-set:has-text(Romaji)
+anilist.co##a.link:has-text(forum)
+anilist.co##a.link:has-text(Watch)
+anilist.co##.data-set.el-tooltip
+anilist.co##.external-links
+anilist.co##.recent-reviews
+anilist.co##.recent-threads
+anilist.co##.el-message
+anilist.co##.rankings
+anilist.co##.episodes
+anilist.co##.trailer
+anilist.co##.watch
+
+www.miruro.tv##.sc-fijUiK > div:nth-child(1) > div:nth-child(1) > div:nth-child(4)
+www.miruro.tv##.sc-iDAWOb > div:nth-child(2) > div:nth-child(2)
+www.miruro.tv##.hajhDX.sc-lbZXOw > .eibgdF.sc-dKeGJQ
+www.miruro.tv##button.vds-button:nth-of-type(11)
+www.miruro.tv##button.vds-button:nth-of-type(8)
+www.miruro.tv##button.vds-button:nth-of-type(7)
+www.miruro.tv##button.vds-button:nth-of-type(5)
+www.miruro.tv##button.vds-button:nth-of-type(4)
+www.miruro.tv##button.vds-button:nth-of-type(3)
+www.miruro.tv##button.sc-geXuza:nth-child(3)
+www.miruro.tv##button.shortcuts-button
+www.miruro.tv##.vds-volume
+www.miruro.tv##.sc-lgprfV
+www.miruro.tv##.sc-dRlUCX
+
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(Your videos)
+www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
+www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
+www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
+www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(New to you)
+www.youtube.com##ytd-menu-service-item-download-renderer.ytd-menu-popup-renderer
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(My Mix)
+www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
+www.youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
+www.youtube.com###header > .ytd-rich-grid-renderer:has-text(New to you)
+www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
+www.youtube.com##span.bold.yt-formatted-string:has-text(products)
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
+www.youtube.com##ytd-rich-item-renderer:has-text(Mix – )
+www.youtube.com###expandable-metadata:has-text(Summary)
+www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com##.lockup.ytd-item-section-renderer
+www.youtube.com##.ytd-download-button-renderer
+www.youtube.com##.ytp-button.ytp-next-button
+www.youtube.com##.ytp-button.ytp-size-button
+www.youtube.com##.ytp-paid-content-overlay
+www.youtube.com###structured-description
+www.youtube.com###mealbar-promo-renderer
+www.youtube.com###sponsor-button
+
+! Breaks? many sites
+*font*$font,css,script,3p
+*otf*$css,font,3p
+*ttf*$css,font,3p
+*woff*$css,font,3p
+||amazonaws.com^$font,3p
+||bootstrapcdn.com^$font,3p
+||edgefonts.net^$3p
+||fastly.net^$font,3p
+||google.com/swg/$font,css,3p
+||gotraffic.net^$font,3p
+||qmerce.com/assets/$font,3p
+||type*$font,css,3p
+
+@@*Icon*$font,css
+@@*Symbol*$font,css
+@@/font-awesome
+@@/icomoon
+@@/Themes/*$font,css
+@@/wp-content/themes$font
+@@||cdnjs.cloudflare.com/ajax/libs/*/skins/
+@@||fontawesome.com
+
+@@||coveryourtracks.eff.org/static/dist/fp2.*.js
+@@||firstpartysimulator.org/static/dist/fp2.*.js
+
+##.--framer-cookie-banner-container
+##.a-ads
+##.a8c-cookie-banner
+##.ad-parent
+##.ad-slot-header__wrapper
+##.ad-unit-wrapper
+##.announcement-bar
+##.announcements-bar
+##.ask_create_booth
+##.banner-250
+##.banner_ads
+##.banner-ads
+##.bg-promotion
+##.block-widget.widget
+##.bottom-banner-area
+##.button-promotion
+##.c-footer
+##.c-footer
+##.caas__footer--content
+##.chatbot
+##.consent-banner
+##.Cookie
+##.cookie-consent-overlay
+##.cookie-notification
+##.CookieConsent_cookieConsent__pIj_y
+##.cookiefooter
+##.cookies-modal
+##.cookieTip
+##.csbannertrackevent
+##.cta-notify.banner-global
+##.customers-also
+##.DAnUZ
+##.desktop-content-ad-container
+##.DiscordIntegrator
+##.elementor-location-footer
+##.features-card
+##.footer-copywrite
+##.footer-crm
+##.footer-list
+##.footer-ranking
+##.formkit-form
+##.g-footer
+##.g-profile__qr-code-btn
+##.g-profile__verified-accounts > span
+##.ga-impression.bottom-bar
+##.global-footer
+##.go-plus
+##.grecaptcha-badge
+##.input-newsletter
+##.is-verified-accounts.g-profile__card
+##.js_more-below-post
+##.js_sticky-second-scroll
+##.js_suggested-stories
+##.l-footer
+##.mailchimp
+##.marketing-content
+##.microapp-slot-innova
+##.newsletter
+##.newsletter-container
+##.newsletter-section
+##.newsub-box
+##.offer-modal
+##.page_footer
+##.page-footer
+##.privacy_popup
+##.promotedlink
+##.relative.footer
+##.rh-cta
+##.shopify-section-group-footer-group
+##.site-bannerCampaignElement
+##.site-footer
+##.site-product-campaign-text
+##.slice-container-newsletterForm
+##.stack__ads
+##.sticky-footer
+##.subscribe-box-inner
+##.svelte-1h1i54z.includeWrapper
+##.svelte-deweka.tc-capture-kit-wrapper
+##.ta-campaign-widget
+##.ta-campaign-widget__popup-wrapper
+##.text_promo
+##.uma-hero
+##.v-footer
+##.v-snack
+##.widget_block.widget
+##.zone__ads
+###__external__footer
+###__ZONE__footer
+###auth-unit-container
+###cmp-app-container
+###colophon
+###cookie-announcement
+###cookieDialog
+###cozyCRModal
+###default-ads
+###discountBanner
+###discountBanner-sidebar
+###eu_cookie_law_widget-2
+###footer
+###footer-block
+###footer-wrap
+###footer-wrapper
+###ghost-newsletter
+###infinite-footer
+###js-banner-eizo
+###marketingbar
+###mh-footer
+###newsletter
+###ot-sdk-btn
+###Page_Footer_Full
+###Page_Footer_LP
+###pgFt
+###pojo-a11y-toolbar
+###secondscroll_sidebar_wrapper
+###shopify-section-announcement-bar
+###shopify-section-footer
+###shopify-section-q-footer
+###uptodown-turbo-promo
+##floating-auth-unit-container
+##page-footer
+##shop-login-button
+##shopify-payment-terms
+
+*$important,font,image,media,xhr,redirect-rule=nooptext
+*$important,frame,redirect-rule=noop.html
+*$important,script,redirect-rule=noop.js
+*$important,css,redirect-rule=noop.css
+
 _clickadu_$important
 -adfuel-$important
 -fp
@@ -535,408 +944,3 @@ whorls.js
 widgets.pinterest.com
 yandexadexchange.
 yu8s.live
-
-*$important,css,redirect-rule=noop.css
-*$important,script,redirect-rule=noop.js
-*$important,frame,redirect-rule=noop.html
-*$important,font,image,media,xhr,redirect-rule=nooptext
-
-##.--framer-cookie-banner-container
-##.a-ads
-##.a8c-cookie-banner
-##.ad-parent
-##.ad-slot-header__wrapper
-##.ad-unit-wrapper
-##.announcement-bar
-##.announcements-bar
-##.ask_create_booth
-##.banner-250
-##.banner_ads
-##.banner-ads
-##.bg-promotion
-##.block-widget.widget
-##.bottom-banner-area
-##.button-promotion
-##.c-footer
-##.c-footer
-##.caas__footer--content
-##.chatbot
-##.consent-banner
-##.Cookie
-##.cookie-consent-overlay
-##.cookie-notification
-##.CookieConsent_cookieConsent__pIj_y
-##.cookiefooter
-##.cookies-modal
-##.cookieTip
-##.csbannertrackevent
-##.customers-also
-##.DAnUZ
-##.desktop-content-ad-container
-##.DiscordIntegrator
-##.elementor-location-footer
-##.features-card
-##.footer-copywrite
-##.footer-crm
-##.footer-list
-##.footer-ranking
-##.formkit-form
-##.g-footer
-##.g-profile__qr-code-btn
-##.g-profile__verified-accounts > span
-##.ga-impression.bottom-bar
-##.global-footer
-##.go-plus
-##.grecaptcha-badge
-##.input-newsletter
-##.is-verified-accounts.g-profile__card
-##.js_more-below-post
-##.js_sticky-second-scroll
-##.js_suggested-stories
-##.l-footer
-##.mailchimp
-##.marketing-content
-##.microapp-slot-innova
-##.newsletter
-##.newsletter-container
-##.newsletter-section
-##.newsub-box
-##.offer-modal
-##.page_footer
-##.page-footer
-##.privacy_popup
-##.promotedlink
-##.relative.footer
-##.rh-cta
-##.shopify-section-group-footer-group
-##.site-bannerCampaignElement
-##.site-footer
-##.site-product-campaign-text
-##.slice-container-newsletterForm
-##.stack__ads
-##.sticky-footer
-##.subscribe-box-inner
-##.svelte-1h1i54z.includeWrapper
-##.svelte-deweka.tc-capture-kit-wrapper
-##.ta-campaign-widget
-##.ta-campaign-widget__popup-wrapper
-##.text_promo
-##.uma-hero
-##.v-footer
-##.v-snack
-##.widget_block.widget
-##.zone__ads
-###__external__footer
-###__ZONE__footer
-###auth-unit-container
-###cmp-app-container
-###colophon
-###cookie-announcement
-###cookieDialog
-###cozyCRModal
-###default-ads
-###discountBanner
-###discountBanner-sidebar
-###eu_cookie_law_widget-2
-###footer
-###footer-block
-###footer-wrap
-###footer-wrapper
-###ghost-newsletter
-###infinite-footer
-###js-banner-eizo
-###marketingbar
-###mh-footer
-###newsletter
-###ot-sdk-btn
-###Page_Footer_Full
-###Page_Footer_LP
-###pgFt
-###pojo-a11y-toolbar
-###secondscroll_sidebar_wrapper
-###shopify-section-announcement-bar
-###shopify-section-footer
-###shopify-section-q-footer
-###uptodown-turbo-promo
-##floating-auth-unit-container
-##page-footer
-##shop-login-button
-##shopify-payment-terms
-
-! Breaks? many sites
-*font*$font,css,script,3p
-*otf*$css,font,3p
-*ttf*$css,font,3p
-*woff*$css,font,3p
-||amazonaws.com^$font,3p
-||bootstrapcdn.com^$font,3p
-||edgefonts.net^$3p
-||fastly.net^$font,3p
-||google.com/swg/$font,css,3p
-||gotraffic.net^$font,3p
-||qmerce.com/assets/$font,3p
-||type*$font,css,3p
-
-@@*Icon*$font,css
-@@*Symbol*$font,css
-@@/font-awesome
-@@/icomoon
-@@/Themes/*$font,css
-@@/wp-content/themes$font
-@@||cdnjs.cloudflare.com/ajax/libs/*/skins/
-@@||fontawesome.com
-
-@@||coveryourtracks.eff.org/static/dist/fp2.*.js
-@@||firstpartysimulator.org/static/dist/fp2.*.js
-
-www.youtube.com###sponsor-button
-www.youtube.com###mealbar-promo-renderer
-www.youtube.com###structured-description
-www.youtube.com##.ytp-paid-content-overlay
-www.youtube.com##.ytp-button.ytp-size-button
-www.youtube.com##.ytp-button.ytp-next-button
-www.youtube.com##.ytd-download-button-renderer
-www.youtube.com##.lockup.ytd-item-section-renderer
-www.youtube.com##.ytp-button.ytp-miniplayer-button
-www.youtube.com###expandable-metadata:has-text(Summary)
-www.youtube.com##ytd-rich-item-renderer:has-text(Mix – )
-www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-www.youtube.com##span.bold.yt-formatted-string:has-text(products)
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
-www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
-www.youtube.com###header > .ytd-rich-grid-renderer:has-text(New to you)
-www.youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
-www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(My Mix)
-www.youtube.com##ytd-menu-service-item-download-renderer.ytd-menu-popup-renderer
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(New to you)
-www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
-www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
-www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(Your videos)
-
-www.miruro.tv##.sc-dRlUCX
-www.miruro.tv##.sc-lgprfV
-www.miruro.tv##.vds-volume
-www.miruro.tv##button.shortcuts-button
-www.miruro.tv##button.sc-geXuza:nth-child(3)
-www.miruro.tv##button.vds-button:nth-of-type(3)
-www.miruro.tv##button.vds-button:nth-of-type(4)
-www.miruro.tv##button.vds-button:nth-of-type(5)
-www.miruro.tv##button.vds-button:nth-of-type(7)
-www.miruro.tv##button.vds-button:nth-of-type(8)
-www.miruro.tv##button.vds-button:nth-of-type(11)
-www.miruro.tv##.hajhDX.sc-lbZXOw > .eibgdF.sc-dKeGJQ
-www.miruro.tv##.sc-iDAWOb > div:nth-child(2) > div:nth-child(2)
-www.miruro.tv##.sc-fijUiK > div:nth-child(1) > div:nth-child(1) > div:nth-child(4)
-
-anilist.co##.watch
-anilist.co##.trailer
-anilist.co##.episodes
-anilist.co##.rankings
-anilist.co##.el-message
-anilist.co##.recent-threads
-anilist.co##.recent-reviews
-anilist.co##.external-links
-anilist.co##.data-set.el-tooltip
-anilist.co##a.link:has-text(Watch)
-anilist.co##a.link:has-text(forum)
-anilist.co##div.data-set:has-text(Romaji)
-anilist.co##div.desktop:has-text(Activity)
-anilist.co##div.data-set:has-text(Hashtag)
-anilist.co##div.data-set:has-text(Favorites)
-anilist.co##[href="/user/blorborb/mangalist"]
-anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
-
-fandom.com##.mbox
-fandom.com###p-views
-fandom.com###WikiaBar
-fandom.com##.WikiaRail
-fandom.com##.page-counter
-fandom.com##.page__right-rail
-fandom.com##.sitenotice-wrapper
-fandom.com##.global-top-navigation
-fandom.com##.page-side-tools__wrapper
-fandom.com##.global-explore-navigation
-fandom.com##.global-registration-buttons
-fandom.com##.wds-button-group.wiki-tools
-
-disqus.com###main-nav
-disqus.com##.minimized.post
-disqus.com###reactions__container
-disqus.com##.nav-secondary-refresh__list-item
-
-www.tumblr.com##.smX3m
-
-www.pixiv.net##.fvDibl.sc-74lrq-0
-www.pixiv.net##.lfaZnj.sc-oh3a2p-0
-www.pixiv.net##.fmRZHy.sc-1t7vxzj-5
-
-wikipedia.org##.invite.mw-mmv-ttf-ellipsis-container
-
-genius.com##.header-nav_menu
-
-github.com##.js-for-you-feed-items
-github.com##.border-bottom.mb-5.feed-right-sidebar
-github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
-github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
-
-bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
-bsky.app##.r-13awgt0.css-175oi2r > .r-1pi2tsx.css-175oi2r > div.css-175oi2r > .css-175oi2r > .r-sa2ff0.r-13qz1uu.r-1ye8kvj.r-lchren.r-1jj8364.r-13l2t4g.r-1ljd8xs.css-175oi2r > div.css-175oi2r:has-text(Suggested for you)
-
-hoyoverse.com##.home-btn-container
-
-game8.co##.c-share
-game8.co##.l-header
-game8.co##.l-3colSide
-game8.co##.a-announce
-game8.co##.l-3colMain__left
-game8.co##.p-archiveFeedback
-game8.co##.p-archiveBreadcrumb
-game8.co##.p-archiveHeader__count
-
-sourceforge.net##.m-project-list
-sourceforge.net##.main-nav-button
-sourceforge.net###share-project-button
-sourceforge.net##.m-wide-projects-widget
-sourceforge.net##.m-project-related-keywords
-
-linktr.ee###TopBar
-linktr.ee##.contents
-linktr.ee##.bhdLno.jBicvQ
-
-aternos.org###ulenYrScPGuk
-
-bandcamp.com###user-nav
-bandcamp.com##.tralbum-tags
-
-spotify.com##li.rQ6LXqVlEOGZdGIG0LgP:nth-of-type(3)
-spotify.com##.main-view-container__mh-footer-container
-spotify.com##.encore-text-body-small-bold.iJUiBm.Button-sc-qlcn5g-0
-spotify.com##.MKCgGhu_c8l6hsVuee46.Shelf.QyANtc_r7ff_tqrf5Bvc.SsbbQFeJun2Ts_EIktpr
-
-www.idrlabs.com###test-agreement
-
-discord.com##.upsellContainer_ad7baa
-discord.com##.tryItOutSection_eb2d2c
-discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad:nth-of-type(1)
-
-www.aliexpress.com##._3KrBP
-www.aliexpress.com##.cosmos-drawer-wrap
-www.aliexpress.com##body > div:nth-of-type(12)
-
-lenovo.com##.partsPspBannerBox
-
-www.twitch.tv##.top-nav__prime
-www.twitch.tv##.disclosure-tool
-
-www.amazon.*##hr
-www.amazon.*###rhf
-www.amazon.*###sp-cc
-www.amazon.*###navFooter
-www.amazon.*##.desktop-row
-www.amazon.*###gridgetWrapper
-www.amazon.*###avs-iwa_feature_div
-www.amazon.*##.copilot-secure-display
-www.amazon.*###va-related-videos-widget_feature_div
-www.amazon.*###nav-flyout-anchor:has-text(Change Address)
-www.amazon.*##div#similarities_feature_div.celwidget:has-text(Customers who bought this item also bought)
-
-www.google.com##.audio-button-holder
-
-carrd.co###credits
-
-x.com###trends
-x.com##a:has-text(Grok)
-x.com##a:has-text(Jobs)
-x.com##a:has-text(Premium)
-x.com##a:has-text(Communities)
-x.com##a:has-text(Verified Orgs)
-x.com##[aria-label="Grok actions"]
-x.com##[aria-label="Generate image"]
-x.com##[aria-label="undefined unread items"]
-x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
-x.com##div.r-16y2uox.r-cpa5s6:has-text(Highlights)
-x.com##.r-iyfy8q.css-175oi2r:has-text(Your likes are private)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
-x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
-x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Go ad-free with Premium)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
-x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
-x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok yourself)
-x.com##.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new Communities)
-x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(posted)
-x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(Tweeted)
-x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
-x.com##.r-1ye8kvj.css-175oi2r > .css-175oi2r > .css-175oi2r > .css-175oi2r:has-text(Monetization)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
-x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to make your timeline better.)
-x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-175oi2r:has-text(What’s happening)
-x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx.r-16y2uox.r-1awozwy.css-175oi2r:has-text(Something went wrong. Try reloading.)
-
-www.reddit.com##.w-full.masthead
-www.reddit.com##shreddit-async-loader:has-text(Cookie Notice)
-www.reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
-
-proton.me##.bg-promotion
-proton.me##.button-promotion
-proton.me##.spotlight:has-text(Upgrade)
-proton.me##.topnav-listItem:has-text(Upgrade)
-proton.me##li.dropdown-item:has-text(Upgrade)
-proton.me##.border.items-center.flex:has-text(Upgrade)
-proton.me##.collapsible-header--clickable:has-text(Get mobile apps)
-
-www.reddit.com###TOPICS
-www.reddit.com##hr.my-sm
-www.reddit.com###get-app
-www.reddit.com##hr.border-neutral-border-weak
-www.reddit.com##faceplate-tracker:has-text(TOPICS)
-www.reddit.com##faceplate-tracker:has-text(Advertise)
-www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
-www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
-
-newegg.com###personalization
-www.newegg.com###neweggFeatures
-www.newegg.com##.price-financing-box
-newegg.com##.tag-list.header-trending
-www.newegg.com##.col-w-1.gap-20px.grid
-www.newegg.com##.order-cutoffs.page-bar
-www.newegg.com###homepage-featuredBrands
-newegg.com##.header2021-links.section-right
-www.newegg.com##.holiday-swiper.bento-grid-s
-www.newegg.com##.columns_1-3_row_1-2.bento-grid-m
-www.newegg.com##.columns_3-5_row_2-3.bento-grid-m
-www.newegg.com##.product-wrap > div:nth-of-type(7)
-www.newegg.com##section.bento-grid-s:nth-of-type(3)
-www.newegg.com##section.bento-grid-s:nth-of-type(4)
-www.newegg.com##.items-grid-view:has-text(Sponsored)
-www.newegg.com##div.page-section > .page-content-inner > .col-w-2.gap-20px.grid
-newegg.com##.swiper-container-free-mode.swiper-container-initialized.swiper-container-horizontal.swiper-container
-
-www.proshop.*##.site-background-banner
-
-www.imdb.com##.cTZHLL
-www.imdb.com##.imdb-footer
-www.imdb.com##.navbar__imdbpro
-www.imdb.com##.ipc-metadata-list__item:has-text(IMDbPro)
-www.imdb.com##.ipc-page-grid__item:has-text(More to explore)
-www.imdb.com##.navbar__coachmark--fadeIn.navbar__coachmark:has-text(New Customer?)
-www.imdb.com##li.ipc-metadata-list-item--link.ipc-metadata-list__item:has-text(Stars)
-www.imdb.com##.celwidget.ipc-page-section--base.ipc-page-section:has-text(Related news)
-www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Top picks)
-www.imdb.com##.ipc-coachmark.ipc-list-card.ipc-list-card--base:has-text(Language preference)
-www.imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Did you know)
-www.imdb.com##.ipc-page-content-container--center.ipc-page-content-container:has-text(Recently viewed)
-
-camelcamelcamel.com###camelizer_top_promo
-
-www.pricerunner.*##div.pr-1u8qly9:has-text(ANNONCE)
