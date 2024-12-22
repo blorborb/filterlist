@@ -75,6 +75,7 @@ x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok you
 x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Go ad-free with Premium)
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Revisit your bookmarks)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
 x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
@@ -207,20 +208,18 @@ anilist.co##.episodes
 anilist.co##.trailer
 anilist.co##.watch
 
-www.miruro.tv##.sc-fijUiK > div:nth-child(1) > div:nth-child(1) > div:nth-child(4)
-www.miruro.tv##.sc-iDAWOb > div:nth-child(2) > div:nth-child(2)
-www.miruro.tv##.hajhDX.sc-lbZXOw > .eibgdF.sc-dKeGJQ
-www.miruro.tv##button.vds-button:nth-of-type(11)
-www.miruro.tv##button.vds-button:nth-of-type(8)
-www.miruro.tv##button.vds-button:nth-of-type(7)
-www.miruro.tv##button.vds-button:nth-of-type(5)
-www.miruro.tv##button.vds-button:nth-of-type(4)
-www.miruro.tv##button.vds-button:nth-of-type(3)
-www.miruro.tv##button.sc-geXuza:nth-child(3)
-www.miruro.tv##button.shortcuts-button
-www.miruro.tv##.vds-volume
-www.miruro.tv##.sc-lgprfV
-www.miruro.tv##.sc-dRlUCX
+www.miruro.*##button.vds-button:nth-of-type(11)
+www.miruro.*##button.vds-button:nth-of-type(8)
+www.miruro.*##button.vds-button:nth-of-type(7)
+www.miruro.*##button.vds-button:nth-of-type(5)
+www.miruro.*##button.vds-button:nth-of-type(4)
+www.miruro.*##button.vds-button:nth-of-type(3)
+www.miruro.*##button.sc-geXuza:nth-child(3)
+www.miruro.*##button.shortcuts-button
+www.miruro.*##a.gsdRdr:nth-of-type(2)
+www.miruro.*##[title="Add to List"]
+www.miruro.*##.vds-volume
+www.miruro.*##footer
 
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(Your videos)
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
@@ -367,6 +366,7 @@ www.youtube.com###sponsor-button
 ##.v-footer
 ##.v-snack
 ##.widget_block.widget
+##.wp-block-template-part.site-footer-container
 ##.zone__ads
 ###__external__footer
 ###__ZONE__footer
