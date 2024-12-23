@@ -459,7 +459,6 @@ _clickadu_$important
 /customErrorHandler*.js
 /data/data
 /data/event
-/detroitchicago
 /diagnostic-
 /displayadswc
 /edmontonalberta
@@ -505,7 +504,6 @@ _clickadu_$important
 /OneSignal
 /onetrust/$important
 /pagead
-/parsonsmaize
 /partner.ads
 /popover.js
 /porpoiseant
@@ -530,7 +528,6 @@ _clickadu_$important
 /socialdata
 /Survey
 /ta-
-/tardisrocinante
 /targeting
 /tracking-opt-in/$important
 /trackingevent
