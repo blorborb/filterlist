@@ -287,6 +287,7 @@ www.youtube.com###sponsor-button
 ##.a8c-cookie-banner
 ##.ad-parent
 ##.ad-slot-header__wrapper
+##.ad-spin
 ##.ad-unit-wrapper
 ##.announcement-bar
 ##.announcements-bar
@@ -371,6 +372,7 @@ www.youtube.com###sponsor-button
 ##.zone__ads
 ###__external__footer
 ###__ZONE__footer
+###advert_column
 ###auth-unit-container
 ###cmp-app-container
 ###colophon
