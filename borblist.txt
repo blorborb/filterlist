@@ -198,6 +198,9 @@ www.youtube.com###structured-description
 www.youtube.com###mealbar-promo-renderer
 www.youtube.com###sponsor-button
 
+x.com##[aria-label="Generate image"]
+x.com##[aria-label="Grok actions"]
+
 ! Breaks? many sites
 *font*$font,css,script,3p
 *otf*$css,font,3p
