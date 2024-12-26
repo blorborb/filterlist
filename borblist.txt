@@ -437,7 +437,7 @@ _clickadu_$important
 /gfplib
 /GoogleAnalytics$important
 /gtag$important
-/identity-service
+/identity-service$important
 /InnovaMicroAppNuxt
 /language-cookie.
 /location
@@ -456,6 +456,7 @@ _clickadu_$important
 /partner.ads
 /popover.js
 /porpoiseant
+/prebid$important
 /privacy-banner
 /ptracking
 /pubads_
@@ -470,8 +471,8 @@ _clickadu_$important
 /session_tracking
 /shitake
 /showads.js
-/silver-surfer
-/silversurfer
+/silver-surfer$important
+/silversurfer$important
 /snowplow
 /social-data
 /socialdata
@@ -508,6 +509,7 @@ _clickadu_$important
 ||api.transcy.io/api/store_front/switcher
 ||apis.google.com/_/scs/abc-static/*=ytsubscribe/
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
+||apis.google.com/js/platform.js
 ||apis.google.com/js/rpc:shindig_random.js?onload=init
 ||app.wiki.gg/public/$image
 ||appsgrowthpromo-pa.clients6.google.com
@@ -562,7 +564,6 @@ _clickadu_$important
 ||inmobi.com^$important
 ||intergient.$important
 ||iubenda.com^
-||jsdelivr.*/*/prebid/$important
 ||lnk.to/~/tr/
 ||m.media-amazon.com/images/*/csm/showads.*.js$important
 ||m.stripe.network^
@@ -629,6 +630,7 @@ _clickadu_$important
 ||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
 ||www.youtube.com/youtubei/*/player/heartbeat$important
 ||www.youtube.com/youtubei/v1/notification/get_unseen_count
+||www.youtube.com^$domain=anilist.co
 ||x.com*getAltTextPromptPreference
 ||x.com/i/api/*/badge_count/
 ||x.com/i/api/*/hashflags.json
