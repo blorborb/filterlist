@@ -20,26 +20,6 @@ www.imdb.com##.navbar__imdbpro
 www.imdb.com##.imdb-footer
 www.imdb.com##.cTZHLL
 
-www.proshop.*##.site-background-banner
-
-newegg.com##.swiper-container-free-mode.swiper-container-initialized.swiper-container-horizontal.swiper-container
-www.newegg.com##div.page-section > .page-content-inner > .col-w-2.gap-20px.grid
-www.newegg.com##.items-grid-view:has-text(Sponsored)
-www.newegg.com##section.bento-grid-s:nth-of-type(4)
-www.newegg.com##section.bento-grid-s:nth-of-type(3)
-www.newegg.com##.product-wrap > div:nth-of-type(7)
-www.newegg.com##.columns_3-5_row_2-3.bento-grid-m
-www.newegg.com##.columns_1-3_row_1-2.bento-grid-m
-www.newegg.com##.holiday-swiper.bento-grid-s
-newegg.com##.header2021-links.section-right
-www.newegg.com###homepage-featuredBrands
-www.newegg.com##.order-cutoffs.page-bar
-www.newegg.com##.col-w-1.gap-20px.grid
-newegg.com##.tag-list.header-trending
-www.newegg.com##.price-financing-box
-www.newegg.com###neweggFeatures
-newegg.com###personalization
-
 www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
 www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
 www.reddit.com##faceplate-tracker:has-text(Advertise)
@@ -60,37 +40,6 @@ proton.me##.bg-promotion
 www.reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
 www.reddit.com##shreddit-async-loader:has-text(Cookie Notice)
 www.reddit.com##.w-full.masthead
-
-x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
-x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx.r-16y2uox.r-1awozwy.css-175oi2r:has-text(Something went wrong. Try reloading.)
-x.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-1kqtdi0.r-kemksi.css-175oi2r:has-text(What’s happening)
-x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this to make your timeline better.)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r > .r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
-x.com##.r-1ye8kvj.css-175oi2r > .css-175oi2r > .css-175oi2r > .css-175oi2r:has-text(Monetization)
-x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
-x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(Tweeted)
-x.com##.r-13qz1uu.r-18jm5s1.r-axxi2z.r-dkhcqf.r-u8s1d.r-633pao.css-175oi2r:has-text(posted)
-x.com##.css-175oi2r > .r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Discover new Communities)
-x.com##.r-1ny4l3l.r-1adg3ll.r-qklmqi.r-1igl3o0.css-175oi2r:has-text(Ask Grok yourself)
-x.com##.r-1mnxbyr.css-175oi2r > div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Ads)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Pinned by people you follow)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Go ad-free with Premium)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Revisit your bookmarks)
-x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Create your Space)
-x.com##div.r-18u37iz.r-1awozwy.css-175oi2r:has-text(Monetization)
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Who to follow)
-x.com##.r-iyfy8q.css-175oi2r:has-text(Your likes are private)
-x.com##div.r-16y2uox.r-cpa5s6:has-text(Highlights)
-x.com##div.r-16y2uox.r-cpa5s6:has-text(Articles)
-x.com##[aria-label="undefined unread items"]
-x.com##[aria-label="Generate image"]
-x.com##[aria-label="Grok actions"]
-x.com##a:has-text(Verified Orgs)
-x.com##a:has-text(Communities)
-x.com##a:has-text(Premium)
-x.com##a:has-text(Jobs)
-x.com##a:has-text(Grok)
-x.com###trends
 
 carrd.co###credits
 
@@ -154,7 +103,6 @@ game8.co##.c-share
 
 hoyoverse.com##.home-btn-container
 
-bsky.app##.r-13awgt0.css-175oi2r > .r-1pi2tsx.css-175oi2r > div.css-175oi2r > .css-175oi2r > .r-sa2ff0.r-13qz1uu.r-1ye8kvj.r-lchren.r-1jj8364.r-13l2t4g.r-1ljd8xs.css-175oi2r > div.css-175oi2r:has-text(Suggested for you)
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
 github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
@@ -227,9 +175,6 @@ www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
@@ -246,11 +191,8 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com##ytd-rich-item-renderer:has-text(Mix – )
 www.youtube.com###expandable-metadata:has-text(Summary)
-www.youtube.com##.ytp-button.ytp-miniplayer-button
 www.youtube.com##.lockup.ytd-item-section-renderer
 www.youtube.com##.ytd-download-button-renderer
-www.youtube.com##.ytp-button.ytp-next-button
-www.youtube.com##.ytp-button.ytp-size-button
 www.youtube.com##.ytp-paid-content-overlay
 www.youtube.com###structured-description
 www.youtube.com###mealbar-promo-renderer
@@ -814,7 +756,6 @@ cookiefirst.
 cookiepro.
 cookieyes.
 crazyegg.
-crunchyroll.
 crunchyrollstore.$important
 cse.google.com/cse
 d.reddit.
