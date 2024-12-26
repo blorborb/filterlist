@@ -198,6 +198,7 @@ www.youtube.com###structured-description
 www.youtube.com###mealbar-promo-renderer
 www.youtube.com###sponsor-button
 
+x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
 x.com##[aria-label="Generate image"]
 x.com##[aria-label="Grok actions"]
 
