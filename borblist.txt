@@ -17,7 +17,6 @@ www.imdb.com##.navbar__coachmark--fadeIn.navbar__coachmark:has-text(New Customer
 www.imdb.com##.ipc-page-grid__item:has-text(More to explore)
 www.imdb.com##.ipc-metadata-list__item:has-text(IMDbPro)
 www.imdb.com##.navbar__imdbpro
-www.imdb.com##.imdb-footer
 www.imdb.com##.cTZHLL
 
 www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
@@ -52,7 +51,6 @@ www.amazon.*##.copilot-secure-display
 www.amazon.*###avs-iwa_feature_div
 www.amazon.*###gridgetWrapper
 www.amazon.*##.desktop-row
-www.amazon.*###navFooter
 www.amazon.*###sp-cc
 www.amazon.*###rhf
 www.amazon.*##hr
@@ -74,7 +72,6 @@ www.idrlabs.com###test-agreement
 
 spotify.com##.MKCgGhu_c8l6hsVuee46.Shelf.QyANtc_r7ff_tqrf5Bvc.SsbbQFeJun2Ts_EIktpr
 spotify.com##.encore-text-body-small-bold.iJUiBm.Button-sc-qlcn5g-0
-spotify.com##.main-view-container__mh-footer-container
 spotify.com##li.rQ6LXqVlEOGZdGIG0LgP:nth-of-type(3)
 
 bandcamp.com##.tralbum-tags
@@ -167,7 +164,6 @@ www.miruro.*##button.shortcuts-button
 www.miruro.*##a.gsdRdr:nth-of-type(2)
 www.miruro.*##[title="Add to List"]
 www.miruro.*##.vds-volume
-www.miruro.*##footer
 
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(Your videos)
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
@@ -246,9 +242,6 @@ x.com##[aria-label="Grok actions"]
 ##.block-widget.widget
 ##.bottom-banner-area
 ##.button-promotion
-##.c-footer
-##.c-footer
-##.caas__footer--content
 ##.chatbot
 ##.consent-banner
 ##.Cookie
@@ -264,18 +257,12 @@ x.com##[aria-label="Grok actions"]
 ##.DAnUZ
 ##.desktop-content-ad-container
 ##.DiscordIntegrator
-##.elementor-location-footer
 ##.features-card
-##.footer-copywrite
-##.footer-crm
-##.footer-list
-##.footer-ranking
 ##.formkit-form
 ##.g-footer
 ##.g-profile__qr-code-btn
 ##.g-profile__verified-accounts > span
 ##.ga-impression.bottom-bar
-##.global-footer
 ##.go-plus
 ##.grecaptcha-badge
 ##.input-newsletter
@@ -283,7 +270,6 @@ x.com##[aria-label="Grok actions"]
 ##.js_more-below-post
 ##.js_sticky-second-scroll
 ##.js_suggested-stories
-##.l-footer
 ##.mailchimp
 ##.marketing-content
 ##.microapp-slot-innova
@@ -292,19 +278,13 @@ x.com##[aria-label="Grok actions"]
 ##.newsletter-section
 ##.newsub-box
 ##.offer-modal
-##.page_footer
-##.page-footer
 ##.privacy_popup
 ##.promotedlink
-##.relative.footer
 ##.rh-cta
-##.shopify-section-group-footer-group
 ##.site-bannerCampaignElement
-##.site-footer
 ##.site-product-campaign-text
 ##.slice-container-newsletterForm
 ##.stack__ads
-##.sticky-footer
 ##.subscribe-box-inner
 ##.svelte-1h1i54z.includeWrapper
 ##.svelte-deweka.tc-capture-kit-wrapper
@@ -312,13 +292,9 @@ x.com##[aria-label="Grok actions"]
 ##.ta-campaign-widget__popup-wrapper
 ##.text_promo
 ##.uma-hero
-##.v-footer
 ##.v-snack
 ##.widget_block.widget
-##.wp-block-template-part.site-footer-container
 ##.zone__ads
-###__external__footer
-###__ZONE__footer
 ###advert_column
 ###auth-unit-container
 ###cmp-app-container
@@ -330,28 +306,17 @@ x.com##[aria-label="Grok actions"]
 ###discountBanner
 ###discountBanner-sidebar
 ###eu_cookie_law_widget-2
-###footer
-###footer-block
-###footer-wrap
-###footer-wrapper
 ###ghost-newsletter
-###infinite-footer
 ###js-banner-eizo
 ###marketingbar
-###mh-footer
 ###newsletter
 ###ot-sdk-btn
-###Page_Footer_Full
-###Page_Footer_LP
 ###pgFt
 ###pojo-a11y-toolbar
 ###secondscroll_sidebar_wrapper
 ###shopify-section-announcement-bar
-###shopify-section-footer
-###shopify-section-q-footer
 ###uptodown-turbo-promo
 ##floating-auth-unit-container
-##page-footer
 ##shop-login-button
 ##shopify-payment-terms
 
@@ -411,7 +376,6 @@ _clickadu_$important
 /data/event
 /diagnostic-
 /displayadswc
-/edmontonalberta
 /error-reporter
 /eu-cookie-law
 /eventpromotionbar
