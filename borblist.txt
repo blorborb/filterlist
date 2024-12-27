@@ -199,6 +199,7 @@ www.youtube.com###mealbar-promo-renderer
 www.youtube.com###sponsor-button
 
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
+x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this)
 x.com##[aria-label="Generate image"]
 x.com##[aria-label="Grok actions"]
 
@@ -557,6 +558,7 @@ _clickadu_$important
 ||geolocation-recommendation
 ||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
 ||googleusercontent.com/proxy/
+||growthbook.io^
 ||gumroad.com^
 ||hsforms.com^
 ||hubspot.com^
