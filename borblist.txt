@@ -1,4 +1,4 @@
-! title: borbs personal list
+! title: borbs list
 ! Expires: 12 hours
 
 fanme.link##.css-imj3yb > div:has-text(FANME)
@@ -64,9 +64,11 @@ www.aliexpress.com##body > div:nth-of-type(12)
 www.aliexpress.com##.cosmos-drawer-wrap
 www.aliexpress.com##._3KrBP
 
-discord.com##.content_eed6a8 > li.container_d91ad9.channel_c91bad:nth-of-type(1)
-discord.com##.tryItOutSection_eb2d2c
-discord.com##.upsellContainer_ad7baa
+discord.com##div.menuDivider_ad5fac
+discord.com##button:has-text(Nitro)
+discord.com##button:has-text(Shop)
+discord.com##[aria-label="Nitro"]
+discord.com##[href="/store"]
 
 www.idrlabs.com###test-agreement
 
@@ -136,11 +138,8 @@ fandom.com###p-views
 fandom.com##.mbox
 
 anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
-anilist.co##[href="/user/blorborb/mangalist"]
-anilist.co##div.data-set:has-text(Favorites)
 anilist.co##div.data-set:has-text(Hashtag)
 anilist.co##div.desktop:has-text(Activity)
-anilist.co##div.data-set:has-text(Romaji)
 anilist.co##a.link:has-text(forum)
 anilist.co##a.link:has-text(Watch)
 anilist.co##.data-set.el-tooltip
@@ -148,7 +147,6 @@ anilist.co##.external-links
 anilist.co##.recent-reviews
 anilist.co##.recent-threads
 anilist.co##.el-message
-anilist.co##.rankings
 anilist.co##.episodes
 anilist.co##.trailer
 anilist.co##.watch
@@ -257,6 +255,7 @@ x.com##[aria-label="Grok actions"]
 ##.DAnUZ
 ##.desktop-content-ad-container
 ##.DiscordIntegrator
+##.elementor-popup-modal.dialog-type-lightbox
 ##.features-card
 ##.formkit-form
 ##.g-footer
@@ -498,6 +497,7 @@ _clickadu_$important
 ||cloudfront.net/*promote.js
 ||cohesionapps.$important
 ||cookielaw.org^$important
+||discord.com/api/*/premium-marketing
 ||discord.com/api/*/science
 ||discord.com/assets/sentry.*.js
 ||discord.com/error-reporting-proxy/
