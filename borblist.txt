@@ -107,7 +107,9 @@ bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
 github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
 github.com##.border-bottom.mb-5.feed-right-sidebar
+github.com##.AppHeader-CopilotChat
 github.com##.js-for-you-feed-items
+github.com##li:has(#\:r1k\:)
 
 genius.com##.header-nav_menu
 
@@ -521,7 +523,9 @@ _clickadu_$important
 ||fvcwqkkqmuv.com^$important
 ||geolocation_recommendation
 ||geolocation-recommendation
+||github.com/github-copilot/
 ||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
+||githubassets.com/assets/*copilot
 ||googleusercontent.com/proxy/
 ||growthbook.io^
 ||gumroad.com^
