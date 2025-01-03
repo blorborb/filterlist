@@ -196,7 +196,9 @@ www.youtube.com###mealbar-promo-renderer
 www.youtube.com###sponsor-button
 
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
+x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this)
+x.com##a.r-1loqt21:has-text(Explore)
 x.com##[aria-label="Generate image"]
 x.com##[aria-label="Grok actions"]
 
@@ -475,6 +477,7 @@ _clickadu_$important
 ||api.themoviedb.org^$3p
 ||api.transcy.io/api/store_front/switcher
 ||apis.google.com/_/scs/abc-static/*=ytsubscribe/
+||apis.google.com/*/m=auth/
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 ||apis.google.com/js/platform.js
 ||apis.google.com/js/rpc:shindig_random.js?onload=init
@@ -562,6 +565,7 @@ _clickadu_$important
 ||sa.api.intl.miui.com^$important
 ||scorecardresearch.$important
 ||signaler-pa.clients6.google.com
+||signaler-pa.youtube.com/
 ||simplelocalize.$important
 ||socket.io^
 ||spot.im^
@@ -594,6 +598,7 @@ _clickadu_$important
 ||www.google.com/recaptcha/api2/webworker.js$important
 ||www.gstatic.com/*/firebase-analytics.js
 ||www.gstatic.com/*/firebase-messaging.js
+||www.gstatic.com/*/img/promos
 ||www.gstatic.com/*/m=view
 ||www.gstatic.com/*/smartimations
 ||www.gstatic.com/*/subscribe_action_sparkles
@@ -606,6 +611,8 @@ _clickadu_$important
 ||www.redditstatic.com/shreddit/*/feed-ad-client-js
 ||www.redditstatic.com/shreddit/*/shreddit-dynamic-ad-link
 ||www.redditstatic.com/shreddit/*/shreddit-sidebar-ad
+||www.youtube.com/*/cssbin/www-onepick.css
+||www.youtube.com/*/endscreen.js
 ||www.youtube.com/*/jsbin/*/web-animations-next-lite
 ||www.youtube.com/*/jsbin/*constants
 ||www.youtube.com/*/jsbin/custom-elements
@@ -615,10 +622,13 @@ _clickadu_$important
 ||www.youtube.com/*/jsbin/serviceworker-kevlar-appshell
 ||www.youtube.com/*/jsbin/spf
 ||www.youtube.com/*/jsbin/www-tampering
+||www.youtube.com/*/log
 ||www.youtube.com/*/miniplayer.js
 ||www.youtube.com/*/offline.js
 ||www.youtube.com/*/player/*/player_ias.vflset/*/remote.js$3p
-||www.youtube.com/api/stats/
+||www.youtube.com/*/remote.js
+||www.youtube.com/api/stats/qoe
+||www.youtube.com/api/timedtext
 ||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
 ||www.youtube.com/sw.js
 ||www.youtube.com/youtubei/*/player/heartbeat$important
@@ -631,6 +641,7 @@ _clickadu_$important
 ||x.com/i/api/1.1/jot/
 ||x.com/i/api/fleets/v1/fleetline
 ||x.com/i/api/graphql/*/DataSaverMode
+||x.com/i/api/graphql/*/useFetchAnalyticsQuery
 ||x.com/live_pipeline/events
 ||ybs2ffs7v.com^$important
 01b4075d6c.
