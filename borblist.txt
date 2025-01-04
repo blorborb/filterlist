@@ -126,6 +126,7 @@ disqus.com###reactions__container
 disqus.com##.minimized.post
 disqus.com###main-nav
 
+fandom.com##.fandom-community-header__background
 fandom.com##.wds-button-group.wiki-tools
 fandom.com##.global-registration-buttons
 fandom.com##.global-explore-navigation
@@ -237,9 +238,11 @@ x.com##[aria-label="Grok actions"]
 ##.ad-unit-wrapper
 ##.announcement-bar
 ##.announcements-bar
+##.as-newsletter-modal
+##.as-newsletter-modal-wrap
 ##.ask_create_booth
-##.banner-250
 ##.banner_ads
+##.banner-250
 ##.banner-ads
 ##.bg-promotion
 ##.block-widget.widget
@@ -279,6 +282,9 @@ x.com##[aria-label="Grok actions"]
 ##.microapp-slot-innova
 ##.newsletter
 ##.newsletter-container
+##.newsletter-modal
+##.newsletter-modal-horizontal
+##.newsletter-modal-wrap
 ##.newsletter-section
 ##.newsub-box
 ##.offer-modal
@@ -319,6 +325,8 @@ x.com##[aria-label="Grok actions"]
 ###pojo-a11y-toolbar
 ###secondscroll_sidebar_wrapper
 ###shopify-section-announcement-bar
+###shopify-section-newsletter-popup
+###subscribe_popup
 ###uptodown-turbo-promo
 ##floating-auth-unit-container
 ##shop-login-button
@@ -365,6 +373,7 @@ _clickadu_$important
 /browser-check*js
 /browser/client.js
 /browser/stats
+/browsing_context_suggestions.json
 /client_log$important
 /cmp
 /cohesion/*$important
@@ -383,6 +392,7 @@ _clickadu_$important
 /error-reporter
 /eu-cookie-law
 /eventpromotionbar
+/events-receiver/send-web-event-beacon
 /experiencetrackerviewsdata
 /ezais
 /ezoic
@@ -404,6 +414,8 @@ _clickadu_$important
 /georoutingv2
 /georoutingv3
 /gfplib
+/glo-related-products-upsell
+/google-one-tap-index.min.js
 /GoogleAnalytics$important
 /gtag$important
 /identity-service$important
@@ -419,6 +431,7 @@ _clickadu_$important
 /newsletter-enrollment.
 /newsletters
 /ninetynine-analytics
+/omnitrack-facebook
 /OneSignal
 /onetrust/$important
 /pagead
@@ -445,9 +458,11 @@ _clickadu_$important
 /snowplow
 /social-data
 /socialdata
+/subscribe-popup*.png$image
 /Survey
 /ta-
 /targeting
+/track.min.js
 /tracking-opt-in/$important
 /trackingevent
 /viewsnativead
@@ -493,6 +508,7 @@ _clickadu_$important
 ||c1.neweggimages.com/tapa/$image,3p
 ||c1.neweggimages.com/webresource/themes/Nest/banners/$image,3p
 ||cdn.ampproject.org^
+||cdn.shopify.com/proxy
 ||cdn77.org^$important
 ||cdnjs.cloudflare.com/ajax/libs/Chart*
 ||cdnjs.cloudflare.com/ajax/libs/jquery-cookie/$important
@@ -502,6 +518,7 @@ _clickadu_$important
 ||cloud.google.com/ai/$important
 ||cloudfront.net/*promote.js
 ||cohesionapps.$important
+||convbox.ai/scripts/omnitrack-lately.js
 ||cookielaw.org^$important
 ||discord.com/api/*/premium-marketing
 ||discord.com/api/*/science
