@@ -1,6 +1,8 @@
 ! title: borbs list
 ! Expires: 12 hours
 
+www.merriam-webster.com###subscribe-unabridged
+
 fanme.link##.css-imj3yb > div:has-text(FANME)
 
 www.pricerunner.*##div.pr-1u8qly9:has-text(ANNONCE)
@@ -195,6 +197,7 @@ www.youtube.com##.ytp-paid-content-overlay
 www.youtube.com###structured-description
 www.youtube.com###mealbar-promo-renderer
 www.youtube.com###sponsor-button
+www.youtube.com###clarify-box
 
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
