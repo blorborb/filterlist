@@ -2,7 +2,7 @@
 filter lists i made for ublock origin to reduce network and memory needs + some annoyance cosmetic filters
 
 borblist
-[raw](https://raw.githubusercontent.com/blorborb/filterlists/refs/heads/main/borblist.txt)
+[raw](https://raw.githubusercontent.com/blorborb/filterlists/refs/heads/main/borblist)
 
 borblistplus
 [raw](https://raw.githubusercontent.com/blorborb/filterlists/refs/heads/main/borblistplus)
