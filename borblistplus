@@ -8,5 +8,4 @@ youtube.com###teaser-carousel
 youtube.com###chat-container
 
 www.twitch.tv##.tw-dialog-layer:has-text(Your donation goes to support the charity.)
-www.twitch.tv##has-text(Donate to Charity)[data-a-target="tw-core-button-label-text"]
 twitch.tv###live-page-chat
