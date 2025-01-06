@@ -200,6 +200,7 @@ www.youtube.com###sponsor-button
 www.youtube.com###clarify-box
 
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
+x.com##.r-13qz1uu.r-ttdzmv.r-1c7gwzm.r-1c4vpko.r-kzbkwu.r-18u37iz.r-6koalj.r-1xfd6ze.css-175oi2r:has-text(Upgrade to Premium+)
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this)
 x.com##a.r-1loqt21:has-text(Explore)
@@ -632,6 +633,7 @@ _clickadu_$important
 ||www.redditstatic.com/shreddit/*/feed-ad-client-js
 ||www.redditstatic.com/shreddit/*/shreddit-dynamic-ad-link
 ||www.redditstatic.com/shreddit/*/shreddit-sidebar-ad
+||www.youtube.com/*/annotations_module.js
 ||www.youtube.com/*/cssbin/www-onepick.css
 ||www.youtube.com/*/endscreen.js
 ||www.youtube.com/*/jsbin/*/web-animations-next-lite
@@ -646,14 +648,12 @@ _clickadu_$important
 ||www.youtube.com/*/log
 ||www.youtube.com/*/miniplayer.js
 ||www.youtube.com/*/offline.js
-||www.youtube.com/*/player/*/player_ias.vflset/*/remote.js$3p
 ||www.youtube.com/*/remote.js
 ||www.youtube.com/api/stats/qoe
 ||www.youtube.com/api/timedtext
-||www.youtube.com/s/player/*/player_ias.vflset/*/annotations_module.js
 ||www.youtube.com/sw.js
+||www.youtube.com/youtubei/*/notification/get_unseen_count
 ||www.youtube.com/youtubei/*/player/heartbeat$important
-||www.youtube.com/youtubei/v1/notification/get_unseen_count
 ||www.youtube.com^$domain=anilist.co
 ||x.com*getAltTextPromptPreference
 ||x.com/i/api/*/badge_count/
