@@ -7,5 +7,6 @@
 youtube.com###teaser-carousel
 youtube.com###chat-container
 
-www.twitch.tv##.tw-dialog-layer:has-text(Your donation goes to support the charity.)
+twitch.tv##.tw-dialog-layer:has-text(Your donation goes to support the charity.)
 twitch.tv###live-page-chat
+twitch.tv##.side-nav
