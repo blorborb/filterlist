@@ -2,12 +2,9 @@
 ! extra stuff i dont want sometimes
 ! Expires: 12 hours
 
-||www.youtube.com/youtubei/v1/live_chat/
-||assets.twitch.tv/assets/pages.channel.components.channel-shell.components.chat-shell.components.chat-live
-||assets.twitch.tv/assets/features.chat
-||assets.twitch.tv/assets/features.paid-pinned-chat
-||assets.twitch.tv/assets/features.badges.components.chat-badge-carousel
+||twitch.tv/assets/*chat
 ||chat.twitch.tv^$websocket
+||www.youtube.com/*live_chat
 
 youtube.com###teaser-carousel
 youtube.com###chat-container
