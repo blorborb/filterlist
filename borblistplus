@@ -3,6 +3,11 @@
 ! Expires: 12 hours
 
 ||www.youtube.com/youtubei/v1/live_chat/
+||assets.twitch.tv/assets/pages.channel.components.channel-shell.components.chat-shell.components.chat-live
+||assets.twitch.tv/assets/features.chat
+||assets.twitch.tv/assets/features.paid-pinned-chat
+||assets.twitch.tv/assets/features.badges.components.chat-badge-carousel
+||chat.twitch.tv^$websocket
 
 youtube.com###teaser-carousel
 youtube.com###chat-container
