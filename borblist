@@ -617,7 +617,6 @@ _clickadu_$important
 ||www.antiadblocksystems.com^$important
 ||www.figma.com/api/web_logger/
 ||www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
-||www.google.com/recaptcha/api2/webworker.js$important
 ||www.gstatic.com/*/firebase-analytics.js
 ||www.gstatic.com/*/firebase-messaging.js
 ||www.gstatic.com/*/img/promos
@@ -642,7 +641,6 @@ _clickadu_$important
 ||www.youtube.com/*/jsbin/intersection-observer
 ||www.youtube.com/*/jsbin/network
 ||www.youtube.com/*/jsbin/scheduler
-||www.youtube.com/*/jsbin/serviceworker-kevlar-appshell
 ||www.youtube.com/*/jsbin/spf
 ||www.youtube.com/*/jsbin/www-tampering
 ||www.youtube.com/*/log
@@ -651,7 +649,6 @@ _clickadu_$important
 ||www.youtube.com/*/remote.js
 ||www.youtube.com/api/stats/qoe
 ||www.youtube.com/api/timedtext
-||www.youtube.com/sw.js
 ||www.youtube.com/youtubei/*/notification/get_unseen_count
 ||www.youtube.com/youtubei/*/player/heartbeat$important
 ||www.youtube.com^$domain=anilist.co
