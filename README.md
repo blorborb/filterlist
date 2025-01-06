@@ -6,3 +6,4 @@ borblist
 
 borblistplus
 [raw](https://raw.githubusercontent.com/blorborb/filterlists/refs/heads/main/borblistplus)
+(extra stuff)
