@@ -1,6 +1,9 @@
 ! title: borbs list
 ! Expires: 12 hours
 
+esports.gg###FreeStarVideoAdContainer_BesOfEsportsgg
+esports.gg##.not-prose
+
 www.merriam-webster.com###subscribe-unabridged
 
 fanme.link##.css-imj3yb > div:has-text(FANME)
@@ -129,14 +132,15 @@ disqus.com##.minimized.post
 disqus.com###main-nav
 
 fandom.com##.fandom-community-header__background
-fandom.com##.wds-button-group.wiki-tools
 fandom.com##.global-registration-buttons
+fandom.com##.wds-button-group.wiki-tools
 fandom.com##.global-explore-navigation
 fandom.com##.page-side-tools__wrapper
 fandom.com##.global-top-navigation
 fandom.com##.sitenotice-wrapper
 fandom.com##.page__right-rail
 fandom.com##.global-footer
+fandom.com##.mbox-w-notice
 fandom.com##.page-counter
 fandom.com##.WikiaRail
 fandom.com###WikiaBar
@@ -248,6 +252,7 @@ x.com##[aria-label="Grok actions"]
 ##.banner_ads
 ##.banner-250
 ##.banner-ads
+##.bg-\[rgba\(0\,0\,0\,0\.5\)\]:has([href="/auth/signup/"])
 ##.bg-promotion
 ##.block-widget.widget
 ##.bottom-banner-area
@@ -462,6 +467,7 @@ _clickadu_$important
 /snowplow
 /social-data
 /socialdata
+/static/chunks/app/error
 /subscribe-popup*.png$image
 /Survey
 /ta-
@@ -543,6 +549,7 @@ _clickadu_$important
 ||firebase-analytics.js$important
 ||firebaseio.com/.lp
 ||firebaseio.com/.ws?
+||flagsmith.com^
 ||fonts.gstatic.com/*/message_bubble_right
 ||frugalfiestas.com^$important
 ||fundingchoicesmessages.$important
