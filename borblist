@@ -358,6 +358,8 @@ _clickadu_$important
 .open
 .snowplow
 /?utm_source=sourceforge&amp;utm_medium=unitad&
+/*consent-banner*.js
+/*sentry*.js
 /#breadcrumb
 /1.1/users/recommendations
 /a8c_
@@ -489,6 +491,7 @@ _clickadu_$important
 ||accounts.google.com/gsi/$subdocument
 ||addons-pa.clients6.google.com
 ||adjust.^$important
+||adobedtm.com^*/launch-$script,important
 ||adsdk.yandex.ru^$important
 ||an.yandex.ru^$important
 ||analytics.twitter.com^
