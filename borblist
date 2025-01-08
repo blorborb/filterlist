@@ -510,8 +510,13 @@ _clickadu_$important
 ||apis.google.com/*/scs/abc-static/*/*/*/m=plusone/
 ||apis.google.com/js/platform.js
 ||apis.google.com/js/rpc:shindig_random.js?onload=init
+||apis.roblox.com/product-experimentation-platform/v1/projects/1/layers/Social.Friends/
+||apis.roblox.com/product-experimentation-platform/v1/projects/1/layers/Website.TileLayer/values?parameters=IsHigherResolutionImageEnabled
+||apis.roblox.com/universal-app-configuration/v1/behaviors/page-heartbeat-v2/
+||apis.roblox.com/upsellCard/
 ||app.wiki.gg/public/$image
 ||appsgrowthpromo-pa.clients6.google.com
+||assetgame.roblox.com/game/report-event
 ||assets.twitch.tv/assets/features.ads
 ||assets.twitch.tv/assets/features.upsell
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
@@ -521,6 +526,7 @@ _clickadu_$important
 ||btloader.$important
 ||c1.neweggimages.com/tapa/$image,3p
 ||c1.neweggimages.com/webresource/themes/Nest/banners/$image,3p
+||catalog.roblox.com/v2/recommendations/
 ||cdn.ampproject.org^
 ||cdn.shopify.com/proxy
 ||cdn77.org^$important
@@ -532,6 +538,7 @@ _clickadu_$important
 ||cloud.google.com/ai/$important
 ||cloudfront.net/*promote.js
 ||cohesionapps.$important
+||contacts.roblox.com/v1/contacts/metadata
 ||convbox.ai/scripts/omnitrack-lately.js
 ||cookielaw.org^$important
 ||discord.com/api/*/premium-marketing
@@ -554,6 +561,7 @@ _clickadu_$important
 ||firebaseio.com/.ws?
 ||flagsmith.com^
 ||fonts.gstatic.com/*/message_bubble_right
+||friends.roblox.com/v1/user/friend-requests/count
 ||frugalfiestas.com^$important
 ||fundingchoicesmessages.$important
 ||fvcwqkkqmuv.com^$important
@@ -580,9 +588,11 @@ _clickadu_$important
 ||mepsmarketing.com^
 ||merequartz.$important
 ||mmstat.com^$important
+||mollusk.apis.ign.com^
 ||mopinion.^$important
 ||mopinion.com^$important
 ||narrativ.$important
+||notifications.roblox.com^
 ||ogads-pa.clients6.google.com
 ||onesignal.com^$important
 ||open.oneplus.net^$important
@@ -592,8 +602,10 @@ _clickadu_$important
 ||platform.twitter.com/widgets/$subdocument
 ||playsaurusstats.com^
 ||privacy-mgmt.$important
+||privatemessages.roblox.com/v1/messages/unread/
 ||qualtrics.$important
 ||recommendations.displate.com^$important
+||roblox.com/js/hsts.js$script
 ||sa.api.intl.miui.com^$important
 ||scorecardresearch.$important
 ||signaler-pa.clients6.google.com
@@ -611,6 +623,8 @@ _clickadu_$important
 ||stripe.com/ajax/metrics_batch
 ||tc.cdnhub.co/not-found/
 ||threadai.zip^
+||thumbnails.roblox.com/v1/measurements
+||trades.roblox.com/v1/trades/inbound/
 ||transcend-cdn.com/*/airgap.js$important
 ||trustedcareaccess.com^
 ||twimg.com*/shared~loader.EventSummaryHandler
@@ -672,6 +686,8 @@ _clickadu_$important
 ||x.com/i/api/graphql/*/useFetchAnalyticsQuery
 ||x.com/live_pipeline/events
 ||ybs2ffs7v.com^$important
+||ziffstatic.com/adchoices/
+||ziffstatic.com/jst/zdconsent*.js$important
 01b4075d6c.
 03a17e7986.
 0cf.
@@ -841,7 +857,6 @@ klaviyo.
 kunlunca.
 laylo.
 localiq.
-localization-
 luckyorange.
 mailerlite.
 marketingplatform.$important
