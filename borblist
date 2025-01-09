@@ -192,6 +192,7 @@ www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##span.bold.yt-formatted-string:has-text(products)
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+www.youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com##ytd-rich-item-renderer:has-text(Mix – )
 www.youtube.com###expandable-metadata:has-text(Summary)
@@ -359,7 +360,6 @@ _clickadu_$important
 .snowplow
 /?utm_source=sourceforge&amp;utm_medium=unitad&
 /*consent-banner*.js
-/*sentry*.js
 /#breadcrumb
 /1.1/users/recommendations
 /a8c_
