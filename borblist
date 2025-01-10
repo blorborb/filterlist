@@ -24,6 +24,10 @@ www.imdb.com##.ipc-metadata-list__item:has-text(IMDbPro)
 www.imdb.com##.navbar__imdbpro
 www.imdb.com##.cTZHLL
 
+www.redditmedia.com##.premium-banner-outer
+www.redditmedia.com##.commentsignupbar
+www.redditmedia.com##.listingsignupbar
+
 www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
 www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
 www.reddit.com##faceplate-tracker:has-text(Advertise)
@@ -60,6 +64,10 @@ www.amazon.*###sp-cc
 www.amazon.*###rhf
 www.amazon.*##hr
 
+www.twitch.tv##.player-overlay-background--darkness-3
+www.twitch.tv##.follow-panel-overlay
+ext-twitch.tv##.prime-extension-root
+www.twitch.tv##.passthrough-events
 www.twitch.tv##.disclosure-tool
 www.twitch.tv##.top-nav__prime
 
