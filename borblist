@@ -187,19 +187,20 @@ www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 www.youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(New to you)
 www.youtube.com##ytd-menu-service-item-download-renderer.ytd-menu-popup-renderer
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(My Mix)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
-www.youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
 www.youtube.com###header > .ytd-rich-grid-renderer:has-text(New to you)
+www.youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
-www.youtube.com##span.bold.yt-formatted-string:has-text(products)
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+www.youtube.com##span.bold.yt-formatted-string:has-text(products)
+www.youtube.com##span.bold.yt-formatted-string:has-text(product)
 www.youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com##ytd-rich-item-renderer:has-text(Mix – )
@@ -207,8 +208,8 @@ www.youtube.com###expandable-metadata:has-text(Summary)
 www.youtube.com##.lockup.ytd-item-section-renderer
 www.youtube.com##.ytd-download-button-renderer
 www.youtube.com##.ytp-paid-content-overlay
-www.youtube.com###structured-description
 www.youtube.com###mealbar-promo-renderer
+www.youtube.com###structured-description
 www.youtube.com###sponsor-button
 www.youtube.com###clarify-box
 
@@ -280,6 +281,7 @@ x.com##[aria-label="Grok actions"]
 ##.customers-also
 ##.DAnUZ
 ##.desktop-content-ad-container
+##.digital-newspaper-advertisement-block
 ##.DiscordIntegrator
 ##.elementor-popup-modal.dialog-type-lightbox
 ##.features-card
@@ -322,6 +324,7 @@ x.com##[aria-label="Grok actions"]
 ##.uma-hero
 ##.v-snack
 ##.widget_block.widget
+##.widget_digital_newspaper_social_icons_widget
 ##.zone__ads
 ###advert_column
 ###auth-unit-container
@@ -488,6 +491,9 @@ _clickadu_$important
 /viewsnativead
 /webstats
 /widget/ads.
+/wp-content/plugins/*gdpr$important
+/wp-content/plugins/age-gate/
+/wp-content/plugins/klaviyo/
 /youtubei/v1/updated_metadata
 &adcontext
 &adformat
@@ -587,6 +593,7 @@ _clickadu_$important
 ||inmobi.com^$important
 ||intergient.$important
 ||iubenda.com^
+||js.authorize.net^
 ||lnk.to/~/tr/
 ||m.media-amazon.com/images/*/csm/showads.*.js$important
 ||m.stripe.network^
@@ -664,6 +671,7 @@ _clickadu_$important
 ||www.redditstatic.com/shreddit/*/feed-ad-client-js
 ||www.redditstatic.com/shreddit/*/shreddit-dynamic-ad-link
 ||www.redditstatic.com/shreddit/*/shreddit-sidebar-ad
+||www.youtube-nocookie.com/api/stats/
 ||www.youtube.com/*/annotations_module.js
 ||www.youtube.com/*/cssbin/www-onepick.css
 ||www.youtube.com/*/endscreen.js
