@@ -669,6 +669,10 @@ _clickadu_$important
 ||twimg.com/*/loader.richScribeAction
 ||twimg.com/*/loader.TrendHandler
 ||twimg.com/*/shared~bundle.Grok~bundle.LiveEvent~icons
+||twitch.tv/_404/$image
+||twitch.tv/assets/*video-ads
+||twitch.tv/assets/features.dmca-strike-banner
+||twitch.tv/assets/sentry
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
@@ -704,7 +708,6 @@ _clickadu_$important
 ||youtube.com/youtubei/*/player/heartbeat$important
 ||youtube.com^$domain=anilist.co
 ||ziffstatic.com/adchoices/
-||ziffstatic.com/jst/zdconsent*.js$important
 01b4075d6c.
 03a17e7986.
 0cf.
