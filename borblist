@@ -183,37 +183,38 @@ miruro.*##a.gsdRdr:nth-of-type(2)
 miruro.*##[title="Add to List"]
 miruro.*##.vds-volume
 
-youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer:has-text(Your videos)
+youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-youtube.com##ytd-rich-item-renderer:has([aria-label*='From your Watch later playlist'])
+youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(None)
+youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
+youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
-youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(New to you)
-youtube.com##ytd-menu-service-item-download-renderer.ytd-menu-popup-renderer
-youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has-text(My Mix)
 youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
-youtube.com###header > .ytd-rich-grid-renderer:has-text(New to you)
-youtube.com##ytd-metadata-row-container-renderer.ytd-watch-metadata
 youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-youtube.com##span.bold.yt-formatted-string:has-text(products)
-youtube.com##span.bold.yt-formatted-string:has-text(product)
 youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata
+youtube.com##span.bold.yt-formatted-string:has-text(product)
 youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
-youtube.com##ytd-rich-item-renderer:has-text(Mix – )
+youtube.com##.ytd-rich-grid-renderer:has-text(New to you)
 youtube.com###expandable-metadata:has-text(Summary)
+youtube.com##ytd-metadata-row-container-renderer
 youtube.com##.lockup.ytd-item-section-renderer
-youtube.com##.ytd-download-button-renderer
 youtube.com##.ytp-paid-content-overlay
-youtube.com###mealbar-promo-renderer
+youtube.com##ytd-mini-guide-renderer
 youtube.com###structured-description
+youtube.com###mealbar-promo-renderer
 youtube.com###sponsor-button
 youtube.com###clarify-box
+
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
+youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
+youtube.com##+js(set, playerResponse.adPlacements, undefined)
 
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
 x.com##.r-13qz1uu.r-ttdzmv.r-1c7gwzm.r-1c4vpko.r-kzbkwu.r-18u37iz.r-6koalj.r-1xfd6ze.css-175oi2r:has-text(Upgrade to Premium+)
@@ -299,6 +300,7 @@ x.com##[aria-label="Grok actions"]
 ##.js_more-below-post
 ##.js_sticky-second-scroll
 ##.js_suggested-stories
+##.lg\:gap-4.gap-18:has-text(Newsletter)
 ##.mailchimp
 ##.marketing-content
 ##.microapp-slot-innova
@@ -312,6 +314,7 @@ x.com##[aria-label="Grok actions"]
 ##.offer-modal
 ##.privacy_popup
 ##.promotedlink
+##.q-infobar
 ##.rh-cta
 ##.site-bannerCampaignElement
 ##.site-product-campaign-text
@@ -490,6 +493,7 @@ _clickadu_$important
 /track.min.js
 /tracking-opt-in/$important
 /trackingevent
+/upsell.min.css
 /viewsnativead
 /webstats
 /widget/ads.
@@ -698,12 +702,16 @@ _clickadu_$important
 ||youtube.com/*/jsbin/scheduler
 ||youtube.com/*/jsbin/spf
 ||youtube.com/*/jsbin/www-tampering
-||youtube.com/*/log
+||youtube.com/*/log$script,xhr
 ||youtube.com/*/miniplayer.js
 ||youtube.com/*/offline.js
 ||youtube.com/*/remote.js
+||youtube.com/$xhr,replace=/"adPlacements"/"no_ads"/
+||youtube.com/$xhr,replace=/"adSlots"/"no_ads"/
+||youtube.com/api/stats/atr
 ||youtube.com/api/stats/qoe
 ||youtube.com/api/timedtext
+||youtube.com/error_204
 ||youtube.com/youtubei/*/notification/get_unseen_count
 ||youtube.com/youtubei/*/player/heartbeat$important
 ||youtube.com^$domain=anilist.co
