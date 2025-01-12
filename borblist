@@ -309,11 +309,13 @@ x.com##[aria-label="Grok actions"]
 ##.newsletter-modal
 ##.newsletter-modal-horizontal
 ##.newsletter-modal-wrap
+##.newsletter_section
 ##.newsletter-section
 ##.newsub-box
 ##.offer-modal
 ##.privacy_popup
 ##.promotedlink
+##.pum
 ##.q-infobar
 ##.rh-cta
 ##.site-bannerCampaignElement
@@ -579,7 +581,6 @@ _clickadu_$important
 ||google.com/*/m=plusone/
 ||google.com/js/platform.js
 ||google.com/js/rpc:shindig_random.js?onload=init
-||google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit$important
 ||googleusercontent.com/proxy/
 ||growthbook.io^
 ||gstatic.com/*/firebase-analytics.js
@@ -601,6 +602,7 @@ _clickadu_$important
 ||ipstack.com^$important
 ||iubenda.com^
 ||js.authorize.net^
+||juwhelsoum.net^
 ||lnk.to/~/tr/
 ||locize.app^$important
 ||m.media-amazon.com/images/*/csm/showads.*.js$important
@@ -628,7 +630,6 @@ _clickadu_$important
 ||privacy-mgmt.$important
 ||privatemessages.roblox.com/v1/messages/unread/
 ||qualtrics.$important
-||recaptcha.net/recaptcha/*?render=$important
 ||recommendations.displate.com^$important
 ||redditstatic.com/shreddit/*/ad-event
 ||redditstatic.com/shreddit/*/feed-ad-client-js
@@ -677,6 +678,7 @@ _clickadu_$important
 ||twitch.tv/assets/*video-ads
 ||twitch.tv/assets/features.dmca-strike-banner
 ||twitch.tv/assets/sentry
+||uolscprpirgm.com^
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
