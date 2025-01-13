@@ -1,6 +1,11 @@
 ! title: borbs list
 ! Expires: 12 hours
 
+imgur.com##.Overlay:has(.AdblockDialog)
+imgur.com##.Gallery-Sidebar
+imgur.com##.Footer-wrapper
+imgur.com##.BottomRecirc
+
 esports.gg###FreeStarVideoAdContainer_BesOfEsportsgg
 esports.gg##.not-prose
 
@@ -597,6 +602,8 @@ _clickadu_$important
 ||hsforms.com^
 ||hubspot.com^
 ||i.ytimg.com/vi/*/oar*.jpg
+||imgur.com/desktop-assets/desktop-assets/adblock
+||imgur.com/desktop-assets/scripts/primis-integration.js
 ||inmobi.com^$important
 ||intergient.$important
 ||ipstack.com^$important
