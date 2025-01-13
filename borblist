@@ -218,9 +218,7 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined)
 
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
 x.com##.r-13qz1uu.r-ttdzmv.r-1c7gwzm.r-1c4vpko.r-kzbkwu.r-18u37iz.r-6koalj.r-1xfd6ze.css-175oi2r:has-text(Upgrade to Premium+)
-x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this)
-x.com##.r-3o4zer.r-dd0y9b.r-1777fci.r-1pi2tsx.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-bnwqim.r-dnmrzs.r-1s2bzr4.css-175oi2r
 x.com##[aria-label="Generate image"]
 x.com##a.r-1loqt21:has-text(Explore)
@@ -670,14 +668,8 @@ _clickadu_$important
 ||trustedcareaccess.com^
 ||twimg.com*/shared~loader.EventSummaryHandler
 ||twimg.com*CarouselScroller
-||twimg.com/*.AccountAnalytics~bundle.AudioSpaceStart~bundle.TwitterArticles~bundle.Compose~ondemand.ComposeS
 ||twimg.com/*.AudioSpacebarScreen~loader.Spacebar~loader.SidebarSpacebar
-||twimg.com/*.AudioSpacePeek~bundle.Communities~bundle.Compose~loader.CommunityHandler~bundle.RichTextCompose
-||twimg.com/*.AudioSpacePeek~bundle.Communities~bundle.TwitterArticles~bundle.Compose~loader.CommunityHandler
-||twimg.com/*.Communities~bundle.Compose~bundle.Delegate~bundle.GraduatedAccess~bundle.RichTextCompose
-||twimg.com/*.Compose~ondemand.SettingsMonetization~ondemand.SettingsSuperFollows~bundle.SuperFollowsSubscrib
 ||twimg.com/*.Spacebar~loader.SidebarSpacebar
-||twimg.com/*.TwitterArticles~bundle.Compose~bundle.SettingsExtendedProfile~bundle.WorkHistory~bundle
 ||twimg.com/*/loader.ExploreSidebar
 ||twimg.com/*/loader.FooterLoader
 ||twimg.com/*/loader.GetVerifiedSidebar
