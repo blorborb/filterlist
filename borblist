@@ -1,6 +1,10 @@
 ! title: borbs list
 ! Expires: 12 hours
 
+apkmirror.com##.ains-apkm_variant_page_top
+apkmirror.com##.ains-has-label
+apkmirror.com###bottom-slider
+
 imgur.com##.Overlay:has(.AdblockDialog)
 imgur.com##.Gallery-Sidebar
 imgur.com##.Footer-wrapper
@@ -75,6 +79,7 @@ ext-twitch.tv##.prime-extension-root
 twitch.tv##.follow-panel-overlay
 twitch.tv##.passthrough-events
 twitch.tv##.disclosure-tool
+twitch.tv##.consent-banner
 twitch.tv##.top-nav__prime
 twitch.tv##.side-nav
 
@@ -135,9 +140,10 @@ genius.com##.header-nav_menu
 
 wikipedia.org##.invite.mw-mmv-ttf-ellipsis-container
 
-pixiv.net##.fmRZHy.sc-1t7vxzj-5
-pixiv.net##.lfaZnj.sc-oh3a2p-0
-pixiv.net##.fvDibl.sc-74lrq-0
+pixiv.net##[href="/premium/lead/lp/?g=anchor&i=site_header_omni_bar&p=free_campaign"]
+pixiv.net##.box-border.justify-between.w-full:has-text(pixiv Premium)
+pixiv.net##.-ml-8.flex:has-text(pixiv Premium)
+pixiv.net##li:has-text(pixiv Premium)
 
 tumblr.com##.smX3m
 
@@ -206,6 +212,7 @@ youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata
 youtube.com##span.bold.yt-formatted-string:has-text(product)
 youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 youtube.com##.ytd-rich-grid-renderer:has-text(New to you)
+youtube.com###chat-container:has-text(Show chat replay)
 youtube.com###expandable-metadata:has-text(Summary)
 youtube.com##ytd-metadata-row-container-renderer
 youtube.com##.lockup.ytd-item-section-renderer
@@ -225,6 +232,7 @@ x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvib
 x.com##.r-13qz1uu.r-ttdzmv.r-1c7gwzm.r-1c4vpko.r-kzbkwu.r-18u37iz.r-6koalj.r-1xfd6ze.css-175oi2r:has-text(Upgrade to Premium+)
 x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this)
 x.com##.r-bnwqim.r-dnmrzs.r-1s2bzr4.css-175oi2r
+x.com##[aria-label="Profile Summary"]
 x.com##[aria-label="Generate image"]
 x.com##a.r-1loqt21:has-text(Explore)
 x.com##[aria-label="Grok actions"]
@@ -310,11 +318,11 @@ x.com##[aria-label="Grok actions"]
 ##.marketing-content
 ##.microapp-slot-innova
 ##.newsletter
+##.newsletter_section
 ##.newsletter-container
 ##.newsletter-modal
 ##.newsletter-modal-horizontal
 ##.newsletter-modal-wrap
-##.newsletter_section
 ##.newsletter-section
 ##.newsub-box
 ##.offer-modal
@@ -351,6 +359,7 @@ x.com##[aria-label="Grok actions"]
 ###eu_cookie_law_widget-2
 ###ghost-newsletter
 ###js-banner-eizo
+###ma-discord
 ###marketingbar
 ###newsletter
 ###ot-sdk-btn
@@ -452,6 +461,7 @@ _clickadu_$important
 /google-one-tap-index.min.js
 /GoogleAnalytics$important
 /gtag$important
+/html2canvas.min.js
 /identity-service$important
 /InnovaMicroAppNuxt
 /language-cookie.
@@ -497,6 +507,7 @@ _clickadu_$important
 /Survey
 /ta-
 /targeting
+/Track.*.js
 /track.min.js
 /tracking-opt-in/$important
 /trackingevent
