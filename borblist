@@ -129,12 +129,12 @@ hoyoverse.com##.home-btn-container
 
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
-github.com##article.py-3.width-full.flex-column.d-flex.js-notice:nth-of-type(3)
-github.com##.gMSYuG.types__StyledButton-sc-ws60qy-0
+github.com##div.react-code-size-details-in-header:has-text(Copilot)
 github.com##.border-bottom.mb-5.feed-right-sidebar
+github.com###\:r3c\::has-text(Copilot)
 github.com##[href="/settings/copilot"]
-github.com##.js-for-you-feed-items
 github.com##.AppHeader-CopilotChat
+github.com##.js-for-you-feed-items
 
 genius.com##.header-nav_menu
 
@@ -222,6 +222,7 @@ youtube.com###structured-description
 youtube.com###mealbar-promo-renderer
 youtube.com###sponsor-button
 youtube.com###clarify-box
+youtube.com###right
 
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined !important)
 youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
