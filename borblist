@@ -223,10 +223,10 @@ youtube.com###mealbar-promo-renderer
 youtube.com###sponsor-button
 youtube.com###clarify-box
 
-youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
-youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
-youtube.com##+js(set, playerResponse.adPlacements, undefined)
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined !important)
+youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
+youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
+youtube.com##+js(set, playerResponse.adPlacements, undefined !important)
 
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
 x.com##.r-13qz1uu.r-ttdzmv.r-1c7gwzm.r-1c4vpko.r-kzbkwu.r-18u37iz.r-6koalj.r-1xfd6ze.css-175oi2r:has-text(Upgrade to Premium+)
@@ -378,6 +378,7 @@ x.com##[aria-label="Grok actions"]
 *$important,frame,redirect-rule=noop.html
 *$important,script,redirect-rule=noop.js
 *$important,css,redirect-rule=noop.css
+*##+js(nostif, .call(null), 5)
 
 _clickadu_$important
 -adfuel-$important
@@ -598,6 +599,7 @@ _clickadu_$important
 ||google.com/js/platform.js
 ||google.com/js/rpc:shindig_random.js?onload=init
 ||googleusercontent.com/proxy/
+||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=
 ||growthbook.io^
 ||gstatic.com/*/firebase-analytics.js
 ||gstatic.com/*/firebase-messaging.js
@@ -702,6 +704,7 @@ _clickadu_$important
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
+||www.youtube.com/*/jsbin/serviceworker
 ||x.com*getAltTextPromptPreference
 ||x.com/i/api/*/badge_count/
 ||x.com/i/api/*/hashflags.json
