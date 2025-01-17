@@ -237,6 +237,7 @@ x.com##[aria-label="Profile Summary"]
 x.com##[aria-label="Generate image"]
 x.com##a.r-1loqt21:has-text(Explore)
 x.com##[aria-label="Grok actions"]
+x.com##[aria-label="Send a tip"]
 
 ! Breaks? many sites
 *font*$font,css,script,3p
