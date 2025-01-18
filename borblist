@@ -285,6 +285,7 @@ x.com##[aria-label="Lists"]
 ##.block-widget.widget
 ##.bottom-banner-area
 ##.button-promotion
+##.cc-popup
 ##.chatbot
 ##.consent-banner
 ##.Cookie
@@ -328,6 +329,7 @@ x.com##[aria-label="Lists"]
 ##.newsletter-section
 ##.newsub-box
 ##.offer-modal
+##.page-footer__subscribe
 ##.privacy_popup
 ##.promotedlink
 ##.pum
