@@ -311,6 +311,7 @@ x.com##[aria-label="Lists"]
 ##.ga-impression.bottom-bar
 ##.go-plus
 ##.grecaptcha-badge
+##.identification-modal
 ##.input-newsletter
 ##.is-verified-accounts.g-profile__card
 ##.js_more-below-post
@@ -335,6 +336,7 @@ x.com##[aria-label="Lists"]
 ##.pum
 ##.q-infobar
 ##.rh-cta
+##.signing-modal
 ##.site-bannerCampaignElement
 ##.site-product-campaign-text
 ##.slice-container-newsletterForm
