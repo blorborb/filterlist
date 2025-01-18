@@ -232,6 +232,7 @@ youtube.com##+js(set, playerResponse.adPlacements, undefined !important)
 x.com##.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1loqt21.r-3pj75a.r-1qi8awa.r-2yi16.r-lrvibr.r-rs99b7.r-1phboty.r-sdzlij.css-175oi2r:has-text(Summary)
 x.com##.r-13qz1uu.r-ttdzmv.r-1c7gwzm.r-1c4vpko.r-kzbkwu.r-18u37iz.r-6koalj.r-1xfd6ze.css-175oi2r:has-text(Upgrade to Premium+)
 x.com##.r-1ny4l3l.css-175oi2r > .css-175oi2r:has-text(Thanks. X will use this)
+x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
 x.com##.r-bnwqim.r-dnmrzs.r-1s2bzr4.css-175oi2r
 x.com##[aria-label="Profile Summary"]
 x.com##[aria-label="Generate image"]
@@ -702,6 +703,7 @@ _clickadu_$important
 ||twimg.com/*/loader.richScribeAction
 ||twimg.com/*/loader.TrendHandler
 ||twimg.com/*/shared~bundle.Grok~bundle.LiveEvent~icons
+||twimg.com/responsive-web/client-serviceworker/
 ||twitch.tv/_404/$image
 ||twitch.tv/assets/*video-ads
 ||twitch.tv/assets/features.dmca-strike-banner
