@@ -1,5 +1,5 @@
 ! title: borbs list
-! Expires: 12 hours
+! Expires: 24 hours
 
 apkmirror.com##.ains-apkm_variant_page_top
 apkmirror.com##.ains-has-label
@@ -312,7 +312,6 @@ x.com##[aria-label="Lists"]
 ##.grecaptcha-badge
 ##.identification-modal
 ##.input-newsletter
-##.is-verified-accounts.g-profile__card
 ##.js_more-below-post
 ##.js_sticky-second-scroll
 ##.js_suggested-stories
