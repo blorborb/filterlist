@@ -271,6 +271,7 @@ x.com##[aria-label="Lists"]
 ##.ad-spin
 ##.ad-sticky-top
 ##.ad-unit-wrapper
+##.adsninja-rail-container
 ##.announcement-bar
 ##.announcements-bar
 ##.as-newsletter-modal
@@ -303,6 +304,7 @@ x.com##[aria-label="Lists"]
 ##.DiscordIntegrator
 ##.elementor-popup-modal.dialog-type-lightbox
 ##.features-card
+##.footer-recommended-feed
 ##.formkit-form
 ##.g-footer
 ##.g-profile__qr-code-btn
@@ -319,6 +321,7 @@ x.com##[aria-label="Lists"]
 ##.mailchimp
 ##.marketing-content
 ##.microapp-slot-innova
+##.multi-thrasher
 ##.newsletter
 ##.newsletter_section
 ##.newsletter-container
@@ -417,6 +420,7 @@ _clickadu_$important
 /analytics*.js
 /api/*/analytics/*
 /apple_music_player
+/atoms/thrashers/
 /beardeddragon
 /blockadblock
 /browser-check*js
@@ -438,6 +442,7 @@ _clickadu_$important
 /data/event
 /diagnostic-
 /displayadswc
+/email/form/thrasher/
 /error-reporter
 /eu-cookie-law
 /event-sentry-sdk.*.js
@@ -526,6 +531,7 @@ _clickadu_$important
 /wp-content/plugins/*gdpr$important
 /wp-content/plugins/age-gate/
 /wp-content/plugins/klaviyo/
+/wrapper/metrics/
 /youtubei/v1/updated_metadata
 &adcontext
 &adformat
@@ -569,7 +575,6 @@ _clickadu_$important
 ||convbox.ai/scripts/omnitrack-lately.js
 ||cookielaw.org^$important
 ||discord.com/api/*/premium-marketing
-||discord.com/api/*/science
 ||discord.com/assets/sentry.*.js
 ||discord.com/error-reporting-proxy/
 ||discordapp.com/assets/profile_effects/effects/*/reduced-motion.png
@@ -746,7 +751,6 @@ _clickadu_$important
 ||youtube.com/error_204
 ||youtube.com/youtubei/*/notification/get_unseen_count
 ||youtube.com/youtubei/*/player/heartbeat$important
-||youtube.com^$domain=anilist.co
 ||youtube*/annotations_module.js
 ||youtube*/endscreen.js
 ||youtube*/log$script,xhr
