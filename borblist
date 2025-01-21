@@ -47,6 +47,7 @@ reddit.com##hr.my-sm
 reddit.com###TOPICS
 
 proton.me##.collapsible-header--clickable:has-text(Get mobile apps)
+proton.me##.text-ellipsis.text-sm.items-center:has-text(Upgrade)
 proton.me##.border.items-center.flex:has-text(Upgrade)
 proton.me##li.dropdown-item:has-text(Upgrade)
 proton.me##.topnav-listItem:has-text(Upgrade)
@@ -136,6 +137,7 @@ github.com##[href="/settings/copilot"]
 github.com##.AppHeader-CopilotChat
 github.com##.js-for-you-feed-items
 
+genius.com##.LyricsHighlightTooltipContainer
 genius.com##.header-nav_menu
 
 wikipedia.org##.invite.mw-mmv-ttf-ellipsis-container
@@ -228,6 +230,7 @@ youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
 youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
 youtube.com##+js(set, playerResponse.adPlacements, undefined !important)
 
+x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
 x.com##[data-testid="AppTabBar_Explore_Link"]
 x.com##[aria-label="Profile Summary"]
@@ -260,8 +263,9 @@ x.com##[aria-label="Lists"]
 @@||fontawesome.com
 
 @@||twimg.com/responsive-web/client-web/shared~bundle.UserLists~loader.ListHandler~ondemand.HoverCard
-@@||coveryourtracks.eff.org/static/dist/fp2.*.js
+@@||twimg.com/responsive-web/client-web/shared~bundle.ComposeMedia~bundle.SettingsProfile~bundle.
 @@||firstpartysimulator.org/static/dist/fp2.*.js
+@@||coveryourtracks.eff.org/static/dist/fp2.*.js
 
 ##.--framer-cookie-banner-container
 ##.a-ads
@@ -465,9 +469,6 @@ _clickadu_$important
 /generate_204
 /geoip
 /georouting
-/georoutingv1
-/georoutingv2
-/georoutingv3
 /gfplib
 /glo-related-products-upsell
 /google-one-tap-index.min.js
@@ -543,6 +544,7 @@ _clickadu_$important
 ||addons-pa.clients6.google.com
 ||adjust.^$important
 ||adobedtm.com^*/launch-$script,important
+||ads-twitter.com^$important
 ||adsdk.yandex.ru^$important
 ||an.yandex.ru^$important
 ||analytics.twitter.com^
@@ -550,6 +552,8 @@ _clickadu_$important
 ||app.wiki.gg/public/$image
 ||appsgrowthpromo-pa.clients6.google.com
 ||assetgame.roblox.com/game/report-event
+||assetlab.io/redirector-prod/*/post-action-tray-component.js
+||assetlab.io/redirector-prod/*/release-classic-nosample.js
 ||assets.twitch.tv/assets/features.ads
 ||assets.twitch.tv/assets/features.upsell
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
@@ -603,8 +607,8 @@ _clickadu_$important
 ||geolocation-recommendation
 ||github.com/_private/browser/errors
 ||github.com/github-copilot/
-||github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
 ||githubassets.com/assets/*copilot
+||githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
 ||google.com/_/scs/abc-static/*=ytsubscribe/
 ||google.com/*/m=auth/
 ||google.com/*/m=plusone/
@@ -648,7 +652,6 @@ _clickadu_$important
 ||modrinth.com/analytics/
 ||mollusk.apis.ign.com^
 ||mopinion.^$important
-||mopinion.com^$important
 ||narrativ.$important
 ||notifications.roblox.com^
 ||ogads-pa.clients6.google.com
@@ -656,8 +659,7 @@ _clickadu_$important
 ||open.oneplus.net^$important
 ||peoplestack-pa.clients6.google.com
 ||peoplestackwebexperiments-pa.clients6.google.com
-||platform.twitter.com/widgets.js
-||platform.twitter.com/widgets/$subdocument
+||platform.twitter.com/widgets
 ||playsaurusstats.com^
 ||privacy-mgmt.$important
 ||privatemessages.roblox.com/v1/messages/unread/
@@ -681,9 +683,6 @@ _clickadu_$important
 ||spot.im^
 ||spotify.com/ads-identity-web-enricher/
 ||spotifycdn.com/cdn/build/web-player/dwp-billboard-ad.
-||static.ads-twitter.com^$important
-||static.assetlab.io/redirector-prod/*/post-action-tray-component.js
-||static.assetlab.io/redirector-prod/*/release-classic-nosample.js
 ||stats.wp.com^$important
 ||steampowered.com/IClientMetricsService$important
 ||steampowered.com/IParentalService$important
