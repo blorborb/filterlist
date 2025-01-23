@@ -1,6 +1,19 @@
 ! title: borbs list
 ! Expires: 24 hours
 
+steampowered.com##.bottom_content.home_content_ctn.home_ctn
+steampowered.com##div.gutter_items:has-text(Steam Deck)
+steampowered.com##div.home_ctn:has(.home_deck_section)
+steampowered.com##div.gutter_header:has-text(Hardware)
+steampowered.com##.home_ctn.home_cluster_ctn
+steampowered.com##div.dark.page_content_ctn
+steampowered.com##.home_page_takeover_link
+steampowered.com##.static_takeover_ctn
+steamcommunity.com###footer_spacer
+steampowered.com##a.top_promo
+steamcommunity.com###footer
+steampowered.com###footer
+
 wallpapercave.com##[href="/featured-wallpapers"]
 wallpapercave.com##[href="/latest-uploads"]
 wallpapercave.com##[href="/featured-users"]
@@ -453,7 +466,6 @@ _clickadu_$important
 ##.Cookie
 ##.cookie-consent-overlay
 ##.cookie-notification
-##.CookieConsent_cookieConsent__pIj_y
 ##.cookiefooter
 ##.cookies-modal
 ##.cookieTip
@@ -504,7 +516,9 @@ _clickadu_$important
 ##.site-bannerCampaignElement
 ##.site-product-campaign-text
 ##.slice-container-newsletterForm
+##.social-icons
 ##.stack__ads
+##.subscribe__list
 ##.subscribe-box-inner
 ##.svelte-1h1i54z.includeWrapper
 ##.svelte-deweka.tc-capture-kit-wrapper
@@ -695,6 +709,9 @@ _clickadu_$important
 ||steampowered.com/IClientMetricsService$important
 ||steampowered.com/IParentalService$important
 ||steampowered.com/usabilitytracking$important
+||steamstatic.com/*/deck_banner_animated_static_
+||steamstatic.com/store/steamdeck/decklogo.png
+||steamstatic.com/store/steamdeck/steamdeck_promo_
 ||storage.googleapis.com/gsf-scripts/global-remarketing/
 ||stripe.com/ajax/metrics_batch
 ||tc.cdnhub.co/not-found/
@@ -991,6 +1008,7 @@ smetrics.
 snowplow.
 snowplow/
 snowplowanalytics.
+steamstatic.com/store_item_assets/*/deck_banner_animated_webm_
 subscription_popups
 suggestqueries-
 suggestqueries.
