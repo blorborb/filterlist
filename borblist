@@ -378,6 +378,8 @@ _clickadu_$important
 /img/pinterest.svg$image
 /img/twitter.png$image
 /InnovaMicroAppNuxt
+/ip/get-ip
+/ip/get-visitor-ip
 /language-cookie.
 /location
 /loginmanager_sniff.
@@ -387,6 +389,7 @@ _clickadu_$important
 /monitoring?
 /newsletter_embed
 /newsletter-enrollment.
+/newsletter/style-index.css$important
 /newsletters
 /ninetynine-analytics
 /omnitrack-facebook
@@ -394,6 +397,7 @@ _clickadu_$important
 /onetrust/$important
 /pagead
 /partner.ads
+/ping$xhr
 /popover.js
 /porpoiseant
 /prebid$important
@@ -403,6 +407,7 @@ _clickadu_$important
 /quantcast
 /quantcount
 /quantserve
+/record-data/log
 /reporter-api
 /reporting.js
 /RotateCookies
@@ -432,7 +437,9 @@ _clickadu_$important
 /widget/ads.
 /wp-content/plugins/*gdpr$important
 /wp-content/plugins/age-gate/
+/wp-content/plugins/gtm-analytics
 /wp-content/plugins/klaviyo/
+/wp-includes/blocks/social-links
 /wrapper/metrics/
 /youtubei/v1/updated_metadata
 &adcontext
@@ -483,9 +490,11 @@ _clickadu_$important
 ##.g-footer
 ##.g-profile__qr-code-btn
 ##.g-profile__verified-accounts > span
+##.g1-collection-item:has(.g1-advertisement)
 ##.ga-impression.bottom-bar
 ##.go-plus
 ##.grecaptcha-badge
+##.has-background:has([id="mc-embedded-subscribe-form"])
 ##.identification-modal
 ##.input-newsletter
 ##.js_more-below-post
@@ -530,6 +539,7 @@ _clickadu_$important
 ##.widget_block.widget
 ##.widget_digital_newspaper_social_icons_widget
 ##.zone__ads
+##[aria-label="Social Links"]
 ###advert_column
 ###auth-unit-container
 ###cmp-app-container
@@ -568,6 +578,7 @@ _clickadu_$important
 ||adobedtm.com^*/launch-$script,important
 ||ads-twitter.com^$important
 ||adsdk.yandex.ru^$important
+||amazonaws.com/downloads.mailchimp.com/
 ||an.yandex.ru^$important
 ||analytics.twitter.com^
 ||antiadblocksystems.com^$important
@@ -743,6 +754,8 @@ _clickadu_$important
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
+||www.gstatic.com/*/pub-*.js
+||www.miruro.online/assets/chop-
 ||www.youtube.com/*/jsbin/serviceworker
 ||x.com*getAltTextPromptPreference
 ||x.com/i/api/*/badge_count/
