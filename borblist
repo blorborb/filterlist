@@ -1,6 +1,15 @@
 ! title: borbs list
 ! Expires: 24 hours
 
+nexusmods.com##.select2-container--default.select2-container.select2
+nexusmods.com##tfoot > tr > td:nth-of-type(3)
+nexusmods.com##.rj-supporter-wrapper
+nexusmods.com###nonPremiumBanner
+nexusmods.com##tbody > tr > td
+nexusmods.com##.subheader
+nexusmods.com###rj-vortex
+nexusmods.com##th
+
 steampowered.com##.bottom_content.home_content_ctn.home_ctn
 steampowered.com##div.gutter_items:has-text(Steam Deck)
 steampowered.com##div.home_ctn:has(.home_deck_section)
@@ -286,6 +295,7 @@ x.com##[aria-label="Lists"]
 @@/wp-content/themes$font
 @@||cdnjs.cloudflare.com/ajax/libs/*/skins/
 @@||fontawesome.com
+@@||futurecdn.net/*/media/fonts/$font
 
 @@||firstpartysimulator.org/static/dist/fp2.*.js
 @@||coveryourtracks.eff.org/static/dist/fp2.*.js
@@ -437,8 +447,12 @@ _clickadu_$important
 /widget/ads.
 /wp-content/plugins/*gdpr$important
 /wp-content/plugins/age-gate/
+/wp-content/plugins/captcha-for-contact-form
 /wp-content/plugins/gtm-analytics
 /wp-content/plugins/klaviyo/
+/wp-content/plugins/powerkit/modules/opt-in-forms
+/wp-content/plugins/powerkit/modules/scroll-to-top
+/wp-content/plugins/real-cookie-banner
 /wp-includes/blocks/social-links
 /wrapper/metrics/
 /youtubei/v1/updated_metadata
@@ -452,6 +466,7 @@ _clickadu_$important
 ##.ad-spin
 ##.ad-sticky-top
 ##.ad-unit-wrapper
+##.ads
 ##.adsninja-rail-container
 ##.announcement-bar
 ##.announcements-bar
