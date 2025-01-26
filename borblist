@@ -1,6 +1,20 @@
 ! title: borbs list
 ! Expires: 24 hours
 
+www.minecraft.net##.MC_globalFooterA_socialStripe
+
+account.microsoft.com##.css-206.ms-Stack:has([data-icon-name="Diamond"])
+account.microsoft.com##.css-336.ms-Stack:has-text(Discover)
+account.microsoft.com##.css-206.ms-Stack:has-text(AI)
+account.microsoft.com##.css-298.ms-Stack
+
+techpowerup.com##.page-header [href] > [src]
+techpowerup.com##div.s--item:nth-of-type(5)
+techpowerup.com##div.s--item:nth-of-type(4)
+
+snipfeed.co##[href^="https://app.snipfeed.co/signup"]
+snipfeed.co##.gap-1
+
 nexusmods.com##.select2-container--default.select2-container.select2
 nexusmods.com##tfoot > tr > td:nth-of-type(3)
 nexusmods.com##.rj-supporter-wrapper
@@ -133,9 +147,11 @@ discord.com##[href="/store"]
 
 idrlabs.com###test-agreement
 
-spotify.com##.MKCgGhu_c8l6hsVuee46.Shelf.QyANtc_r7ff_tqrf5Bvc.SsbbQFeJun2Ts_EIktpr
-spotify.com##.encore-text-body-small-bold.iJUiBm.Button-sc-qlcn5g-0
-spotify.com##li.rQ6LXqVlEOGZdGIG0LgP:nth-of-type(3)
+spotify.com##[href="https://www.spotify.com/premium/?ref=web_loggedin_upgrade_menu"]
+spotify.com##[href="https://www.facebook.com/Spotify"]
+spotify.com##[href="https://instagram.com/spotify"]
+spotify.com##[href="https://twitter.com/spotify"]
+spotify.com##[aria-label="Upgrade to Premium"]
 
 bandcamp.com##.tralbum-tags
 bandcamp.com###user-nav
@@ -218,54 +234,56 @@ anilist.co##.episodes
 anilist.co##.trailer
 anilist.co##.watch
 
-miruro.*##button.vds-button:nth-of-type(11)
-miruro.*##button.vds-button:nth-of-type(8)
-miruro.*##button.vds-button:nth-of-type(7)
-miruro.*##button.vds-button:nth-of-type(5)
-miruro.*##button.vds-button:nth-of-type(4)
-miruro.*##button.vds-button:nth-of-type(3)
-miruro.*##button.sc-geXuza:nth-child(3)
-miruro.*##button.shortcuts-button
-miruro.*##a.gsdRdr:nth-of-type(2)
-miruro.*##[title="Add to List"]
-miruro.*##.vds-volume
+www.miruro.*##button.vds-button:nth-of-type(11)
+www.miruro.*##button.vds-button:nth-of-type(8)
+www.miruro.*##button.vds-button:nth-of-type(7)
+www.miruro.*##button.vds-button:nth-of-type(5)
+www.miruro.*##button.vds-button:nth-of-type(4)
+www.miruro.*##button.vds-button:nth-of-type(3)
+www.miruro.*##button.sc-geXuza:nth-child(3)
+www.miruro.*##button.shortcuts-button
+www.miruro.*##a.gsdRdr:nth-of-type(2)
+www.miruro.*##[title="Add to List"]
+www.miruro.*##.vds-volume
 
-youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
-youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
-youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
-youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
-youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
-youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
-youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
-youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
-youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
-youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata
-youtube.com##span.bold.yt-formatted-string:has-text(product)
-youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
-youtube.com##.ytd-rich-grid-renderer:has-text(New to you)
-youtube.com###chat-container:has-text(Show chat replay)
-youtube.com###expandable-metadata:has-text(Summary)
-youtube.com##ytd-metadata-row-container-renderer
-youtube.com##.lockup.ytd-item-section-renderer
-youtube.com##.ytp-paid-content-overlay
-youtube.com##ytd-mini-guide-renderer
-youtube.com###structured-description
-youtube.com###mealbar-promo-renderer
-youtube.com###sponsor-button
-youtube.com###clarify-box
-youtube.com###right
+www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
+www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
+www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
+www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
+www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+www.youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata
+www.youtube.com##span.bold.yt-formatted-string:has-text(product)
+www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
+www.youtube.com##.ytd-rich-grid-renderer:has-text(New to you)
+www.youtube.com###chat-container:has-text(Show chat replay)
+www.youtube.com###expandable-metadata:has-text(Summary)
+www.youtube.com##ytd-metadata-row-container-renderer
+www.youtube.com##.lockup.ytd-item-section-renderer
+www.youtube.com##.ytp-paid-content-overlay
+www.youtube.com##ytd-mini-guide-renderer
+www.youtube.com###structured-description
+www.youtube.com###mealbar-promo-renderer
+www.youtube.com###sponsor-button
+www.youtube.com###clarify-box
+www.youtube.com###right
 
-youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined !important)
-youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
-youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
-youtube.com##+js(set, playerResponse.adPlacements, undefined !important)
+www.youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined !important)
+www.youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
+www.youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
+www.youtube.com##+js(set, playerResponse.adPlacements, undefined !important)
 
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Answer by Grok)
 x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
 x.com##[data-testid="AppTabBar_Explore_Link"]
 x.com##[aria-label="Profile Summary"]
@@ -291,6 +309,7 @@ x.com##[aria-label="Lists"]
 @@*Symbol*$font,css
 @@/font-awesome
 @@/icomoon
+@@/light.$font
 @@/Themes/*$font,css
 @@/wp-content/themes$font
 @@||cdnjs.cloudflare.com/ajax/libs/*/skins/
@@ -311,6 +330,7 @@ _clickadu_$important
 .cmp
 .open
 .snowplow
+*###cookie-banner
 /?utm_source=sourceforge&amp;utm_medium=unitad&
 /*consent-banner*.js
 /#breadcrumb
@@ -429,6 +449,7 @@ _clickadu_$important
 /showads.js
 /silver-surfer$important
 /silversurfer$important
+/skype-tracking.min.js
 /snowplow
 /social-data
 /socialdata
@@ -485,6 +506,7 @@ _clickadu_$important
 ##.cc-popup
 ##.chatbot
 ##.consent-banner
+##.contents > hr
 ##.Cookie
 ##.cookie-consent-overlay
 ##.cookie-notification
@@ -498,9 +520,14 @@ _clickadu_$important
 ##.desktop-content-ad-container
 ##.digital-newspaper-advertisement-block
 ##.DiscordIntegrator
+##.discordLink
+##.el-floating-chat-cta-items-container
 ##.elementor-popup-modal.dialog-type-lightbox
+##.elementor-widget-ucaddon_cookie_consent
+##.facebookLink
 ##.features-card
 ##.footer-recommended-feed
+##.footer-top-col:has-text(Follow Us)
 ##.formkit-form
 ##.g-footer
 ##.g-profile__qr-code-btn
@@ -512,6 +539,7 @@ _clickadu_$important
 ##.has-background:has([id="mc-embedded-subscribe-form"])
 ##.identification-modal
 ##.input-newsletter
+##.instagramLink
 ##.js_more-below-post
 ##.js_sticky-second-scroll
 ##.js_suggested-stories
@@ -535,11 +563,13 @@ _clickadu_$important
 ##.promotedlink
 ##.pum
 ##.q-infobar
+##.related-container
 ##.rh-cta
 ##.signing-modal
 ##.site-bannerCampaignElement
 ##.site-product-campaign-text
 ##.slice-container-newsletterForm
+##.snapchatLink
 ##.social-icons
 ##.stack__ads
 ##.subscribe__list
@@ -549,10 +579,16 @@ _clickadu_$important
 ##.ta-campaign-widget
 ##.ta-campaign-widget__popup-wrapper
 ##.text_promo
+##.tiktokLink
+##.twitterLink
+##.ue-banner
+##.ue-cookie-consent
+##.ue-cookie-consent-wrapper
 ##.uma-hero
 ##.v-snack
 ##.widget_block.widget
 ##.widget_digital_newspaper_social_icons_widget
+##.youtubeLink
 ##.zone__ads
 ##[aria-label="Social Links"]
 ###advert_column
@@ -574,6 +610,7 @@ _clickadu_$important
 ###ot-sdk-btn
 ###pgFt
 ###pojo-a11y-toolbar
+###popular_galleries
 ###secondscroll_sidebar_wrapper
 ###shopify-section-announcement-bar
 ###shopify-section-newsletter-popup
@@ -581,6 +618,8 @@ _clickadu_$important
 ###uptodown-turbo-promo
 ###yt_a_message
 ##floating-auth-unit-container
+##li:has-text(Subscribe)
+##lite-tiktok
 ##shop-login-button
 ##shopify-payment-terms
 =metrics
@@ -727,6 +766,7 @@ _clickadu_$important
 ||signaler-pa.clients6.google.com
 ||signaler-pa.youtube.com/
 ||simplelocalize.$important
+||skypeassets.com/cdn/skype-tracking/
 ||socket.io^
 ||spot.im^
 ||spotify.com/ads-identity-web-enricher/
@@ -771,6 +811,7 @@ _clickadu_$important
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
 ||www.gstatic.com/*/pub-*.js
 ||www.miruro.online/assets/chop-
+||www.tiktok.com^$3p,important
 ||www.youtube.com/*/jsbin/serviceworker
 ||x.com*getAltTextPromptPreference
 ||x.com/i/api/*/badge_count/
