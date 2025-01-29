@@ -1,6 +1,9 @@
 ! title: borbs list
 ! Expires: 24 hours
 
+lit.link##.litlink-cv-profile-footer-logo-click
+lit.link##footer
+
 www.minecraft.net##.MC_globalFooterA_socialStripe
 
 account.microsoft.com##.css-206.ms-Stack:has([data-icon-name="Diamond"])
@@ -181,6 +184,7 @@ hoyoverse.com##.home-btn-container
 
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
+github.com##[aria-describedby=":r32:-loading-announcement"]:has-text(Code 55% faster with GitHub Copilot)
 github.com##div.react-code-size-details-in-header:has-text(Copilot)
 github.com##.border-bottom.mb-5.feed-right-sidebar
 github.com###\:r3c\::has-text(Copilot)
@@ -188,6 +192,7 @@ github.com##[href="/settings/copilot"]
 github.com##.AppHeader-CopilotChat
 github.com##.js-for-you-feed-items
 
+genius.com##[data-exclude-from-selection="true"]
 genius.com##.LyricsHighlightTooltipContainer
 genius.com##.header-nav_menu
 
@@ -261,7 +266,7 @@ www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-www.youtube.com##ytd-badge-supported-renderer.ytd-watch-metadata
+
 www.youtube.com##span.bold.yt-formatted-string:has-text(product)
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com##.ytd-rich-grid-renderer:has-text(New to you)
@@ -308,6 +313,7 @@ x.com##[aria-label="Lists"]
 @@*Icon*$font,css
 @@*Symbol*$font,css
 @@/font-awesome
+@@/fonts/imgbb.ttf
 @@/icomoon
 @@/light.$font
 @@/Themes/*$font,css
@@ -427,7 +433,6 @@ _clickadu_$important
 /onetrust/$important
 /pagead
 /partner.ads
-/ping$xhr
 /popover.js
 /porpoiseant
 /prebid$important
@@ -524,6 +529,9 @@ _clickadu_$important
 ##.el-floating-chat-cta-items-container
 ##.elementor-popup-modal.dialog-type-lightbox
 ##.elementor-widget-ucaddon_cookie_consent
+##.erc-footer-section:has([aria-labelledby="youtube-svg"])
+##.erc-premium-header-link
+##.erc-watch-premium-upsell
 ##.facebookLink
 ##.features-card
 ##.footer-recommended-feed
@@ -534,6 +542,7 @@ _clickadu_$important
 ##.g-profile__verified-accounts > span
 ##.g1-collection-item:has(.g1-advertisement)
 ##.ga-impression.bottom-bar
+##.glue-cookie-notification-bar
 ##.go-plus
 ##.grecaptcha-badge
 ##.has-background:has([id="mc-embedded-subscribe-form"])
@@ -580,6 +589,7 @@ _clickadu_$important
 ##.ta-campaign-widget__popup-wrapper
 ##.text_promo
 ##.tiktokLink
+##.TOSBanner
 ##.twitterLink
 ##.ue-banner
 ##.ue-cookie-consent
@@ -617,8 +627,15 @@ _clickadu_$important
 ###subscribe_popup
 ###uptodown-turbo-promo
 ###yt_a_message
+##devsite-cookie-notification-bar
 ##floating-auth-unit-container
 ##li:has-text(Subscribe)
+##li:has([aria-labelledby="facebook-svg"])
+##li:has([aria-labelledby="instagram-svg"])
+##li:has([aria-labelledby="premium-filled-svg"])
+##li:has([aria-labelledby="tiktok-svg"])
+##li:has([aria-labelledby="x-svg"])
+##li:has([aria-labelledby="youtube-svg"])
 ##lite-tiktok
 ##shop-login-button
 ##shopify-payment-terms
@@ -837,7 +854,6 @@ _clickadu_$important
 ||youtube.com/$xhr,replace=/"adSlots"/"no_ads"/
 ||youtube.com/api/stats/atr
 ||youtube.com/api/stats/qoe
-||youtube.com/api/timedtext
 ||youtube.com/error_204
 ||youtube.com/youtubei/*/notification/get_unseen_count
 ||youtube.com/youtubei/*/player/heartbeat$important
