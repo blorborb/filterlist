@@ -1,6 +1,9 @@
 ! title: borbs list
 ! Expires: 24 hours
 
+myanimelist.net##.mal-tooltip-layer:has-text(sign-up)
+myanimelist.net##.mal-tooltip-layer:has-text(sign up)
+
 lit.link##.litlink-cv-profile-footer-logo-click
 lit.link##footer
 
@@ -11,6 +14,7 @@ account.microsoft.com##.css-336.ms-Stack:has-text(Discover)
 account.microsoft.com##.css-206.ms-Stack:has-text(AI)
 account.microsoft.com##.css-298.ms-Stack
 
+www.techpowerup.com##.v-port > div:nth-of-type(1)
 techpowerup.com##.page-header [href] > [src]
 techpowerup.com##div.s--item:nth-of-type(5)
 techpowerup.com##div.s--item:nth-of-type(4)
@@ -126,15 +130,19 @@ amazon.*###sp-cc
 amazon.*###rhf
 amazon.*##hr
 
-twitch.tv##.tw-dialog-layer:has-text(Your donation goes to support the charity.)
-twitch.tv##.player-overlay-background--darkness-3
-ext-twitch.tv##.prime-extension-root
-twitch.tv##.follow-panel-overlay
-twitch.tv##.passthrough-events
-twitch.tv##.disclosure-tool
-twitch.tv##.consent-banner
-twitch.tv##.top-nav__prime
-twitch.tv##.side-nav
+www.twitch.tv##[data-test-selector="toggle-balloon-wrapper__mouse-enter-detector"]:has-text(Ad-Free)
+www.twitch.tv##.tw-dialog-layer:has-text(Your donation goes to support the charity.)
+www.twitch.tv##.find-me:has-text(we think you’ll like)
+www.twitch.tv##.player-overlay-background--darkness-3
+www.twitch.tv##li:has([href="/settings/prime"])
+www.twitch.tv##.find-me:has-text(Recommended)
+www.ext-twitch.tv##.prime-extension-root
+www.twitch.tv##.follow-panel-overlay
+www.twitch.tv##.passthrough-events
+www.twitch.tv##.disclosure-tool
+www.twitch.tv##.top-nav__prime
+www.twitch.tv##.consent-banner
+www.twitch.tv##.side-nav
 
 lenovo.com##.partsPspBannerBox
 
@@ -371,7 +379,6 @@ _clickadu_$important
 /collect?
 /consent-mode/*.css
 /consent*js
-/cookie
 /csp_report
 /csp-report
 /csp/reporting
@@ -488,6 +495,7 @@ _clickadu_$important
 ##.a-ads
 ##.a8c-cookie-banner
 ##.ad-parent
+##.ad-skin-side-bg
 ##.ad-slot-header__wrapper
 ##.ad-spin
 ##.ad-sticky-top
@@ -510,11 +518,19 @@ _clickadu_$important
 ##.button-promotion
 ##.cc-popup
 ##.chatbot
+##.cn-position-bottom
 ##.consent-banner
 ##.contents > hr
 ##.Cookie
+##.cookie-btn-box
 ##.cookie-consent-overlay
+##.cookie-notice-container
+##.cookie-notice-hidden
 ##.cookie-notification
+##.cookie-policy-wrap
+##.cookie-policy-wrap-inline
+##.cookie-revoke-hidden
+##.cookie-text-wrap
 ##.cookiefooter
 ##.cookies-modal
 ##.cookieTip
@@ -534,7 +550,9 @@ _clickadu_$important
 ##.erc-watch-premium-upsell
 ##.facebookLink
 ##.features-card
+##.footer-link-icon-block
 ##.footer-recommended-feed
+##.footer-social-holder
 ##.footer-top-col:has-text(Follow Us)
 ##.formkit-form
 ##.g-footer
@@ -601,17 +619,28 @@ _clickadu_$important
 ##.youtubeLink
 ##.zone__ads
 ##[aria-label="Social Links"]
+##[href="/about/cookie_policy"]
+##[id="ad-skin-bg-left"]
+##[id="ad-skin-bg-right"]
+##[rel="nofollow noopener noreferrer"]
+###ad-skin-side-bg
+###ad-skin-side-outer
+###ad-skin-side-outer
 ###advert_column
 ###auth-unit-container
 ###cmp-app-container
 ###colophon
 ###cookie-announcement
+###cookie-law-info-bar
+###cookie-notice
+###cookie-policy-info
 ###cookieDialog
 ###cozyCRModal
 ###default-ads
 ###discountBanner
 ###discountBanner-sidebar
 ###eu_cookie_law_widget-2
+###gdpr-modal-bottom
 ###ghost-newsletter
 ###js-banner-eizo
 ###ma-discord
