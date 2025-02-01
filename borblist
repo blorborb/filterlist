@@ -297,7 +297,9 @@ www.youtube.com##+js(set, playerResponse.adPlacements, undefined !important)
 
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Answer by Grok)
+x.com##.r-1h0z5md.r-18u37iz.r-1udh08x.r-1xfd6ze.css-175oi2r:has-text(X Premium)
 x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
+x.com##.r-1xpp3t0.css-175oi2r:has-text(Get verified)
 x.com##[data-testid="AppTabBar_Explore_Link"]
 x.com##[aria-label="Profile Summary"]
 x.com##[aria-label="Generate image"]
@@ -309,7 +311,7 @@ x.com##[aria-label="Lists"]
 *$important,frame,redirect-rule=noop.html
 *$important,script,redirect-rule=noop.js
 *$important,css,redirect-rule=noop.css
-*##+js(nostif, .call(null), 5)
+*##+js(nostif, .call(null), 10)
 
 ! Breaks? many sites
 *font*$font,css,script,3p
@@ -379,6 +381,7 @@ _clickadu_$important
 /collect?
 /consent-mode/*.css
 /consent*js
+/cookie-consent/*/cookie-consent.js
 /csp_report
 /csp-report
 /csp/reporting
@@ -515,14 +518,22 @@ _clickadu_$important
 ##.bg-promotion
 ##.block-widget.widget
 ##.bottom-banner-area
+##.btn-email
 ##.button-promotion
+##.cc-banner
 ##.cc-popup
+##.cc-type-opt-in.cc-banner
 ##.chatbot
+##.cky-banner-bottom
+##.cky-consent-bar
+##.cky-consent-container
+##.cky-notice
 ##.cn-position-bottom
 ##.consent-banner
 ##.contents > hr
 ##.Cookie
 ##.cookie-btn-box
+##.cookie-consent-modal
 ##.cookie-consent-overlay
 ##.cookie-notice-container
 ##.cookie-notice-hidden
@@ -550,8 +561,10 @@ _clickadu_$important
 ##.erc-watch-premium-upsell
 ##.facebookLink
 ##.features-card
+##.footer__social-icons
 ##.footer-link-icon-block
 ##.footer-recommended-feed
+##.footer-social
 ##.footer-social-holder
 ##.footer-top-col:has-text(Follow Us)
 ##.formkit-form
@@ -560,6 +573,8 @@ _clickadu_$important
 ##.g-profile__verified-accounts > span
 ##.g1-collection-item:has(.g1-advertisement)
 ##.ga-impression.bottom-bar
+##.gdpr
+##.gdpr_messagebar_content
 ##.glue-cookie-notification-bar
 ##.go-plus
 ##.grecaptcha-badge
@@ -592,12 +607,14 @@ _clickadu_$important
 ##.q-infobar
 ##.related-container
 ##.rh-cta
+##.section--signup
 ##.signing-modal
 ##.site-bannerCampaignElement
 ##.site-product-campaign-text
 ##.slice-container-newsletterForm
 ##.snapchatLink
 ##.social-icons
+##.social-links
 ##.stack__ads
 ##.subscribe__list
 ##.subscribe-box-inner
@@ -614,10 +631,14 @@ _clickadu_$important
 ##.ue-cookie-consent-wrapper
 ##.uma-hero
 ##.v-snack
+##.wcc-consent-bar
+##.wcc-consent-container
 ##.widget_block.widget
 ##.widget_digital_newspaper_social_icons_widget
+##.wp-block-social-links
 ##.youtubeLink
 ##.zone__ads
+##[aria-label="Consent Banner"]
 ##[aria-label="Social Links"]
 ##[href="/about/cookie_policy"]
 ##[id="ad-skin-bg-left"]
@@ -634,12 +655,14 @@ _clickadu_$important
 ###cookie-law-info-bar
 ###cookie-notice
 ###cookie-policy-info
+###cookieconsent\:desc_gdpr
 ###cookieDialog
 ###cozyCRModal
 ###default-ads
 ###discountBanner
 ###discountBanner-sidebar
 ###eu_cookie_law_widget-2
+###gdpr-cookie-consent-bar
 ###gdpr-modal-bottom
 ###ghost-newsletter
 ###js-banner-eizo
@@ -647,6 +670,7 @@ _clickadu_$important
 ###marketingbar
 ###newsletter
 ###ot-sdk-btn
+###overlay
 ###pgFt
 ###pojo-a11y-toolbar
 ###popular_galleries
@@ -654,6 +678,7 @@ _clickadu_$important
 ###shopify-section-announcement-bar
 ###shopify-section-newsletter-popup
 ###subscribe_popup
+###top-social
 ###uptodown-turbo-promo
 ###yt_a_message
 ##devsite-cookie-notification-bar
@@ -855,6 +880,7 @@ _clickadu_$important
 ||vntsm.$important
 ||waa-pa.clients6.google.com
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
+||www.dishoom.com/monitoring-tunnel
 ||www.gstatic.com/*/pub-*.js
 ||www.miruro.online/assets/chop-
 ||www.tiktok.com^$3p,important
