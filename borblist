@@ -102,12 +102,11 @@ reddit.com###get-app
 reddit.com##hr.my-sm
 reddit.com###TOPICS
 
+mail.proton.me##[href="https://account.proton.me/u/4/mail/upgrade?ref=upsell_mail-button-user-dropdown"]
+proton.me##.text-sm:has([data-testid="userdropdown:label:plan-name"]):has-text(Free)
 proton.me##.collapsible-header--clickable:has-text(Get mobile apps)
-proton.me##.text-ellipsis.text-sm.items-center:has-text(Upgrade)
-proton.me##.border.items-center.flex:has-text(Upgrade)
-proton.me##li.dropdown-item:has-text(Upgrade)
-proton.me##.topnav-listItem:has-text(Upgrade)
-proton.me##.spotlight:has-text(Upgrade)
+proton.me##.block:has([href="https://shop.proton.me"])
+proton.me##.text-ellipsis:has-text(Upgrade)
 proton.me##.button-promotion
 proton.me##.bg-promotion
 
@@ -192,12 +191,8 @@ hoyoverse.com##.home-btn-container
 
 bsky.app##.r-33ulu8.r-5laclt.r-13l2t4g.r-1ljd8xs.css-175oi2r
 
-github.com##[aria-describedby=":r32:-loading-announcement"]:has-text(Code 55% faster with GitHub Copilot)
-github.com##div.react-code-size-details-in-header:has-text(Copilot)
-github.com##.border-bottom.mb-5.feed-right-sidebar
-github.com###\:r3c\::has-text(Copilot)
+github.com##[type="button"]:has-text(Code 55% faster with GitHub Copilot)
 github.com##[href="/settings/copilot"]
-github.com##.AppHeader-CopilotChat
 github.com##.js-for-you-feed-items
 
 genius.com##[data-exclude-from-selection="true"]
@@ -260,21 +255,16 @@ www.miruro.*##[title="Add to List"]
 www.miruro.*##.vds-volume
 
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
-www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-
 www.youtube.com##span.bold.yt-formatted-string:has-text(product)
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com##.ytd-rich-grid-renderer:has-text(New to you)
@@ -286,14 +276,13 @@ www.youtube.com##.ytp-paid-content-overlay
 www.youtube.com##ytd-mini-guide-renderer
 www.youtube.com###structured-description
 www.youtube.com###mealbar-promo-renderer
+www.youtube.com##.ytp-miniplayer-button
 www.youtube.com###sponsor-button
 www.youtube.com###clarify-box
 www.youtube.com###right
 
-www.youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined !important)
-www.youtube.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
-www.youtube.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
-www.youtube.com##+js(set, playerResponse.adPlacements, undefined !important)
+www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
+www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
 
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Answer by Grok)
@@ -307,11 +296,7 @@ x.com##[aria-label="Grok actions"]
 x.com##[aria-label="Send a tip"]
 x.com##[aria-label="Lists"]
 
-*$important,font,image,media,xhr,redirect-rule=nooptext
-*$important,frame,redirect-rule=noop.html
-*$important,script,redirect-rule=noop.js
-*$important,css,redirect-rule=noop.css
-*##+js(nostif, .call(null), 10)
+*$image,domain=behind-the-scene
 
 ! Breaks? many sites
 *font*$font,css,script,3p
@@ -341,11 +326,11 @@ _clickadu_$important
 -h5log
 ?analytics
 ?fingerprint
-?metrics
 ?modules=KeyframesRenderer
 .cmp
 .open
 .snowplow
+@@||github.githubassets.com/assets/ui_packages_copilot-chat_utils_copilot-chat-types_ts-ui_packages_repos-file-tree-view_repos-f-
 *###cookie-banner
 /?utm_source=sourceforge&amp;utm_medium=unitad&
 /*consent-banner*.js
@@ -367,6 +352,7 @@ _clickadu_$important
 /analytics.js
 /analytics*.js
 /api/*/analytics/*
+/api/data/v1/metrics
 /apple_music_player
 /atoms/thrashers/
 /beardeddragon
@@ -440,7 +426,7 @@ _clickadu_$important
 /ninetynine-analytics
 /omnitrack-facebook
 /OneSignal
-/onetrust/$important
+/onetrust/*$important
 /pagead
 /partner.ads
 /popover.js
@@ -494,6 +480,7 @@ _clickadu_$important
 /youtubei/v1/updated_metadata
 &adcontext
 &adformat
+##:style(overflow: auto; !important)
 ##.--framer-cookie-banner-container
 ##.a-ads
 ##.a8c-cookie-banner
@@ -532,6 +519,7 @@ _clickadu_$important
 ##.consent-banner
 ##.contents > hr
 ##.Cookie
+##.cookie-banner-wrapper
 ##.cookie-btn-box
 ##.cookie-consent-modal
 ##.cookie-consent-overlay
@@ -613,6 +601,7 @@ _clickadu_$important
 ##.site-product-campaign-text
 ##.slice-container-newsletterForm
 ##.snapchatLink
+##.sns-list
 ##.social-icons
 ##.social-links
 ##.stack__ads
@@ -625,6 +614,7 @@ _clickadu_$important
 ##.text_promo
 ##.tiktokLink
 ##.TOSBanner
+##.twcc__overlay.twcc
 ##.twitterLink
 ##.ue-banner
 ##.ue-cookie-consent
@@ -643,7 +633,6 @@ _clickadu_$important
 ##[href="/about/cookie_policy"]
 ##[id="ad-skin-bg-left"]
 ##[id="ad-skin-bg-right"]
-##[rel="nofollow noopener noreferrer"]
 ###ad-skin-side-bg
 ###ad-skin-side-outer
 ###ad-skin-side-outer
@@ -652,6 +641,8 @@ _clickadu_$important
 ###cmp-app-container
 ###colophon
 ###cookie-announcement
+###cookie-banner-wrapper
+###cookie-information-template-wrapper
 ###cookie-law-info-bar
 ###cookie-notice
 ###cookie-policy-info
@@ -682,6 +673,7 @@ _clickadu_$important
 ###uptodown-turbo-promo
 ###yt_a_message
 ##devsite-cookie-notification-bar
+##div.footer-links:has-text(e-mail)
 ##floating-auth-unit-container
 ##li:has-text(Subscribe)
 ##li:has([aria-labelledby="facebook-svg"])
@@ -735,6 +727,7 @@ _clickadu_$important
 ||cohesionapps.$important
 ||contacts.roblox.com/v1/contacts/metadata
 ||convbox.ai/scripts/omnitrack-lately.js
+||cookieinformation.com^$important
 ||cookielaw.org^$important
 ||discord.com/api/*/premium-marketing
 ||discord.com/assets/sentry.*.js
@@ -765,6 +758,8 @@ _clickadu_$important
 ||geolocation-recommendation
 ||github.com/_private/browser/errors
 ||github.com/github-copilot/
+||github.githubassets.com/assets/chunk-ui_packages_cookie-consent
+||github.githubassets.com/assets/chunk-ui_packages_ghcc-consent
 ||githubassets.com/assets/*copilot
 ||githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
 ||google.com/_/scs/abc-static/*=ytsubscribe/
@@ -882,9 +877,11 @@ _clickadu_$important
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
 ||www.dishoom.com/monitoring-tunnel
 ||www.gstatic.com/*/pub-*.js
+||www.gstatic.com/youtube/img/watch/yt_favicon
 ||www.miruro.online/assets/chop-
 ||www.tiktok.com^$3p,important
 ||www.youtube.com/*/jsbin/serviceworker
+||www.youtube.com/s/desktop/*/img/logos/favicon
 ||x.com*getAltTextPromptPreference
 ||x.com/i/api/*/badge_count/
 ||x.com/i/api/*/hashflags.json
@@ -1094,10 +1091,6 @@ mailerlite.
 marketingplatform.$important
 marketo.$important
 media.net
-metrics-
-metrics?
-metrics.
-metrics=
 metrika.
 mistat.
 mktoedge.
