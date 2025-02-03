@@ -1,5 +1,8 @@
 ! title: borbs list
+! Homepage: https://github.com/blorborb/filterlists/tree/main
 ! Expires: 24 hours
+
+duckduckgo.com##[data-layout="news"]
 
 myanimelist.net##.mal-tooltip-layer:has-text(sign-up)
 myanimelist.net##.mal-tooltip-layer:has-text(sign up)
@@ -242,32 +245,30 @@ anilist.co##.episodes
 anilist.co##.trailer
 anilist.co##.watch
 
-www.miruro.*##button.vds-button:nth-of-type(11)
-www.miruro.*##button.vds-button:nth-of-type(8)
-www.miruro.*##button.vds-button:nth-of-type(7)
-www.miruro.*##button.vds-button:nth-of-type(5)
-www.miruro.*##button.vds-button:nth-of-type(4)
-www.miruro.*##button.vds-button:nth-of-type(3)
-www.miruro.*##button.sc-geXuza:nth-child(3)
-www.miruro.*##button.shortcuts-button
-www.miruro.*##a.gsdRdr:nth-of-type(2)
-www.miruro.*##[title="Add to List"]
-www.miruro.*##.vds-volume
+www.miruro.online##button.vds-button:has([d="M5.33334 7.33334C5.33334 6.96515 5.63181 6.66667 6 6.66667H26C26.3682 6.66667 26.6667 6.96515 26.6667 7.33334V24.6667C26.6667 25.0349 26.3682 25.3333 26 25.3333H6C5.63181 25.3333 5.33334 25.0349 5.33334 24.6667V7.33334ZM8 10C8 9.63182 8.29848 9.33334 8.66667 9.33334H17.2C17.2736 9.33334 17.3333 9.39303 17.3333 9.46667V22.5333C17.3333 22.607 17.2736 22.6667 17.2 22.6667H8.66667C8.29848 22.6667 8 22.3682 8 22V10ZM20 22.5333C20 22.607 20.0597 22.6667 20.1333 22.6667H23.3333C23.7015 22.6667 24 22.3682 24 22V10C24 9.63182 23.7015 9.33334 23.3333 9.33334H20.1333C20.0597 9.33334 20 9.39303 20 9.46667V22.5333Z"])
+www.miruro.online##button.vds-button:has([d="M25.1377 6.78532C25.5778 6.46017 26.2005 6.77434 26.2005 7.32151V24.6785C26.2005 25.2257 25.5777 25.5398 25.1377 25.2147L13.3924 16.5358C13.0317 16.2693 13.0317 15.7299 13.3924 15.4634L25.1377 6.78532Z"])
+www.miruro.online##[aria-label="Seek backward -10 seconds"]
+www.miruro.online##[aria-label="Seek forward 10 seconds"]
+www.miruro.online##.vds-button.vds-caption-button
+www.miruro.online##button.shortcuts-button
+www.miruro.online##[title="Add to List"]
+www.miruro.online##.vds-volume
 
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##ytd-rich-item-renderer:has(.ytd-feed-entry-renderer.style-scope.info)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
 www.youtube.com##span.bold.yt-formatted-string:has-text(product)
-www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com##.ytd-rich-grid-renderer:has-text(New to you)
+www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com###chat-container:has-text(Show chat replay)
 www.youtube.com###expandable-metadata:has-text(Summary)
 www.youtube.com##ytd-metadata-row-container-renderer
@@ -385,6 +386,8 @@ _clickadu_$important
 /experiencetrackerviewsdata
 /ezais
 /ezoic
+/favicon*.ico$image
+/favicon*.png$image
 /fingerprint.js
 /fingerprint2.
 /fingerprint3.
@@ -427,7 +430,6 @@ _clickadu_$important
 /omnitrack-facebook
 /OneSignal
 /onetrust/*$important
-/pagead
 /partner.ads
 /popover.js
 /porpoiseant
@@ -550,6 +552,7 @@ _clickadu_$important
 ##.facebookLink
 ##.features-card
 ##.footer__social-icons
+##.footer-col:has(.gform_wrapper)
 ##.footer-link-icon-block
 ##.footer-recommended-feed
 ##.footer-social
@@ -659,6 +662,7 @@ _clickadu_$important
 ###js-banner-eizo
 ###ma-discord
 ###marketingbar
+###modal-overlay:has-text(Our website uses tracking)
 ###newsletter
 ###ot-sdk-btn
 ###overlay
@@ -877,11 +881,13 @@ _clickadu_$important
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
 ||www.dishoom.com/monitoring-tunnel
 ||www.gstatic.com/*/pub-*.js
-||www.gstatic.com/youtube/img/watch/yt_favicon
 ||www.miruro.online/assets/chop-
 ||www.tiktok.com^$3p,important
 ||www.youtube.com/*/jsbin/serviceworker
-||www.youtube.com/s/desktop/*/img/logos/favicon
+||www.youtube.com/pagead/
+||www.youtube.com/sw.js$important
+||www.youtube.com/youtubei/v1/player/ad_break
+||wygmhbuuhoxaok.com^
 ||x.com*getAltTextPromptPreference
 ||x.com/i/api/*/badge_count/
 ||x.com/i/api/*/hashflags.json
@@ -898,8 +904,6 @@ _clickadu_$important
 ||youtube.com/*/intersection-observer
 ||youtube.com/*/jsbin/*constants
 ||youtube.com/*/web-animations-next-lite
-||youtube.com/*network
-||youtube.com/*scheduler
 ||youtube.com/*spf
 ||youtube.com/*www-tampering
 ||youtube.com/$xhr,replace=/"adPlacements"/"no_ads"/
@@ -1111,9 +1115,6 @@ opencmp.
 optimizely.
 osano.
 outbrain.
-pagead.
-pagead1.
-pagead2.
 partnerads-
 partnerads.
 pipedream.wistia.
