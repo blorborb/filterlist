@@ -5,7 +5,3 @@ i know nobody uses my lists but create an [issue](https://github.com/blorborb/fi
 
 borblist
 [raw](https://raw.githubusercontent.com/blorborb/filterlists/refs/heads/main/borblist)
-
-borblistplus
-[raw](https://raw.githubusercontent.com/blorborb/filterlists/refs/heads/main/borblistplus)
-(extra stuff)
