@@ -109,6 +109,7 @@ mail.proton.me##[href="https://account.proton.me/u/4/mail/upgrade?ref=upsell_mai
 proton.me##.text-sm:has([data-testid="userdropdown:label:plan-name"]):has-text(Free)
 proton.me##.collapsible-header--clickable:has-text(Get mobile apps)
 proton.me##.block:has([href="https://shop.proton.me"])
+mail.proton.me##.spotlight:has-text(Mail Plus)
 proton.me##.text-ellipsis:has-text(Upgrade)
 proton.me##.button-promotion
 proton.me##.bg-promotion
@@ -459,6 +460,7 @@ _clickadu_$important
 /static/chunks/app/error
 /subscribe-popup*.png$image
 /Survey
+/sw.js$important
 /ta-
 /targeting
 /Track.*.js
@@ -881,11 +883,11 @@ _clickadu_$important
 ||web-sdk-assets.spotifycdn.com/bandwidth_sampling_data
 ||www.dishoom.com/monitoring-tunnel
 ||www.gstatic.com/*/pub-*.js
+||www.gstatic.com/youtube/img/watch/social_media/
 ||www.miruro.online/assets/chop-
 ||www.tiktok.com^$3p,important
 ||www.youtube.com/*/jsbin/serviceworker
 ||www.youtube.com/pagead/
-||www.youtube.com/sw.js$important
 ||www.youtube.com/youtubei/v1/player/ad_break
 ||wygmhbuuhoxaok.com^
 ||x.com*getAltTextPromptPreference
