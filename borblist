@@ -933,7 +933,13 @@ _clickadu_$important
 ||www.youtube.com/*/network.vflset/
 ||www.youtube.com/*/scheduler.vflset/
 ||www.youtube.com/pagead/
+||www.youtube.com/playlist?$xhr,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/playlist?$xhr,replace=/"adSlots"/"no_ads"/
+||www.youtube.com/watch?$xhr,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/watch?$xhr,replace=/"adSlots"/"no_ads"/
 ||www.youtube.com/youtubei/v1/log_event
+||www.youtube.com/youtubei/v1/player?$xhr,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/youtubei/v1/player?$xhr,replace=/"adSlots"/"no_ads"/
 ||www.youtube.com/youtubei/v1/player/ad_break
 ||wygmhbuuhoxaok.com^
 ||x.com*getAltTextPromptPreference
@@ -955,12 +961,6 @@ _clickadu_$important
 ||youtube.com/*/web-animations-next-lite
 ||youtube.com/*spf
 ||youtube.com/*www-tampering
-||www.youtube.com/playlist?$xhr,replace=/"adPlacements"/"no_ads"/
-||www.youtube.com/playlist?$xhr,replace=/"adSlots"/"no_ads"/
-||www.youtube.com/watch?$xhr,replace=/"adPlacements"/"no_ads"/
-||www.youtube.com/watch?$xhr,replace=/"adSlots"/"no_ads"/
-||www.youtube.com/youtubei/v1/player?$xhr,replace=/"adPlacements"/"no_ads"/
-||www.youtube.com/youtubei/v1/player?$xhr,replace=/"adSlots"/"no_ads"/
 ||youtube.com/api/stats/atr
 ||youtube.com/api/stats/qoe
 ||youtube.com/error_204
