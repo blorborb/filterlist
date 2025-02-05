@@ -2,6 +2,9 @@
 ! Homepage: https://github.com/blorborb/filterlists/tree/main
 ! Expires: 24 hours
 
+www.netflix.com##.billboard-row-games
+www.netflix.com##.mobile-games-row
+
 duckduckgo.com##[data-layout="news"]
 
 myanimelist.net##.mal-tooltip-layer:has-text(sign-up)
@@ -261,7 +264,6 @@ www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-www.youtube.com##ytd-rich-item-renderer:has(.ytd-feed-entry-renderer.style-scope.info)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
@@ -269,15 +271,15 @@ www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
 www.youtube.com##span.bold.yt-formatted-string:has-text(product)
-www.youtube.com##.ytd-rich-grid-renderer:has-text(New to you)
+www.youtube.com##ytd-ad-slot-renderer.ytd-item-section-renderer
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
-www.youtube.com###chat-container:has-text(Show chat replay)
+www.youtube.com###teaser-carousel:has-text(Live chat replay)
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
 www.youtube.com###expandable-metadata:has-text(Summary)
+www.youtube.com##ytd-rich-item-renderer:has(.lockup)
 www.youtube.com##ytd-metadata-row-container-renderer
-www.youtube.com##.lockup.ytd-item-section-renderer
-www.youtube.com##.ytp-paid-content-overlay
-www.youtube.com##ytd-mini-guide-renderer
 www.youtube.com###structured-description
 www.youtube.com###mealbar-promo-renderer
 www.youtube.com##.ytp-miniplayer-button
@@ -293,11 +295,11 @@ x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Ans
 x.com##.r-1h0z5md.r-18u37iz.r-1udh08x.r-1xfd6ze.css-175oi2r:has-text(X Premium)
 x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
 x.com##.r-1xpp3t0.css-175oi2r:has-text(Get verified)
-x.com##[data-testid="AppTabBar_Explore_Link"]
 x.com##[aria-label="Profile Summary"]
 x.com##[aria-label="Generate image"]
 x.com##[aria-label="Grok actions"]
 x.com##[aria-label="Send a tip"]
+x.com##[data-testid="eventHero"]
 x.com##[aria-label="Lists"]
 
 *$image,domain=behind-the-scene
@@ -677,7 +679,6 @@ _clickadu_$important
 ###modal-overlay:has-text(Our website uses tracking)
 ###newsletter
 ###ot-sdk-btn
-###overlay
 ###pgFt
 ###pojo-a11y-toolbar
 ###popular_galleries
@@ -704,6 +705,7 @@ _clickadu_$important
 =metrics
 ||/api/fingerprint/
 ||12ezo5v60.com^
+||487ed86ea3.com^
 ||abs.twimg.com/responsive-web/client-sentry/
 ||abs.twimg.com/sticky/animations/
 ||accounts.google.com/gsi/$subdocument
@@ -713,6 +715,7 @@ _clickadu_$important
 ||ads-twitter.com^$important
 ||adsco.re^
 ||adsdk.yandex.ru^$important
+||adultgames.space^
 ||amazonaws.com/downloads.mailchimp.com/
 ||an.yandex.ru^$important
 ||analytics.oneplus.cn^
@@ -724,12 +727,14 @@ _clickadu_$important
 ||assetgame.roblox.com/game/report-event
 ||assetlab.io/redirector-prod/*/post-action-tray-component.js
 ||assetlab.io/redirector-prod/*/release-classic-nosample.js
+||assets.nflxext.com/en_us/pages/wiplayer/shadow.png$image
 ||assets.twitch.tv/assets/features.ads
 ||assets.twitch.tv/assets/features.upsell
 ||aternos.org/panel/js/jquery/jquery-3.1.1.min.js
 ||azure.com/scripts/*/*analytics$important
 ||bigdata.ssp.samsung.com^$important
 ||bitmovin.$important
+||bk-xctgdnf.life^
 ||btloader.$important
 ||c1.neweggimages.com/tapa/$image,3p
 ||c1.neweggimages.com/webresource/themes/Nest/banners/$image,3p
@@ -807,8 +812,11 @@ _clickadu_$important
 ||gstatic.com/youtube/img/annotations/
 ||gumroad.com^
 ||hotjar-analytics.com^
+||housalscapha.top^
+||housalscapha.top^$popup
 ||hsforms.com^
 ||hubspot.com^
+||i.ytimg.com/*/movieposter$image
 ||i.ytimg.com/vi/*/oar*.jpg
 ||imgur.com/desktop-assets/desktop-assets/adblock
 ||imgur.com/desktop-assets/scripts/primis-integration.js
@@ -837,6 +845,7 @@ _clickadu_$important
 ||ogads-pa.clients6.google.com
 ||onesignal.com^$important
 ||open.oneplus.net^$important
+||pbs.twimg.com/semantic_core_img/$image
 ||peoplestack-pa.clients6.google.com
 ||peoplestackwebexperiments-pa.clients6.google.com
 ||platform.twitter.com/widgets
@@ -877,22 +886,18 @@ _clickadu_$important
 ||storage.googleapis.com/gsf-scripts/global-remarketing/
 ||stripe.com/ajax/metrics_batch
 ||tc.cdnhub.co/not-found/
-||themoviedb.org^$3p
 ||threadai.zip^
 ||thumbnails.roblox.com/v1/measurements
 ||trades.roblox.com/v1/trades/inbound/
 ||transcend-cdn.com/*/airgap.js$important
 ||transcy.io/api/store_front/switcher
+||trendlewiggery.top^
 ||trustedcareaccess.com^
-||twimg.com*/shared~loader.EventSummaryHandler
 ||twimg.com*CarouselScroller
 ||twimg.com/*.AudioSpacebarScreen~loader.Spacebar~loader.SidebarSpacebar
 ||twimg.com/*.Spacebar~loader.SidebarSpacebar
-||twimg.com/*/loader.ExploreSidebar
-||twimg.com/*/loader.FooterLoader
 ||twimg.com/*/loader.GetVerifiedSidebar
 ||twimg.com/*/loader.richScribeAction
-||twimg.com/*/loader.TrendHandler
 ||twimg.com/*/shared~bundle.Grok~bundle.LiveEvent~icons
 ||twimg.com/responsive-web/client-serviceworker/
 ||twimg.com/responsive-web/client-web/bundle.GrokDrawer.
@@ -914,6 +919,7 @@ _clickadu_$important
 ||www.gstatic.com/*/error_illustration$image
 ||www.gstatic.com/*/pub-*.js
 ||www.gstatic.com/youtube/img/watch/social_media/
+||www.jxmtttqb.com^
 ||www.kjfhenoqfyfljo.com^
 ||www.miruro.online/assets/chop-
 ||www.pgjlctmswgnwf.com^
@@ -923,7 +929,9 @@ _clickadu_$important
 ||www.redditstatic.com/*/comment-tree-ads-client-js
 ||www.redditstatic.com/*/pdp-ad-client-js
 ||www.redditstatic.com/*/track-ad-click
+||www.redirect12.com/go/*&advertiser=
 ||www.tiktok.com^$3p,important
+||www.vvojuhtktpmwg.com^
 ||www.youtube.com/*/jsbin/serviceworker
 ||www.youtube.com/*/network.vflset/
 ||www.youtube.com/*/scheduler.vflset/
@@ -1116,15 +1124,12 @@ getCanvasFingerprint:
 getsentry.
 goaffpro.$important
 google-one-tap.
-googleadsense.$important
-googleadservices.$important
-googlesyndication.$important
-googletagmanager.$important
 gstatic.*/feedback
 heapanalytics.
 hicloud.
 hotjar.
 hsappstatic.
+https://yt3.ggpht.com/proxy
 iadsdk.
 infogram.
 inmobi.
