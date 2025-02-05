@@ -264,24 +264,25 @@ www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
 www.youtube.com##span.bold.yt-formatted-string:has-text(product)
+www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
 www.youtube.com##ytd-ad-slot-renderer.ytd-item-section-renderer
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com###teaser-carousel:has-text(Live chat replay)
 www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
 www.youtube.com###expandable-metadata:has-text(Summary)
-www.youtube.com##ytd-rich-item-renderer:has(.lockup)
 www.youtube.com##ytd-metadata-row-container-renderer
-www.youtube.com###structured-description
+www.youtube.com##ytd-rich-item-renderer:has(.lockup)
 www.youtube.com###mealbar-promo-renderer
+www.youtube.com###structured-description
 www.youtube.com##.ytp-miniplayer-button
 www.youtube.com###sponsor-button
 www.youtube.com###clarify-box
@@ -954,8 +955,12 @@ _clickadu_$important
 ||youtube.com/*/web-animations-next-lite
 ||youtube.com/*spf
 ||youtube.com/*www-tampering
-||youtube.com/$xhr,replace=/"adPlacements"/"no_ads"/
-||youtube.com/$xhr,replace=/"adSlots"/"no_ads"/
+||www.youtube.com/playlist?$xhr,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/playlist?$xhr,replace=/"adSlots"/"no_ads"/
+||www.youtube.com/watch?$xhr,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/watch?$xhr,replace=/"adSlots"/"no_ads"/
+||www.youtube.com/youtubei/v1/player?$xhr,replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/youtubei/v1/player?$xhr,replace=/"adSlots"/"no_ads"/
 ||youtube.com/api/stats/atr
 ||youtube.com/api/stats/qoe
 ||youtube.com/error_204
