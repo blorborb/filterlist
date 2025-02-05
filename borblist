@@ -336,7 +336,6 @@ _clickadu_$important
 .cmp
 .open
 .snowplow
-@@||github.githubassets.com/assets/ui_packages_copilot-chat_utils_copilot-chat-types_ts-ui_packages_repos-file-tree-view_repos-f-
 *###cookie-banner
 /?utm_source=sourceforge&amp;utm_medium=unitad&
 /*consent-banner*.js
@@ -392,8 +391,6 @@ _clickadu_$important
 /experiencetrackerviewsdata
 /ezais
 /ezoic
-/favicon*.ico$image
-/favicon*.png$image
 /fingerprint.js
 /fingerprint2.
 /fingerprint3.
@@ -790,7 +787,6 @@ _clickadu_$important
 ||github.com/github-copilot/
 ||github.githubassets.com/assets/chunk-ui_packages_cookie-consent
 ||github.githubassets.com/assets/chunk-ui_packages_ghcc-consent
-||githubassets.com/assets/*copilot
 ||githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js
 ||google.com/_/scs/abc-static/*=ytsubscribe/
 ||google.com/*/m=auth/
@@ -1106,7 +1102,6 @@ eviltracker.
 extmaps-api.
 ezoic.
 fastclick.
-favicon_*.png$image
 Fingerprint;
 fingerprint.js
 firebaseremoteconfig.
