@@ -263,28 +263,30 @@ www.miruro.online##.vds-volume
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(members)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##div.yt-flexible-actions-view-model-wiz__action:has-text(Join)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
-www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
 www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
 www.youtube.com##span.bold.yt-formatted-string:has-text(product)
-www.youtube.com##ytd-ad-slot-renderer.ytd-item-section-renderer
+www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com###teaser-carousel:has-text(Live chat replay)
 www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
 www.youtube.com###expandable-metadata:has-text(Summary)
-www.youtube.com##ytd-rich-item-renderer:has(.lockup)
 www.youtube.com##ytd-metadata-row-container-renderer
-www.youtube.com###structured-description
+www.youtube.com##ytd-rich-item-renderer:has(.lockup)
 www.youtube.com###mealbar-promo-renderer
+www.youtube.com###structured-description
 www.youtube.com##.ytp-miniplayer-button
+www.youtube.com###fulfilled-layout
 www.youtube.com###sponsor-button
 www.youtube.com###clarify-box
 www.youtube.com###right
@@ -304,6 +306,7 @@ x.com##[aria-label="Send a tip"]
 x.com##[data-testid="eventHero"]
 x.com##[aria-label="Lists"]
 x.com##a[href="/explore"]
+
 *$image,domain=behind-the-scene
 
 ! Breaks? many sites
@@ -713,10 +716,7 @@ _clickadu_$important
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Ocf~ondemand.Insights~bundle.TV~bundle.Account
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Ocf~ondemand.Insights~ondemand.PeopleSearch~bundle.TV~bundl
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Payments~bundle.PaymentReceipt~ondemand.Insights
-||abs.twimg.com/responsive-web/client-web/shared~bundle.Birdwatch~ondemand.SettingsInternals~bundle.Explore~bundle.Topics~bundle.LiveEvent~bundle.Trend
-||abs.twimg.com/responsive-web/client-web/shared~bundle.Explore~bundle
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.Payments~bundle
-||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsInternals~bundle.Explore~bundle.LiveEvent~bundle.Topics~bundle.Trends~loader.ExploreS
 ||abs.twimg.com/sticky/animations/
 ||accounts.google.com/gsi/$subdocument
 ||addons-pa.clients6.google.com
@@ -818,6 +818,7 @@ _clickadu_$important
 ||gstatic.com/*/youtube_outline/radio-button-unchecked
 ||gstatic.com/cv/js/sender/v1/cast_sender.js
 ||gstatic.com/recaptcha/api2/audio$image,important
+||gstatic.com/shopping$domain=youtube.com
 ||gstatic.com/youtube/img/annotations/
 ||gumroad.com^
 ||hotjar-analytics.com^
