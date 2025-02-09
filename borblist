@@ -2,6 +2,8 @@
 ! Homepage: https://github.com/blorborb/filterlists/tree/main
 ! Expires: 24 hours
 
+www.apkmirror.com##div.headerFont.table-row:has-text(0dpi)
+
 www.netflix.com##.billboard-row-games
 www.netflix.com##.mobile-games-row
 
@@ -260,31 +262,34 @@ www.miruro.online##button.shortcuts-button
 www.miruro.online##[title="Add to List"]
 www.miruro.online##.vds-volume
 
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has(.ytd-channel-video-player-renderer)
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##div.yt-flexible-actions-view-model-wiz__action:has-text(Join)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
-www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
+www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
+www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-www.youtube.com##span.bold.yt-formatted-string:has-text(product)
 www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
+www.youtube.com##span.bold.yt-formatted-string:has-text(product)
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com###teaser-carousel:has-text(Live chat replay)
 www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
 www.youtube.com###expandable-metadata:has-text(Summary)
-www.youtube.com##ytd-metadata-row-container-renderer
 www.youtube.com##ytd-rich-item-renderer:has(.lockup)
-www.youtube.com###mealbar-promo-renderer
+www.youtube.com##ytd-metadata-row-container-renderer
+www.youtube.com##.ytp-paid-content-overlay
 www.youtube.com###structured-description
+www.youtube.com###mealbar-promo-renderer
+www.youtube.com##.ytp-chapter-container
 www.youtube.com##.ytp-miniplayer-button
 www.youtube.com###fulfilled-layout
 www.youtube.com###sponsor-button
@@ -297,6 +302,7 @@ www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, 
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Answer by Grok)
 x.com##.r-1h0z5md.r-18u37iz.r-1udh08x.r-1xfd6ze.css-175oi2r:has-text(X Premium)
+x.com##div.r-16y2uox.r-cpa5s6.r-14tvyh0.css-175oi2r:has-text(Highlights)
 x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
 x.com##.r-1xpp3t0.css-175oi2r:has-text(Get verified)
 x.com##[aria-label="Profile Summary"]
@@ -327,27 +333,21 @@ x.com##a[href="/explore"]
 @@||cdnjs.cloudflare.com/ajax/libs/*/skins/
 @@||fontawesome.com
 @@||futurecdn.net/*/media/fonts/$font
+@@||fonts.gstatic.com/l/font?kit=$font
 
-@@||firstpartysimulator.org/static/dist/fp2.*.js
-@@||coveryourtracks.eff.org/static/dist/fp2.*.js
-
-_clickadu_$important
--adfuel-$important
 -fp
 -h5log
-?analytics
 ?fingerprint
 ?modules=KeyframesRenderer
+?wp_error_template=
 .cmp
 .open
 .snowplow
 *###cookie-banner
-/?utm_source=sourceforge&amp;utm_medium=unitad&
 /*consent-banner*.js
 /#breadcrumb
 /1.1/users/recommendations
-/a8c_
-/a8c-
+/a8c
 /actiontray
 /activeview?xai
 /ad.js
@@ -359,9 +359,6 @@ _clickadu_$important
 /adsense
 /adsninja_worker_$important
 /advertisement*.js
-/analytics.js
-/analytics*.js
-/api/*/analytics/*
 /api/data/v1/metrics
 /apple_music_player
 /apple-touch-icon.png$image
@@ -396,11 +393,7 @@ _clickadu_$important
 /experiencetrackerviewsdata
 /ezais
 /ezoic
-/fingerprint.js
-/fingerprint2.
-/fingerprint3.
-/fingerprinted.
-/fingerprintjs2.
+/fingerprint$script
 /fp.
 /fp2.*.js
 /fp2.js
@@ -423,6 +416,7 @@ _clickadu_$important
 /InnovaMicroAppNuxt
 /ip/get-ip
 /ip/get-visitor-ip
+/js/common~main~*newsletterpage.
 /language-cookie.
 /location
 /loginmanager_sniff.
@@ -456,6 +450,7 @@ _clickadu_$important
 /RotateCookies
 /s/search/audio
 /SecurePubs$important
+/sentry-lazy.*.js
 /sentry-vue.*.js
 /session_tracking
 /shitake
@@ -468,7 +463,6 @@ _clickadu_$important
 /socialdata
 /static/chunks/app/error
 /subscribe-popup*.png$image
-/Survey
 /sw.js$important
 /ta-
 /targeting
@@ -478,6 +472,7 @@ _clickadu_$important
 /trackingevent
 /upsell.min.css
 /viewsnativead
+/vue-sentry/*/vue.*.js
 /webstats
 /widget/ads.
 /wp-content/plugins/*gdpr$important
@@ -489,6 +484,7 @@ _clickadu_$important
 /wp-content/plugins/powerkit/modules/scroll-to-top
 /wp-content/plugins/real-cookie-banner
 /wp-includes/blocks/social-links
+/wp.serviceworker$script
 /wrapper/metrics/
 /youtubei/v1/updated_metadata
 &adcontext
@@ -524,6 +520,7 @@ _clickadu_$important
 ##.bottom-banner-area
 ##.btn-email
 ##.button-promotion
+##.c-tabs
 ##.cc-banner
 ##.cc-popup
 ##.cc-type-opt-in.cc-banner
@@ -573,6 +570,7 @@ _clickadu_$important
 ##.footer-social
 ##.footer-social-holder
 ##.footer-top-col:has-text(Follow Us)
+##.footer-wrapper_branding
 ##.formkit-form
 ##.g-footer
 ##.g-profile__qr-code-btn
@@ -591,6 +589,8 @@ _clickadu_$important
 ##.js_more-below-post
 ##.js_sticky-second-scroll
 ##.js_suggested-stories
+##.l-sidebar.l-sidebar--article
+##.l-videoCarousel--embed
 ##.lg\:gap-4.gap-18:has-text(Newsletter)
 ##.mailchimp
 ##.marketing-content
@@ -622,6 +622,8 @@ _clickadu_$important
 ##.sns-list
 ##.social-icons
 ##.social-links
+##.social.footer-links
+##.sponsored-recommendation
 ##.stack__ads
 ##.subscribe__list
 ##.subscribe-box-inner
@@ -684,6 +686,7 @@ _clickadu_$important
 ###pgFt
 ###pojo-a11y-toolbar
 ###popular_galleries
+###rightBarSaleBanner
 ###secondscroll_sidebar_wrapper
 ###shopify-section-announcement-bar
 ###shopify-section-newsletter-popup
@@ -692,6 +695,8 @@ _clickadu_$important
 ###uptodown-turbo-promo
 ###yt_a_message
 ##devsite-cookie-notification-bar
+##div.ad-unit
+##div.embed-twitter
 ##div.footer-links:has-text(e-mail)
 ##floating-auth-unit-container
 ##li:has-text(Subscribe)
@@ -705,6 +710,7 @@ _clickadu_$important
 ##shop-login-button
 ##shopify-payment-terms
 =metrics
+=unitad&
 ||/api/fingerprint/
 ||12ezo5v60.com^
 ||487ed86ea3.com^
@@ -733,6 +739,7 @@ _clickadu_$important
 ||antiadblocksystems.com^$important
 ||apis.google.com/_/scs/abc-static/
 ||app.wiki.gg/public/$image
+||appleid.cdn-apple.com^
 ||appsgrowthpromo-pa.clients6.google.com
 ||assetgame.roblox.com/game/report-event
 ||assetlab.io/redirector-prod/*/post-action-tray-component.js
@@ -748,6 +755,7 @@ _clickadu_$important
 ||btloader.$important
 ||c1.neweggimages.com/tapa/$image,3p
 ||c1.neweggimages.com/webresource/themes/Nest/banners/$image,3p
+||captcha-delivery.com^$important
 ||catalog.roblox.com/v2/recommendations/
 ||cdn.ampproject.org^
 ||cdn.shopify.com/proxy
@@ -782,6 +790,7 @@ _clickadu_$important
 ||emailsys1a.net^
 ||events.reddit.com^$important
 ||events.redditmedia.com^$important
+||evidon.com^
 ||featureassets.org/v1/initialize
 ||figma.com/api/web_logger/
 ||firebase-analytics.js$important
@@ -828,6 +837,7 @@ _clickadu_$important
 ||hubspot.com^
 ||i.ytimg.com/*/movieposter$image
 ||i.ytimg.com/vi/*/oar*.jpg
+||images.justwatch.com/icon/$image
 ||imgur.com/desktop-assets/desktop-assets/adblock
 ||imgur.com/desktop-assets/scripts/primis-integration.js
 ||inmobi.com^$important
@@ -835,6 +845,7 @@ _clickadu_$important
 ||ipstack.com^$important
 ||iubenda.com^
 ||js.authorize.net^
+||justwatch.com/jw-assets/$image
 ||juwhelsoum.net^
 ||lnk.to/~/tr/
 ||locize.app^$important
@@ -858,9 +869,10 @@ _clickadu_$important
 ||pbs.twimg.com/semantic_core_img/$image
 ||peoplestack-pa.clients6.google.com
 ||peoplestackwebexperiments-pa.clients6.google.com
-||platform.twitter.com/widgets
+||platform.twitter.com/widgets.js
 ||play.google.com/log
 ||playsaurusstats.com^
+||postnord.services/v1/logs
 ||privacy-mgmt.$important
 ||privatemessages.roblox.com/v1/messages/unread/
 ||qualtrics.$important
@@ -969,7 +981,6 @@ _clickadu_$important
 ||ybs2ffs7v.com^$important
 ||youtube-nocookie.com/api/stats/
 ||youtube.com/*/cssbin/www-onepick.css
-||youtube.com/*/custom-elements
 ||youtube.com/*/intersection-observer
 ||youtube.com/*/jsbin/*constants
 ||youtube.com/*/web-animations-next-lite
@@ -1129,7 +1140,6 @@ fwtracks.
 gannettdigital.
 gdpr-
 gemini.
-geo.
 geoip.
 geojs.
 geolocation_recommendation
