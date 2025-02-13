@@ -116,8 +116,10 @@ mail.proton.me##[href="https://account.proton.me/u/4/mail/upgrade?ref=upsell_mai
 proton.me##.text-sm:has([data-testid="userdropdown:label:plan-name"]):has-text(Free)
 proton.me##.collapsible-header--clickable:has-text(Get mobile apps)
 proton.me##.block:has([href="https://shop.proton.me"])
+proton.me##.topnav-listItem--noCollapse:has-text(deal)
 mail.proton.me##.spotlight:has-text(Mail Plus)
 proton.me##.text-ellipsis:has-text(Upgrade)
+proton.me##.modal-two:has(.offer-modal)
 proton.me##.button-promotion
 proton.me##.bg-promotion
 
@@ -1067,6 +1069,7 @@ yu8s.live
 ##.cky-consent-bar
 ##.cky-consent-container
 ##.cky-notice
+##.cmpwrapper
 ##.cn-position-bottom
 ##.consent-banner
 ##.contents > hr
@@ -1151,7 +1154,11 @@ yu8s.live
 ##.q-infobar
 ##.related-container
 ##.rh-cta
+##.rv-di-header
+##.rv-di-modal__label
+##.rv-di-step__container
 ##.section--signup
+##.share-container
 ##.signing-modal
 ##.site-bannerCampaignElement
 ##.site-campaignElement
@@ -1266,4 +1273,3 @@ yu8s.live
 *$removeparam=mt,domain=youtube.com
 *$removeparam=rn,domain=youtube.com
 *$removeparam=rn,domain=youtube.com
-||twimg.com/media$removeparam=name
