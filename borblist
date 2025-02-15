@@ -265,7 +265,6 @@ www.miruro.online##button.shortcuts-button
 www.miruro.online##[title="Add to List"]
 www.miruro.online##.vds-volume
 
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has(.ytd-channel-video-player-renderer)
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
