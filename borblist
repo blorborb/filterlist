@@ -2,6 +2,8 @@
 ! Homepage: https://github.com/blorborb/filterlists/tree/main
 ! Expires: 24 hours
 
+! specific
+
 www.apkmirror.com##div.headerFont.table-row:has-text(0dpi)
 
 www.netflix.com##.billboard-row-games
@@ -307,6 +309,7 @@ x.com##.r-1h0z5md.r-18u37iz.r-1udh08x.r-1xfd6ze.css-175oi2r:has-text(X Premium)
 x.com##div.r-16y2uox.r-cpa5s6.r-14tvyh0.css-175oi2r:has-text(Highlights)
 x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
 x.com##.r-1xpp3t0.css-175oi2r:has-text(Get verified)
+x.com###layers:has-text(Subscribe to Premium)
 x.com##[aria-label="Profile Summary"]
 x.com##[aria-label="Generate image"]
 x.com##[aria-label="Grok actions"]
@@ -317,11 +320,14 @@ x.com##a[href="/explore"]
 
 ! applies to everything
 
-*$image,domain=behind-the-scene
+*$domain=behind-the-scene
 *$redirect-rule=empty
 *$csp=*
+*$shide,ghide,important
+*##:remove()
 
-! Breaks? many sites
+
+! font block
 
 *font*$font,css,script,3p
 *otf*$css,font,3p
@@ -329,7 +335,7 @@ x.com##a[href="/explore"]
 *woff*$css,font,3p
 ||type*$font,css,3p
 
-! font allowlist
+! font allow
 
 @@*Icon*$font,css
 @@*Symbol*$font,css
@@ -345,7 +351,7 @@ x.com##a[href="/explore"]
 @@||fontawesome.com
 @@||futurecdn.net/*/media/fonts/$font
 
-! network filters
+! network
 
 -fp
 -h5log
@@ -354,6 +360,7 @@ x.com##a[href="/explore"]
 ?wp_error_template=
 .cmp
 .open
+.SkinAd.
 .snowplow
 /*consent-banner*.js
 /1.1/users/recommendations
@@ -655,8 +662,10 @@ x.com##a[href="/explore"]
 ||onesignal.com^$important
 ||open.oneplus.net^$important
 ||pbs.twimg.com/semantic_core_img/$image
+||pdqqplynkaqet.xyz
 ||peoplestack-pa.clients6.google.com
 ||peoplestackwebexperiments-pa.clients6.google.com
+||phickirouph.xyz
 ||platform.twitter.com/widgets.js
 ||play.google.com/log
 ||playsaurusstats.com^
@@ -698,6 +707,7 @@ x.com##a[href="/explore"]
 ||tc.cdnhub.co/not-found/
 ||threadai.zip^
 ||thumbnails.roblox.com/v1/measurements
+||todayapplied.com^
 ||trades.roblox.com/v1/trades/inbound/
 ||transcend-cdn.com/*/airgap.js$important
 ||transcy.io/api/store_front/switcher
@@ -728,6 +738,7 @@ x.com##a[href="/explore"]
 ||www.googletagmanager.com^$important
 ||www.gstatic.com/*/error_illustration$image
 ||www.gstatic.com/*/pub-*.js
+||www.gstatic.com/firebasejs/11.0.2/firebase-app.js
 ||www.gstatic.com/youtube/img/watch/social_media/
 ||www.jxmtttqb.com^
 ||www.kjfhenoqfyfljo.com^
@@ -946,6 +957,7 @@ infogram.
 inmobi.
 ipdata.
 ipify.
+js/pro-recovery.min.js
 klaviyo.
 kunlunca.
 laylo.
@@ -1026,7 +1038,7 @@ widgets.pinterest.com
 yandexadexchange.
 yu8s.live
 
-! cosmetic filters
+! cosmetic
 
 *###cookie-banner
 ##:style(overflow: auto; !important)
@@ -1036,21 +1048,27 @@ yu8s.live
 ##.ad-parent
 ##.ad-skin-side-bg
 ##.ad-slot-header__wrapper
+##.ad-space
 ##.ad-spin
 ##.ad-sticky-top
+##.ad-unit
 ##.ad-unit-wrapper
+##.ad-zone
+##.adbox
 ##.adbox-wrapper
 ##.ads
 ##.adsbox
+##.adsbypubpower
 ##.adsninja-rail-container
 ##.adSocial
+##.afs_ads
 ##.announcement-bar
 ##.announcements-bar
+##.anw-group
 ##.appstore
 ##.as-newsletter-modal
 ##.as-newsletter-modal-wrap
 ##.ask_create_booth
-##.banner_ads
 ##.banner_ads
 ##.banner-250
 ##.banner-ads
@@ -1096,6 +1114,7 @@ yu8s.live
 ##.digital-newspaper-advertisement-block
 ##.DiscordIntegrator
 ##.discordLink
+##.display-ad-unit
 ##.el-floating-chat-cta-items-container
 ##.elementor-popup-modal.dialog-type-lightbox
 ##.elementor-widget-ucaddon_cookie_consent
@@ -1105,7 +1124,9 @@ yu8s.live
 ##.facebookLink
 ##.features-card
 ##.footer__social-icons
+##.footer__socialbar
 ##.footer-col:has(.gform_wrapper)
+##.footer-crm
 ##.footer-link-icon-block
 ##.footer-recommended-feed
 ##.footer-social
@@ -1124,12 +1145,15 @@ yu8s.live
 ##.go-plus
 ##.grecaptcha-badge
 ##.has-background:has([id="mc-embedded-subscribe-form"])
+##.header__share
+##.header-mini-banner
 ##.identification-modal
 ##.input-newsletter
 ##.instagramLink
 ##.js_more-below-post
 ##.js_sticky-second-scroll
 ##.js_suggested-stories
+##.js-sns-icon-container
 ##.l-sidebar.l-sidebar--article
 ##.l-videoCarousel--embed
 ##.lg\:gap-4.gap-18:has-text(Newsletter)
@@ -1150,6 +1174,8 @@ yu8s.live
 ##.playstore
 ##.privacy_popup
 ##.promotedlink
+##.promotion-popup-fixed-wrap
+##.promotions-banner-wrap
 ##.pum
 ##.q-infobar
 ##.related-container
@@ -1159,6 +1185,7 @@ yu8s.live
 ##.rv-di-step__container
 ##.section--signup
 ##.share-container
+##.share1
 ##.signing-modal
 ##.site-bannerCampaignElement
 ##.site-campaignElement
@@ -1169,6 +1196,7 @@ yu8s.live
 ##.social-icons
 ##.social-links
 ##.social.footer-links
+##.socialaccountlinks-v2-block
 ##.sponsored-recommendation
 ##.stack__ads
 ##.subscribe__list
@@ -1201,7 +1229,6 @@ yu8s.live
 ##[id="ad-skin-bg-left"]
 ##[id="ad-skin-bg-right"]
 ###ad-skin-side-bg
-###ad-skin-side-outer
 ###ad-skin-side-outer
 ###advert_column
 ###auth-unit-container
@@ -1246,30 +1273,19 @@ yu8s.live
 ##div.footer-links:has-text(e-mail)
 ##floating-auth-unit-container
 ##li:has-text(Subscribe)
-##li:has([aria-labelledby="facebook-svg"])
-##li:has([aria-labelledby="instagram-svg"])
-##li:has([aria-labelledby="premium-filled-svg"])
-##li:has([aria-labelledby="tiktok-svg"])
-##li:has([aria-labelledby="x-svg"])
-##li:has([aria-labelledby="youtube-svg"])
 ##lite-tiktok
 ##shop-login-button
 ##shopify-payment-terms
 
 ! removeparam
+
 *$removeparam=alr,domain=youtube.com
-*$removeparam=alr,domain=youtube.com
-*$removeparam=c,domain=youtube.com
-*$removeparam=cbr,domain=youtube.com
-*$removeparam=cos,domain=youtube.com
 *$removeparam=cpn,domain=youtube.com
 *$removeparam=cr,domain=youtube.com
 *$removeparam=cver,domain=youtube.com
 *$removeparam=fallback_count,domain=youtube.com
 *$removeparam=fexp,domain=youtube.com
-*$removeparam=fmt,domain=youtube.com
 *$removeparam=fs,domain=youtube.com
 *$removeparam=fvip,domain=youtube.com
 *$removeparam=mt,domain=youtube.com
-*$removeparam=rn,domain=youtube.com
 *$removeparam=rn,domain=youtube.com
