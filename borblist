@@ -204,7 +204,7 @@ game8.co##.c-share
 
 hoyoverse.com##.home-btn-container
 
-github.com##[type="button"]:has-text(Code 55% faster with GitHub Copilot)
+github.com##div.react-code-size-details-in-header:has-text(Code 55% faster with GitHub Copilot)
 github.com##[href="/settings/copilot"]
 github.com##.js-for-you-feed-items
 
