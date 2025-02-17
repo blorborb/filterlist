@@ -6,6 +6,7 @@
 
 www.apkmirror.com##div.headerFont.table-row:has-text(0dpi)
 
+www.netflix.com##.show-kids.nav-element
 www.netflix.com##.billboard-row-games
 www.netflix.com##.mobile-games-row
 
@@ -223,6 +224,7 @@ pixiv.net##li:has-text(pixiv Premium)
 tumblr.com##.smX3m
 
 disqus.com##.nav-secondary-refresh__list-item
+disqus.com###thread-subscribe-button
 disqus.com###reactions__container
 disqus.com##.minimized.post
 disqus.com###main-nav
@@ -266,6 +268,7 @@ www.miruro.online##[title="Add to List"]
 www.miruro.online##.vds-volume
 
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
@@ -1106,6 +1109,7 @@ yu8s.live
 ##.cookieTip
 ##.csbannertrackevent
 ##.cta-notify.banner-global
+##.custom-footer-social-row
 ##.customers-also
 ##.DAnUZ
 ##.desktop-content-ad-container
@@ -1115,6 +1119,7 @@ yu8s.live
 ##.display-ad-unit
 ##.el-floating-chat-cta-items-container
 ##.elementor-popup-modal.dialog-type-lightbox
+##.elementor-widget-social-icons
 ##.elementor-widget-ucaddon_cookie_consent
 ##.erc-footer-section:has([aria-labelledby="youtube-svg"])
 ##.erc-premium-header-link
@@ -1123,6 +1128,7 @@ yu8s.live
 ##.features-card
 ##.footer__social-icons
 ##.footer__socialbar
+##.footer-bottom
 ##.footer-col:has(.gform_wrapper)
 ##.footer-crm
 ##.footer-link-icon-block
@@ -1145,6 +1151,7 @@ yu8s.live
 ##.has-background:has([id="mc-embedded-subscribe-form"])
 ##.header__share
 ##.header-mini-banner
+##.heateor_sss_sharing_container
 ##.identification-modal
 ##.input-newsletter
 ##.instagramLink
@@ -1170,6 +1177,7 @@ yu8s.live
 ##.offer-modal
 ##.page-footer__subscribe
 ##.playstore
+##.post-share
 ##.privacy_popup
 ##.promotedlink
 ##.promotion-popup-fixed-wrap
@@ -1185,12 +1193,14 @@ yu8s.live
 ##.share-container
 ##.share1
 ##.signing-modal
+##.single-post-share
 ##.site-bannerCampaignElement
 ##.site-campaignElement
 ##.site-product-campaign-text
 ##.slice-container-newsletterForm
 ##.snapchatLink
 ##.sns-list
+##.social-align-center
 ##.social-icons
 ##.social-links
 ##.social.footer-links
@@ -1203,6 +1213,7 @@ yu8s.live
 ##.svelte-deweka.tc-capture-kit-wrapper
 ##.ta-campaign-widget
 ##.ta-campaign-widget__popup-wrapper
+##.tags-share-box
 ##.text_promo
 ##.textads
 ##.tiktokLink
@@ -1226,6 +1237,7 @@ yu8s.live
 ##[href="/about/cookie_policy"]
 ##[id="ad-skin-bg-left"]
 ##[id="ad-skin-bg-right"]
+##[style="bottom: 0px;"]
 ###ad-skin-side-bg
 ###ad-skin-side-outer
 ###advert_column
@@ -1248,6 +1260,7 @@ yu8s.live
 ###gdpr-cookie-consent-bar
 ###gdpr-modal-bottom
 ###ghost-newsletter
+###ipsLayout_sidebar
 ###js-banner-eizo
 ###ma-discord
 ###marketingbar
@@ -1257,6 +1270,7 @@ yu8s.live
 ###pgFt
 ###pojo-a11y-toolbar
 ###popular_galleries
+###promo-notification
 ###rightBarSaleBanner
 ###secondscroll_sidebar_wrapper
 ###shopify-section-announcement-bar
@@ -1287,3 +1301,7 @@ yu8s.live
 *$removeparam=fvip,domain=youtube.com
 *$removeparam=mt,domain=youtube.com
 *$removeparam=rn,domain=youtube.com
+
+! some filters i might use sometimes
+
+! x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(You reposted)
