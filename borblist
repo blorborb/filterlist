@@ -6,6 +6,7 @@
 !#include specific
 !#include scriplet
 !#include network
+!#include generic
 
 ! applies to everything
 
