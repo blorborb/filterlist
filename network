@@ -1,3 +1,4 @@
+
 -fp
 -h5log
 ?fingerprint
@@ -61,6 +62,8 @@
 /fp2.js
 /fuckadblock
 /gdpr
+/gen_204
+/generate_204
 /geoip
 /georouting
 /gfplib
@@ -167,6 +170,7 @@
 ||adsco.re^
 ||adsdk.yandex.ru^$important
 ||adultgames.space^
+||ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 ||amazonaws.com/downloads.mailchimp.com/
 ||an.yandex.ru^$important
 ||analytics.oneplus.cn^
@@ -193,6 +197,7 @@
 ||captcha-delivery.com^$important
 ||catalog.roblox.com/v2/recommendations/
 ||cdn.ampproject.org^
+||cdn.jsdelivr.net/npm/cookieconsent
 ||cdn.shopify.com/proxy
 ||cdn77.org^$important
 ||cdnjs.cloudflare.com/ajax/libs/Chart*
@@ -205,6 +210,7 @@
 ||cloudflareinsights.com^
 ||cloudfront.net/*promote.js
 ||cohesionapps.$important
+||contacts.google.com^
 ||contacts.roblox.com/v1/contacts/metadata
 ||convbox.ai/scripts/omnitrack-lately.js
 ||cookieinformation.com^$important
@@ -233,6 +239,7 @@
 ||firebaseio.com/.ws?
 ||flagsmith.com^
 ||fonts.gstatic.com/*/message_bubble_right
+||fonts.gstatic.com/s/i/youtube_fill/
 ||friends.roblox.com/v1/user/friend-requests/count
 ||frugalfiestas.com^$important
 ||fundingchoicesmessages.$important
@@ -279,6 +286,7 @@
 ||intergient.$important
 ||ipstack.com^$important
 ||iubenda.com^
+||jnn-pa.googleapis.com^$domain=www.youtube-nocookie.com
 ||js.authorize.net^
 ||justwatch.com/jw-assets/$image
 ||juwhelsoum.net^
@@ -286,6 +294,7 @@
 ||locize.app^$important
 ||m.media-amazon.com/images/*/csm/showads.*.js$important
 ||m.stripe.network^
+||mail.google.com/mail/u/0/images/cleardot.gif
 ||mailchimp.com^
 ||mc.yandex.ru^$important
 ||megastatics.*/thumbnails/
@@ -313,6 +322,7 @@
 ||privacy-mgmt.$important
 ||privatemessages.roblox.com/v1/messages/unread/
 ||qualtrics.$important
+||readintegralsplit.com^
 ||recommendations.displate.com^$important
 ||roblox.com/js/hsts.js$script
 ||roblox.com/product-experimentation-platform/v1/projects/1/layers/Social.Friends/
@@ -330,6 +340,7 @@
 ||spotify.com/ads-identity-web-enricher/
 ||spotifycdn.com/cdn/build/web-player/dwp-billboard-ad.
 ||ssl.gstatic.com/support/realtime/operatorParams
+||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif
 ||stats.redditmedia.com^
 ||stats.wp.com^$important
 ||steampowered.com/IClientMetricsService$important
@@ -385,14 +396,23 @@
 ||www.redditstatic.com/*/comment-tree-ads-client-js
 ||www.redditstatic.com/*/pdp-ad-client-js
 ||www.redditstatic.com/*/track-ad-click
+||www.redditstatic.com/shreddit/optimized/en-US/arena-events-client-js
+||www.redditstatic.com/shreddit/optimized/en-US/feed-ad-client-js
+||www.redditstatic.com/shreddit/optimized/en-US/w3-report-from-v2-event
 ||www.redirect12.com/go/*&advertiser=
 ||www.tiktok.com^$3p,important
 ||www.vvojuhtktpmwg.com^
 ||www.youtube.com/*/network.vflset/
 ||www.youtube.com/*/scheduler.vflset/
+||www.youtube.com/api/stats/playback
+||www.youtube.com/pagead/
+||www.youtube.com/pagead/
 ||www.youtube.com/youtubei/v1/log
+||www.youtube.com/youtubei/v1/notification/record_interactions
+||www.youtube.com/youtubei/v1/player/ad_break
 ||wygmhbuuhoxaok.com^
 ||x.com*getAltTextPromptPreference
+||x.com/home?prefetchTimestamp
 ||x.com/i/api/*/badge_count/
 ||x.com/i/api/*/hashflags.json
 ||x.com/i/api/1.1/dm/user_updates.json?nsfw_filtering_enabled=false&
@@ -413,7 +433,9 @@
 ||youtube.com/*www-tampering
 ||youtube.com/api/stats/atr
 ||youtube.com/api/stats/qoe
+||youtube.com/error_204
 ||youtube.com/youtubei/*/notification/get_unseen_count
+||youtube.com/youtubei/*/player/heartbeat$important
 ||youtube*/annotations_module.js
 ||youtube*/endscreen.js
 ||youtube*/log$script,xhr
@@ -661,24 +683,3 @@ whorls.js
 widgets.pinterest.com
 yandexadexchange.
 yu8s.live
-||cdn.jsdelivr.net/npm/cookieconsent
-||jnn-pa.googleapis.com^$domain=www.youtube-nocookie.com
-||fonts.gstatic.com/s/i/youtube_fill/
-||www.youtube.com/api/stats/playback
-||www.youtube.com/youtubei/v1/notification/record_interactions
-||x.com/home?prefetchTimestamp
-||ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
-||www.redditstatic.com/shreddit/optimized/en-US/feed-ad-client-js
-||www.redditstatic.com/shreddit/optimized/en-US/arena-events-client-js
-||www.redditstatic.com/shreddit/optimized/en-US/w3-report-from-v2-event
-||contacts.google.com^
-||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif
-||mail.google.com/mail/u/0/images/cleardot.gif
-||readintegralsplit.com^
-||www.youtube.com/pagead/
-||www.youtube.com/youtubei/v1/player/ad_break
-||youtube.com/error_204
-||youtube.com/youtubei/*/player/heartbeat$important
-/gen_204
-/generate_204
-||www.youtube.com/pagead/
