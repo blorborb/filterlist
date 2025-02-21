@@ -3,6 +3,8 @@
 ##.--framer-cookie-banner-container
 ##.a-ads
 ##.a8c-cookie-banner
+##.ad_corner
+##.ad-holder
 ##.ad-parent
 ##.ad-skin-side-bg
 ##.ad-slot-header__wrapper
@@ -15,6 +17,7 @@
 ##.adbox
 ##.adbox-wrapper
 ##.adsbox
+##.adsbypublift
 ##.adsbypubpower
 ##.adsninja-rail-container
 ##.adSocial
@@ -115,6 +118,7 @@
 ##.js_sticky-second-scroll
 ##.js_suggested-stories
 ##.js-sns-icon-container
+##.keyword-box > div > div:has([id="pwMobiMedRectAtf"])
 ##.l-sidebar.l-sidebar--article
 ##.l-videoCarousel--embed
 ##.lg\:gap-4.gap-18:has-text(Newsletter)
@@ -186,6 +190,7 @@
 ##.widget_block.widget
 ##.widget_digital_newspaper_social_icons_widget
 ##.wp-block-social-links
+##.wpbuttons
 ##.youtubeLink
 ##.zone__ads
 ##[aria-label="Consent Banner"]
@@ -229,8 +234,10 @@
 ###promo-notification
 ###rightBarSaleBanner
 ###secondscroll_sidebar_wrapper
+###sharealbum
 ###shopify-section-announcement-bar
 ###shopify-section-newsletter-popup
+###snppopup-exit
 ###subscribe_popup
 ###top-social
 ###uptodown-turbo-promo
@@ -244,10 +251,3 @@
 ##lite-tiktok
 ##shop-login-button
 ##shopify-payment-terms
-###snppopup-exit
-##.wpbuttons
-###sharealbum
-##.keyword-box > div > div:has([id="pwMobiMedRectAtf"])
-##.ad-holder
-##.adsbypublift
-##.ad_corner
