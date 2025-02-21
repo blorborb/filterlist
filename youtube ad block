@@ -1,0 +1,18 @@
+! title: youtube adblock
+! Homepage: https://github.com/blorborb/filterlists/tree/main
+! Expires: 14 days
+
+www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
+www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
+
+www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
+www.youtube.com###mealbar-promo-renderer
+
+||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/$replace=/"adSlots"/"no_ads"/
+||www.youtube.com/pagead/
+||www.youtube.com/youtubei/v1/player/ad_break
+||youtube.com/error_204
+||youtube.com/youtubei/*/player/heartbeat$important
+/gen_204
+/generate_204
