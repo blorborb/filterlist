@@ -33,6 +33,7 @@ $removeparam=soc-platform
 $removeparam=soc-device
 $removeparam=el
 $removeparam=au
+$removeparam=adformat
 
 ||twimg.com/media/$removeparam=name
 ||video.twimg.com/$removeparam
