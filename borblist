@@ -4,8 +4,6 @@
 
 !#include removeparam
 
-!#include youtube
-
 !#include network
 
 ! specific
