@@ -1,5 +1,3 @@
-! generic
-
 *###cookie-banner
 ##:style(overflow: auto; !important)
 ##.--framer-cookie-banner-container
