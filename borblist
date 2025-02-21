@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/blorborb/filterlists
 ! Expires: 24 hours
 
-!#include removeparam.txt
+!#include removeparam
 !#include youtube
 !#include network
 
