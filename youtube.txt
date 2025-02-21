@@ -1,6 +1,4 @@
 ! title: youtube adblock
-! Homepage: https://github.com/blorborb/filterlists/tree/main
-! Expires: 14 days
 
 www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
 www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
