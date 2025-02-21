@@ -3,7 +3,7 @@
 ! Expires: 24 hours
 
 !#include removeparam.txt
-!#include youtube.txt
+!#include youtube
 !#include network
 
 ! specific
