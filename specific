@@ -1,0 +1,314 @@
+www.apkmirror.com##div.headerFont.table-row:has-text(0dpi)
+
+www.netflix.com##.show-kids.nav-element
+www.netflix.com##.billboard-row-games
+www.netflix.com##.mobile-games-row
+
+duckduckgo.com##[data-layout="news"]
+
+myanimelist.net##.mal-tooltip-layer:has-text(sign-up)
+myanimelist.net##.mal-tooltip-layer:has-text(sign up)
+
+lit.link##.litlink-cv-profile-footer-logo-click
+lit.link##footer
+
+www.minecraft.net##.MC_globalFooterA_socialStripe
+
+account.microsoft.com##.css-206.ms-Stack:has([data-icon-name="Diamond"])
+account.microsoft.com##.css-336.ms-Stack:has-text(Discover)
+account.microsoft.com##.css-206.ms-Stack:has-text(AI)
+account.microsoft.com##.css-298.ms-Stack
+
+www.techpowerup.com##.v-port > div:nth-of-type(1)
+techpowerup.com##.page-header [href] > [src]
+techpowerup.com##div.s--item:nth-of-type(5)
+techpowerup.com##div.s--item:nth-of-type(4)
+
+snipfeed.co##[href^="https://app.snipfeed.co/signup"]
+snipfeed.co##.gap-1
+
+nexusmods.com##.select2-container--default.select2-container.select2
+nexusmods.com##tfoot > tr > td:nth-of-type(3)
+nexusmods.com##.rj-supporter-wrapper
+nexusmods.com###nonPremiumBanner
+nexusmods.com##tbody > tr > td
+nexusmods.com##.subheader
+nexusmods.com###rj-vortex
+nexusmods.com##th
+
+steampowered.com##.bottom_content.home_content_ctn.home_ctn
+steampowered.com##div.gutter_items:has-text(Steam Deck)
+steampowered.com##div.home_ctn:has(.home_deck_section)
+steampowered.com##div.gutter_header:has-text(Hardware)
+steampowered.com##.home_ctn.home_cluster_ctn
+steampowered.com##div.dark.page_content_ctn
+steampowered.com##.home_page_takeover_link
+steampowered.com##.static_takeover_ctn
+steamcommunity.com###footer_spacer
+steampowered.com##a.top_promo
+steamcommunity.com###footer
+steampowered.com###footer
+
+wallpapercave.com##[href="/featured-wallpapers"]
+wallpapercave.com##[href="/latest-uploads"]
+wallpapercave.com##[href="/featured-users"]
+wallpapercave.com###featuredsearches
+wallpapercave.com###intro > [href]
+wallpapercave.com###featuredd
+wallpapercave.com###featured
+wallpapercave.com###content
+wallpapercave.com###footerc
+wallpapercave.com###fsocial
+wallpapercave.com##.pimgrow
+wallpapercave.com##.imgrow
+
+apkmirror.com##.ains-apkm_variant_page_top
+apkmirror.com##.ains-has-label
+apkmirror.com###bottom-slider
+
+imgur.com##.Overlay:has(.AdblockDialog)
+imgur.com##.Gallery-Sidebar
+imgur.com##.Footer-wrapper
+imgur.com##.BottomRecirc
+
+esports.gg###FreeStarVideoAdContainer_BesOfEsportsgg
+esports.gg##.not-prose
+
+merriam-webster.com###subscribe-unabridged
+
+fanme.link##.css-imj3yb > div:has-text(FANME)
+
+pricerunner.*##div.pr-1u8qly9:has-text(ANNONCE)
+
+camelcamelcamel.com###camelizer_top_promo
+
+imdb.com##.ipc-page-content-container--center.ipc-page-content-container:has-text(Recently viewed)
+imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Did you know)
+imdb.com##.ipc-coachmark.ipc-list-card.ipc-list-card--base:has-text(Language preference)
+imdb.com##section.celwidget.ipc-page-section--base.ipc-page-section:has-text(Top picks)
+imdb.com##.celwidget.ipc-page-section--base.ipc-page-section:has-text(Related news)
+imdb.com##li.ipc-metadata-list-item--link.ipc-metadata-list__item:has-text(Stars)
+imdb.com##.navbar__coachmark--fadeIn.navbar__coachmark:has-text(New Customer?)
+imdb.com##.ipc-page-grid__item:has-text(More to explore)
+imdb.com##.ipc-metadata-list__item:has-text(IMDbPro)
+imdb.com##.navbar__imdbpro
+imdb.com##.cTZHLL
+
+redditmedia.com##.premium-banner-outer
+redditmedia.com##.commentsignupbar
+redditmedia.com##.listingsignupbar
+
+www.reddit.com##xpromo-nsfw-blocking-container:shadow(.prompt:has(> .viewInApp))
+www.reddit.com##[bundlename="desktop_rpl_nsfw_blocking_modal"]:remove()
+www.reddit.com##faceplate-tracker:has-text(Advertise)
+www.reddit.com##faceplate-tracker:has-text(TOPICS)
+www.reddit.com##[bundlename="comment_body_header"]
+www.reddit.com##hr.border-neutral-border-weak
+www.reddit.com##shreddit-loading
+www.reddit.com##hr.my-sm
+www.reddit.com###get-app
+www.reddit.com###TOPICS
+
+mail.proton.me##[href="https://account.proton.me/u/4/mail/upgrade?ref=upsell_mail-button-user-dropdown"]
+proton.me##.text-sm:has([data-testid="userdropdown:label:plan-name"]):has-text(Free)
+proton.me##.collapsible-header--clickable:has-text(Get mobile apps)
+proton.me##.block:has([href="https://shop.proton.me"])
+proton.me##.topnav-listItem--noCollapse:has-text(deal)
+mail.proton.me##.spotlight:has-text(Mail Plus)
+proton.me##.text-ellipsis:has-text(Upgrade)
+proton.me##.modal-two:has(.offer-modal)
+proton.me##.button-promotion
+proton.me##.bg-promotion
+
+reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
+reddit.com##shreddit-async-loader:has-text(Cookie Notice)
+www.reddit.com###right-sidebar-container > div.mt-md
+reddit.com##.w-full.masthead
+
+carrd.co###credits
+
+google.com##.audio-button-holder
+
+amazon.*##div#similarities_feature_div.celwidget:has-text(Customers who bought this item also bought)
+amazon.*###nav-flyout-anchor:has-text(Change Address)
+amazon.*###va-related-videos-widget_feature_div
+amazon.*##.copilot-secure-display
+amazon.*###avs-iwa_feature_div
+amazon.*###gridgetWrapper
+amazon.*##.desktop-row
+amazon.*###sp-cc
+amazon.*###rhf
+amazon.*##hr
+
+www.twitch.tv##[data-test-selector="toggle-balloon-wrapper__mouse-enter-detector"]:has-text(Ad-Free)
+www.twitch.tv##.tw-dialog-layer:has-text(Your donation goes to support the charity.)
+www.twitch.tv##.find-me:has-text(we think you’ll like)
+www.twitch.tv##.player-overlay-background--darkness-3
+www.twitch.tv##li:has([href="/settings/prime"])
+www.twitch.tv##.find-me:has-text(Recommended)
+www.ext-twitch.tv##.prime-extension-root
+www.twitch.tv##.follow-panel-overlay
+www.twitch.tv##.passthrough-events
+www.twitch.tv##.disclosure-tool
+www.twitch.tv##.top-nav__prime
+www.twitch.tv##.consent-banner
+www.twitch.tv##.side-nav
+
+lenovo.com##.partsPspBannerBox
+
+aliexpress.com##body > div:nth-of-type(12)
+aliexpress.com##.cosmos-drawer-wrap
+aliexpress.com##._3KrBP
+
+discord.com##div.menuDivider_ad5fac
+discord.com##button:has-text(Nitro)
+discord.com##button:has-text(Shop)
+discord.com##[aria-label="Nitro"]
+discord.com##[href="/store"]
+
+idrlabs.com###test-agreement
+
+spotify.com##[href="https://www.spotify.com/premium/?ref=web_loggedin_upgrade_menu"]
+spotify.com##[href="https://www.facebook.com/Spotify"]
+spotify.com##[href="https://instagram.com/spotify"]
+spotify.com##[href="https://twitter.com/spotify"]
+spotify.com##[aria-label="Upgrade to Premium"]
+
+bandcamp.com##.tralbum-tags
+bandcamp.com###user-nav
+
+aternos.org###ulenYrScPGuk
+
+linktr.ee##.bhdLno.jBicvQ
+linktr.ee##.contents
+linktr.ee###TopBar
+
+sourceforge.net##.m-project-related-keywords
+sourceforge.net##.m-wide-projects-widget
+sourceforge.net###share-project-button
+sourceforge.net##.main-nav-button
+sourceforge.net##.m-project-list
+
+game8.co##.p-archiveHeader__count
+game8.co##.p-archiveBreadcrumb
+game8.co##.p-archiveFeedback
+game8.co##.l-3colMain__left
+game8.co##.a-announce
+game8.co##.l-3colSide
+game8.co##.l-header
+game8.co##.c-share
+
+hoyoverse.com##.home-btn-container
+
+github.com##div.react-code-size-details-in-header:has-text(Code 55% faster with GitHub Copilot)
+github.com##div > [type="button"]:has-text(Code 55% faster with GitHub Copilot)
+github.com##[href="/settings/copilot"]
+github.com##.js-for-you-feed-items
+
+genius.com##[data-exclude-from-selection="true"]
+genius.com##.LyricsHighlightTooltipContainer
+genius.com##.header-nav_menu
+
+wikipedia.org##.invite.mw-mmv-ttf-ellipsis-container
+
+pixiv.net##[href="/premium/lead/lp/?g=anchor&i=site_header_omni_bar&p=free_campaign"]
+pixiv.net##.box-border.justify-between.w-full:has-text(pixiv Premium)
+pixiv.net##.-ml-8.flex:has-text(pixiv Premium)
+pixiv.net##li:has-text(pixiv Premium)
+
+tumblr.com##.smX3m
+
+disqus.com##.nav-secondary-refresh__list-item
+disqus.com###thread-subscribe-button
+disqus.com###reactions__container
+disqus.com##.minimized.post
+disqus.com###main-nav
+
+fandom.com##.global-registration-buttons
+fandom.com##.wds-button-group.wiki-tools
+fandom.com##.global-explore-navigation
+fandom.com##.page-side-tools__wrapper
+fandom.com##.global-top-navigation
+fandom.com##.sitenotice-wrapper
+fandom.com##.page__right-rail
+fandom.com##.global-footer
+fandom.com##.mbox-w-notice
+fandom.com##.page-counter
+fandom.com##.WikiaRail
+fandom.com###WikiaBar
+fandom.com###p-views
+fandom.com##.mbox
+
+anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
+anilist.co##div.data-set:has-text(Hashtag)
+anilist.co##div.desktop:has-text(Activity)
+anilist.co##a.link:has-text(forum)
+anilist.co##a.link:has-text(Watch)
+anilist.co##.data-set.el-tooltip
+anilist.co##.external-links
+anilist.co##.recent-reviews
+anilist.co##.recent-threads
+anilist.co##.el-message
+anilist.co##.episodes
+anilist.co##.trailer
+anilist.co##.watch
+
+www.miruro.online##button.vds-button:has([d="M5.33334 7.33334C5.33334 6.96515 5.63181 6.66667 6 6.66667H26C26.3682 6.66667 26.6667 6.96515 26.6667 7.33334V24.6667C26.6667 25.0349 26.3682 25.3333 26 25.3333H6C5.63181 25.3333 5.33334 25.0349 5.33334 24.6667V7.33334ZM8 10C8 9.63182 8.29848 9.33334 8.66667 9.33334H17.2C17.2736 9.33334 17.3333 9.39303 17.3333 9.46667V22.5333C17.3333 22.607 17.2736 22.6667 17.2 22.6667H8.66667C8.29848 22.6667 8 22.3682 8 22V10ZM20 22.5333C20 22.607 20.0597 22.6667 20.1333 22.6667H23.3333C23.7015 22.6667 24 22.3682 24 22V10C24 9.63182 23.7015 9.33334 23.3333 9.33334H20.1333C20.0597 9.33334 20 9.39303 20 9.46667V22.5333Z"])
+www.miruro.online##button.vds-button:has([d="M25.1377 6.78532C25.5778 6.46017 26.2005 6.77434 26.2005 7.32151V24.6785C26.2005 25.2257 25.5777 25.5398 25.1377 25.2147L13.3924 16.5358C13.0317 16.2693 13.0317 15.7299 13.3924 15.4634L25.1377 6.78532Z"])
+www.miruro.online##[aria-label="Seek backward -10 seconds"]
+www.miruro.online##[aria-label="Seek forward 10 seconds"]
+www.miruro.online##.vds-button.vds-caption-button
+www.miruro.online##button.shortcuts-button
+www.miruro.online##[title="Add to List"]
+www.miruro.online##.vds-volume
+
+www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
+www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##div.yt-flexible-actions-view-model-wiz__action:has-text(Join)
+www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
+www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
+www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
+www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
+www.youtube.com##span.bold.yt-formatted-string:has-text(product)
+www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
+www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
+www.youtube.com###teaser-carousel:has-text(Live chat replay)
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
+www.youtube.com###expandable-metadata:has-text(Summary)
+www.youtube.com##ytd-metadata-row-container-renderer
+www.youtube.com##ytd-rich-item-renderer:has(.lockup)
+www.youtube.com##.ytd-consent-bump-v2-lightbox
+www.youtube.com##.ytp-paid-content-overlay
+www.youtube.com###mealbar-promo-renderer
+www.youtube.com###structured-description
+www.youtube.com##.ytp-miniplayer-button
+www.youtube.com###fulfilled-layout
+www.youtube.com###sponsor-button
+www.youtube.com###clarify-box
+www.youtube.com##.opened
+www.youtube.com###right
+
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has([d="M7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-1.608 1.732-2.762 4.389-2.869 8.248l-.03 1.083zM9.616 9.27C10.452 8.63 11 7.632 11 6.5 11 4.57 9.433 3 7.5 3S4 4.57 4 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73zm6.884 1.726c-3.264 0-6.816 2.358-7 8.977L9.471 21h14.057l-.029-1.027c-.184-6.618-3.736-8.977-7-8.977zm2.116-1.726C19.452 8.63 20 7.632 20 6.5 20 4.57 18.433 3 16.5 3S13 4.57 13 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73z"])
+x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Answer by Grok)
+x.com##.r-1h0z5md.r-18u37iz.r-1udh08x.r-1xfd6ze.css-175oi2r:has-text(X Premium)
+x.com##div.r-16y2uox.r-cpa5s6.r-14tvyh0.css-175oi2r:has-text(Highlights)
+x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
+x.com##.r-1xpp3t0.css-175oi2r:has-text(Get verified)
+x.com###layers:has-text(Subscribe to Premium)
+x.com##[aria-label="Profile Summary"]
+x.com##[aria-label="Generate image"]
+x.com##[aria-label="Grok actions"]
+x.com##[aria-label="Send a tip"]
+x.com##[data-testid="eventHero"]
+x.com##[aria-label="Lists"]
+x.com##a[href="/explore"]
