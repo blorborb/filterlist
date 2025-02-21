@@ -13,10 +13,3 @@
 !#include removeparam
 
 !#include font
-
-! applies to everything
-
-*$domain=behind-the-scene
-*$shide,ghide,important
-*$redirect-rule=empty
-*$csp=*
