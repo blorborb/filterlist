@@ -2,11 +2,20 @@
 ! Homepage: https://github.com/blorborb/filterlists
 ! Expires: 24 hours
 
-!#include removeparam
 !#include specific
-!#include scriplet
+
+
 !#include network
+
+
+!#include scriplet
+
+
 !#include generic
+
+
+!#include removeparam
+
 
 ! applies to everything
 
