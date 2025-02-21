@@ -1,0 +1,43 @@
+! title: removeparam
+! Homepage: https://github.com/blorborb/filterlists/tree/main
+! Expires: 24 hours
+
+$removeparam=cmt
+$removeparam=alr
+$removeparam=cpn
+$removeparam=cr
+$removeparam=cver
+$removeparam=fallback_count
+$removeparam=fexp
+$removeparam=fs
+$removeparam=fvip
+$removeparam=mt
+$removeparam=rn
+$removeparam=prettyPrint
+$removeparam=event
+$removeparam=cbr
+$removeparam=cbrver
+$removeparam=c
+$removeparam=WEBcver
+$removeparam=cplayer
+$removeparam=cos
+$removeparam=cplatform
+$removeparam=volume
+$removeparam=hl
+$removeparam=feature
+$removeparam=state
+$removeparam=ver
+$removeparam=muted
+$removeparam=soc-app
+$removeparam=soc-platform
+$removeparam=soc-device
+$removeparam=el
+$removeparam=au
+
+||twimg.com/media/$removeparam=name
+||video.twimg.com/$removeparam
+
+||www.google.com/recaptcha/$removeparam
+||www.gstatic.com/_/mss/boq-one-google$removeparam
+
+||bsky.network/xrpc/app.bsky.notification$removeparam
