@@ -148,7 +148,6 @@
 /wrapper/metrics/
 /youtubei/v1/updated_metadata
 &adcontext
-&adformat
 =metrics
 =unitad&
 ||/api/fingerprint/
