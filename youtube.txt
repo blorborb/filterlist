@@ -1,4 +1,4 @@
-! title: youtube adblock
+! youtube
 
 www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined !important)
 www.youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined !important)
