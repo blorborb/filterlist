@@ -677,3 +677,10 @@ yu8s.live
 ||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif
 ||mail.google.com/mail/u/0/images/cleardot.gif
 ||readintegralsplit.com^
+||www.youtube.com/pagead/
+||www.youtube.com/youtubei/v1/player/ad_break
+||youtube.com/error_204
+||youtube.com/youtubei/*/player/heartbeat$important
+/gen_204
+/generate_204
+||www.youtube.com/pagead/
