@@ -169,6 +169,8 @@
 ##.stack__ads
 ##.subscribe__list
 ##.subscribe-box-inner
+##.subscribe-button
+##.subscribe-form
 ##.svelte-1h1i54z.includeWrapper
 ##.svelte-deweka.tc-capture-kit-wrapper
 ##.ta-campaign-widget
@@ -185,9 +187,11 @@
 ##.ue-cookie-consent-wrapper
 ##.uma-hero
 ##.v-snack
+##.vector-sitenotice-container
 ##.wcc-consent-bar
 ##.wcc-consent-container
 ##.widget_block.widget
+##.widget_custom_html:has-text(newsletter)
 ##.widget_digital_newspaper_social_icons_widget
 ##.wp-block-social-links
 ##.wpbuttons
