@@ -1,3 +1,6 @@
+myfigurecollection.net##div.tab:has(.disabled)
+myfigurecollection.net##.social
+
 www.apkmirror.com##div.headerFont.table-row:has-text(0dpi)
 
 www.netflix.com##.show-kids.nav-element
