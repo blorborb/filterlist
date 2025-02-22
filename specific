@@ -143,10 +143,12 @@ amazon.*###sp-cc
 amazon.*###rhf
 amazon.*##hr
 
+www.twitch.tv##.community-highlight-stack__scroll-area--disable.simplebar-scroll-content:has-text(Drops)
 www.twitch.tv##[data-test-selector="toggle-balloon-wrapper__mouse-enter-detector"]:has-text(Ad-Free)
 www.twitch.tv##.tw-dialog-layer:has-text(Your donation goes to support the charity.)
 www.twitch.tv##.find-me:has-text(we think you’ll like)
 www.twitch.tv##.player-overlay-background--darkness-3
+www.twitch.tv##.tw-transition:has-text(Power-up)
 www.twitch.tv##.tw-dialog-layer:has-text(Share)
 www.twitch.tv##li:has([href="/settings/prime"])
 www.twitch.tv##.find-me:has-text(Recommended)
