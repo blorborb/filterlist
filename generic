@@ -1,3 +1,4 @@
+
 *###cookie-banner
 *##html[style*="overflow"]:style(overflow: auto !important;)
 ##.--framer-cookie-banner-container
@@ -195,6 +196,9 @@
 ##.widget_digital_newspaper_social_icons_widget
 ##.wp-block-social-links
 ##.wpbuttons
+##.xy-side-bottom
+##.xy-wide-bottom
+##.xy-wide-top
 ##.youtubeLink
 ##.zone__ads
 ##[aria-label="Consent Banner"]
