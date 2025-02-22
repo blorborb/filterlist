@@ -1,5 +1,5 @@
 *###cookie-banner
-##:style(overflow: auto; !important)
+*##html[style*="overflow"]:style(overflow: auto !important;)
 ##.--framer-cookie-banner-container
 ##.a-ads
 ##.a8c-cookie-banner
