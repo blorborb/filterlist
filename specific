@@ -274,6 +274,7 @@ www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(Dexter)
 www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has([alt="🗣"])
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##div.yt-flexible-actions-view-model-wiz__action:has-text(Join)
