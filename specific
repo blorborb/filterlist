@@ -267,30 +267,31 @@ www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has([alt="🗣"])
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
 www.youtube.com##div.yt-flexible-actions-view-model-wiz__action:has-text(Join)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
-www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
+www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
 www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
+www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-www.youtube.com##span.bold.yt-formatted-string:has-text(product)
 www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
+www.youtube.com##span.bold.yt-formatted-string:has-text(product)
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com###teaser-carousel:has-text(Live chat replay)
 www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
 www.youtube.com###expandable-metadata:has-text(Summary)
-www.youtube.com##ytd-metadata-row-container-renderer
 www.youtube.com##ytd-rich-item-renderer:has(.lockup)
+www.youtube.com##ytd-metadata-row-container-renderer
 www.youtube.com##.ytd-consent-bump-v2-lightbox
 www.youtube.com##.ytp-paid-content-overlay
-www.youtube.com###mealbar-promo-renderer
 www.youtube.com###structured-description
+www.youtube.com###mealbar-promo-renderer
 www.youtube.com##.ytp-miniplayer-button
 www.youtube.com###fulfilled-layout
 www.youtube.com###sponsor-button
