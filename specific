@@ -144,14 +144,15 @@ www.twitch.tv##[data-test-selector="toggle-balloon-wrapper__mouse-enter-detector
 www.twitch.tv##.tw-dialog-layer:has-text(Your donation goes to support the charity.)
 www.twitch.tv##.find-me:has-text(we think you’ll like)
 www.twitch.tv##.player-overlay-background--darkness-3
+www.twitch.tv##.tw-dialog-layer:has-text(Share)
 www.twitch.tv##li:has([href="/settings/prime"])
 www.twitch.tv##.find-me:has-text(Recommended)
 www.ext-twitch.tv##.prime-extension-root
 www.twitch.tv##.follow-panel-overlay
 www.twitch.tv##.passthrough-events
 www.twitch.tv##.disclosure-tool
-www.twitch.tv##.top-nav__prime
 www.twitch.tv##.consent-banner
+www.twitch.tv##.top-nav__prime
 www.twitch.tv##.side-nav
 
 lenovo.com##.partsPspBannerBox
