@@ -1,9 +1,7 @@
-||assets.twitch.tv/config/manifest.json$removeparam
 ||bsky.network/xrpc/app.bsky.notification$removeparam
 ||twimg.com/media/$removeparam=name
 ||video.twimg.com/$removeparam
 ||www.google.com/recaptcha/$removeparam
-||www.gstatic.com/_/mss/boq-one-google$removeparam
 $removeparam=acmb
 $removeparam=adcontext
 $removeparam=adformat
@@ -39,7 +37,6 @@ $removeparam=mt
 $removeparam=muted
 $removeparam=os_name
 $removeparam=os_version
-$removeparam=p
 $removeparam=pid
 $removeparam=platform
 $removeparam=play_session_id
@@ -54,7 +51,6 @@ $removeparam=soc-device
 $removeparam=soc-platform
 $removeparam=state
 $removeparam=subscribed
-$removeparam=ver
 $removeparam=volume
 $removeparam=WEBcver
 $removeparam=ws
