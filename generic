@@ -219,6 +219,7 @@
 ##[id="ad-skin-bg-left"]
 ##[id="ad-skin-bg-right"]
 ##[id="cookie-control"]
+##[style*="overflow"]:style(overflow: auto !important;)
 ###ad-skin-side-bg
 ###ad-skin-side-outer
 ###advert_column
@@ -271,7 +272,6 @@
 ##div.footer-links:has-text(e-mail)
 ##div.mb-5:has(.ck-social-media-icons)
 ##floating-auth-unit-container
-##html[style*="overflow"]:style(overflow: auto !important;)
 ##li:has-text(Subscribe)
 ##lite-tiktok
 ##shop-login-button
