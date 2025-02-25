@@ -161,6 +161,8 @@
 ##.section--signup
 ##.share-container
 ##.share1
+##.show:has-text(Upgrade)
+##.show.fade.modal-backdrop
 ##.signing-modal
 ##.single-post-share
 ##.site-bannerCampaignElement
@@ -239,6 +241,7 @@
 ###default-ads
 ###discountBanner
 ###discountBanner-sidebar
+###discountNotification
 ###eu_cookie_law_widget-2
 ###gdpr-cookie-consent-bar
 ###gdpr-modal-bottom
