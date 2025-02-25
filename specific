@@ -1,3 +1,5 @@
+lnk.bio##.footer-signup
+
 myfigurecollection.net##div.tab:has(.disabled)
 myfigurecollection.net##.social
 
@@ -124,6 +126,7 @@ proton.me##.button-promotion
 proton.me##.bg-promotion
 
 reddit.com##.mb-0.box-border.py-md:has-text(Popular Communities)
+reddit.com##ul[id="reddit-trending-searches-partial-container"]
 reddit.com##shreddit-async-loader:has-text(Cookie Notice)
 www.reddit.com###right-sidebar-container > div.mt-md
 reddit.com##.w-full.masthead
@@ -272,32 +275,35 @@ www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
 www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
+www.youtube.com###chat-container:has-text(Chat Replay has been disabled for this Premiere.)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
 www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has-text(Dexter)
-www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has([alt="🗣"])
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
+www.youtube.com##ytd-comment-thread-renderer.ytd-item-section-renderer:has([alt="🗣"])
 www.youtube.com##div.yt-flexible-actions-view-model-wiz__action:has-text(Join)
+www.youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
 www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
-www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
+www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
 www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
 www.youtube.com##span.bold.yt-formatted-string:has-text(product)
+www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com###teaser-carousel:has-text(Live chat replay)
 www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
 www.youtube.com###expandable-metadata:has-text(Summary)
-www.youtube.com##ytd-rich-item-renderer:has(.lockup)
 www.youtube.com##ytd-metadata-row-container-renderer
+www.youtube.com##ytd-rich-item-renderer:has(.lockup)
 www.youtube.com##.ytd-consent-bump-v2-lightbox
 www.youtube.com##.ytp-paid-content-overlay
-www.youtube.com###structured-description
 www.youtube.com###mealbar-promo-renderer
+www.youtube.com###structured-description
+www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytp-miniplayer-button
 www.youtube.com###fulfilled-layout
 www.youtube.com###sponsor-button
@@ -309,6 +315,7 @@ x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has([d="M7.471 21H.472l.029-1.027c.184-6
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Answer by Grok)
 x.com##.r-1h0z5md.r-18u37iz.r-1udh08x.r-1xfd6ze.css-175oi2r:has-text(X Premium)
+x.com##.r-zl2h9q.r-1wtj0ep.r-18u37iz.css-175oi2r:has-text(Parody account)
 x.com##div.r-16y2uox.r-cpa5s6.r-14tvyh0.css-175oi2r:has-text(Highlights)
 x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
 x.com##.r-1xpp3t0.css-175oi2r:has-text(Get verified)
@@ -316,7 +323,7 @@ x.com###layers:has-text(Subscribe to Premium)
 x.com##[aria-label="Profile Summary"]
 x.com##[aria-label="Generate image"]
 x.com##[aria-label="Grok actions"]
-x.com##[aria-label="Send a tip"]
 x.com##[data-testid="eventHero"]
+x.com##[aria-label="Send a tip"]
 x.com##[aria-label="Lists"]
 x.com##a[href="/explore"]
