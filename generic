@@ -1,5 +1,3 @@
-###cookie-banner
-##html[style*="overflow"]:style(overflow: auto !important;)
 ##.--framer-cookie-banner-container
 ##.a-ads
 ##.a8c-cookie-banner
@@ -38,11 +36,15 @@
 ##.bottom-banner-area
 ##.btn-email
 ##.button-promotion
+##.c-related
+##.c-social-icons
+##.c-subscribe
 ##.c-tabs
 ##.cc-banner
 ##.cc-popup
 ##.cc-type-opt-in.cc-banner
 ##.chatbot
+##.ck-social-media-icons
 ##.cky-banner-bottom
 ##.cky-consent-bar
 ##.cky-consent-container
@@ -72,6 +74,8 @@
 ##.customers-also
 ##.DAnUZ
 ##.desktop-content-ad-container
+##.detail_install_app
+##.didomi-host
 ##.digital-newspaper-advertisement-block
 ##.DiscordIntegrator
 ##.discordLink
@@ -85,6 +89,8 @@
 ##.erc-watch-premium-upsell
 ##.facebookLink
 ##.features-card
+##.foot_app
+##.foot_sns
 ##.footer__social-icons
 ##.footer__socialbar
 ##.footer-bottom
@@ -102,6 +108,7 @@
 ##.g-profile__verified-accounts > span
 ##.g1-collection-item:has(.g1-advertisement)
 ##.ga-impression.bottom-bar
+##.gb-container:has([class="_ap_apex_ad"])
 ##.gdpr
 ##.gdpr_messagebar_content
 ##.glue-cookie-notification-bar
@@ -111,6 +118,7 @@
 ##.header__share
 ##.header-mini-banner
 ##.heateor_sss_sharing_container
+##.home-customer-reviews
 ##.identification-modal
 ##.input-newsletter
 ##.instagramLink
@@ -134,6 +142,7 @@
 ##.newsletter-modal-wrap
 ##.newsletter-section
 ##.newsub-box
+##.o-grid__col:has(.c-sidebar)
 ##.offer-modal
 ##.page-footer__subscribe
 ##.playstore
@@ -165,8 +174,11 @@
 ##.social-links
 ##.social.footer-links
 ##.socialaccountlinks-v2-block
+##.spi_wrap
+##.sponsor-banner
 ##.sponsored-recommendation
 ##.stack__ads
+##.subs-upsell
 ##.subscribe__list
 ##.subscribe-box-inner
 ##.subscribe-button
@@ -202,9 +214,11 @@
 ##.zone__ads
 ##[aria-label="Consent Banner"]
 ##[aria-label="Social Links"]
+##[aria-labelledby="promo-header"]
 ##[href="/about/cookie_policy"]
 ##[id="ad-skin-bg-left"]
 ##[id="ad-skin-bg-right"]
+##[id="cookie-control"]
 ###ad-skin-side-bg
 ###ad-skin-side-outer
 ###advert_column
@@ -212,6 +226,7 @@
 ###cmp-app-container
 ###colophon
 ###cookie-announcement
+###cookie-banner
 ###cookie-banner-wrapper
 ###cookie-information-template-wrapper
 ###cookie-law-info-bar
@@ -248,12 +263,17 @@
 ###top-social
 ###uptodown-turbo-promo
 ###yt_a_message
+##body:remove-class(didomi-popup-open)
 ##devsite-cookie-notification-bar
 ##div.ad-unit
+##div.c-footer__section:has-text(Newsletter)
 ##div.embed-twitter
 ##div.footer-links:has-text(e-mail)
+##div.mb-5:has(.ck-social-media-icons)
 ##floating-auth-unit-container
+##html[style*="overflow"]:style(overflow: auto !important;)
 ##li:has-text(Subscribe)
 ##lite-tiktok
 ##shop-login-button
 ##shopify-payment-terms
+##ul[class="social"]
