@@ -271,44 +271,45 @@ www.miruro.online##button.shortcuts-button
 www.miruro.online##[title="Add to List"]
 www.miruro.online##.vds-volume
 
-www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only)
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only)
-www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos)
-www.youtube.com###chat-container:has-text(Chat Replay has been disabled for this Premiere.)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you)
-www.youtube.com##div.yt-flexible-actions-view-model-wiz__action:has-text(Join)
-www.youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem)
-www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
-www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
-www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
-www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
-www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
-www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
-www.youtube.com##span.bold.yt-formatted-string:has-text(product)
-www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
-www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
-www.youtube.com###teaser-carousel:has-text(Live chat replay)
-www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
-www.youtube.com###expandable-metadata:has-text(Summary)
-www.youtube.com##ytd-metadata-row-container-renderer
-www.youtube.com##ytd-rich-item-renderer:has(.lockup)
-www.youtube.com##.ytd-consent-bump-v2-lightbox
-www.youtube.com##.ytp-paid-content-overlay
-www.youtube.com###comment:has([alt="🗣"])
-www.youtube.com###mealbar-promo-renderer
-www.youtube.com###structured-description
-www.youtube.com##ytd-reel-shelf-renderer
-www.youtube.com##.ytp-miniplayer-button
-www.youtube.com###fulfilled-layout
-www.youtube.com###sponsor-button
-www.youtube.com###clarify-box
-www.youtube.com##.opened
-www.youtube.com###right
+www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer:has(.badge-style-type-members-only):remove()
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.badge-style-type-members-only):remove()
+www.youtube.com##ytd-menu-service-item-renderer.ytd-menu-popup-renderer:has-text(Personalised):remove()
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Popular videos):remove()
+www.youtube.com###chat-container:has-text(Chat Replay has been disabled for this Premiere.):remove()
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer:has-text(Previously watched):remove()
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(Our members):remove()
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer:has-text(For you):remove()
+www.youtube.com##div.yt-flexible-actions-view-model-wiz__action:has-text(Join):remove()
+www.youtube.com##.ytp-quality-menu .ytp-premium-label:upward(.ytp-menuitem):remove()
+www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks):remove()
+www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope:remove()
+www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"]):remove()
+www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer:remove()
+www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope:remove()
+www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer):remove()
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer:remove()
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer:remove()
+www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks):remove()
+www.youtube.com##span.bold.yt-formatted-string:has-text(product):remove()
+www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint:remove()
+www.youtube.com###teaser-carousel:has-text(Live chat replay):remove()
+www.youtube.com##[itemtype="http://schema.org/VideoObject"]:remove()
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy:remove()
+www.youtube.com###expandable-metadata:has-text(Summary):remove()
+www.youtube.com##ytd-rich-item-renderer:has(.lockup):remove()
+www.youtube.com##ytd-metadata-row-container-renderer:remove()
+www.youtube.com##.ytd-consent-bump-v2-lightbox:remove()
+www.youtube.com##.ytp-paid-content-overlay:remove()
+www.youtube.com##ytd-reel-shelf-renderer:remove()
+www.youtube.com###structured-description:remove()
+www.youtube.com###mealbar-promo-renderer:remove()
+www.youtube.com##.ytp-miniplayer-button:remove()
+www.youtube.com###fulfilled-layout:remove()
+www.youtube.com###sponsor-button:remove()
+www.youtube.com##ytd-miniplayer:remove()
+www.youtube.com###clarify-box:remove()
+www.youtube.com##.opened:remove()
+www.youtube.com###right:remove()
 
 x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has([d="M7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-1.608 1.732-2.762 4.389-2.869 8.248l-.03 1.083zM9.616 9.27C10.452 8.63 11 7.632 11 6.5 11 4.57 9.433 3 7.5 3S4 4.57 4 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73zm6.884 1.726c-3.264 0-6.816 2.358-7 8.977L9.471 21h14.057l-.029-1.027c-.184-6.618-3.736-8.977-7-8.977zm2.116-1.726C19.452 8.63 20 7.632 20 6.5 20 4.57 18.433 3 16.5 3S13 4.57 13 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73z"])
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
