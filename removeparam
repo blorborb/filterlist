@@ -38,7 +38,6 @@ $removeparam=geoc
 $removeparam=hl
 $removeparam=idpj
 $removeparam=intl
-$removeparam=lang
 $removeparam=ldpj
 $removeparam=list
 $removeparam=mt
