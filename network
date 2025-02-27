@@ -208,7 +208,6 @@
 ||cdn.ampproject.org^
 ||cdn.jsdelivr.net/npm/cookieconsent
 ||cdn.shopify.com/proxy
-||cdn77.org^$important
 ||cdnjs.cloudflare.com/ajax/libs/Chart*
 ||cdnjs.cloudflare.com/ajax/libs/jquery-cookie/$important
 ||chartbeat.$important
