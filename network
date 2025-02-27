@@ -22,7 +22,9 @@
 /adsense
 /adsninja_worker_$important
 /advertisement*.js
+/amazon-appstore-logo.png$image
 /api/data/v1/metrics
+/app-store-logo.png$image
 /apple_music_player
 /apple-touch-icon.png$image
 /assets/ConsentBlocked
@@ -41,6 +43,10 @@
 /consent-mode/*.css
 /consent*js
 /cookie-consent/*/cookie-consent.js
+/cookie-law-info-public.css
+/cookie-law-info-public.js
+/cookie-law-info-table.css
+/cropped-favicon*192x192.jpg$image
 /csp_report
 /csp-report
 /csp/reporting
@@ -74,6 +80,7 @@
 /gfplib
 /glo-related-products-upsell
 /google-one-tap-index.min.js
+/google-play-logo.png$image
 /GoogleAnalytics$important
 /gtag$important
 /html2canvas.min.js
@@ -91,6 +98,8 @@
 /location
 /loginmanager_sniff.
 /logstreamz
+/marketing-cloud-subscribe-*.css
+/marketingCloudForm-*.js
 /marketingtech
 /mktgtagmanager
 /monitoring?
@@ -117,6 +126,7 @@
 /record-data/log
 /reporter-api
 /reporting.js
+/roku-tv-logo.png$image
 /RotateCookies
 /s/search/audio
 /SecurePubs$important
@@ -164,11 +174,18 @@
 ||abs.twimg.com/responsive-web/client-web/bundle.Explore
 ||abs.twimg.com/responsive-web/client-web/bundle.Grok
 ||abs.twimg.com/responsive-web/client-web/bundle.Payments
+||abs.twimg.com/responsive-web/client-web/loader.AudioDock
+||abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar
+||abs.twimg.com/responsive-web/client-web/loader.newsEntriesGapHandler
+||abs.twimg.com/responsive-web/client-web/loader.NewTweetsPill
+||abs.twimg.com/responsive-web/client-web/loader.SidebarSpacebar
+||abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Ocf~ondemand.Insights~bundle.TV~bundle.Account
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Ocf~ondemand.Insights~ondemand.PeopleSearch~bundle.TV~bundl
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Payments~bundle.PaymentReceipt~ondemand.Insights
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.Payments~bundle
+||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsInternals~bundle.Explore~bundle.LiveEvent~bundle.Topics~bundle.Trends~loader.ExploreS
 ||abs.twimg.com/sticky/animations/
 ||accounts.google.com/gsi/$subdocument
 ||addons-pa.clients6.google.com
@@ -200,6 +217,7 @@
 ||bigdata.ssp.samsung.com^$important
 ||bitmovin.$important
 ||bk-xctgdnf.life^
+||blogger.googleusercontent.com
 ||btloader.$important
 ||c1.neweggimages.com/tapa/$image,3p
 ||c1.neweggimages.com/webresource/themes/Nest/banners/$image,3p
@@ -434,7 +452,9 @@
 ||x.com/i/api/fleets/v1/fleetline
 ||x.com/i/api/graphql/*/DataSaverMode
 ||x.com/i/api/graphql/*/ExplorePage
+||x.com/i/api/graphql/*/isEligibleForVoButtonUpsellQuery
 ||x.com/i/api/graphql/*/useFetchAnalyticsQuery
+||x.com/i/api/graphql/*/UsersVerifiedAvatars
 ||x.com/live_pipeline/events
 ||ybs2ffs7v.com^
 ||ybs2ffs7v.com^$important
