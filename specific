@@ -117,10 +117,11 @@ www.reddit.com###TOPICS
 mail.proton.me##[href="https://account.proton.me/u/4/mail/upgrade?ref=upsell_mail-button-user-dropdown"]
 proton.me##.text-sm:has([data-testid="userdropdown:label:plan-name"]):has-text(Free)
 proton.me##.collapsible-header--clickable:has-text(Get mobile apps)
-proton.me##.block:has([href="https://shop.proton.me"])
 proton.me##.topnav-listItem--noCollapse:has-text(deal)
+proton.me##.block:has([href="https://shop.proton.me"])
 mail.proton.me##.spotlight:has-text(Mail Plus)
 proton.me##.text-ellipsis:has-text(Upgrade)
+proton.me##.button-promotion--icon-gradient
 proton.me##.modal-two:has(.offer-modal)
 proton.me##.button-promotion
 proton.me##.bg-promotion
