@@ -61,6 +61,7 @@
 ##.cookie-notice-container
 ##.cookie-notice-hidden
 ##.cookie-notification
+##.cookie-policy
 ##.cookie-policy-wrap
 ##.cookie-policy-wrap-inline
 ##.cookie-revoke-hidden
@@ -69,6 +70,9 @@
 ##.cookies-modal
 ##.cookieTip
 ##.csbannertrackevent
+##.ct-code-block:has-text(Ad)
+##.ct-div-block:has-text(Cookie)
+##.ct-div-block:has-text(Follow Us)
 ##.cta-notify.banner-global
 ##.custom-footer-social-row
 ##.customers-also
@@ -95,7 +99,9 @@
 ##.footer__socialbar
 ##.footer-bottom
 ##.footer-col:has(.gform_wrapper)
+##.footer-contact
 ##.footer-crm
+##.footer-download
 ##.footer-link-icon-block
 ##.footer-recommended-feed
 ##.footer-social
@@ -144,6 +150,7 @@
 ##.newsub-box
 ##.o-grid__col:has(.c-sidebar)
 ##.offer-modal
+##.p-archiveContent__side
 ##.page-footer__subscribe
 ##.playstore
 ##.post-share
@@ -153,6 +160,7 @@
 ##.promotions-banner-wrap
 ##.pum
 ##.q-infobar
+##.radar-newsletter
 ##.related-container
 ##.rh-cta
 ##.rv-di-header
@@ -176,6 +184,7 @@
 ##.social-links
 ##.social.footer-links
 ##.socialaccountlinks-v2-block
+##.socials.actionable
 ##.spi_wrap
 ##.sponsor-banner
 ##.sponsored-recommendation
@@ -194,6 +203,7 @@
 ##.textads
 ##.tiktokLink
 ##.TOSBanner
+##.trial-cta
 ##.twcc__overlay.twcc
 ##.twitterLink
 ##.ue-banner
@@ -221,11 +231,22 @@
 ##[id="ad-skin-bg-left"]
 ##[id="ad-skin-bg-right"]
 ##[id="cookie-control"]
+##[id="donato"]
+##[id="nonce-csp"]:remove()
+##[name="socialNetworks"]:remove()
+##[name="socialNetworksRound"]:remove()
+##[rel="alternate"]:remove()
+##[rel="dns-prefetch"]:remove()
+##[rel="icon"]:remove()
+##[rel="preconnect"]:remove()
+##[rel="preload"]:remove()
+##[src="about:blank"]:remove()
 ##[style*="overflow"]:style(overflow: auto !important;)
 ###ad-skin-side-bg
 ###ad-skin-side-outer
 ###advert_column
 ###auth-unit-container
+###cliSettingsPopup
 ###cmp-app-container
 ###colophon
 ###cookie-announcement
