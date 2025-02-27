@@ -2,6 +2,15 @@
 ||twimg.com/media/$removeparam=name
 ||video.twimg.com/$removeparam
 ||www.google.com/recaptcha/$removeparam
+||x.com/i/api/graphql/*/PinnedTimelines$removeparam
+||x.com^$removeparam=ext
+||x.com^$removeparam=include_country_code
+||x.com^$removeparam=include_ext_dm_nsfw_media_filter
+||x.com^$removeparam=include_ext_sensitive_media_warning
+||x.com^$removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
+||x.com^$removeparam=include_nsfw_admin_flag
+||x.com^$removeparam=include_nsfw_user_flag
+||x.com^$removeparam=nsfw_filtering_enabled
 $removeparam=acmb
 $removeparam=adblock
 $removeparam=adcontext
@@ -55,6 +64,7 @@ $removeparam=prettyPrint
 $removeparam=referrer
 $removeparam=region
 $removeparam=rn
+$removeparam=send_error_codes
 $removeparam=soc-app
 $removeparam=soc-device
 $removeparam=soc-platform
