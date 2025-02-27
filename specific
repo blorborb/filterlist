@@ -318,20 +318,23 @@ www.youtube.com###player-ads:remove()
 www.youtube.com##.opened:remove()
 www.youtube.com###right:remove()
 
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has([d="M7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-1.608 1.732-2.762 4.389-2.869 8.248l-.03 1.083zM9.616 9.27C10.452 8.63 11 7.632 11 6.5 11 4.57 9.433 3 7.5 3S4 4.57 4 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73zm6.884 1.726c-3.264 0-6.816 2.358-7 8.977L9.471 21h14.057l-.029-1.027c-.184-6.618-3.736-8.977-7-8.977zm2.116-1.726C19.452 8.63 20 7.632 20 6.5 20 4.57 18.433 3 16.5 3S13 4.57 13 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73z"])
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has(.r-19wmn03.r-z80fyv.r-1gs4q39.r-m6rgpd.r-lrvibr.r-bnwqim.r-dnmrzs.r-yyyyoo.r-4qtqp9)
-x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
-x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Answer by Grok)
-x.com##.r-1h0z5md.r-18u37iz.r-1udh08x.r-1xfd6ze.css-175oi2r:has-text(X Premium)
-x.com##.r-zl2h9q.r-1wtj0ep.r-18u37iz.css-175oi2r:has-text(Parody account)
-x.com##div.r-16y2uox.r-cpa5s6.r-14tvyh0.css-175oi2r:has-text(Highlights)
-x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"])
-x.com##.r-1xpp3t0.css-175oi2r:has-text(Get verified)
-x.com###layers:has-text(Subscribe to Premium)
-x.com##[aria-label="Profile Summary"]
-x.com##[aria-label="Generate image"]
-x.com##[aria-label="Grok actions"]
-x.com##[data-testid="eventHero"]
-x.com##[aria-label="Send a tip"]
-x.com##[aria-label="Lists"]
-x.com##a[href="/explore"]
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has([d="M7.471 21H.472l.029-1.027c.184-6.618 3.736-8.977 7-8.977.963 0 1.95.212 2.87.672-1.608 1.732-2.762 4.389-2.869 8.248l-.03 1.083zM9.616 9.27C10.452 8.63 11 7.632 11 6.5 11 4.57 9.433 3 7.5 3S4 4.57 4 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73zm6.884 1.726c-3.264 0-6.816 2.358-7 8.977L9.471 21h14.057l-.029-1.027c-.184-6.618-3.736-8.977-7-8.977zm2.116-1.726C19.452 8.63 20 7.632 20 6.5 20 4.57 18.433 3 16.5 3S13 4.57 13 6.5c0 1.132.548 2.13 1.384 2.77.589.451 1.317.73 2.116.73s1.527-.279 2.116-.73z"]):remove()
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has(.r-19wmn03.r-z80fyv.r-1gs4q39.r-m6rgpd.r-lrvibr.r-bnwqim.r-dnmrzs.r-yyyyoo.r-4qtqp9):remove()
+x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r:remove()
+x.com##.r-1ny4l3l.r-1adg3ll.css-175oi2r:has-text(Ask Grok yourself):has-text(Answer by Grok):remove()
+x.com##.r-1h0z5md.r-18u37iz.r-1udh08x.r-1xfd6ze.css-175oi2r:has-text(X Premium):remove()
+x.com##.r-zl2h9q.r-1wtj0ep.r-18u37iz.css-175oi2r:has-text(Parody account):remove()
+x.com##div.r-16y2uox.r-cpa5s6.r-14tvyh0.css-175oi2r:has-text(Highlights):remove()
+x.com##.r-12vffkv.r-1p0dtai:has([data-testid="GrokDrawerHeader"]):remove()
+x.com##.r-1xpp3t0.css-175oi2r:has-text(Get verified):remove()
+x.com###layers:has-text(Subscribe to Premium):remove()
+x.com##[aria-label="Profile Summary"]:remove()
+x.com##[aria-label="Generate image"]:remove()
+x.com##[aria-label="Grok actions"]:remove()
+x.com##[data-testid="eventHero"]:remove()
+x.com##[aria-label="Send a tip"]:remove()
+x.com##[crossorigin="anonymous"]:remove()
+x.com##[aria-label="Lists"]:remove()
+x.com##a[href="/explore"]:remove()
+x.com##[charset="utf-8"]:remove()
+x.com##[title="Grok"]:remove()
