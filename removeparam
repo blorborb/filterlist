@@ -68,7 +68,6 @@ $removeparam=send_error_codes
 $removeparam=soc-app
 $removeparam=soc-device
 $removeparam=soc-platform
-$removeparam=state
 $removeparam=subscribed
 $removeparam=tpConsent
 $removeparam=usercountry
