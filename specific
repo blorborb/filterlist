@@ -302,8 +302,8 @@ www.youtube.com##.ytd-consent-bump-v2-lightbox:remove()
 www.youtube.com##.ytp-paid-content-overlay:remove()
 www.youtube.com###mealbar-promo-renderer:remove()
 www.youtube.com###structured-description
-www.youtube.com##ytd-reel-shelf-renderer
-www.youtube.com##.ytp-miniplayer-button
+www.youtube.com##ytd-reel-shelf-renderer:remove()
+www.youtube.com##.ytp-miniplayer-button:remove()
 www.youtube.com##.ytp-featured-product
 www.youtube.com##ytd-ad-slot-renderer:remove()
 www.youtube.com##.ytp-share-button
