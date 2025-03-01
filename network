@@ -177,10 +177,7 @@
 ||abs.twimg.com/responsive-web/client-web/loader.AudioDock
 ||abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar
-||abs.twimg.com/responsive-web/client-web/loader.newsEntriesGapHandler
-||abs.twimg.com/responsive-web/client-web/loader.NewTweetsPill
 ||abs.twimg.com/responsive-web/client-web/loader.SidebarSpacebar
-||abs.twimg.com/responsive-web/client-web/ondemand.LottieWeb
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Ocf~ondemand.Insights~bundle.TV~bundle.Account
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Ocf~ondemand.Insights~ondemand.PeopleSearch~bundle.TV~bundl
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Payments~bundle.PaymentReceipt~ondemand.Insights
@@ -283,7 +280,6 @@
 ||google.com/js/platform.js
 ||google.com/js/rpc:shindig_random.js?onload=init
 ||googleusercontent.com/proxy/
-||googlevideo.com/initplayback?source=youtube*&c=TVHTML5&oad=
 ||growthbook.io^
 ||gstatic.com/*/firebase-analytics.js
 ||gstatic.com/*/firebase-messaging.js
@@ -291,7 +287,7 @@
 ||gstatic.com/*/m=view
 ||gstatic.com/*/smartimations
 ||gstatic.com/*/subscribe_action_sparkles
-||gstatic.com/*/youtube_outline/radio-button-unchecked
+||gstatic.com/*/youtube_outline/radio-button
 ||gstatic.com/cv/js/sender/v1/cast_sender.js
 ||gstatic.com/recaptcha/api2/audio$image,important
 ||gstatic.com/shopping$domain=youtube.com
@@ -311,7 +307,6 @@
 ||intergient.$important
 ||ipstack.com^$important
 ||iubenda.com^
-||jnn-pa.googleapis.com^$domain=www.youtube-nocookie.com
 ||js.authorize.net^
 ||justwatch.com/jw-assets/$image
 ||juwhelsoum.net^
@@ -432,14 +427,12 @@
 ||www.tiktok.com^$3p,important
 ||www.vvojuhtktpmwg.com^
 ||www.youtube.com/*/jsbin/custom-elements-es5-adapter.vflset/
-||www.youtube.com/*/network.vflset/
-||www.youtube.com/*/scheduler.vflset/
 ||www.youtube.com/api/stats/playback
 ||www.youtube.com/pagead/
 ||www.youtube.com/youtubei/v1/att/get
 ||www.youtube.com/youtubei/v1/log
 ||www.youtube.com/youtubei/v1/notification/record_interactions
-||www.youtube.com/youtubei/v1/player/ad_break
+||www.youtube.com/youtubei/v1/player/ad
 ||wygmhbuuhoxaok.com^
 ||x.com*getAltTextPromptPreference
 ||x.com/home?prefetchTimestamp
@@ -455,11 +448,9 @@
 ||x.com/i/api/graphql/*/UsersVerifiedAvatars
 ||x.com/live_pipeline/events
 ||ybs2ffs7v.com^
-||ybs2ffs7v.com^$important
 ||youtube-nocookie.com/api/stats/
 ||youtube.com/*/cssbin/www-onepick.css
 ||youtube.com/*/intersection-observer
-||youtube.com/*/jsbin/*constants
 ||youtube.com/*/web-animations-next-lite
 ||youtube.com/*spf
 ||youtube.com/*www-tampering
