@@ -287,7 +287,6 @@ www.youtube.com##yt-button-view-model.ytd-menu-renderer:has-text(Thanks)
 www.youtube.com###expandable-metadata > .ytd-video-renderer.style-scope
 www.youtube.com###card.yt-live-chat-viewer-engagement-message-renderer
 www.youtube.com##ytd-compact-playlist-renderer:has([title^="YouTube"])
-www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer
 www.youtube.com##ytd-rich-item-renderer:has(.ytd-ad-slot-renderer)
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer
@@ -295,27 +294,26 @@ www.youtube.com##span.bold.yt-formatted-string:has-text(product)
 www.youtube.com##ytd-menu-service-item-renderer:has-text(Thanks)
 www.youtube.com##.bold.yt-formatted-string.yt-simple-endpoint
 www.youtube.com###teaser-carousel:has-text(Live chat replay)
-www.youtube.com##[itemtype="http://schema.org/VideoObject"]
-www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy:remove()
 www.youtube.com###expandable-metadata:has-text(Summary)
 www.youtube.com##ytd-metadata-row-container-renderer
 www.youtube.com##ytd-rich-item-renderer:has(.lockup)
-www.youtube.com##.ytd-consent-bump-v2-lightbox
-www.youtube.com##.ytp-paid-content-overlay
-www.youtube.com###mealbar-promo-renderer
+www.youtube.com##.ytd-consent-bump-v2-lightbox:remove()
+www.youtube.com##.ytp-paid-content-overlay:remove()
+www.youtube.com###mealbar-promo-renderer:remove()
 www.youtube.com###structured-description
 www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytp-miniplayer-button
 www.youtube.com##.ytp-featured-product
-www.youtube.com##ytd-ad-slot-renderer
+www.youtube.com##ytd-ad-slot-renderer:remove()
 www.youtube.com##.ytp-share-button
 www.youtube.com###fulfilled-layout
 www.youtube.com###sponsor-button
 www.youtube.com##ytd-miniplayer
 www.youtube.com###social-links
-www.youtube.com###masthead-ad
+www.youtube.com###masthead-ad:remove()
 www.youtube.com###clarify-box
-www.youtube.com###player-ads
+www.youtube.com###player-ads:remove()
 www.youtube.com##.opened
 www.youtube.com###right
 
