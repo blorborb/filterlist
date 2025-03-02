@@ -305,7 +305,7 @@ www.youtube.com###structured-description
 www.youtube.com##ytd-reel-shelf-renderer:remove()
 www.youtube.com##.ytp-miniplayer-button:remove()
 www.youtube.com##.ytp-featured-product
-www.youtube.com##ytd-ad-slot-renderer:remove()
+www.youtube.com##ytd-ad-slot-renderer
 www.youtube.com##.ytp-share-button
 www.youtube.com###fulfilled-layout
 www.youtube.com###sponsor-button
