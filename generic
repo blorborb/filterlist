@@ -240,7 +240,6 @@
 ##[rel="icon"]:remove()
 ##[rel="preconnect"]:remove()
 ##[rel="preload"]:remove()
-##[src="about:blank"]:remove()
 ##[style*="overflow"]:style(overflow: auto !important;)
 ###ad-skin-side-bg
 ###ad-skin-side-outer
