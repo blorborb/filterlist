@@ -1,15 +1,3 @@
 ! title: borbs list
 ! Homepage: https://github.com/blorborb/filterlists
 ! Expires: 24 hours
-
-!#include specific
-
-!#include network
-
-!#include scriptlet
-
-!#include generic
-
-!#include removeparam
-
-!#include font
