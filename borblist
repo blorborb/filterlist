@@ -1,3 +1,133 @@
 ! title: borbs list
 ! Homepage: https://github.com/blorborb/filterlists
 ! Expires: 24 hours
+
+! trusted
+||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/$replace=/"adSlots"/"no_ads"/
+
+! applies to everything
+
+$image,domain=behind-the-scene
+$important,redirect-rule=empty
+$important,shide,ghide
+$important,csp=*
+
+! removeparams
+
+||twimg.com/media/$removeparam=name
+$removeparam=brandType
+$removeparam=browser
+$removeparam=browser_family
+$removeparam=browser_version
+$removeparam=device
+$removeparam=os
+$removeparam=os_name
+$removeparam=os_version
+$removeparam=soc-app
+$removeparam=soc-device
+$removeparam=soc-platform
+$removeparam=cbr
+$removeparam=cbrver
+$removeparam=c
+$removeparam=cver
+$removeparam=cplayer
+$removeparam=cos
+$removeparam=cplatform
+$removeparam=hl
+$removeparam=cr
+
+! font blocks
+
+*font*$font,css,script,3p
+*otf*$css,font,3p
+*ttf*$css,font,3p
+*woff*$css,font,3p
+||type*$font,css,3p
+
+! font allows
+
+@@*Icon*$font,css
+@@*Symbol*$font,css
+@@/core_fonts_guest.*.css$stylesheet
+@@/font-awesome
+@@/font?kit=$font
+@@/fontawesome-webfont$font
+@@/fonts/imgbb.ttf
+@@/fork-awesome@
+@@/icomoon
+@@/light.$font
+@@/Themes/*$font,css
+@@/wp-content/themes$font
+@@||cdnjs.cloudflare.com/ajax/libs/*/skins/Retweet
+@@||digitaloceanspaces.com^$font
+@@||fontawesome.com
+@@||futurecdn.net/*/media/fonts/$font
+
+! twitter specific
+
+x.com##div.r-12vffkv.r-1p0dtai.r-1xcajam.r-1d2f490.r-zchlnj.r-aqfbo4.css-175oi2r:has-text(cookies)
+x.com##.r-lrvibr.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.css-175oi2r
+x.com##[aria-label="Verified account"]
+x.com##[aria-label="Tag location"]
+x.com##[aria-label="Add emoji"]
+
+! youtube scriptlets
+
+www.youtube.com##+js(aeld, dblclick)
+
+! youtube network filters
+
+||i.ytimg.com/*/movieposter$image
+||www.gstatic.com/youtube/img/promos/
+||ytimg.com/generate_204
+||googlevideo.com/generate_204
+||www.youtube.com/s/search/audio/
+||www.youtube.com/generate_204
+||accounts.youtube.com/RotateCookiesPage
+||www.youtube.com/s/player/*/endscreen.js
+||www.youtube.com/s/player/*/annotations_module.js
+||www.youtube.com/s/player/*/miniplayer.js
+||www.youtube.com/s/player/*/offline.js
+||www.youtube.com/s/player/*/remote.js
+
+! youtube specific
+
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+www.youtube.com##ytd-reel-shelf-renderer
+
+! anilist specific
+
+anilist.co##div.home:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)
+anilist.co##.recent-reviews
+anilist.co##.recent-threads
+
+! fandom specific
+
+fandom.com##.page__right-rail
+fandom.com##.global-explore-navigation
+fandom.com##.global-top-navigation
+fandom.com##.global-footer
+
+! twitter network filters
+
+||twimg.com/emoji/
+||abs.twimg.com/responsive-web/client-web/icon-ios
+||abs.twimg.com/responsive-web/client-web/bundle.GrokDrawer
+||x.com/i/api/2/badge_count/badge_count.json?supports_ntab_urt=1
+||api.x.com/1.1/live_pipeline/update_subscriptions
+||abs.twimg.com/responsive-web/client-web/shared~bundle.Report~loader.EventSummaryHandler~loader.MomentSummaryHandler
+||abs.twimg.com/responsive-web/client-web/*/emoji
+||abs.twimg.com/responsive-web/client-web/loader.TrendHandler
+||abs.twimg.com/responsive-web/client-web/loader.GetVerifiedSidebar
+
+! github specifics
+
+github.com##div > [type="button"]:has-text(Code 55% faster with GitHub Copilot)
+github.com##div.react-code-size-details-in-header:has-text(Copilot)
+github.com##[href="/settings/copilot"]
+github.com##.js-for-you-feed-items
+
+! unsorted
+
+||discord.com/widget$subdocument
