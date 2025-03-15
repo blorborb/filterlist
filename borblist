@@ -8,10 +8,8 @@
 
 ! applies to everything
 
-$image,domain=behind-the-scene
 $important,redirect-rule=empty
 $important,shide,ghide
-$important,csp=*
 
 ! removeparams
 
@@ -36,6 +34,11 @@ $removeparam=cos
 $removeparam=cplatform
 $removeparam=hl
 $removeparam=cr
+$removeparam=include_ext_media_availability
+$removeparam=send_error_codes
+
+! websites i dont need
+||crunchyroll.com^
 
 ! font blocks
 
@@ -66,15 +69,46 @@ $removeparam=cr
 
 ! twitter specific
 
-x.com##div.r-12vffkv.r-1p0dtai.r-1xcajam.r-1d2f490.r-zchlnj.r-aqfbo4.css-175oi2r:has-text(cookies)
+x.com##.r-13qz1uu.r-3pj75a.r-1mmae3n.r-1d7fvdj.r-18u37iz.r-15ce4ve.r-1sw30gj.r-1awozwy.css-175oi2r
 x.com##.r-lrvibr.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.css-175oi2r
-x.com##[aria-label="Verified account"]
-x.com##[aria-label="Tag location"]
-x.com##[aria-label="Add emoji"]
+
+! twitter network filters
+
+||twimg.com/emoji/
+||abs.twimg.com/responsive-web/client-web/icon-ios
+||abs.twimg.com/responsive-web/client-web/bundle.GrokDrawer
+||x.com/i/api/2/badge_count/badge_count.json?supports_ntab_urt=1
+||api.x.com/1.1/live_pipeline/update_subscriptions
+||abs.twimg.com/responsive-web/client-web/*/emoji
+||abs.twimg.com/responsive-web/client-web/loader.TrendHandler
+||abs.twimg.com/responsive-web/client-web/loader.GetVerifiedSidebar
+||analytics.twitter.com/measurement/personalization_id_sync
+||x.com/i/api/graphql/*/DataSaverMode
+||x.com/i/api/graphql/*/isEligibleForAnalyticsUpsellQuery
+||abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument
+||x.com/i/api/graphql/*/getAltTextPromptPreference
+||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar
+||abs.twimg.com/responsive-web/client-web/shared~bundle.Birdwatch~ondemand.SettingsInternals~bundle.Explore~bundle.Topics~bundle.LiveEvent~bundle.Trend
+||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsInternals~bundle.Explore~bundle.LiveEvent~bundle.Topics~bundle.Trends~loader.ExploreS
+||abs.twimg.com/responsive-web/client-web/bundle.UserLists
+||abs.twimg.com/hashflags/
+||x.com/i/api/1.1/hashflags.json
+||abs.twimg.com/responsive-web/client-web/shared~ondemand.InlinePlayer~loader.AudioContextSpaceClip
 
 ! youtube scriptlets
 
-www.youtube.com##+js(aeld, dblclick)
+! www.youtube.com##+js(aeld, dblclick)
+
+! youtube specific
+
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+www.youtube.com###structured-description > .ytd-structured-description-content-renderer.style-scope
+www.youtube.com###teaser-carousel
+www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com##.ytp-paid-content-overlay
+www.youtube.com##.smartimation__border
 
 ! youtube network filters
 
@@ -90,11 +124,11 @@ www.youtube.com##+js(aeld, dblclick)
 ||www.youtube.com/s/player/*/miniplayer.js
 ||www.youtube.com/s/player/*/offline.js
 ||www.youtube.com/s/player/*/remote.js
-
-! youtube specific
-
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
-www.youtube.com##ytd-reel-shelf-renderer
+||www.youtube.com/api/stats/atr
+||www.youtube.com/youtubei/v1/notification/get_unseen_count
+||www.youtube.com/youtubei/v1/updated_metadata
+||play.google.com/log
+||www.youtube.com/youtubei/v1/att/log
 
 ! anilist specific
 
@@ -109,18 +143,6 @@ fandom.com##.global-explore-navigation
 fandom.com##.global-top-navigation
 fandom.com##.global-footer
 
-! twitter network filters
-
-||twimg.com/emoji/
-||abs.twimg.com/responsive-web/client-web/icon-ios
-||abs.twimg.com/responsive-web/client-web/bundle.GrokDrawer
-||x.com/i/api/2/badge_count/badge_count.json?supports_ntab_urt=1
-||api.x.com/1.1/live_pipeline/update_subscriptions
-||abs.twimg.com/responsive-web/client-web/shared~bundle.Report~loader.EventSummaryHandler~loader.MomentSummaryHandler
-||abs.twimg.com/responsive-web/client-web/*/emoji
-||abs.twimg.com/responsive-web/client-web/loader.TrendHandler
-||abs.twimg.com/responsive-web/client-web/loader.GetVerifiedSidebar
-
 ! github specifics
 
 github.com##div > [type="button"]:has-text(Code 55% faster with GitHub Copilot)
@@ -128,6 +150,116 @@ github.com##div.react-code-size-details-in-header:has-text(Copilot)
 github.com##[href="/settings/copilot"]
 github.com##.js-for-you-feed-items
 
+! proton specifics
+
+mail.proton.me##.spotlight:has-text(Get Mail Plus)
+proton.me##.button-promotion--icon-gradient
+proton.me##.bg-promotion
+
+! anilist specifics
+
+anilist.co##.episodes
+anilist.co##.trailer
+anilist.co##a.link:has-text(Watch)
+anilist.co##.wrap > .footer
+anilist.co##.external-links
+
+! miruro specifics
+www.miruro.online##.vds-slider.vds-volume-slider
+www.miruro.online##.vds-volume
+
+! generic cosmetics
+
+##.a-ads
+###credential_picker_container
+##.notifications-placeholder
+
+! generic network filters
+
+||discord.com/widget
+/favicon_144x144.png$image
+
+
 ! unsorted
 
-||discord.com/widget$subdocument
+##.ot-sdk-container
+
+||cookielaw.org^$important
+
+/silversurfer$script,important
+-gdpr-consents.js$script,important
+/prebid.js$script,important
+/gdpr-modal.js$script,important
+/gdpr.js$script,important
+
+! Mar 8, 2025 https://www.youtube.com
+www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer
+
+! Mar 8, 2025 https://design.tutsplus.com
+design.tutsplus.com##.cta-toast--open
+design.tutsplus.com##.content-block-signup
+
+! Mar 8, 2025 https://vrchat.com
+@@||cloudfront.net^$font
+
+! Mar 8, 2025 https://www.youtube.com
+||www.youtube.com/youtubei/v1/guide
+www.youtube.com##.opened
+www.youtube.com##.ytd-consent-bump-v2-lightbox.style-scope.eom-v1-dialog
+www.youtube.com###lightbox
+
+! Mar 8, 2025 https://game8.co
+game8.co##.p-archiveContent__side
+game8.co##.p-archiveContent__footer.l-footer
+
+! Mar 9, 2025 https://www.youtube.com
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.lockup)
+
+! Mar 9, 2025 https://www.reddit.com
+www.reddit.com##div.mt-md
+
+! Mar 10, 2025 https://disqus.com
+disqus.com###post-list > .minimized.post:has-text(Content unavailable)
+
+||abs.twimg.com/responsive-web/client-sentry/$script
+
+||cdn.ziffstatic.com^$important
+
+! Mar 10, 2025 https://downdetector.com
+downdetector.com###no-consent
+||platform.twitter.com/widgets.js
+||platform.twitter.com/widgets/
+
+! Mar 10, 2025 https://www.ghacks.net
+||sdk.privacy-center.org^$important
+
+! Mar 10, 2025 https://www.netflix.com
+www.netflix.com##.billboard-row-games.billboard-row
+www.netflix.com##.mobile-games-row
+
+! Mar 10, 2025 https://www.youtube.com
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(Popular videos)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For you)
+
+www.forbes.com##.subscribe-button
+www.forbes.com##.header-news-letter-wrap
+
+! Mar 13, 2025 https://genius.com
+/apple_music_player$subdocument
+
+! Mar 13, 2025 https://arknights.wiki.gg
+arknights.wiki.gg###wgg-netbar
+arknights.wiki.gg###ca-edit
+arknights.wiki.gg###wikigg-sl-rail
+arknights.wiki.gg##.mw-footer
+
+! Mar 13, 2025 https://link.space
+link.space##.upsell
+
+! Mar 13, 2025 https://www.youtube.com
+www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
+
+! Mar 14, 2025 https://deepcyclesystems.us
+deepcyclesystems.us##.section-full:has(.newsletter-content)
+deepcyclesystems.us##.empty\:hidden.footer__aside
