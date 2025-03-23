@@ -36,8 +36,15 @@ $removeparam=hl
 $removeparam=cr
 $removeparam=include_ext_media_availability
 $removeparam=send_error_codes
+$removeparam=data_collection_enabled
+$removeparam=device_id
+$removeparam=device_platform=web_pc
+$removeparam=root_referer
+$removeparam=screen_height
+$removeparam=screen_width
 
-! websites i dont need
+! websites i dont need/hate
+/apple_music_player$subdocument
 ||crunchyroll.com^
 
 ! font blocks
@@ -62,22 +69,23 @@ $removeparam=send_error_codes
 @@/light.$font
 @@/Themes/*$font,css
 @@/wp-content/themes$font
-@@||cdnjs.cloudflare.com/ajax/libs/*/skins/Retweet
+@@||cdnjs.cloudflare.com/ajax/libs/*/skins/
+@@||cloudfront.net^$font
 @@||digitaloceanspaces.com^$font
 @@||fontawesome.com
 @@||futurecdn.net/*/media/fonts/$font
 
 ! twitter specific
 
-x.com##.r-13qz1uu.r-3pj75a.r-1mmae3n.r-1d7fvdj.r-18u37iz.r-15ce4ve.r-1sw30gj.r-1awozwy.css-175oi2r
-x.com##.r-lrvibr.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.css-175oi2r
+x.com##.r-1sw30gj
+x.com##section.css-175oi2r > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > article:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(2)
+x.com##.r-kzbkwu.r-1777fci.r-16y2uox.r-1iusvr4.css-175oi2r > div.css-175oi2r > .r-1loqt21.r-16dba41.r-rjixqe.r-a023e6.r-37j5jr.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
 
 ! twitter network filters
 
 ||twimg.com/emoji/
 ||abs.twimg.com/responsive-web/client-web/icon-ios
 ||abs.twimg.com/responsive-web/client-web/bundle.GrokDrawer
-||x.com/i/api/2/badge_count/badge_count.json?supports_ntab_urt=1
 ||api.x.com/1.1/live_pipeline/update_subscriptions
 ||abs.twimg.com/responsive-web/client-web/*/emoji
 ||abs.twimg.com/responsive-web/client-web/loader.TrendHandler
@@ -88,11 +96,20 @@ x.com##.r-lrvibr.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.css-175oi2r
 ||abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument
 ||x.com/i/api/graphql/*/getAltTextPromptPreference
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar
-||abs.twimg.com/responsive-web/client-web/shared~bundle.Birdwatch~ondemand.SettingsInternals~bundle.Explore~bundle.Topics~bundle.LiveEvent~bundle.Trend
-||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsInternals~bundle.Explore~bundle.LiveEvent~bundle.Topics~bundle.Trends~loader.ExploreS
 ||abs.twimg.com/responsive-web/client-web/bundle.UserLists
 ||abs.twimg.com/hashflags/
 ||x.com/i/api/1.1/hashflags.json
+||x.com/i/api/graphql/*/ProfileSpotlightsQuery
+||x.com/i/api/fleets/v1/fleetline
+||x.com/i/api/1.1/users/recommendations.json
+||x.com/i/api/2/badge_count/
+||x.com/i/api/graphql/*/useRelayDelegateDataPendingQuery
+||x.com/i/api/graphql/*/DelegatedAccountListQuery
+||x.com/i/api/graphql/*/ExploreSidebar
+||abs.twimg.com/responsive-web/client-web/bundle.Payments
+||abs.twimg.com/responsive-web/client-web/bundle.GrokDrawer
+||abs.twimg.com/responsive-web/client-sentry/$script
+||platform.twitter.com/widgets
 
 ! youtube scriptlets
 
@@ -100,40 +117,67 @@ x.com##.r-lrvibr.r-ipm5af.r-zchlnj.r-1xcajam.r-1d2f490.r-1p0dtai.css-175oi2r
 
 ! youtube specific
 
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+! shorts
 www.youtube.com##ytd-reel-shelf-renderer
-www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+
+! description
 www.youtube.com###structured-description > .ytd-structured-description-content-renderer.style-scope
+www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+
+! unneeded show live chat
 www.youtube.com###teaser-carousel
+
+! miniplayer
 www.youtube.com##.ytp-button.ytp-miniplayer-button
+
+! paid
 www.youtube.com##.ytp-paid-content-overlay
+
+! subscribe/like border
 www.youtube.com##.smartimation__border
+
+! mix and similar
+www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.lockup)
+
+! consent
+www.youtube.com##.opened
+www.youtube.com##.ytd-consent-bump-v2-lightbox.style-scope.eom-v1-dialog
+
+! channel
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(Popular videos)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For you)
 
 ! youtube network filters
 
-||i.ytimg.com/*/movieposter$image
-||www.gstatic.com/youtube/img/promos/
-||ytimg.com/generate_204
-||googlevideo.com/generate_204
-||www.youtube.com/s/search/audio/
-||www.youtube.com/generate_204
-||accounts.youtube.com/RotateCookiesPage
-||www.youtube.com/s/player/*/endscreen.js
-||www.youtube.com/s/player/*/annotations_module.js
-||www.youtube.com/s/player/*/miniplayer.js
-||www.youtube.com/s/player/*/offline.js
-||www.youtube.com/s/player/*/remote.js
-||www.youtube.com/api/stats/atr
-||www.youtube.com/youtubei/v1/notification/get_unseen_count
-||www.youtube.com/youtubei/v1/updated_metadata
-||play.google.com/log
-||www.youtube.com/youtubei/v1/att/log
+||i.ytimg.com/*/movieposter$domain=youtube.com
+||www.gstatic.com/youtube/img/promos/$domain=youtube.com
+/generate_204$domain=youtube.com
+||www.youtube.com/s/search/audio/$domain=youtube.com
+||accounts.youtube.com/RotateCookiesPage$domain=youtube.com
+||www.youtube.com/s/player/*/endscreen.js$domain=youtube.com
+||www.youtube.com/s/player/*/annotations_module.js$domain=youtube.com
+||www.youtube.com/s/player/*/miniplayer.js$domain=youtube.com
+||www.youtube.com/s/player/*/offline.js$domain=youtube.com
+||www.youtube.com/s/player/*/remote.js$domain=youtube.com
+||www.youtube.com/api/stats/atr$domain=youtube.com
+||www.youtube.com/youtubei/v1/notification/get_unseen_count$domain=youtube.com
+||www.youtube.com/youtubei/v1/updated_metadata$domain=youtube.com
+||www.youtube.com/youtubei/v1/att/log$domain=youtube.com
+||www.youtube.com/youtubei/v1/guide$domain=youtube.com
 
 ! anilist specific
 
-anilist.co##div.home:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1)
 anilist.co##.recent-reviews
 anilist.co##.recent-threads
+anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
+anilist.co##div.nav:nth-child(3) > a:nth-child(2)
+anilist.co##.episodes
+anilist.co##.external-links
+
+! anilist network filter
+
+||www.gstatic.com/recaptcha/$domain=anilist.co,important
 
 ! fandom specific
 
@@ -142,123 +186,98 @@ fandom.com##.global-explore-navigation
 fandom.com##.global-top-navigation
 fandom.com##.global-footer
 
-! github specifics
+! github specific
 
 github.com##div > [type="button"]:has-text(Code 55% faster with GitHub Copilot)
 github.com##div.react-code-size-details-in-header:has-text(Copilot)
 github.com##[href="/settings/copilot"]
 github.com##.js-for-you-feed-items
 
-! proton specifics
+! proton specific
 
 mail.proton.me##.spotlight:has-text(Get Mail Plus)
 proton.me##.button-promotion--icon-gradient
 proton.me##.bg-promotion
 
-! anilist specifics
+! miruro specific
 
-anilist.co##.episodes
-anilist.co##.trailer
-anilist.co##a.link:has-text(Watch)
-anilist.co##.wrap > .footer
-anilist.co##.external-links
-
-! miruro specifics
 www.miruro.online##.vds-slider.vds-volume-slider
 www.miruro.online##.vds-volume
 
-! generic cosmetics
+! techpowerup specific
+
+www.techpowerup.com##.miukmzun
+www.techpowerup.com##.page-header > div > div
+www.techpowerup.com##.v-port > div:nth-of-type(1)
+www.techpowerup.com##.page > .s- > div.s--item:nth-of-type(4)
+www.techpowerup.com###boards > div
+www.techpowerup.com##.page > .s- > div.s--item:nth-of-type(5)
+
+! netflix specific
+
+www.netflix.com##.billboard-row-games.billboard-row
+www.netflix.com##.mobile-games-row
+
+! wikigg
+
+wiki.gg###wgg-netbar
+wiki.gg###ca-edit
+wiki.gg###wikigg-sl-rail
+
+! generic cosmetic
 
 ##.a-ads
 ###credential_picker_container
 ##.notifications-placeholder
+##.ot-sdk-container
+##.mw-footer
+##.upsell
+##.g-profile__qr-code-btn
+##.g-profile__adv-details-btn
+##.g-profile-footer.g-footer
+##.related-articles-block
+###document-footer
+##.masthead-item.buttons-social
+##.es-newsletter
+###age-gate
+##.drawer__inner__mastodon > img:nth-child(1)
+##.announcement-bar
+##.section-full:has(.newsletter-content)
+##.cta-toast--open
+##.content-block-signup
+##.p-archiveContent__side
+##.p-archiveContent__footer.l-footer
+##.subscribe-button
+##.header-news-letter-wrap
+###no-consent
+
+##div.mt-md
 
 ! generic network filters
 
+||play.google.com/log
 ||discord.com/widget
 /favicon_144x144.png$image
-
-
-! unsorted
-
-##.ot-sdk-container
-
+/favicon/144.png
 ||cookielaw.org^$important
-
+||sdk.privacy-center.org^$important
 /silversurfer$script,important
 -gdpr-consents.js$script,important
 /prebid.js$script,important
 /gdpr-modal.js$script,important
 /gdpr.js$script,important
-
-! Mar 8, 2025 https://www.youtube.com
-www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer
-
-! Mar 8, 2025 https://design.tutsplus.com
-design.tutsplus.com##.cta-toast--open
-design.tutsplus.com##.content-block-signup
-
-! Mar 8, 2025 https://vrchat.com
-@@||cloudfront.net^$font
-
-! Mar 8, 2025 https://www.youtube.com
-||www.youtube.com/youtubei/v1/guide
-www.youtube.com##.opened
-www.youtube.com##.ytd-consent-bump-v2-lightbox.style-scope.eom-v1-dialog
-www.youtube.com###lightbox
-
-! Mar 8, 2025 https://game8.co
-game8.co##.p-archiveContent__side
-game8.co##.p-archiveContent__footer.l-footer
-
-! Mar 9, 2025 https://www.youtube.com
-www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.lockup)
-
-! Mar 9, 2025 https://www.reddit.com
-www.reddit.com##div.mt-md
-
-! Mar 10, 2025 https://disqus.com
-disqus.com###post-list > .minimized.post:has-text(Content unavailable)
-
-||abs.twimg.com/responsive-web/client-sentry/$script
-
+/apple-touch-icon$image
+/cookieconsent/cookieconsent.css$stylesheet
+/trustarc/trustarc.js
+/trustecm/js/trustecm.js
+||consent.trustarc.com^$important
+/trustecm/css/trustecm.css
+/rhdc-set-lang-cookie.js
+/icons/social/*.js
+/api/content/newsletters/*
+||consent-manager.metomic.io^$important
+/favicon-32x32.png
+/favicon-16x16.png
 ||cdn.ziffstatic.com^$important
 
-! Mar 10, 2025 https://downdetector.com
-downdetector.com###no-consent
-||platform.twitter.com/widgets.js
-||platform.twitter.com/widgets/
-
-! Mar 10, 2025 https://www.ghacks.net
-||sdk.privacy-center.org^$important
-
-! Mar 10, 2025 https://www.netflix.com
-www.netflix.com##.billboard-row-games.billboard-row
-www.netflix.com##.mobile-games-row
-
-! Mar 10, 2025 https://www.youtube.com
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(Popular videos)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For you)
-
-www.forbes.com##.subscribe-button
-www.forbes.com##.header-news-letter-wrap
-
-! Mar 13, 2025 https://genius.com
-/apple_music_player$subdocument
-
-! Mar 13, 2025 https://arknights.wiki.gg
-arknights.wiki.gg###wgg-netbar
-arknights.wiki.gg###ca-edit
-arknights.wiki.gg###wikigg-sl-rail
-arknights.wiki.gg##.mw-footer
-
-! Mar 13, 2025 https://link.space
-link.space##.upsell
-
-! Mar 13, 2025 https://www.youtube.com
-www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope
-
-! Mar 14, 2025 https://deepcyclesystems.us
-deepcyclesystems.us##.section-full:has(.newsletter-content)
-deepcyclesystems.us##.empty\:hidden.footer__aside
+! unsorted
