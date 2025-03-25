@@ -42,6 +42,21 @@ $removeparam=device_platform=web_pc
 $removeparam=root_referer
 $removeparam=screen_height
 $removeparam=screen_width
+$removeparam=operatingSystemName
+$removeparam=operatingSystemVersion
+$removeparam=deviceApplicationName
+$removeparam=displayWidth
+$removeparam=displayHeight
+$removeparam=deviceAdInsertionTypeOverride
+$removeparam=deviceBitrateAdaptationsOverride
+$removeparam=gdprEnabled
+$removeparam=gdprConsentGvl
+$removeparam=gdprConsentAvl
+$removeparam=playerAttributes
+$removeparam=gascEnabled
+$removeparam=event
+$removeparam=timecode
+$removeparam=tuneInTimeEpoch
 
 ! websites i dont need/hate
 /apple_music_player$subdocument
@@ -75,11 +90,18 @@ $removeparam=screen_width
 @@||fontawesome.com
 @@||futurecdn.net/*/media/fonts/$font
 
+! network filter allows
+
+@@||fastly.jsdelivr.net
+
+
 ! twitter specific
 
 x.com##.r-1sw30gj
 x.com##section.css-175oi2r > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > article:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > a:nth-child(2)
 x.com##.r-kzbkwu.r-1777fci.r-16y2uox.r-1iusvr4.css-175oi2r > div.css-175oi2r > .r-1loqt21.r-16dba41.r-rjixqe.r-a023e6.r-37j5jr.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
+x.com##.r-1loqt21.r-16dba41.r-rjixqe.r-1inkyih.r-37j5jr.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
+x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 
 ! twitter network filters
 
@@ -148,23 +170,26 @@ www.youtube.com##.ytd-consent-bump-v2-lightbox.style-scope.eom-v1-dialog
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(Popular videos)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For you)
 
+! posts
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+
 ! youtube network filters
 
-||i.ytimg.com/*/movieposter$domain=youtube.com
-||www.gstatic.com/youtube/img/promos/$domain=youtube.com
-/generate_204$domain=youtube.com
-||www.youtube.com/s/search/audio/$domain=youtube.com
-||accounts.youtube.com/RotateCookiesPage$domain=youtube.com
-||www.youtube.com/s/player/*/endscreen.js$domain=youtube.com
-||www.youtube.com/s/player/*/annotations_module.js$domain=youtube.com
-||www.youtube.com/s/player/*/miniplayer.js$domain=youtube.com
-||www.youtube.com/s/player/*/offline.js$domain=youtube.com
-||www.youtube.com/s/player/*/remote.js$domain=youtube.com
-||www.youtube.com/api/stats/atr$domain=youtube.com
-||www.youtube.com/youtubei/v1/notification/get_unseen_count$domain=youtube.com
-||www.youtube.com/youtubei/v1/updated_metadata$domain=youtube.com
-||www.youtube.com/youtubei/v1/att/log$domain=youtube.com
-||www.youtube.com/youtubei/v1/guide$domain=youtube.com
+||i.ytimg.com/*/movieposter
+||www.gstatic.com/youtube/img/promos/
+/generate_204
+||www.youtube.com/s/search/audio/
+||accounts.youtube.com/RotateCookiesPage
+||www.youtube.com/s/player/*/endscreen.js
+||www.youtube.com/s/player/*/annotations_module.js
+||www.youtube.com/s/player/*/miniplayer.js
+||www.youtube.com/s/player/*/offline.js
+||www.youtube.com/s/player/*/remote.js
+||www.youtube.com/api/stats/atr
+||www.youtube.com/youtubei/v1/notification/get_unseen_count
+||www.youtube.com/youtubei/v1/updated_metadata
+||www.youtube.com/youtubei/v1/att/log
+||www.youtube.com/youtubei/v1/guide
 
 ! anilist specific
 
@@ -174,6 +199,7 @@ anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nt
 anilist.co##div.nav:nth-child(3) > a:nth-child(2)
 anilist.co##.episodes
 anilist.co##.external-links
+anilist.co##.trailer
 
 ! anilist network filter
 
@@ -250,6 +276,13 @@ wiki.gg###wikigg-sl-rail
 ##.subscribe-button
 ##.header-news-letter-wrap
 ###no-consent
+##.mon-holder
+###newsletter-sidebar-form
+###newsletterModal
+##.show.fade.modal-backdrop
+###newsletter-footer-form
+###newsletter-inContent-form
+##.cookies-modal
 
 ##div.mt-md
 
@@ -277,7 +310,6 @@ wiki.gg###wikigg-sl-rail
 /api/content/newsletters/*
 ||consent-manager.metomic.io^$important
 /favicon-32x32.png
-/favicon-16x16.png
 ||cdn.ziffstatic.com^$important
 
 ! unsorted
