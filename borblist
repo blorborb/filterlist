@@ -74,7 +74,7 @@ $removeparam=tuneInTimeEpoch
 
 @@*Icon*$font,css
 @@*Symbol*$font,css
-@@/core_fonts_guest.*.css$stylesheet
+@@/core_fonts_guest$stylesheet
 @@/font-awesome
 @@/font?kit=$font
 @@/fontawesome-webfont$font
@@ -82,7 +82,8 @@ $removeparam=tuneInTimeEpoch
 @@/fork-awesome@
 @@/icomoon
 @@/light.$font
-@@/Themes/*$font,css
+@@/sprites$font
+@@/Themes$font,css
 @@/wp-content/themes$font
 @@||cdnjs.cloudflare.com/ajax/libs/*/skins/
 @@||cloudfront.net^$font
@@ -162,10 +163,6 @@ www.youtube.com##.smartimation__border
 www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.lockup)
 
-! consent
-www.youtube.com##.opened
-www.youtube.com##.ytd-consent-bump-v2-lightbox.style-scope.eom-v1-dialog
-
 ! channel
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(Popular videos)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For you)
@@ -177,7 +174,6 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 
 ||i.ytimg.com/*/movieposter
 ||www.gstatic.com/youtube/img/promos/
-/generate_204
 ||www.youtube.com/s/search/audio/
 ||accounts.youtube.com/RotateCookiesPage
 ||www.youtube.com/s/player/*/endscreen.js
@@ -189,7 +185,11 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 ||www.youtube.com/youtubei/v1/notification/get_unseen_count
 ||www.youtube.com/youtubei/v1/updated_metadata
 ||www.youtube.com/youtubei/v1/att/log
-||www.youtube.com/youtubei/v1/guide
+||suggestqueries-clients*.*.com^
+||fonts.gstatic.com/s/i/youtube_*/news/
+||www.gstatic.com/youtube/img/icons/web/youtube_*/shorts-
+/generate_204
+/error_204
 
 ! anilist specific
 
@@ -244,11 +244,15 @@ www.techpowerup.com##.page > .s- > div.s--item:nth-of-type(5)
 www.netflix.com##.billboard-row-games.billboard-row
 www.netflix.com##.mobile-games-row
 
-! wikigg
+! wikigg specific
 
 wiki.gg###wgg-netbar
 wiki.gg###ca-edit
 wiki.gg###wikigg-sl-rail
+
+! search engine specific
+
+search.url4irl.com##hr
 
 ! generic cosmetic
 
@@ -283,6 +287,12 @@ wiki.gg###wikigg-sl-rail
 ###newsletter-footer-form
 ###newsletter-inContent-form
 ##.cookies-modal
+##.cookie-banner
+##.nkch-rdp__content
+##.page-header
+##.theme-styles
+##.page-side-tools__wrapper
+##.fandom-community-header > .fandom-community-header__local-navigation > .wds-tabs
 
 ##div.mt-md
 
@@ -311,5 +321,13 @@ wiki.gg###wikigg-sl-rail
 ||consent-manager.metomic.io^$important
 /favicon-32x32.png
 ||cdn.ziffstatic.com^$important
+||do-not-tracker.org^
+||eviltracker.net^
+||trackersimulator.org^
+||www.google.com/images/branding/
+||services.fandom.com/adeng/api/identity/metrics
+/touch-icon-ipad-retina-precomposed.png
+||services.fandom.com/icbm/api/
+||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
 
 ! unsorted
