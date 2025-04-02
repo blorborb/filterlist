@@ -57,8 +57,12 @@ $removeparam=gascEnabled
 $removeparam=event
 $removeparam=timecode
 $removeparam=tuneInTimeEpoch
+$removeparam=state
+$removeparam=volume
+$removeparam=subscribed
+$removeparam=muted
 
-! websites i dont need/hate
+! websites/widgets i dont need/hate
 /apple_music_player$subdocument
 ||crunchyroll.com^
 
@@ -172,6 +176,8 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 
 ! youtube network filters
 
+/generate_204
+/error_204
 ||i.ytimg.com/*/movieposter
 ||www.gstatic.com/youtube/img/promos/
 ||www.youtube.com/s/search/audio/
@@ -188,8 +194,10 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 ||suggestqueries-clients*.*.com^
 ||fonts.gstatic.com/s/i/youtube_*/news/
 ||www.gstatic.com/youtube/img/icons/web/youtube_*/shorts-
-/generate_204
-/error_204
+||www.youtube.com/youtubei/v1/player/heartbeat
+
+! rick roll
+||www.youtube.com/watch?v=dQw4w9WgXc^
 
 ! anilist specific
 
@@ -200,10 +208,6 @@ anilist.co##div.nav:nth-child(3) > a:nth-child(2)
 anilist.co##.episodes
 anilist.co##.external-links
 anilist.co##.trailer
-
-! anilist network filter
-
-||www.gstatic.com/recaptcha/$domain=anilist.co,important
 
 ! fandom specific
 
@@ -221,9 +225,12 @@ github.com##.js-for-you-feed-items
 
 ! proton specific
 
+proton.me##.bg-info.no-print.text-bold.relative.text-center.flex-nowrap.shrink-0.flex:has-text(notification)
 mail.proton.me##.spotlight:has-text(Get Mail Plus)
 proton.me##.button-promotion--icon-gradient
 proton.me##.bg-promotion
+pass.proton.me##.py-2.px-4.pass-notification--portal:has-text(premium)
+pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex:has-text(Upgrade)
 
 ! miruro specific
 
@@ -253,6 +260,10 @@ wiki.gg###wikigg-sl-rail
 ! search engine specific
 
 search.url4irl.com##hr
+
+! strawpage
+
+straw.page##.branding
 
 ! generic cosmetic
 
@@ -329,5 +340,24 @@ search.url4irl.com##hr
 /touch-icon-ipad-retina-precomposed.png
 ||services.fandom.com/icbm/api/
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
+||cookiepro.com^
+||hsforms.net^$important
+||adxcel.com^
+||cdnst.net/javascript/ads/ad.js
 
 ! unsorted
+
+||adxcel.com^
+||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
+||scdn.co/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||scdn.co/mp3-ad/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||spotifycdn.com/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||amillionads.com^$media,redirect=noop-1s.mp4:10,from=open.spotify.com
+||2mdn.net^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||adxcel.com^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||adstudio-assets.scdn.co^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+*$media,3p,redirect-rule=noop-1s.mp4:10,domain=open.spotify.com
+@@||podscribe.com/rss/$media,domain=open.spotify.com
+@@||mgln.ai/e/$media,domain=open.spotify.com
+@@/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com
+/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com,urlskip=/(traffic\.megaphone\.fm\/\w+\.mp3)/ +https
