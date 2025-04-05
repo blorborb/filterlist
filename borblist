@@ -263,9 +263,25 @@ searx.tiekoetter.com##.thumbnail
 
 straw.page##.branding
 
-!strawpage network filter
+!strawpage network filters
 
 ||stripe.com^$domain=straw.page
+
+! spotify network filters
+
+||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
+||scdn.co/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||scdn.co/mp3-ad/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||spotifycdn.com/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||amillionads.com^$media,redirect=noop-1s.mp4:10,from=open.spotify.com
+||2mdn.net^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||adxcel.com^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+||adstudio-assets.scdn.co^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
+*$media,3p,redirect-rule=noop-1s.mp4:10,domain=open.spotify.com
+@@||podscribe.com/rss/$media,domain=open.spotify.com
+@@||mgln.ai/e/$media,domain=open.spotify.com
+@@/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com
+/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com,urlskip=/(traffic\.megaphone\.fm\/\w+\.mp3)/ +https
 
 ! generic cosmetic
 
@@ -356,18 +372,3 @@ straw.page##.branding
 @@/favicon-16x16.png
 
 ! unsorted
-
-||adxcel.com^
-||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
-||scdn.co/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
-||scdn.co/mp3-ad/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
-||spotifycdn.com/audio/$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
-||amillionads.com^$media,redirect=noop-1s.mp4:10,from=open.spotify.com
-||2mdn.net^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
-||adxcel.com^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
-||adstudio-assets.scdn.co^$media,redirect=noop-1s.mp4:10,domain=open.spotify.com
-*$media,3p,redirect-rule=noop-1s.mp4:10,domain=open.spotify.com
-@@||podscribe.com/rss/$media,domain=open.spotify.com
-@@||mgln.ai/e/$media,domain=open.spotify.com
-@@/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com
-/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com,urlskip=/(traffic\.megaphone\.fm\/\w+\.mp3)/ +https
