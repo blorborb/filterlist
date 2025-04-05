@@ -8,7 +8,8 @@
 
 ! applies to everything
 
-$important,redirect-rule=empty
+$important,script,redirect-rule=empty
+$important,domain=behind-the-scene
 $important,shide,ghide
 
 ! removeparams
@@ -95,11 +96,6 @@ $removeparam=muted
 @@||fontawesome.com
 @@||futurecdn.net/*/media/fonts/$font
 
-! network filter allows
-
-@@||fastly.jsdelivr.net
-
-
 ! twitter specific
 
 x.com##.r-1sw30gj
@@ -110,11 +106,9 @@ x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1aw
 
 ! twitter network filters
 
-||twimg.com/emoji/
 ||abs.twimg.com/responsive-web/client-web/icon-ios
 ||abs.twimg.com/responsive-web/client-web/bundle.GrokDrawer
 ||api.x.com/1.1/live_pipeline/update_subscriptions
-||abs.twimg.com/responsive-web/client-web/*/emoji
 ||abs.twimg.com/responsive-web/client-web/loader.TrendHandler
 ||abs.twimg.com/responsive-web/client-web/loader.GetVerifiedSidebar
 ||analytics.twitter.com/measurement/personalization_id_sync
@@ -150,6 +144,7 @@ www.youtube.com##ytd-reel-shelf-renderer
 ! description
 www.youtube.com###structured-description > .ytd-structured-description-content-renderer.style-scope
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+www.youtube.com###expandable-metadata
 
 ! unneeded show live chat
 www.youtube.com###teaser-carousel
@@ -260,10 +255,18 @@ wiki.gg###wikigg-sl-rail
 ! search engine specific
 
 search.url4irl.com##hr
+search.url4irl.com##article.category-general.result-default.result:has-text(AI)
+search.url4irl.com##article.category-general.result-default.result:has-text(onlinetools.com)
+search.url4irl.com##article.category-general.result-default.result:has-text(onlinejpgtools.com)
+search.url4irl.com##.thumbnail
 
 ! strawpage
 
 straw.page##.branding
+
+!strawpage network filter
+
+||stripe.com^$domain=straw.page
 
 ! generic cosmetic
 
@@ -304,15 +307,13 @@ straw.page##.branding
 ##.theme-styles
 ##.page-side-tools__wrapper
 ##.fandom-community-header > .fandom-community-header__local-navigation > .wds-tabs
-
+##.eu-cookie-compliance-banner
 ##div.mt-md
 
 ! generic network filters
 
 ||play.google.com/log
 ||discord.com/widget
-/favicon_144x144.png$image
-/favicon/144.png
 ||cookielaw.org^$important
 ||sdk.privacy-center.org^$important
 /silversurfer$script,important
@@ -320,7 +321,7 @@ straw.page##.branding
 /prebid.js$script,important
 /gdpr-modal.js$script,important
 /gdpr.js$script,important
-/apple-touch-icon$image
+/apple-touch-icon
 /cookieconsent/cookieconsent.css$stylesheet
 /trustarc/trustarc.js
 /trustecm/js/trustecm.js
@@ -330,20 +331,30 @@ straw.page##.branding
 /icons/social/*.js
 /api/content/newsletters/*
 ||consent-manager.metomic.io^$important
-/favicon-32x32.png
 ||cdn.ziffstatic.com^$important
 ||do-not-tracker.org^
 ||eviltracker.net^
 ||trackersimulator.org^
 ||www.google.com/images/branding/
 ||services.fandom.com/adeng/api/identity/metrics
-/touch-icon-ipad-retina-precomposed.png
+/touch-icon*.png
 ||services.fandom.com/icbm/api/
 ||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
 ||cookiepro.com^
 ||hsforms.net^$important
 ||adxcel.com^
 ||cdnst.net/javascript/ads/ad.js
+||cloud.google.com/ai/$important
+||www.gstatic.com/_/mss/boq-cloud-ai-ucs/$important
+||googletagmanager.com^$important
+/user/geoloc/country
+/api/locate/*
+/favicon*.png
+
+! network filter allows
+
+@@||fastly.jsdelivr.net
+@@/favicon-16x16.png
 
 ! unsorted
 
