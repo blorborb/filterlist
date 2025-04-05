@@ -132,10 +132,6 @@ x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1aw
 ||abs.twimg.com/responsive-web/client-sentry/$script
 ||platform.twitter.com/widgets
 
-! youtube scriptlets
-
-! www.youtube.com##+js(aeld, dblclick)
-
 ! youtube specific
 
 ! shorts
@@ -168,6 +164,9 @@ www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope
 
 ! posts
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+
+! ai
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-rich-grid-media.style-scope.video-badge:has-text(Auto-dubbed))
 
 ! youtube network filters
 
@@ -254,11 +253,11 @@ wiki.gg###wikigg-sl-rail
 
 ! search engine specific
 
-search.url4irl.com##hr
-search.url4irl.com##article.category-general.result-default.result:has-text(AI)
-search.url4irl.com##article.category-general.result-default.result:has-text(onlinetools.com)
-search.url4irl.com##article.category-general.result-default.result:has-text(onlinejpgtools.com)
-search.url4irl.com##.thumbnail
+searx.tiekoetter.com##hr
+searx.tiekoetter.com##article.category-general.result-default.result:has-text(AI)
+searx.tiekoetter.com##article.category-general.result-default.result:has-text(onlinetools.com)
+searx.tiekoetter.com##article.category-general.result-default.result:has-text(onlinejpgtools.com)
+searx.tiekoetter.com##.thumbnail
 
 ! strawpage
 
