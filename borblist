@@ -1,6 +1,6 @@
 ! title: borbs list
 ! Homepage: https://github.com/blorborb/filterlists
-! Expires: 24 hours
+! Expires: 2 days
 
 ! trusted
 ||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
