@@ -9,7 +9,6 @@
 ! applies to everything
 
 $important,script,redirect-rule=empty
-$important,domain=behind-the-scene
 $important,shide,ghide
 
 ! removeparams
