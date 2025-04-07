@@ -140,12 +140,16 @@ www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com###structured-description > .ytd-structured-description-content-renderer.style-scope
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
 www.youtube.com###expandable-metadata
+www.youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint
 
 ! unneeded show live chat
 www.youtube.com###teaser-carousel
 
 ! miniplayer
 www.youtube.com##.ytp-button.ytp-miniplayer-button
+
+! pip
+www.youtube.com##.ytp-button.ytp-pip-button
 
 ! paid
 www.youtube.com##.ytp-paid-content-overlay
@@ -166,6 +170,12 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 
 ! ai
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-rich-grid-media.style-scope.video-badge:has-text(Auto-dubbed))
+
+! comments
+www.youtube.com###sponsor-comment-badge:has(img)
+
+! survey
+www.youtube.com###attached-survey > .ytd-rich-grid-media.style-scope
 
 ! youtube network filters
 
