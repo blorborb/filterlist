@@ -57,10 +57,10 @@ $removeparam=gascEnabled
 $removeparam=event
 $removeparam=timecode
 $removeparam=tuneInTimeEpoch
-$removeparam=state
 $removeparam=volume
 $removeparam=subscribed
 $removeparam=muted
+$removeparam=cosver
 
 ! websites/widgets i dont need/hate
 /apple_music_player$subdocument
@@ -122,12 +122,10 @@ x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1aw
 ||x.com/i/api/graphql/*/ProfileSpotlightsQuery
 ||x.com/i/api/fleets/v1/fleetline
 ||x.com/i/api/1.1/users/recommendations.json
-||x.com/i/api/2/badge_count/
 ||x.com/i/api/graphql/*/useRelayDelegateDataPendingQuery
 ||x.com/i/api/graphql/*/DelegatedAccountListQuery
 ||x.com/i/api/graphql/*/ExploreSidebar
 ||abs.twimg.com/responsive-web/client-web/bundle.Payments
-||abs.twimg.com/responsive-web/client-web/bundle.GrokDrawer
 ||abs.twimg.com/responsive-web/client-sentry/$script
 ||platform.twitter.com/widgets
 
@@ -177,6 +175,13 @@ www.youtube.com###sponsor-comment-badge:has(img)
 ! survey
 www.youtube.com###attached-survey > .ytd-rich-grid-media.style-scope
 
+! donate
+www.youtube.com###donation-shelf
+www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-ypc.badge:has-text(Fundraiser)
+
+! survey
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Video removed):has-text(Tell us why)
+
 ! youtube network filters
 
 /generate_204
@@ -198,9 +203,7 @@ www.youtube.com###attached-survey > .ytd-rich-grid-media.style-scope
 ||fonts.gstatic.com/s/i/youtube_*/news/
 ||www.gstatic.com/youtube/img/icons/web/youtube_*/shorts-
 ||www.youtube.com/youtubei/v1/player/heartbeat
-
-! rick roll
-||www.youtube.com/watch?v=dQw4w9WgXc^
+||www.youtube.com/youtubei/v1/notification/record_interactions
 
 ! anilist specific
 
@@ -378,6 +381,6 @@ straw.page##.branding
 ! network filter allows
 
 @@||fastly.jsdelivr.net
-@@/favicon-16x16.png
+@@/favicon-16x16*.png
 
 ! unsorted
