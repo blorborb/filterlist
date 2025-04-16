@@ -296,13 +296,6 @@ searx.tiekoetter.com##article.category-general.result-default.result:has-text(on
 searx.tiekoetter.com##article.category-general.result-default.result:has-text(onlinejpgtools.com)
 searx.tiekoetter.com##.thumbnail
 
-! strawpage
-
-straw.page##.branding
-
-!strawpage network filters
-
-
 ! spotify network filters
 
 ||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
