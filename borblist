@@ -9,7 +9,6 @@
 ! applies to everything
 
 $important,script,redirect-rule=empty
-$important,shide,ghide
 
 ! removeparams
 
@@ -38,7 +37,7 @@ $removeparam=include_ext_media_availability
 $removeparam=send_error_codes
 $removeparam=data_collection_enabled
 $removeparam=device_id
-$removeparam=device_platform=web_pc
+$removeparam=device_platform
 $removeparam=root_referer
 $removeparam=screen_height
 $removeparam=screen_width
@@ -61,6 +60,20 @@ $removeparam=volume
 $removeparam=subscribed
 $removeparam=muted
 $removeparam=cosver
+$removeparam=app_language
+$removeparam=app_name
+$removeparam=browser_language
+$removeparam=browser_name
+$removeparam=browser_online
+$removeparam=browser_platform
+$removeparam=cookie_enabled
+$removeparam=device_platform
+$removeparam=focus_state
+$removeparam=from_page
+$removeparam=is_fullscreen
+$removeparam=is_page_visible
+$removeparam=only_spaces
+
 
 ! websites/widgets i dont need/hate
 /apple_music_player$subdocument
@@ -128,6 +141,12 @@ x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1aw
 ||abs.twimg.com/responsive-web/client-web/bundle.Payments
 ||abs.twimg.com/responsive-web/client-sentry/$script
 ||platform.twitter.com/widgets
+||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Grok~bundle.Payments~bundle.PaymentReceipt~ondemand.Insights
+||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.Payments~ondemand.Insights~ondemand.Verified~ondemand.XChat
+||abs.twimg.com/responsive-web/client-web/loader.Grok
+||abs.twimg.com/responsive-web/client-web/shared~bundle.Payments~bundle.TV
+||abs.twimg.com/responsive-web/client-web/shared~bundle.Payments~bundle.PaymentReceipt
+||abs.twimg.com/responsive-web/client-web/bundle.Grok
 
 ! youtube specific
 
@@ -139,6 +158,7 @@ www.youtube.com###structured-description > .ytd-structured-description-content-r
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
 www.youtube.com###expandable-metadata
 www.youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint
+www.youtube.com##.ytd-watch-metadata.style-scope > a.yt-formatted-string.style-scope.yt-simple-endpoint
 
 ! unneeded show live chat
 www.youtube.com###teaser-carousel
@@ -174,6 +194,7 @@ www.youtube.com###sponsor-comment-badge:has(img)
 
 ! survey
 www.youtube.com###attached-survey > .ytd-rich-grid-media.style-scope
+www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:has-text(recommend videos from this channel to you again)
 
 ! donate
 www.youtube.com###donation-shelf
@@ -181,6 +202,10 @@ www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-ypc.
 
 ! survey
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Video removed):has-text(Tell us why)
+
+! search
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
 
 ! youtube network filters
 
@@ -277,7 +302,6 @@ straw.page##.branding
 
 !strawpage network filters
 
-||stripe.com^$domain=straw.page
 
 ! spotify network filters
 
@@ -335,6 +359,12 @@ straw.page##.branding
 ##.page-side-tools__wrapper
 ##.fandom-community-header > .fandom-community-header__local-navigation > .wds-tabs
 ##.eu-cookie-compliance-banner
+##[id="cookie-control"]
+##.obfx-cookie-bar
+##.bg-warning-stripes
+##.widget_custom_html
+##.newsletter-form
+##.icc-credits
 ##div.mt-md
 
 ! generic network filters
@@ -374,13 +404,13 @@ straw.page##.branding
 ||cloud.google.com/ai/$important
 ||www.gstatic.com/_/mss/boq-cloud-ai-ucs/$important
 ||googletagmanager.com^$important
+||adtrafficquality.google^
+||accounts.google.com/gsi/$important
 /user/geoloc/country
 /api/locate/*
-/favicon*.png
 
 ! network filter allows
 
 @@||fastly.jsdelivr.net
-@@/favicon-16x16*.png
 
 ! unsorted
