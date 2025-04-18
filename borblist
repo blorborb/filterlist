@@ -206,6 +206,8 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-t
 ! search
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
 
 ! youtube network filters
 
@@ -290,11 +292,18 @@ wiki.gg###wikigg-sl-rail
 
 ! search engine specific
 
-searx.tiekoetter.com##hr
-searx.tiekoetter.com##article.category-general.result-default.result:has-text(AI)
-searx.tiekoetter.com##article.category-general.result-default.result:has-text(onlinetools.com)
-searx.tiekoetter.com##article.category-general.result-default.result:has-text(onlinejpgtools.com)
-searx.tiekoetter.com##.thumbnail
+searx.tiekoetter.com,priv.au##hr
+searx.tiekoetter.com,priv.au##article.category-general.result-default.result:has-text(onlinetools.com)
+searx.tiekoetter.com,priv.au##article.category-general.result-default.result:has-text(onlinejpgtools.com)
+searx.tiekoetter.com,priv.au##.thumbnail
+
+! game8 specific
+game8.co##.a-announce
+game8.co##.p-archiveHeader__buttons
+game8.co##.p-gameHeader__search
+game8.co##.fixed.p-rootHeaderWrapper
+game8.co##.p-archiveFeedback
+game8.co##.p-archiveBreadcrumb
 
 ! spotify network filters
 
@@ -358,6 +367,8 @@ searx.tiekoetter.com##.thumbnail
 ##.widget_custom_html
 ##.newsletter-form
 ##.icc-credits
+###cookie
+##.ad
 ##div.mt-md
 
 ! generic network filters
@@ -398,7 +409,9 @@ searx.tiekoetter.com##.thumbnail
 ||www.gstatic.com/_/mss/boq-cloud-ai-ucs/$important
 ||googletagmanager.com^$important
 ||adtrafficquality.google^
+||privacy-mgmt.com^$important
 ||accounts.google.com/gsi/$important
+/ocean-cookie-notice/*$css,script
 /user/geoloc/country
 /api/locate/*
 
@@ -407,3 +420,7 @@ searx.tiekoetter.com##.thumbnail
 @@||fastly.jsdelivr.net
 
 ! unsorted
+
+top.gg##.css-1gv4dp0
+
+||top.gg/api/client/entities/promoted$important
