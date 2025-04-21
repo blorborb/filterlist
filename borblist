@@ -207,6 +207,10 @@ www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.sty
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Channels new to you)
+
+! stupid youtube
+www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important;)
 
 ! youtube network filters
 
@@ -297,12 +301,17 @@ searx.tiekoetter.com,priv.au##article.category-general.result-default.result:has
 searx.tiekoetter.com,priv.au##.thumbnail
 
 ! game8 specific
+
 game8.co##.a-announce
 game8.co##.p-archiveHeader__buttons
 game8.co##.p-gameHeader__search
 game8.co##.fixed.p-rootHeaderWrapper
 game8.co##.p-archiveFeedback
 game8.co##.p-archiveBreadcrumb
+
+! carrd specific
+
+carrd.co###banner
 
 ! spotify network filters
 
@@ -368,6 +377,7 @@ game8.co##.p-archiveBreadcrumb
 ##.icc-credits
 ###cookie
 ##.ad
+###sticky-widget-bar
 ##div.mt-md
 
 ! generic network filters
@@ -411,6 +421,7 @@ game8.co##.p-archiveBreadcrumb
 ||privacy-mgmt.com^$important
 ||accounts.google.com/gsi/$important
 /ocean-cookie-notice/*$css,script
+/wp-content/plugins/geotargetingwp/public/css
 /user/geoloc/country
 /api/locate/*
 
@@ -421,5 +432,4 @@ game8.co##.p-archiveBreadcrumb
 ! unsorted
 
 top.gg##.css-1gv4dp0
-
 ||top.gg/api/client/entities/promoted$important
