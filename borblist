@@ -9,6 +9,7 @@
 ! applies to everything
 
 $important,script,redirect-rule=empty
+$important,shide,ghide
 
 ! removeparams
 
@@ -208,6 +209,7 @@ www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-te
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Channels new to you)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Popular in)
 
 ! stupid youtube
 www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important;)
@@ -234,13 +236,18 @@ www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !
 ||www.gstatic.com/youtube/img/icons/web/youtube_*/shorts-
 ||www.youtube.com/youtubei/v1/player/heartbeat
 ||www.youtube.com/youtubei/v1/notification/record_interactions
+/scheduler.vflset/scheduler.js
+/custom-elements-es5-adapter.vflset/custom-elements-es5-adapter.js
+/spf.vflset/spf.js
+/network.vflset/network.js
+||www.gstatic.com/youtube/img/lottie/subscribe_action/subscribe_action_sparkles_dark_v4.json
+||www.gstatic.com/youtube/img/emojis/emojis-png-*.json
 
 ! anilist specific
 
 anilist.co##.recent-reviews
 anilist.co##.recent-threads
 anilist.co##div.home:nth-child(2) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1)
-anilist.co##div.nav:nth-child(3) > a:nth-child(2)
 anilist.co##.episodes
 anilist.co##.external-links
 anilist.co##.trailer
@@ -367,7 +374,6 @@ carrd.co###banner
 ##.page-header
 ##.theme-styles
 ##.page-side-tools__wrapper
-##.fandom-community-header > .fandom-community-header__local-navigation > .wds-tabs
 ##.eu-cookie-compliance-banner
 ##[id="cookie-control"]
 ##.obfx-cookie-bar
@@ -378,6 +384,8 @@ carrd.co###banner
 ###cookie
 ##.ad
 ###sticky-widget-bar
+##.eu-cookie-notification-dialog
+##.wikia-bar-anon.wikia-bar
 ##div.mt-md
 
 ! generic network filters
