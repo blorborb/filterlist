@@ -116,6 +116,7 @@ x.com##section.css-175oi2r > div:nth-child(2) > div:nth-child(1) > div:nth-child
 x.com##.r-kzbkwu.r-1777fci.r-16y2uox.r-1iusvr4.css-175oi2r > div.css-175oi2r > .r-1loqt21.r-16dba41.r-rjixqe.r-a023e6.r-37j5jr.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
 x.com##.r-1loqt21.r-16dba41.r-rjixqe.r-1inkyih.r-37j5jr.r-qvutc0.r-1ttztb7.r-bcqeeo.css-146c3p1
 x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
+x.com##.r-1s2bzr4.r-9aw3ui.css-175oi2r:has-text(Ask Grok yourself)
 
 ! twitter network filters
 
@@ -147,6 +148,11 @@ x.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1aw
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.Payments~bundle.TV
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.Payments~bundle.PaymentReceipt
 ||abs.twimg.com/responsive-web/client-web/bundle.Grok
+||abs.twimg.com/responsive-web/client-web/loader.NewTweetsPill
+||x.com/i/api/graphql/*/UsersVerifiedAvatars
+||abs.twimg.com/responsive-web/client-web/node_modules_x-clients_features_messages_en_json.
+||abs.twimg.com/responsive-web/client-web/loader.AudioDock.
+||abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer-
 
 ! youtube specific
 
@@ -159,6 +165,7 @@ www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-me
 www.youtube.com###expandable-metadata
 www.youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint
 www.youtube.com##.ytd-watch-metadata.style-scope > a.yt-formatted-string.style-scope.yt-simple-endpoint
+www.youtube.com###ticket-shelf > .ytd-watch-flexy.style-scope
 
 ! unneeded show live chat
 www.youtube.com###teaser-carousel
@@ -212,7 +219,7 @@ www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-te
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Popular in)
 
 ! stupid youtube
-www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important;)
+www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
 
 ! youtube network filters
 
@@ -236,11 +243,6 @@ www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !
 ||www.gstatic.com/youtube/img/icons/web/youtube_*/shorts-
 ||www.youtube.com/youtubei/v1/player/heartbeat
 ||www.youtube.com/youtubei/v1/notification/record_interactions
-/scheduler.vflset/scheduler.js
-/custom-elements-es5-adapter.vflset/custom-elements-es5-adapter.js
-/spf.vflset/spf.js
-/network.vflset/network.js
-||www.gstatic.com/youtube/img/lottie/subscribe_action/subscribe_action_sparkles_dark_v4.json
 ||www.gstatic.com/youtube/img/emojis/emojis-png-*.json
 
 ! anilist specific
@@ -305,7 +307,6 @@ wiki.gg###wikigg-sl-rail
 searx.tiekoetter.com,priv.au##hr
 searx.tiekoetter.com,priv.au##article.category-general.result-default.result:has-text(onlinetools.com)
 searx.tiekoetter.com,priv.au##article.category-general.result-default.result:has-text(onlinejpgtools.com)
-searx.tiekoetter.com,priv.au##.thumbnail
 
 ! game8 specific
 
@@ -319,6 +320,11 @@ game8.co##.p-archiveBreadcrumb
 ! carrd specific
 
 carrd.co###banner
+
+
+! spotify specific
+
+open.spotify.com##div.ReactModalPortal:nth-of-type(9)
 
 ! spotify network filters
 
@@ -430,6 +436,7 @@ carrd.co###banner
 ||accounts.google.com/gsi/$important
 /ocean-cookie-notice/*$css,script
 /wp-content/plugins/geotargetingwp/public/css
+/bootstrap.bundle.min.js
 /user/geoloc/country
 /api/locate/*
 
