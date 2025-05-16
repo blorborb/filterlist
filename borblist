@@ -86,7 +86,13 @@ $removeparam=only_spaces
 *otf*$css,font,3p
 *ttf*$css,font,3p
 *woff*$css,font,3p
-||type*$font,css,3p
+*type*$font,css,3p
+||amazonaws.com^$font,3p
+||alluremedia.com.au^$font,3p
+||google.com/swg/$font,3p
+||gotraffic.net^$font
+||qmerce.com/assets/$font
+||squarecdn.com^$font,3p
 
 ! font allows
 
@@ -100,6 +106,7 @@ $removeparam=only_spaces
 @@/fork-awesome@
 @@/icomoon
 @@/light.$font
+@@*material$font
 @@/sprites$font
 @@/Themes$font,css
 @@/wp-content/themes$font
@@ -128,7 +135,6 @@ x.com##.r-1s2bzr4.r-9aw3ui.css-175oi2r:has-text(Ask Grok yourself)
 ||x.com/i/api/graphql/*/DataSaverMode
 ||x.com/i/api/graphql/*/isEligibleForAnalyticsUpsellQuery
 ||abs.twimg.com/responsive-web/client-web/bundle.NetworkInstrument
-||x.com/i/api/graphql/*/getAltTextPromptPreference
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar
 ||abs.twimg.com/responsive-web/client-web/bundle.UserLists
 ||abs.twimg.com/hashflags/
@@ -136,8 +142,6 @@ x.com##.r-1s2bzr4.r-9aw3ui.css-175oi2r:has-text(Ask Grok yourself)
 ||x.com/i/api/graphql/*/ProfileSpotlightsQuery
 ||x.com/i/api/fleets/v1/fleetline
 ||x.com/i/api/1.1/users/recommendations.json
-||x.com/i/api/graphql/*/useRelayDelegateDataPendingQuery
-||x.com/i/api/graphql/*/DelegatedAccountListQuery
 ||x.com/i/api/graphql/*/ExploreSidebar
 ||abs.twimg.com/responsive-web/client-web/bundle.Payments
 ||abs.twimg.com/responsive-web/client-sentry/$script
@@ -158,6 +162,7 @@ x.com##.r-1s2bzr4.r-9aw3ui.css-175oi2r:has-text(Ask Grok yourself)
 
 ! shorts
 www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##.ytd-rich-item-renderer.style-scope.shortsLockupViewModelHost > .ytd-rich-item-renderer.style-scope.shortsLockupViewModelHost
 
 ! description
 www.youtube.com###structured-description > .ytd-structured-description-content-renderer.style-scope
@@ -166,9 +171,11 @@ www.youtube.com###expandable-metadata
 www.youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint
 www.youtube.com##.ytd-watch-metadata.style-scope > a.yt-formatted-string.style-scope.yt-simple-endpoint
 www.youtube.com###ticket-shelf > .ytd-watch-flexy.style-scope
+www.youtube.com###clarify-box
 
 ! unneeded show live chat
 www.youtube.com###teaser-carousel
+www.youtube.com###chat-container:has-text(Chat Replay has been disabled for this Premiere.)
 
 ! miniplayer
 www.youtube.com##.ytp-button.ytp-miniplayer-button
@@ -178,6 +185,7 @@ www.youtube.com##.ytp-button.ytp-pip-button
 
 ! paid
 www.youtube.com##.ytp-paid-content-overlay
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-badge-supported-renderer.style-scope.badge-style-type-members-only.badge)
 
 ! subscribe/like border
 www.youtube.com##.smartimation__border
@@ -326,6 +334,21 @@ carrd.co###banner
 
 open.spotify.com##div.ReactModalPortal:nth-of-type(9)
 
+! roblox specific
+
+www.roblox.com##.game-home-page-container > div > div:has-text(Recommended For You)
+www.roblox.com##.game-home-page-container > div > div:has-text(Sponsored)
+www.roblox.com##.col-lg-4.col-md-5.hidden-sm.hidden-xs.rbx-navbar.nav > li:nth-of-type(1)
+www.roblox.com##.container-footer
+www.roblox.com##.rbx-upgrade-now
+www.roblox.com###nav-giftcards
+www.roblox.com###nav-blog
+www.roblox.com###nav-shop
+www.roblox.com##.virtual-event-game-details-container
+www.roblox.com##.game-age-recommendation-details-container
+www.roblox.com##.games-detail.container-list:has-text(Recommended Experiences)
+www.roblox.com##.game-about-tab-container > div:nth-of-type(3)
+
 ! spotify network filters
 
 ||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
@@ -393,6 +416,9 @@ open.spotify.com##div.ReactModalPortal:nth-of-type(9)
 ##.eu-cookie-notification-dialog
 ##.wikia-bar-anon.wikia-bar
 ##div.mt-md
+##.docs-butterbar-wrap
+##.go-plus
+##div.skiptranslate
 
 ! generic network filters
 
@@ -427,6 +453,9 @@ open.spotify.com##div.ReactModalPortal:nth-of-type(9)
 ||cookiepro.com^
 ||hsforms.net^$important
 ||adxcel.com^
+/services/newsletter
+/android-icon-192x192.png
+||assets.adobedtm.com/launch-*.min.js$important
 ||cdnst.net/javascript/ads/ad.js
 ||cloud.google.com/ai/$important
 ||www.gstatic.com/_/mss/boq-cloud-ai-ucs/$important
@@ -434,6 +463,8 @@ open.spotify.com##div.ReactModalPortal:nth-of-type(9)
 ||adtrafficquality.google^
 ||privacy-mgmt.com^$important
 ||accounts.google.com/gsi/$important
+||cdn.onesignal.com^$important
+||static.wikia.nocookie.net/*/images/c/cc/*_Ad.png$image
 /ocean-cookie-notice/*$css,script
 /wp-content/plugins/geotargetingwp/public/css
 /bootstrap.bundle.min.js
@@ -448,3 +479,5 @@ open.spotify.com##div.ReactModalPortal:nth-of-type(9)
 
 top.gg##.css-1gv4dp0
 ||top.gg/api/client/entities/promoted$important
+
+@@||cdn.revoltusercontent.com/avatars/$image
