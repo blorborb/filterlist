@@ -163,6 +163,7 @@ x.com##.r-1s2bzr4.r-9aw3ui.css-175oi2r:has-text(Ask Grok yourself)
 ! shorts
 www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytd-rich-item-renderer.style-scope.shortsLockupViewModelHost > .ytd-rich-item-renderer.style-scope.shortsLockupViewModelHost
+www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has-text(SHORTS))
 
 ! description
 www.youtube.com###structured-description > .ytd-structured-description-content-renderer.style-scope
@@ -242,7 +243,6 @@ www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !
 ||www.youtube.com/s/player/*/miniplayer.js
 ||www.youtube.com/s/player/*/offline.js
 ||www.youtube.com/s/player/*/remote.js
-||www.youtube.com/api/stats/atr
 ||www.youtube.com/youtubei/v1/notification/get_unseen_count
 ||www.youtube.com/youtubei/v1/updated_metadata
 ||www.youtube.com/youtubei/v1/att/log
@@ -284,6 +284,8 @@ proton.me##.button-promotion--icon-gradient
 proton.me##.bg-promotion
 pass.proton.me##.py-2.px-4.pass-notification--portal:has-text(premium)
 pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex:has-text(Upgrade)
+mail.proton.me##.modal-two:has(.offer-modal)
+mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 
 ! miruro specific
 
@@ -348,6 +350,17 @@ www.roblox.com##.virtual-event-game-details-container
 www.roblox.com##.game-age-recommendation-details-container
 www.roblox.com##.games-detail.container-list:has-text(Recommended Experiences)
 www.roblox.com##.game-about-tab-container > div:nth-of-type(3)
+www.roblox.com##.search-landing-container
+
+! reddit
+www.reddit.com##reddit-cookie-banner
+
+! imgur specific
+
+imgur.com##.Gallery-Sidebar
+imgur.com##.Gallery-EngagementBar
+imgur.com##.Footer-wrapper
+imgur.com##.BottomRecirc
 
 ! spotify network filters
 
@@ -419,12 +432,25 @@ www.roblox.com##.game-about-tab-container > div:nth-of-type(3)
 ##.docs-butterbar-wrap
 ##.go-plus
 ##div.skiptranslate
+###AcceptCookies
+##.cookiepreferences_popup_content
+###modal-host
+##.cookie-consent
+##.home-email-signup
+##.display-ad-unit
+##.crp_featured
+###sp-cc
+##.cookies-popup
 
 ! generic network filters
 
 ||play.google.com/log
 ||discord.com/widget
 ||cookielaw.org^$important
+||cdn-cookieyes.com^$important
+||consentmanager.net^$important
+||gatekeeperconsent.com^$important
+||setupcmp.com^$important
 ||sdk.privacy-center.org^$important
 /silversurfer$script,important
 -gdpr-consents.js$script,important
@@ -465,11 +491,15 @@ www.roblox.com##.game-about-tab-container > div:nth-of-type(3)
 ||accounts.google.com/gsi/$important
 ||cdn.onesignal.com^$important
 ||static.wikia.nocookie.net/*/images/c/cc/*_Ad.png$image
+||civiccomputing.com^
 /ocean-cookie-notice/*$css,script
 /wp-content/plugins/geotargetingwp/public/css
 /bootstrap.bundle.min.js
 /user/geoloc/country
 /api/locate/*
+||i0.wp.com$image
+/script/plugin/jquery.cookie.js
+||odinapi.*.com/apiv2/GetCookieNotice
 
 ! network filter allows
 
@@ -481,3 +511,5 @@ top.gg##.css-1gv4dp0
 ||top.gg/api/client/entities/promoted$important
 
 @@||cdn.revoltusercontent.com/avatars/$image
+
+www.last.fm##.col-sidebar
