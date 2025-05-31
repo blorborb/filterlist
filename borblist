@@ -220,12 +220,6 @@ www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-ypc.
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Video removed):has-text(Tell us why)
 
 ! search
-www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Channels new to you)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Popular in)
 
 ! stupid youtube
 www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
@@ -234,6 +228,7 @@ www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !
 
 /generate_204
 /error_204
+||i.ytimg.com/vi/*/oar*.jpg$image
 ||i.ytimg.com/*/movieposter
 ||www.gstatic.com/youtube/img/promos/
 ||www.youtube.com/s/search/audio/
@@ -268,6 +263,10 @@ fandom.com##.page__right-rail
 fandom.com##.global-explore-navigation
 fandom.com##.global-top-navigation
 fandom.com##.global-footer
+
+! fandom network filters
+
+||fandom.com/wikia.php?controller=GlobalExploreNavApiController
 
 ! github specific
 
@@ -362,6 +361,9 @@ imgur.com##.Gallery-EngagementBar
 imgur.com##.Footer-wrapper
 imgur.com##.BottomRecirc
 
+! last fm
+www.last.fm##.col-sidebar
+
 ! spotify network filters
 
 ||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
@@ -384,7 +386,6 @@ imgur.com##.BottomRecirc
 ###credential_picker_container
 ##.notifications-placeholder
 ##.ot-sdk-container
-##.mw-footer
 ##.upsell
 ##.g-profile__qr-code-btn
 ##.g-profile__adv-details-btn
@@ -441,6 +442,12 @@ imgur.com##.BottomRecirc
 ##.crp_featured
 ###sp-cc
 ##.cookies-popup
+##.mw-cookiewarning-container
+##.consent-banner
+##.overlay:has(#cookie-alert)
+###elGuestTerms
+##.eucookiebar
+##.cookie_banner
 
 ! generic network filters
 
@@ -500,16 +507,23 @@ imgur.com##.BottomRecirc
 ||i0.wp.com$image
 /script/plugin/jquery.cookie.js
 ||odinapi.*.com/apiv2/GetCookieNotice
+/favicon_144x144.png$image
+&modules=ext.CookieWarning
+||static.parastorage.com/services/cookie-consent-banner-for-uou/$important
+/fides$script
+/pc_cookie_banner_*.png$image
 
 ! network filter allows
 
 @@||fastly.jsdelivr.net
+@@||cdn.revoltusercontent.com/avatars/$image
 
 ! unsorted
 
-top.gg##.css-1gv4dp0
+top.gg##div#ad-container
+top.gg##.css-1h2g9d9
 ||top.gg/api/client/entities/promoted$important
 
-@@||cdn.revoltusercontent.com/avatars/$image
+##.california-recommended-reading-container.block
 
-www.last.fm##.col-sidebar
+medium.com##.sm.sl.sk.n
