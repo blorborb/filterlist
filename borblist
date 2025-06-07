@@ -1,6 +1,6 @@
 ! title: borbs list
 ! Homepage: https://github.com/blorborb/filterlists
-! Expires: 2 days
+! Expires: 7 days
 
 ! trusted
 ||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
@@ -13,7 +13,8 @@ $important,shide,ghide
 
 ! removeparams
 
-||twimg.com/media/$removeparam=name
+!||twimg.com/media/$removeparam=name
+
 $removeparam=brandType
 $removeparam=browser
 $removeparam=browser_family
@@ -25,21 +26,11 @@ $removeparam=os_version
 $removeparam=soc-app
 $removeparam=soc-device
 $removeparam=soc-platform
-$removeparam=cbr
-$removeparam=cbrver
-$removeparam=c
-$removeparam=cver
-$removeparam=cplayer
-$removeparam=cos
-$removeparam=cplatform
-$removeparam=hl
-$removeparam=cr
 $removeparam=include_ext_media_availability
 $removeparam=send_error_codes
 $removeparam=data_collection_enabled
 $removeparam=device_id
 $removeparam=device_platform
-$removeparam=root_referer
 $removeparam=screen_height
 $removeparam=screen_width
 $removeparam=operatingSystemName
@@ -57,10 +48,6 @@ $removeparam=gascEnabled
 $removeparam=event
 $removeparam=timecode
 $removeparam=tuneInTimeEpoch
-$removeparam=volume
-$removeparam=subscribed
-$removeparam=muted
-$removeparam=cosver
 $removeparam=app_language
 $removeparam=app_name
 $removeparam=browser_language
@@ -160,6 +147,11 @@ x.com##.r-1s2bzr4.r-9aw3ui.css-175oi2r:has-text(Ask Grok yourself)
 
 ! youtube specific
 
+! ads
+www.youtube.com###masthead-ad
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-in-feed-ad-layout-renderer.style-scope)
+www.youtube.com##ytd-ad-slot-renderer.ytd-item-section-renderer.style-scope
+
 ! shorts
 www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##.ytd-rich-item-renderer.style-scope.shortsLockupViewModelHost > .ytd-rich-item-renderer.style-scope.shortsLockupViewModelHost
@@ -220,6 +212,10 @@ www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-ypc.
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Video removed):has-text(Tell us why)
 
 ! search
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Channels new to you)
+www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
 
 ! stupid youtube
 www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
@@ -247,6 +243,8 @@ www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !
 ||www.youtube.com/youtubei/v1/player/heartbeat
 ||www.youtube.com/youtubei/v1/notification/record_interactions
 ||www.gstatic.com/youtube/img/emojis/emojis-png-*.json
+||www.youtube.com/s/desktop/*/jsbin/network.vflset/network.js
+||www.youtube.com/s/desktop/*/jsbin/scheduler.vflset/scheduler.js
 
 ! anilist specific
 
@@ -414,7 +412,6 @@ www.last.fm##.col-sidebar
 ##.cookies-modal
 ##.cookie-banner
 ##.nkch-rdp__content
-##.page-header
 ##.theme-styles
 ##.page-side-tools__wrapper
 ##.eu-cookie-compliance-banner
@@ -448,6 +445,13 @@ www.last.fm##.col-sidebar
 ###elGuestTerms
 ##.eucookiebar
 ##.cookie_banner
+##.advads-modal
+##.cc-banner
+##.ad_unit
+##.mihoyo-cookie-tips
+##.notice-content
+##.consent-banner
+##.cookie
 
 ! generic network filters
 
@@ -457,7 +461,7 @@ www.last.fm##.col-sidebar
 ||cdn-cookieyes.com^$important
 ||consentmanager.net^$important
 ||gatekeeperconsent.com^$important
-||setupcmp.com^$important
+||cmp*.com^$important
 ||sdk.privacy-center.org^$important
 /silversurfer$script,important
 -gdpr-consents.js$script,important
@@ -512,6 +516,10 @@ www.last.fm##.col-sidebar
 ||static.parastorage.com/services/cookie-consent-banner-for-uou/$important
 /fides$script
 /pc_cookie_banner_*.png$image
+/mage/cookies.min.js
+/preamble.min.js
+/iframe/consent$subdocument
+/showads.js$script
 
 ! network filter allows
 
@@ -527,3 +535,17 @@ top.gg##.css-1h2g9d9
 ##.california-recommended-reading-container.block
 
 medium.com##.sm.sl.sk.n
+
+! Jun 1, 2025 https://www.twitch.tv
+www.twitch.tv##.prime-offers
+www.twitch.tv##.tw-root--theme-light
+
+! Jun 5, 2025 https://hwbusters.com
+hwbusters.com##.widget-area
+
+! Jun 5, 2025 https://medium.com
+medium.com##.afc
+
+! Jun 5, 2025 https://www.reddit.com
+www.reddit.com##shreddit-comment-tree-ad:has(.promotedlink)
+www.reddit.com##.relative.block.promotedlink
