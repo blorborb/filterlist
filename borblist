@@ -15,54 +15,6 @@ $important,shide,ghide
 
 !||twimg.com/media/$removeparam=name
 
-$removeparam=brandType
-$removeparam=browser
-$removeparam=browser_family
-$removeparam=browser_version
-$removeparam=device
-$removeparam=os
-$removeparam=os_name
-$removeparam=os_version
-$removeparam=soc-app
-$removeparam=soc-device
-$removeparam=soc-platform
-$removeparam=include_ext_media_availability
-$removeparam=send_error_codes
-$removeparam=data_collection_enabled
-$removeparam=device_id
-$removeparam=device_platform
-$removeparam=screen_height
-$removeparam=screen_width
-$removeparam=operatingSystemName
-$removeparam=operatingSystemVersion
-$removeparam=deviceApplicationName
-$removeparam=displayWidth
-$removeparam=displayHeight
-$removeparam=deviceAdInsertionTypeOverride
-$removeparam=deviceBitrateAdaptationsOverride
-$removeparam=gdprEnabled
-$removeparam=gdprConsentGvl
-$removeparam=gdprConsentAvl
-$removeparam=playerAttributes
-$removeparam=gascEnabled
-$removeparam=event
-$removeparam=timecode
-$removeparam=tuneInTimeEpoch
-$removeparam=app_language
-$removeparam=app_name
-$removeparam=browser_language
-$removeparam=browser_name
-$removeparam=browser_online
-$removeparam=browser_platform
-$removeparam=cookie_enabled
-$removeparam=device_platform
-$removeparam=focus_state
-$removeparam=from_page
-$removeparam=is_fullscreen
-$removeparam=is_page_visible
-$removeparam=only_spaces
-
-
 ! websites/widgets i dont need/hate
 /apple_music_player$subdocument
 ||crunchyroll.com^
@@ -148,23 +100,10 @@ x.com##.r-1s2bzr4.r-9aw3ui.css-175oi2r:has-text(Ask Grok yourself)
 ! youtube specific
 
 ! ads
-www.youtube.com###masthead-ad
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-in-feed-ad-layout-renderer.style-scope)
-www.youtube.com##ytd-ad-slot-renderer.ytd-item-section-renderer.style-scope
 
 ! shorts
-www.youtube.com##ytd-reel-shelf-renderer
-www.youtube.com##.ytd-rich-item-renderer.style-scope.shortsLockupViewModelHost > .ytd-rich-item-renderer.style-scope.shortsLockupViewModelHost
-www.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer.ytd-thumbnail.style-scope:has-text(SHORTS))
 
 ! description
-www.youtube.com###structured-description > .ytd-structured-description-content-renderer.style-scope
-www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
-www.youtube.com###expandable-metadata
-www.youtube.com##a.bold.yt-formatted-string.style-scope.yt-simple-endpoint
-www.youtube.com##.ytd-watch-metadata.style-scope > a.yt-formatted-string.style-scope.yt-simple-endpoint
-www.youtube.com###ticket-shelf > .ytd-watch-flexy.style-scope
-www.youtube.com###clarify-box
 
 ! unneeded show live chat
 www.youtube.com###teaser-carousel
@@ -184,38 +123,25 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.
 www.youtube.com##.smartimation__border
 
 ! mix and similar
-www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer:has(.lockup)
 
 ! channel
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(Popular videos)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For you)
 
 ! posts
-www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 
 ! ai
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-rich-grid-media.style-scope.video-badge:has-text(Auto-dubbed))
 
 ! comments
-www.youtube.com###sponsor-comment-badge:has(img)
 
 ! survey
-www.youtube.com###attached-survey > .ytd-rich-grid-media.style-scope
-www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:has-text(recommend videos from this channel to you again)
 
 ! donate
 www.youtube.com###donation-shelf
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-ypc.badge:has-text(Fundraiser)
 
-! survey
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has-text(Video removed):has-text(Tell us why)
-
 ! search
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Channels new to you)
-www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
 
 ! stupid youtube
 www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
@@ -284,84 +210,6 @@ pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex:has-t
 mail.proton.me##.modal-two:has(.offer-modal)
 mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 
-! miruro specific
-
-www.miruro.online##.vds-slider.vds-volume-slider
-www.miruro.online##.vds-volume
-
-! techpowerup specific
-
-www.techpowerup.com##.miukmzun
-www.techpowerup.com##.page-header > div > div
-www.techpowerup.com##.v-port > div:nth-of-type(1)
-www.techpowerup.com##.page > .s- > div.s--item:nth-of-type(4)
-www.techpowerup.com###boards > div
-www.techpowerup.com##.page > .s- > div.s--item:nth-of-type(5)
-
-! netflix specific
-
-www.netflix.com##.billboard-row-games.billboard-row
-www.netflix.com##.mobile-games-row
-
-! wikigg specific
-
-wiki.gg###wgg-netbar
-wiki.gg###ca-edit
-wiki.gg###wikigg-sl-rail
-
-! search engine specific
-
-searx.tiekoetter.com,priv.au##hr
-searx.tiekoetter.com,priv.au##article.category-general.result-default.result:has-text(onlinetools.com)
-searx.tiekoetter.com,priv.au##article.category-general.result-default.result:has-text(onlinejpgtools.com)
-
-! game8 specific
-
-game8.co##.a-announce
-game8.co##.p-archiveHeader__buttons
-game8.co##.p-gameHeader__search
-game8.co##.fixed.p-rootHeaderWrapper
-game8.co##.p-archiveFeedback
-game8.co##.p-archiveBreadcrumb
-
-! carrd specific
-
-carrd.co###banner
-
-
-! spotify specific
-
-open.spotify.com##div.ReactModalPortal:nth-of-type(9)
-
-! roblox specific
-
-www.roblox.com##.game-home-page-container > div > div:has-text(Recommended For You)
-www.roblox.com##.game-home-page-container > div > div:has-text(Sponsored)
-www.roblox.com##.col-lg-4.col-md-5.hidden-sm.hidden-xs.rbx-navbar.nav > li:nth-of-type(1)
-www.roblox.com##.container-footer
-www.roblox.com##.rbx-upgrade-now
-www.roblox.com###nav-giftcards
-www.roblox.com###nav-blog
-www.roblox.com###nav-shop
-www.roblox.com##.virtual-event-game-details-container
-www.roblox.com##.game-age-recommendation-details-container
-www.roblox.com##.games-detail.container-list:has-text(Recommended Experiences)
-www.roblox.com##.game-about-tab-container > div:nth-of-type(3)
-www.roblox.com##.search-landing-container
-
-! reddit
-www.reddit.com##reddit-cookie-banner
-
-! imgur specific
-
-imgur.com##.Gallery-Sidebar
-imgur.com##.Gallery-EngagementBar
-imgur.com##.Footer-wrapper
-imgur.com##.BottomRecirc
-
-! last fm
-www.last.fm##.col-sidebar
-
 ! spotify network filters
 
 ||akamaized.net/audio/$media,redirect=noop-1s.mp4:10,from=open.spotify.com
@@ -377,175 +225,3 @@ www.last.fm##.col-sidebar
 @@||mgln.ai/e/$media,domain=open.spotify.com
 @@/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com
 /traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com,urlskip=/(traffic\.megaphone\.fm\/\w+\.mp3)/ +https
-
-! generic cosmetic
-
-##.a-ads
-###credential_picker_container
-##.notifications-placeholder
-##.ot-sdk-container
-##.upsell
-##.g-profile__qr-code-btn
-##.g-profile__adv-details-btn
-##.g-profile-footer.g-footer
-##.related-articles-block
-###document-footer
-##.masthead-item.buttons-social
-##.es-newsletter
-###age-gate
-##.drawer__inner__mastodon > img:nth-child(1)
-##.announcement-bar
-##.section-full:has(.newsletter-content)
-##.cta-toast--open
-##.content-block-signup
-##.p-archiveContent__side
-##.p-archiveContent__footer.l-footer
-##.subscribe-button
-##.header-news-letter-wrap
-###no-consent
-##.mon-holder
-###newsletter-sidebar-form
-###newsletterModal
-##.show.fade.modal-backdrop
-###newsletter-footer-form
-###newsletter-inContent-form
-##.cookies-modal
-##.cookie-banner
-##.nkch-rdp__content
-##.theme-styles
-##.page-side-tools__wrapper
-##.eu-cookie-compliance-banner
-##[id="cookie-control"]
-##.obfx-cookie-bar
-##.bg-warning-stripes
-##.widget_custom_html
-##.newsletter-form
-##.icc-credits
-###cookie
-##.ad
-###sticky-widget-bar
-##.eu-cookie-notification-dialog
-##.wikia-bar-anon.wikia-bar
-##div.mt-md
-##.docs-butterbar-wrap
-##.go-plus
-##div.skiptranslate
-###AcceptCookies
-##.cookiepreferences_popup_content
-###modal-host
-##.cookie-consent
-##.home-email-signup
-##.display-ad-unit
-##.crp_featured
-###sp-cc
-##.cookies-popup
-##.mw-cookiewarning-container
-##.consent-banner
-##.overlay:has(#cookie-alert)
-###elGuestTerms
-##.eucookiebar
-##.cookie_banner
-##.advads-modal
-##.cc-banner
-##.ad_unit
-##.mihoyo-cookie-tips
-##.notice-content
-##.consent-banner
-##.cookie
-
-! generic network filters
-
-||play.google.com/log
-||discord.com/widget
-||cookielaw.org^$important
-||cdn-cookieyes.com^$important
-||consentmanager.net^$important
-||gatekeeperconsent.com^$important
-||cmp*.com^$important
-||sdk.privacy-center.org^$important
-/silversurfer$script,important
--gdpr-consents.js$script,important
-/prebid.js$script,important
-/gdpr-modal.js$script,important
-/gdpr.js$script,important
-/apple-touch-icon
-/cookieconsent/cookieconsent.css$stylesheet
-/trustarc/trustarc.js
-/trustecm/js/trustecm.js
-||consent.trustarc.com^$important
-/trustecm/css/trustecm.css
-/rhdc-set-lang-cookie.js
-/icons/social/*.js
-/api/content/newsletters/*
-||consent-manager.metomic.io^$important
-||cdn.ziffstatic.com^$important
-||do-not-tracker.org^
-||eviltracker.net^
-||trackersimulator.org^
-||www.google.com/images/branding/
-||services.fandom.com/adeng/api/identity/metrics
-/touch-icon*.png
-||services.fandom.com/icbm/api/
-||script.wikia.nocookie.net/fandom-ae-assets/identity-service/
-||cookiepro.com^
-||hsforms.net^$important
-||adxcel.com^
-/services/newsletter
-/android-icon-192x192.png
-||assets.adobedtm.com/launch-*.min.js$important
-||cdnst.net/javascript/ads/ad.js
-||cloud.google.com/ai/$important
-||www.gstatic.com/_/mss/boq-cloud-ai-ucs/$important
-||googletagmanager.com^$important
-||adtrafficquality.google^
-||privacy-mgmt.com^$important
-||accounts.google.com/gsi/$important
-||cdn.onesignal.com^$important
-||static.wikia.nocookie.net/*/images/c/cc/*_Ad.png$image
-||civiccomputing.com^
-/ocean-cookie-notice/*$css,script
-/wp-content/plugins/geotargetingwp/public/css
-/bootstrap.bundle.min.js
-/user/geoloc/country
-/api/locate/*
-||i0.wp.com$image
-/script/plugin/jquery.cookie.js
-||odinapi.*.com/apiv2/GetCookieNotice
-/favicon_144x144.png$image
-&modules=ext.CookieWarning
-||static.parastorage.com/services/cookie-consent-banner-for-uou/$important
-/fides$script
-/pc_cookie_banner_*.png$image
-/mage/cookies.min.js
-/preamble.min.js
-/iframe/consent$subdocument
-/showads.js$script
-
-! network filter allows
-
-@@||fastly.jsdelivr.net
-@@||cdn.revoltusercontent.com/avatars/$image
-
-! unsorted
-
-top.gg##div#ad-container
-top.gg##.css-1h2g9d9
-||top.gg/api/client/entities/promoted$important
-
-##.california-recommended-reading-container.block
-
-medium.com##.sm.sl.sk.n
-
-! Jun 1, 2025 https://www.twitch.tv
-www.twitch.tv##.prime-offers
-www.twitch.tv##.tw-root--theme-light
-
-! Jun 5, 2025 https://hwbusters.com
-hwbusters.com##.widget-area
-
-! Jun 5, 2025 https://medium.com
-medium.com##.afc
-
-! Jun 5, 2025 https://www.reddit.com
-www.reddit.com##shreddit-comment-tree-ad:has(.promotedlink)
-www.reddit.com##.relative.block.promotedlink
