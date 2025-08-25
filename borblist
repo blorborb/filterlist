@@ -13,11 +13,15 @@ $important,shide,ghide
 
 ! removeparams
 
-!||twimg.com/media/$removeparam=name
+||twimg.com/media/$removeparam=name
 
 ! websites/widgets i dont need/hate
 /apple_music_player$subdocument
 ||crunchyroll.com^
+||appleid.cdn-apple.com^
+||discord.com/widget$subdocument,important
+||facebook.com^$important
+||facebook.net^$important
 
 ! font blocks
 
@@ -104,6 +108,8 @@ x.com,twitter.com##div.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.
 ! youtube specific
 
 ! ads
+www.youtube.com##ytd-ad-slot-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.badge-shape-wiz--ad)
 
 ! recommend
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
@@ -119,10 +125,10 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:ha
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(Popular videos)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For you)
+www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For You)
 
 ! shorts
-www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Shorts)
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
 
 ! description
@@ -148,8 +154,8 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.
 www.youtube.com##.smartimation__border
 
 ! mix and similar
-www.youtube.com##ytd-rich-item-renderer:has(.lockup)
-www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:has(.yt-lockup-view-model-wiz--collection-stack-2)
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytCollectionThumbnailViewModelHost)
 
 ! posts
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Latest YouTube posts)
@@ -192,6 +198,7 @@ www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !
 ||www.gstatic.com/youtube/img/emojis/emojis-png-*.json
 ||www.youtube.com/s/desktop/*/jsbin/network.vflset/network.js
 ||www.youtube.com/s/desktop/*/jsbin/scheduler.vflset/scheduler.js
+||www.youtube.com/youtubei/v1/log_event$important
 
 ! anilist specific
 
@@ -247,6 +254,188 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 @@/traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com
 /traffic.megaphone.fm/*.mp3^$media,domain=open.spotify.com,urlskip=/(traffic\.megaphone\.fm\/\w+\.mp3)/ +https
 
+! Cookies
+||iubenda.com^$important
+||cookielaw.org^$important
+||inmobi.com^$important
+||privacy-mgmt.com^$important
+||network-n.com^$important
+||consentmanager.net^$important
+||osano.com^$important
+||onetrust.com^$important
+||fundingchoicesmessages.google.com^$important
+||privacymanager.io^$important
+||trustarc.com^$important
+||usercentrics.eu^$important
+||cookiehub.net^$important
+||ketchcdn.com^$important
+||ketchjs.com^$important
+
+! Trackers
+||govisibl.io^$important
+||chartbeat.net^$important
+||chartbeat.com^$important
+||google-analytics.com^$important
+||googleanalytics.com^$important
+||googletagmanager.com^$important
+||googletagservices.com^$important
+||gcprivacy.com^$important
+||gamurs.group^$important
+||atmtd.com^$important
+||sentry.io^$important
+||p-n.io^$important
+||cloudflareinsights.com^$important
+||mirabelsmarketingmanager.com^$important
+||unrulymedia.com^$important
+||mirabelanalytics.com^$important
+||hs-analytics.net^$important
+||hs-scripts.com^$important
+||hubapi.com^$important
+||hscollectedforms.net^$important
+||scorecardresearch.com^$important
+||sharethis.com^$important
+||sharethis.net^$important
+||nr-data.net^$important
+||tru.am^$important
+||datadoghq-browser-agent.com^$important
+||sentry-cdn.com^$important
+||anonymised.io^$important
+||bounceexchange.com^$important
+||bouncex.net^$important
+||wknd.ai^$important
+||visualwebsiteoptimizer.com^$important
+||vwo.com^$important
+||mopinion.com^$important
+||bugsnag.com^$important
+||drift.com^$important
+||luckyorange.com^$important
+||luckyorange.net^$important
+||hicloud.com^$important
+||hotjar.com^$important
+||hotjar.io^$important
+||hotjarians.net^$important
+||drift.com^$important
+||driftapi.com^$important
+||driftt.com^$important
+||getsentry.com^$important
+
+! Ads
+
+||doubleclick.net^$important
+||googlesyndication.com^$important
+||adnxs.com^$important
+||adsafeprotected.com^$important
+||amazon-adsystem.com^$important
+||buysellads.com^$important
+||buysellads.net^$important
+||ad.gt^$important
+||skimresources.com^$important
+||connatix.com^$important
+||clean.gg^$important
+||merequartz.com^$important
+||mediatradecraft.com^$important
+||succeedscene.com^$important
+||perfectfetch.com^$important
+||2mdn.net^$important
+||adroll.com^$important
+||adsrvr.org^$important
+||rubiconproject.com^$important
+||ads.linkedin.com^$important
+||hsadspixel.net^$important
+||hs-banner.com^$important
+||sonobi.com^$important
+||openx.net^$important
+||rlcdn.com^$important
+||adthrive.com^$important
+||bfmio.com^$important
+||ad-delivery.net^$important
+||adforge.io^$important
+||adform.net^$important
+||adsninja.ca^$important
+||avads.net^$important
+||casalemedia.com^$important
+||imasdk.googleapis.com^$important
+||pubnation.com^$important
+||optimizely.com^$important
+||optimizely-cmp-analytics.com^$important
+||wistia.com^$important
+||mktoedge.com^$important
+||moatads.com^$important
+||googleadservices.com^$important
+||doubleverify.com^$important
+||aditude.io^$important
+||adlightning.com^$important
+||kueezrtb.com^$important
+||quantcount.com^$important
+||quantserve.com^$important
+||quantcast.com^$important
+||taboola.com^$important
+||bannersnack.com^$important
+||steadfastsystem.com^$important
+||adsco.re^$important
+||antiadblocksystems.com^$important
+||PopAds.net^$important
+||adcolony.com^$important
+||marketo.com^$important
+||adservice.google.com^$important
+||media.net^$important
+||freshmarketer.com^$important
+||ads-twitter.com^$important
+||12ezo5v60.com^$important
+||ybs2ffs7v.com^$important
+||fvcwqkkqmuv.com^$important
+||playhubconnect.com^$important
+||uoukudzmpuvnre.com^$important
+
+! Newsletters
+||beehiiv.com^$important
+
+! Unknown
+||pbstck.com^$important
+||permutive.app^$important
+
+! Geo/IP
+||ip-api.com^$important
+||geo-location.*.$important
+
+! ads cosmetic filters
+##.adthrive-ad
+##.cp-module-modal_popup
+##div.mv-ad-box
+##.mvp-ad-label
+##.ad-wrapper_300-600
+##div.ad-wrapper
+##.ad-main_300-250
+##div#ad-container
 
 www.youtube.com##.ytd-network-status-banner.style-scope.status-banner
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
+
+
+||accounts.google.com/gsi/$important
+
+||www.gstatic.com/firebasejs/9.23.0/firebase-app.js$script,important
+||www.gstatic.com/firebasejs/9.23.0/firebase-messaging.js$script,important
+
+
+steampowered.com##.cookiepreferences_popup_content
+
+/silversurfer/prod/latest/sdk.js$script,important
+/silversurfer/prod/latest/pathfinder.js$script,important
+||cdn.jsdelivr.net/npm/search-insights@2.2.1$script,important
+||script.wikia.nocookie.net/fandom-ae-assets/odyssey/ad-engine/production/main.js$script,important
+||script.wikia.nocookie.net/fandom-ae-assets/identity-service/latest/index.js$script
+||cdn.jwplayer.com/v2/geo.json$important
+||services.fandom.com/geoip/location$important
+||services.fandom.com/canonical-content/v1/highlight/wiki-article/trending/$important
+www.nytimes.com###fides-overlay
+top.gg##.flex-col.flex.w-full > .css-1h2g9d9
+/favicon_144x144.png$image
+www.destructoid.com##.fEy1Z2XT
+www.destructoid.com##.wp-block-gamurs-ad
+www.destructoid.com##.ad__align
+www.destructoid.com##.DCDOr
+
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
+www.sportskeeda.com##.sk-content-layout-wrapper
+canyoublockit.com###interads
