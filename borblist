@@ -15,13 +15,20 @@ $important,shide,ghide
 
 ||twimg.com/media/$removeparam=name
 
-! websites/widgets i dont need/hate
+! websites/widgets i dont use/hate
 /apple_music_player$subdocument
 ||crunchyroll.com^
 ||appleid.cdn-apple.com^
 ||discord.com/widget$subdocument,important
 ||facebook.com^$important
 ||facebook.net^$important
+||tiktok.com^$important
+||yahoo.com^$important
+||yahoo.net^$important
+||yahoodns.net^$important
+||yahooinc.com^$important
+||widgets.pinterest.com^$important
+||bing.com^$important
 
 ! font blocks
 
@@ -110,6 +117,8 @@ x.com,twitter.com##div.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.
 ! ads
 www.youtube.com##ytd-ad-slot-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.badge-shape-wiz--ad)
+www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-statement-banner-renderer.style-scope)
 
 ! recommend
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
@@ -135,6 +144,7 @@ www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.y
 www.youtube.com###ticket-shelf
 www.youtube.com###structured-description
 www.youtube.com###clarify-box
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
 
 ! unneeded show live chat
 www.youtube.com###teaser-carousel
@@ -270,8 +280,15 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||cookiehub.net^$important
 ||ketchcdn.com^$important
 ||ketchjs.com^$important
+||cookiebot.com^$important
+/clientlib-oneconsent.min.js$script
+||c.go-mpulse.net^
+/consent/*/*.json
+||nitrocnct.com^$important
+||gatekeeperconsent.com^$important
 
-! Trackers
+
+! Trackers/Analytics
 ||govisibl.io^$important
 ||chartbeat.net^$important
 ||chartbeat.com^$important
@@ -318,6 +335,69 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||driftapi.com^$important
 ||driftt.com^$important
 ||getsentry.com^$important
+||analytics.s3.amazonaws.com^$important
+||analyticsengine.s3.amazonaws.com^$important
+||nmetrics.*.$important
+||smetrics.*.$important
+||metrics.*.$important
+||mistat.*.$important
+||analytics.*.$important
+||tracking.*.$important
+-analytics-*.*.$important
+||byteoversea.com^$important
+||mouseflow.com^$important
+||appmetrica.*.$important
+||metrika.*.$important
+||events.reddit*.com^$important
+||iot-*logser.realme.com^$important
+||stats.wp.com^$important
+||trk.pinterest.com^$important
+||log.pinterest.com^$important
+||analytics-api.*.$important
+||2o7.net^$important
+||mc.yandex.com^$important
+||mc.yandex.ru^$important
+||an.yandex.ru^$important
+||ymatuhin.ru^$important
+||d2wy8f7a9ursnm.cloudfront.net^$important
+||click.oneplus.cn^$important
+||open.oneplus.net^$important
+||extmaps-api.yandex.net^$important
+||offerwall.yandex.net^$important
+||fastclick.net^$important
+||hotjar-analytics.com^$important
+||business.samsungusa.com^$important
+||affiliationjs.s3.amazonaws.com^$important
+||d.reddit.com^$important
+||rereddit.com^$important
+||supportmetrics.apple.com^$important
+||securemetrics.apple.com^$important
+||aan.amazon.com^$important
+||ct.pinterest.com^$important
+||amplitude.com^$important
+||bat.bing.com^$important
+||segment.com^$important
+||mixpanel.com^$important
+||mxpnl.com^$important
+||getclicky.com^$important
+||crazyegg.com^$important
+||hsforms.com^$important
+||hsforms.net^$important
+||addthis.com^$important
+||assets.pinterest.com/js/pinit.js$important
+||platform.tumblr.com/v1/share_1.png$important
+||reddit.com/static/button/button1.js^$important
+||platform.linkedin.com/in.js^$important
+||apis.google.com/js/platform.js^$important
+||4dex.io^$important
+||geniuslinkcdn.com^$important
+||acuityplatform.com^$important
+||ensighten.com^$important
+||debugbear.com^$important
+||audioeye.com^$important
+||histats.com^$important
+||contentsquare.net^$important
+||jifo.co^$important
 
 ! Ads
 
@@ -359,6 +439,7 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||optimizely.com^$important
 ||optimizely-cmp-analytics.com^$important
 ||wistia.com^$important
+||wistia.net^$important
 ||mktoedge.com^$important
 ||moatads.com^$important
 ||googleadservices.com^$important
@@ -386,17 +467,105 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||fvcwqkkqmuv.com^$important
 ||playhubconnect.com^$important
 ||uoukudzmpuvnre.com^$important
+||adtago.s3.amazonaws.com^$important
+||advice-ads.s3.amazonaws.com^$important
+||adfox.*.$important
+||adfstat.*.$important
+||api.ad.$important
+||sdkconfig.ad.$important
+.ads.*.$important
+||ads-api.twitter.com^$important
+||unityads.unity3d.com^$important
+||api-adservices.apple.com^$important
+||iadsdk.apple.com^$important
+||samsungads.com^$important
+-ads.*.$important
+||ads.pinterest.com^$important
+||ads.youtube.com^$important
+||adsfs.*.$important
+||advertising-api-eu.amazon.com^$important
+||ads.apple.com^$important
+||advertising.apple.com^$important
+||searchads.apple.com^$important
+advertising.*.$important
+||ads-dev.pinterest.com^$important
+||adsdk.yandex.ru^$important
+||yandexadexchange.net^$important
+||ads.google.com^$important
+||ads.reddit.com^$important
+||adsystem.com^$important
+||adnxs-simple.com^$important
+||pubmatic.com^$important
+||pubmnet.com^$important
+||3lift.com^$important
+||admanmedia.com^$important
+||360yield.com^$important
+||improvedigital.com^$important
+||venatusmedia.com^$important
+||vntsm.com^$important
+||vntsm.io^$important
+||spot.im^$important
+||spotim.market^$important
+||adtelligent.com^$important
+||pubimgs.net^$important
+||agkn.com^$important
+||clickcease.com^$important
+||chilipiper.com^$important
+||pro-market.net^$important
+||owneriq.net^$important
+||demdex.net^$important
+||blogherads.com^$important
+||yieldmo.com^$important
+||anyadx.live^$important
+||bleachbubble.com^$important
+||geoedge.be^$important
+||1rx.io^$important
+||seedtag.com^$important
+||springserve.com^$important
+||anyclip.com^$important
+||snigelweb.com^$important
+||go-mpulse.net^$important
+||greylabeldelivery.com^$important
+||invocacdn.com^$important
+||eloqua.com^$important
+||confiant-integrations.net^$important
+||infogram.com^$important
+||postrelease.com^$important
+||criteo.com^$important
+||pbs.nitropay.com/cookie_sync$important
+||pbs.nitropay.com/openrtb2/auction$important
+||nit.ro^$important
+||cdn.hadronid.net^$important
+
+
+
+
+
 
 ! Newsletters
 ||beehiiv.com^$important
 
+
+
+
 ! Unknown
 ||pbstck.com^$important
 ||permutive.app^$important
+||crwdcntrl.net^$important
+||cq0.co^$important
+||detoxifylagoonsnugness.com^$important
+||nappyonsetstiffness.com^$important
 
-! Geo/IP
+
+! Geo/IP/DNS
 ||ip-api.com^$important
 ||geo-location.*.$important
+||dns-finder.com^$important
+||icanhazip.com^$important
+||ipify.org^$important
+
+
+
 
 ! ads cosmetic filters
 ##.adthrive-ad
@@ -407,6 +576,18 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ##div.ad-wrapper
 ##.ad-main_300-250
 ##div#ad-container
+##.wp-block-gamurs-ad
+###right-rail-atf
+##.adsbygoogle
+##.ad-unit-wrapper
+
+! cookie cosmetic filters
+##.-visible.cc-window
+##.cc-banner
+##.cookie-consent-banner-modal
+###cookie_notice
+
+! random stuff i havent organized yet
 
 www.youtube.com##.ytd-network-status-banner.style-scope.status-banner
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
@@ -414,8 +595,7 @@ www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-me
 
 ||accounts.google.com/gsi/$important
 
-||www.gstatic.com/firebasejs/9.23.0/firebase-app.js$script,important
-||www.gstatic.com/firebasejs/9.23.0/firebase-messaging.js$script,important
+||www.gstatic.com/firebasejs/*/firebase-*.js$script,important
 
 
 steampowered.com##.cookiepreferences_popup_content
@@ -436,6 +616,11 @@ www.destructoid.com##.wp-block-gamurs-ad
 www.destructoid.com##.ad__align
 www.destructoid.com##.DCDOr
 
-www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
 www.sportskeeda.com##.sk-content-layout-wrapper
 canyoublockit.com###interads
+www.reddit.com##.block.relative.promotedlink
+www.reddit.com##div.mt-md
+www.asrock.com###AcceptCookies
+/openweb-tracking.js$script
+/gamurs-id/build/auth/view.js$script
+primagames.com##.DCDOr
