@@ -289,6 +289,10 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||nitrocnct.com^$important
 ||gatekeeperconsent.com^$important
 ||uniconsent.com^$important
+||cookiepro.com^$important
+
+
+
 
 ! Trackers/Analytics
 ||govisibl.io^$important
@@ -562,6 +566,10 @@ advertising.*.$important
 ||atp.fox^$important
 ||cleverads.vn^$important
 ||click.oneplus.com^$important
+||assemblyexchange.com^$important
+||buzzaoutlet.com^$important
+||primis.tech^$important
+||kidpowers.com^$important
 
 
 
@@ -580,7 +588,8 @@ advertising.*.$important
 ||cq0.co^$important
 ||detoxifylagoonsnugness.com^$important
 ||nappyonsetstiffness.com^$important
-
+||1x1.png^$important
+||abc.gif^$important
 
 ! Geo/IP/DNS
 ||ip-api.com^$important
@@ -651,3 +660,7 @@ www.reddit.com##.block.relative.promotedlink
 primagames.com##.DCDOr
 
 www.youtube.com##ytd-reel-shelf-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+||librato-collector.*.com/v1/metrics$important
+genius.com##.hOslRm
+genius.com##.cDxXjA
+genius.com##.dLifTA
