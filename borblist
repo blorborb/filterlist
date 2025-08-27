@@ -29,6 +29,9 @@ $important,shide,ghide
 ||yahooinc.com^$important
 ||widgets.pinterest.com^$important
 ||bing.com^$important
+||disqus.com^$important
+||accounts.google.com/gsi/$important
+##div.mt-md
 
 ! font blocks
 
@@ -133,8 +136,7 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:ha
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Artist mixes for you)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(Popular videos)
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has-text(For You)
+
 
 ! shorts
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Shorts)
@@ -286,7 +288,7 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 /consent/*/*.json
 ||nitrocnct.com^$important
 ||gatekeeperconsent.com^$important
-
+||uniconsent.com^$important
 
 ! Trackers/Analytics
 ||govisibl.io^$important
@@ -329,6 +331,7 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||luckyorange.net^$important
 ||hicloud.com^$important
 ||hotjar.com^$important
+||api-hotjar.com^$important
 ||hotjar.io^$important
 ||hotjarians.net^$important
 ||drift.com^$important
@@ -365,6 +368,7 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||extmaps-api.yandex.net^$important
 ||offerwall.yandex.net^$important
 ||fastclick.net^$important
+||fastclick.com^$important
 ||hotjar-analytics.com^$important
 ||business.samsungusa.com^$important
 ||affiliationjs.s3.amazonaws.com^$important
@@ -398,6 +402,16 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||histats.com^$important
 ||contentsquare.net^$important
 ||jifo.co^$important
+||fastlyanalytics.map.fastly.net^$important
+||fastly-insights.com^$important
+||improving.duckduckgo.com^$important
+||realtimely.io^$important
+||darkvisitors.com^$important
+
+
+
+
+
 
 ! Ads
 
@@ -536,7 +550,18 @@ advertising.*.$important
 ||pbs.nitropay.com/openrtb2/auction$important
 ||nit.ro^$important
 ||cdn.hadronid.net^$important
-
+||braze.com^$important
+||outbrain.org^$important
+||amazonaax.com^$important
+||amazonclix.com^$important
+||outbrain.com^$important
+||zipthelake.com^$important
+||fox.com^$important
+||foxnews.com^$important
+||kts.fox^$important
+||atp.fox^$important
+||cleverads.vn^$important
+||click.oneplus.com^$important
 
 
 
@@ -580,20 +605,21 @@ advertising.*.$important
 ###right-rail-atf
 ##.adsbygoogle
 ##.ad-unit-wrapper
+##.advert
+##.content-ad
+##.top_leaderboard-odyssey-wrapper
 
 ! cookie cosmetic filters
 ##.-visible.cc-window
 ##.cc-banner
 ##.cookie-consent-banner-modal
 ###cookie_notice
+###AcceptCookies
 
 ! random stuff i havent organized yet
 
 www.youtube.com##.ytd-network-status-banner.style-scope.status-banner
 www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
-
-
-||accounts.google.com/gsi/$important
 
 ||www.gstatic.com/firebasejs/*/firebase-*.js$script,important
 
@@ -619,8 +645,9 @@ www.destructoid.com##.DCDOr
 www.sportskeeda.com##.sk-content-layout-wrapper
 canyoublockit.com###interads
 www.reddit.com##.block.relative.promotedlink
-www.reddit.com##div.mt-md
-www.asrock.com###AcceptCookies
+
 /openweb-tracking.js$script
 /gamurs-id/build/auth/view.js$script
 primagames.com##.DCDOr
+
+www.youtube.com##ytd-reel-shelf-renderer.ytd-watch-next-secondary-results-renderer.style-scope
