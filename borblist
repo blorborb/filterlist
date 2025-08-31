@@ -6,6 +6,12 @@
 ||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
 ||www.youtube.com/$replace=/"adSlots"/"no_ads"/
 
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, /\/player(?:\?.+)?$/)
+www.youtube.com##+js(trusted-replace-fetch-response, '"adPlacements"', '"no_ads"', player?)
+www.youtube.com##+js(trusted-replace-fetch-response, '"adSlots"', '"no_ads"', player?)
+
+
 ! applies to everything
 
 $important,script,redirect-rule=empty
@@ -15,7 +21,7 @@ $important,shide,ghide
 
 ||twimg.com/media/$removeparam=name
 
-! websites/widgets i dont use/hate
+! random stuff i dont use/hate
 /apple_music_player$subdocument
 ||crunchyroll.com^
 ||appleid.cdn-apple.com^
@@ -32,6 +38,7 @@ $important,shide,ghide
 ||disqus.com^$important
 ||accounts.google.com/gsi/$important
 ##div.mt-md
+/favicon_144x144.png$image
 
 ! font blocks
 
@@ -137,10 +144,10 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:ha
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
 
-
 ! shorts
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Shorts)
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
+www.youtube.com##ytd-reel-shelf-renderer.ytd-watch-next-secondary-results-renderer.style-scope
 
 ! description
 www.youtube.com###ticket-shelf
@@ -184,6 +191,10 @@ www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-ypc.
 
 ! stupid youtube
 www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
+
+! i forgor
+www.youtube.com##.ytd-network-status-banner.style-scope.status-banner
+www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
 
 ! youtube network filters
 
@@ -290,7 +301,7 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||gatekeeperconsent.com^$important
 ||uniconsent.com^$important
 ||cookiepro.com^$important
-
+||cookiebot.eu^$important
 
 
 
@@ -411,10 +422,11 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 ||improving.duckduckgo.com^$important
 ||realtimely.io^$important
 ||darkvisitors.com^$important
-
-
-
-
+||sentinelpro.com^$important
+||siteimproveanalytics.com^$important
+||simpleanalyticscdn.com^$important
+/openweb-tracking.js$script
+/gamurs-id/build/auth/view.js$script
 
 
 ! Ads
@@ -570,6 +582,16 @@ advertising.*.$important
 ||buzzaoutlet.com^$important
 ||primis.tech^$important
 ||kidpowers.com^$important
+||anymind360.com^$important
+||sp-gn.com^$important
+||smartadserver.com^$important
+||adkernel.com^$important
+||carambo.la^$important
+||monu.delivery^$important
+||pixel.watch^$important
+||playbuzz.com^$important
+||udmserve.net^$important
+
 
 
 
@@ -590,6 +612,7 @@ advertising.*.$important
 ||nappyonsetstiffness.com^$important
 ||1x1.png^$important
 ||abc.gif^$important
+||librato-collector.*.com/v1/metrics$important
 
 ! Geo/IP/DNS
 ||ip-api.com^$important
@@ -617,6 +640,10 @@ advertising.*.$important
 ##.advert
 ##.content-ad
 ##.top_leaderboard-odyssey-wrapper
+###interads
+##.ad__align
+##.wp-block-gamurs-ad
+##.DCDOr
 
 ! cookie cosmetic filters
 ##.-visible.cc-window
@@ -624,16 +651,12 @@ advertising.*.$important
 ##.cookie-consent-banner-modal
 ###cookie_notice
 ###AcceptCookies
+###cookieChoiceInfo
+##.cookiepreferences_popup_content
 
 ! random stuff i havent organized yet
 
-www.youtube.com##.ytd-network-status-banner.style-scope.status-banner
-www.youtube.com##.ytd-metadata-row-container-renderer.style-scope > .ytd-rich-metadata-row-renderer.style-scope
-
 ||www.gstatic.com/firebasejs/*/firebase-*.js$script,important
-
-
-steampowered.com##.cookiepreferences_popup_content
 
 /silversurfer/prod/latest/sdk.js$script,important
 /silversurfer/prod/latest/pathfinder.js$script,important
@@ -643,24 +666,14 @@ steampowered.com##.cookiepreferences_popup_content
 ||cdn.jwplayer.com/v2/geo.json$important
 ||services.fandom.com/geoip/location$important
 ||services.fandom.com/canonical-content/v1/highlight/wiki-article/trending/$important
-www.nytimes.com###fides-overlay
-top.gg##.flex-col.flex.w-full > .css-1h2g9d9
-/favicon_144x144.png$image
-www.destructoid.com##.fEy1Z2XT
-www.destructoid.com##.wp-block-gamurs-ad
-www.destructoid.com##.ad__align
-www.destructoid.com##.DCDOr
 
-www.sportskeeda.com##.sk-content-layout-wrapper
-canyoublockit.com###interads
+top.gg##.flex-col.flex.w-full > .css-1h2g9d9
+
+www.destructoid.com##.fEy1Z2XT
+
+
 www.reddit.com##.block.relative.promotedlink
 
-/openweb-tracking.js$script
-/gamurs-id/build/auth/view.js$script
-primagames.com##.DCDOr
-
-www.youtube.com##ytd-reel-shelf-renderer.ytd-watch-next-secondary-results-renderer.style-scope
-||librato-collector.*.com/v1/metrics$important
 genius.com##.hOslRm
 genius.com##.cDxXjA
 genius.com##.dLifTA
