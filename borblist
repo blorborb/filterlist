@@ -42,7 +42,7 @@ $important,shide,ghide
 ||paramount.com^$important
 ||cbsi.com^$important
 ||www.google.com/coop/cse/brand$script,important
-
+||pinterest.com^
 
 ! font blocks
 
@@ -130,11 +130,17 @@ x.com,twitter.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-xyw6el.r-18u37iz.r-h
 
 ! youtube specific
 
+! masthead
+www.youtube.com###voice-search-button
+www.youtube.com##ytd-button-renderer.ytd-masthead.style-scope:has-text(Create)
+www.youtube.com###country-code
+
 ! ads
 www.youtube.com##ytd-search-pyv-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-statement-banner-renderer.style-scope)
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(#fulfilled-layout)
 www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
+www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-ad-slot-renderer.style-scope
 
 ! recommend
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
@@ -150,6 +156,8 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:ha
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Explore more)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(People also watched)
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has(#title:has-text(For you))
+www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(People also search for)
+www.youtube.com###secondary.ytd-two-column-search-results-renderer.style-scope
 
 ! shorts
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Shorts)
@@ -161,13 +169,16 @@ www.youtube.com###ticket-shelf
 www.youtube.com###structured-description
 www.youtube.com###clarify-box
 www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
+www.youtube.com###expandable-metadata
 
 ! unneeded show live chat
 www.youtube.com###teaser-carousel
 www.youtube.com###chat-container:has-text(Chat Replay has been disabled for this Premiere.)
 
-! miniplayer
+! player
 www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com##.ytp-autonav-toggle.ytp-button
+www.youtube.com##.sponsorblock-chapter-visible.ytp-chapter-container > .ytp-button.ytp-chapter-title > .ytp-chapter-title-chevron
 
 ! pip
 www.youtube.com##.ytp-button.ytp-pip-button
@@ -183,6 +194,7 @@ www.youtube.com##.smartimation__border
 ! mix and similar
 www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
 www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytCollectionThumbnailViewModelHost)
+www.youtube.com##.lockup.ytd-item-section-renderer:has(.yt-lockup-view-model--collection-stack-2.yt-lockup-view-model--horizontal.yt-lockup-view-model)
 
 ! posts
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Latest YouTube posts)
@@ -269,6 +281,9 @@ pass.proton.me##.py-2.px-4.pass-notification--portal:has-text(premium)
 pass.proton.me##.text-ellipsis.text-sm.items-center.gap-1.flex-nowrap.flex:has-text(Upgrade)
 mail.proton.me##.modal-two:has(.offer-modal)
 mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
+
+! reddit
+www.reddit.com##.block.relative.promotedlink
 
 ! spotify network filters
 
@@ -441,7 +456,8 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 /html2canvas.min.js$script,important
 /tealium-utag-set.js$script,important
 ||librato-collector.*.com/v1/metrics$important
-
+||substack.com^$important
+||t.co^$important
 
 ! Ads
 
@@ -577,8 +593,6 @@ advertising.*.$important
 ||infogram.com^$important
 ||postrelease.com^$important
 ||criteo.com^$important
-||pbs.nitropay.com/cookie_sync$important
-||pbs.nitropay.com/openrtb2/auction$important
 ||nit.ro^$important
 ||cdn.hadronid.net^$important
 ||braze.com^$important
@@ -620,12 +634,14 @@ advertising.*.$important
 ||vlitag.com^$important
 ||ethicalads.io^$important
 ||endowmentoverhangutmost.com^$important
-
+||aniview.com^$important
+||nitropay.com^$important
 
 ! Newsletters
 ||beehiiv.com^$important
 
 ! Unknown
+||site-config.com^$important
 
 ! Geo/IP/DNS
 ||ip-api.com^$important
@@ -682,8 +698,6 @@ advertising.*.$important
 top.gg##.flex-col.flex.w-full > .css-1h2g9d9
 
 www.destructoid.com##.fEy1Z2XT
-
-www.reddit.com##.block.relative.promotedlink
 
 genius.com##.hOslRm
 genius.com##.cDxXjA
