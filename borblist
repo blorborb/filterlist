@@ -142,7 +142,7 @@ www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(#
 www.youtube.com###masthead-ad > .ytd-rich-grid-renderer.style-scope
 www.youtube.com##.ytd-item-section-renderer.style-scope > .ytd-ad-slot-renderer.style-scope
 
-! recommend
+! recommendations
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(Previously watched)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(From related searches)
 www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-text(From health sources)
@@ -158,6 +158,7 @@ www.youtube.com##ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has-te
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has(#title:has-text(For you))
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(People also search for)
 www.youtube.com###secondary.ytd-two-column-search-results-renderer.style-scope
+www.youtube.com##.ytLockupAttachmentsViewModelHost:has-text(recommendation)
 
 ! shorts
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Shorts)
@@ -350,6 +351,9 @@ www.reddit.com##.block.relative.promotedlink
 ||hs-scripts.com^$important
 ||hubapi.com^$important
 ||hscollectedforms.net^$important
+||hsappstatic.net^$important
+||hubspot.com^
+||usemessages.com^$important
 ||scorecardresearch.com^$important
 ||sharethis.com^$important
 ||sharethis.net^$important
@@ -455,9 +459,17 @@ www.reddit.com##.block.relative.promotedlink
 ||tiqcdn.com^$important
 /html2canvas.min.js$script,important
 /tealium-utag-set.js$script,important
-||librato-collector.*.com/v1/metrics$important
+||librato-collector.*.$important
+||collector-api.*.$important
 ||substack.com^$important
-||t.co^$important
+||grow.me^$important
+||errortrace.dev^$important
+||bbb.org^$important
+||addtoany.com^$important
+/kl-identify-browser.js$script,important
+||do-not-tracker.org^$important
+||eviltracker.net^$important
+||trackersimulator.org^$important
 
 ! Ads
 
@@ -593,6 +605,7 @@ advertising.*.$important
 ||infogram.com^$important
 ||postrelease.com^$important
 ||criteo.com^$important
+||criteo.net^$important
 ||nit.ro^$important
 ||cdn.hadronid.net^$important
 ||braze.com^$important
@@ -636,12 +649,23 @@ advertising.*.$important
 ||endowmentoverhangutmost.com^$important
 ||aniview.com^$important
 ||nitropay.com^$important
+||onesignal.com^$important
+||ads-pixiv.net^$important
+||klaviyo.com^$important
+||metricool.com^$important
+||carbonads.com^$important
+||trafficjunky.com^$important
+||trafficjunky.net^$important
+||ezodn.com^$important
+||ezoic.net^$important
+||ezojs.com^$important
+||spellknight.com^$important
+||fearlessfaucet.com^$important
+||passivepolo.com^$important
 
 ! Newsletters
 ||beehiiv.com^$important
-
-! Unknown
-||site-config.com^$important
+||getdrip.com^$important
 
 ! Geo/IP/DNS
 ||ip-api.com^$important
@@ -649,6 +673,19 @@ advertising.*.$important
 ||dns-finder.com^$important
 ||icanhazip.com^$important
 ||ipify.org^$important
+||localfluence.com^$important
+||ripe.net^$important
+
+! antiadblock
+||b-cdn.net/wp-includes/js/jquery/$script,important
+||site-config.com^$important
+||config-factory.com^$important
+
+! accesibility
+||userway.org^
+
+! customer service
+||frontapp.com^$important
 
 ! ads cosmetic filters
 ##.adthrive-ad
@@ -681,6 +718,7 @@ advertising.*.$important
 ##.cookiepreferences_popup_content
 ##.MuiDialog-root.MuiModal-root
 ##.-cookies
+###cookieBanner
 
 ! random stuff i havent organized yet
 
@@ -702,3 +740,12 @@ www.destructoid.com##.fEy1Z2XT
 genius.com##.hOslRm
 genius.com##.cDxXjA
 genius.com##.dLifTA
+
+##.aelzmn
+
+www.pixiv.net##.bulkgs
+www.pixiv.net##.brYVEK
+www.pixiv.net##.dSaFTx.cxsjmo
+
+||html-load.com/loader.min.js
+*$csp=script-src-attr 'none'
