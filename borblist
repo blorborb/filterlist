@@ -327,8 +327,8 @@ www.reddit.com##.block.relative.promotedlink
 ||uniconsent.com^$important
 ||cookiepro.com^$important
 ||cookiebot.eu^$important
-
-
+||cookieyes.com^$important
+||cdn-cookieyes.com^$important
 
 ! Trackers/Analytics
 ||govisibl.io^$important
@@ -470,6 +470,10 @@ www.reddit.com##.block.relative.promotedlink
 ||do-not-tracker.org^$important
 ||eviltracker.net^$important
 ||trackersimulator.org^$important
+||xenforo.com^$important
+||clickagy.com^$important
+||alive.github.com^$important
+||collector.github.com^$important
 
 ! Ads
 
@@ -662,6 +666,13 @@ advertising.*.$important
 ||spellknight.com^$important
 ||fearlessfaucet.com^$important
 ||passivepolo.com^$important
+||futurecdn.net^$important
+||influ2.com^$important
+||sitescout.com^$important
+||zoominfo.com^$important
+||zi-scripts.com^$important
+||playwire.com^$important
+||intergient.com^$important
 
 ! Newsletters
 ||beehiiv.com^$important
@@ -707,6 +718,8 @@ advertising.*.$important
 ##.ad__align
 ##.wp-block-gamurs-ad
 ##.DCDOr
+##.jwplayer
+##.mon-holder
 
 ! cookie cosmetic filters
 ##.-visible.cc-window
@@ -733,7 +746,7 @@ advertising.*.$important
 ||services.fandom.com/geoip/location$important
 ||services.fandom.com/canonical-content/v1/highlight/wiki-article/trending/$important
 
-top.gg##.flex-col.flex.w-full > .css-1h2g9d9
+top.gg##.flex-col.flex.w-full > .w-full.gap-2.p-2.self-center.\!border-ui\/10.\!border.rounded-sm.justify-center.items-center.flex-col.flex
 
 www.destructoid.com##.fEy1Z2XT
 
@@ -746,6 +759,3 @@ genius.com##.dLifTA
 www.pixiv.net##.bulkgs
 www.pixiv.net##.brYVEK
 www.pixiv.net##.dSaFTx.cxsjmo
-
-||html-load.com/loader.min.js
-*$csp=script-src-attr 'none'
