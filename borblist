@@ -43,6 +43,8 @@ $important,shide,ghide
 ||cbsi.com^$important
 ||www.google.com/coop/cse/brand$script,important
 ||pinterest.com^
+||www.redditstatic.com/shreddit/qr-code-persistent-button-upsell-client-css-*.css$stylesheet
+/google-one-tap-client*.css$stylesheet
 
 ! font blocks
 
@@ -159,6 +161,7 @@ www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope
 www.youtube.com##ytd-horizontal-card-list-renderer.ytd-item-section-renderer.style-scope:has-text(People also search for)
 www.youtube.com###secondary.ytd-two-column-search-results-renderer.style-scope
 www.youtube.com##.ytLockupAttachmentsViewModelHost:has-text(recommendation)
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Top music videos in your region)
 
 ! shorts
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(Shorts)
@@ -329,6 +332,7 @@ www.reddit.com##.block.relative.promotedlink
 ||cookiebot.eu^$important
 ||cookieyes.com^$important
 ||cdn-cookieyes.com^$important
+/consent-banner$xhr
 
 ! Trackers/Analytics
 ||govisibl.io^$important
@@ -475,6 +479,11 @@ www.reddit.com##.block.relative.promotedlink
 ||alive.github.com^$important
 ||collector.github.com^$important
 ||perfops.net^$important
+||edigitalsurvey.com^$important
+||permutive.com^$important
+||mybbc-analytics.files.bbci.co.uk^$important
+*reporting-api.app^$xhr,important
+||dotmetrics.net^$important
 
 ! Ads
 
@@ -674,6 +683,11 @@ advertising.*.$important
 ||zi-scripts.com^$important
 ||playwire.com^$important
 ||intergient.com^$important
+||ampproject.org/*ads*.js^$important
+||servedby-buysellads.com^$important
+||the-ozone-project.com^$important
+/dotcom-*.js$script,important
+/smp-ads-plugin-toucan.js$script,important
 
 ! Newsletters
 ||beehiiv.com^$important
@@ -687,6 +701,8 @@ advertising.*.$important
 ||ipify.org^$important
 ||localfluence.com^$important
 ||ripe.net^$important
+/geotarget-public.js$script
+/geotarget-public.css$stylesheet
 
 ! antiadblock
 ||b-cdn.net/wp-includes/js/jquery/$script,important
@@ -698,6 +714,9 @@ advertising.*.$important
 
 ! customer service
 ||frontapp.com^$important
+
+! unknown
+||idcta.api.bbc.com^$important
 
 ! ads cosmetic filters
 ##.adthrive-ad
@@ -721,6 +740,12 @@ advertising.*.$important
 ##.DCDOr
 ##.jwplayer
 ##.mon-holder
+##.taboola
+##.nuk-ad-placeholder
+##.advert-wrapper--placeholder
+##.billboard
+##.breaker-ad
+##.vertical-ad
 
 ! cookie cosmetic filters
 ##.-visible.cc-window
@@ -730,9 +755,10 @@ advertising.*.$important
 ###AcceptCookies
 ###cookieChoiceInfo
 ##.cookiepreferences_popup_content
-##.MuiDialog-root.MuiModal-root
+
 ##.-cookies
 ###cookieBanner
+##.notice--cookie
 
 ! random stuff i havent organized yet
 
@@ -760,3 +786,7 @@ genius.com##.dLifTA
 www.pixiv.net##.bulkgs
 www.pixiv.net##.brYVEK
 www.pixiv.net##.dSaFTx.cxsjmo
+
+/ddslick.js$script,important
+
+www.reddit.com##shreddit-async-loader > .nd\:hidden
