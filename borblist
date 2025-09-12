@@ -755,7 +755,6 @@ advertising.*.$important
 ###AcceptCookies
 ###cookieChoiceInfo
 ##.cookiepreferences_popup_content
-
 ##.-cookies
 ###cookieBanner
 ##.notice--cookie
