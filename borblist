@@ -6,12 +6,6 @@
 ||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
 ||www.youtube.com/$replace=/"adSlots"/"no_ads"/
 
-www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|\/player(?:\?.+)?$|watch\?[tv]=/)
-www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, /\/player(?:\?.+)?$/)
-www.youtube.com##+js(trusted-replace-fetch-response, '"adPlacements"', '"no_ads"', player?)
-www.youtube.com##+js(trusted-replace-fetch-response, '"adSlots"', '"no_ads"', player?)
-
-
 ! applies to everything
 
 $important,script,redirect-rule=empty
@@ -484,6 +478,11 @@ www.reddit.com##.block.relative.promotedlink
 ||mybbc-analytics.files.bbci.co.uk^$important
 *reporting-api.app^$xhr,important
 ||dotmetrics.net^$important
+||siftscience.com^$important
+||sprig.com^$important
+||statcounter.com^$important
+||statcounter.io^$important
+||devomatik.com^$important
 
 ! Ads
 
@@ -688,6 +687,7 @@ advertising.*.$important
 ||the-ozone-project.com^$important
 /dotcom-*.js$script,important
 /smp-ads-plugin-toucan.js$script,important
+||jkiaiboyfwgpiv.xyz$important
 
 ! Newsletters
 ||beehiiv.com^$important
@@ -717,6 +717,7 @@ advertising.*.$important
 
 ! unknown
 ||idcta.api.bbc.com^$important
+||aistekso.net^$important
 
 ! ads cosmetic filters
 ##.adthrive-ad
@@ -738,7 +739,6 @@ advertising.*.$important
 ##.ad__align
 ##.wp-block-gamurs-ad
 ##.DCDOr
-##.jwplayer
 ##.mon-holder
 ##.taboola
 ##.nuk-ad-placeholder
@@ -785,7 +785,5 @@ genius.com##.dLifTA
 www.pixiv.net##.bulkgs
 www.pixiv.net##.brYVEK
 www.pixiv.net##.dSaFTx.cxsjmo
-
-/ddslick.js$script,important
-
-www.reddit.com##shreddit-async-loader > .nd\:hidden
+www.reddit.com##.promotedlink
+www.reddit.com##.rpl-dialog
