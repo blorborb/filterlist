@@ -3,8 +3,8 @@
 ! Expires: 1 day
 
 ! trusted
-||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
-||www.youtube.com/$replace=/"adSlots"/"no_ads"/
+!||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
+!||www.youtube.com/$replace=/"adSlots"/"no_ads"/
 
 ! applies to everything
 
@@ -758,6 +758,7 @@ advertising.*.$important
 ##.-cookies
 ###cookieBanner
 ##.notice--cookie
+##.v-snack
 
 ! random stuff i havent organized yet
 
@@ -787,3 +788,5 @@ www.pixiv.net##.brYVEK
 www.pixiv.net##.dSaFTx.cxsjmo
 www.reddit.com##.promotedlink
 www.reddit.com##.rpl-dialog
+/perfecty-push-notifications/public/*/perfecty-push-public.$important
+/perfecty-push-sdk.min.js$important
