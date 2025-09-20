@@ -123,6 +123,19 @@ x.com,twitter.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-xyw6el.r-18u37iz.r-h
 ||abs.twimg.com/responsive-web/client-web/node_modules_x-clients_features_messages_en_json.
 ||abs.twimg.com/responsive-web/client-web/loader.AudioDock.
 ||abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer-
+||abs.twimg.com/responsive-web/client-web/loader.PremiumLoaders.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~bundle.GrokDrawer~bundle.Grok.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/loader.Dock.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.News~bundle.Grok~ondemand.News~bundle.Ocf~ondemand.Insights~bundle.TV~l.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/loader.NewsSidebar.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~loader.Spacebar~loader.SidebarSpacebar.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/loader.SidebarSpacebar.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~bundle.GrokDrawer~bundle.Grok~loader.Markdown.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.News~bundle.Grok~bundle.Payments~ondemand.News~ondemand.Insights~loader.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~bundle.Grok~loader.Markdown.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~bundle.TwitterArticles~bundle.Grok~loader.Markdown.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~bundle.TwitterArticles~bundle.Grok~loader.Markdown~loader.TexBlock.*.js$script,important
+||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.News~bundle.Grok~ondemand.News~ondemand.Insights~loader.ExploreNews~loa.*.js$script,important
 
 ! youtube specific
 
@@ -207,6 +220,7 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:ha
 ! donate
 www.youtube.com###donation-shelf
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-ypc.badge:has-text(Fundraiser)
+www.youtube.com##yt-lockup-view-model.yt-lockup-view-model--wrapper.lockup.ytd-item-section-renderer:has(.yt-badge-shape--commerce.yt-badge-shape)
 
 ! stupid youtube
 www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
@@ -261,6 +275,14 @@ fandom.com##.global-footer
 ! fandom network filters
 
 ||fandom.com/wikia.php?controller=GlobalExploreNavApiController
+/silversurfer/prod/latest/sdk.js$script,important
+/silversurfer/prod/latest/pathfinder.js$script,important
+||cdn.jsdelivr.net/npm/search-insights@2.2.1$script,important
+||script.wikia.nocookie.net/fandom-ae-assets/odyssey/ad-engine/production/main.js$script,important
+||script.wikia.nocookie.net/fandom-ae-assets/identity-service/latest/index.js$script
+||cdn.jwplayer.com/v2/geo.json$important
+||services.fandom.com/geoip/location$important
+||services.fandom.com/canonical-content/v1/highlight/wiki-article/trending/$important
 
 ! github specific
 
@@ -688,6 +710,7 @@ advertising.*.$important
 /dotcom-*.js$script,important
 /smp-ads-plugin-toucan.js$script,important
 ||jkiaiboyfwgpiv.xyz$important
+/reactAds.*-*.js
 
 ! Newsletters
 ||beehiiv.com^$important
@@ -714,6 +737,10 @@ advertising.*.$important
 
 ! customer service
 ||frontapp.com^$important
+
+! push notifications
+/perfecty-push-notifications/public/*/perfecty-push-public.$important
+/perfecty-push-sdk.min.js$important
 
 ! unknown
 ||idcta.api.bbc.com^$important
@@ -764,29 +791,4 @@ advertising.*.$important
 
 ||www.gstatic.com/firebasejs/*/firebase-*.js$script,important
 
-/silversurfer/prod/latest/sdk.js$script,important
-/silversurfer/prod/latest/pathfinder.js$script,important
-||cdn.jsdelivr.net/npm/search-insights@2.2.1$script,important
-||script.wikia.nocookie.net/fandom-ae-assets/odyssey/ad-engine/production/main.js$script,important
-||script.wikia.nocookie.net/fandom-ae-assets/identity-service/latest/index.js$script
-||cdn.jwplayer.com/v2/geo.json$important
-||services.fandom.com/geoip/location$important
-||services.fandom.com/canonical-content/v1/highlight/wiki-article/trending/$important
-
 top.gg##.flex-col.flex.w-full > .w-full.gap-2.p-2.self-center.\!border-ui\/10.\!border.rounded-sm.justify-center.items-center.flex-col.flex
-
-www.destructoid.com##.fEy1Z2XT
-
-genius.com##.hOslRm
-genius.com##.cDxXjA
-genius.com##.dLifTA
-
-##.aelzmn
-
-www.pixiv.net##.bulkgs
-www.pixiv.net##.brYVEK
-www.pixiv.net##.dSaFTx.cxsjmo
-www.reddit.com##.promotedlink
-www.reddit.com##.rpl-dialog
-/perfecty-push-notifications/public/*/perfecty-push-public.$important
-/perfecty-push-sdk.min.js$important
