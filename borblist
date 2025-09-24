@@ -3,8 +3,8 @@
 ! Expires: 1 day
 
 ! trusted
-!||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
-!||www.youtube.com/$replace=/"adSlots"/"no_ads"/
+||www.youtube.com/$replace=/"adPlacements"/"no_ads"/
+||www.youtube.com/$replace=/"adSlots"/"no_ads"/
 
 ! applies to everything
 
@@ -13,6 +13,7 @@ $important,shide,ghide
 
 ! removeparams
 
+! make twitter images display in full resolution (uses more memory and data)
 ||twimg.com/media/$removeparam=name
 
 ! random stuff i dont use/hate
@@ -126,7 +127,6 @@ x.com,twitter.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-xyw6el.r-18u37iz.r-h
 ||abs.twimg.com/responsive-web/client-web/loader.PremiumLoaders.*.js$script,important
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.GrokDrawer~bundle.Grok.*.js$script,important
 ||abs.twimg.com/responsive-web/client-web/loader.Dock.*.js$script,important
-||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.News~bundle.Grok~ondemand.News~bundle.Ocf~ondemand.Insights~bundle.TV~l.*.js$script,important
 ||abs.twimg.com/responsive-web/client-web/loader.NewsSidebar.*.js$script,important
 ||abs.twimg.com/responsive-web/client-web/shared~loader.Spacebar~loader.SidebarSpacebar.*.js$script,important
 ||abs.twimg.com/responsive-web/client-web/loader.SidebarSpacebar.*.js$script,important
@@ -136,6 +136,7 @@ x.com,twitter.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-xyw6el.r-18u37iz.r-h
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.TwitterArticles~bundle.Grok~loader.Markdown.*.js$script,important
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.TwitterArticles~bundle.Grok~loader.Markdown~loader.TexBlock.*.js$script,important
 ||abs.twimg.com/responsive-web/client-web/shared~bundle.AccountAnalytics~bundle.News~bundle.Grok~ondemand.News~ondemand.Insights~loader.ExploreNews~loa.*.js$script,important
+||twitter.com/i/api/graphql/*/CommunitiesFetchOneQuery$important
 
 ! youtube specific
 
@@ -212,17 +213,17 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:ha
 www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:has(#title:has-text(Posts))
 
 ! ai
-www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytd-rich-grid-media.style-scope.video-badge:has-text(Auto-dubbed))
+www.youtube.com##ytd-rich-item-renderer.ytd-rich-grid-renderer.style-scope:has(.ytBadgeViewModelHost:has-text(Auto-dubbed))
 
 ! survey
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:has-text(What did you think of this video?)
 
-! donate
+! donate/members
 www.youtube.com###donation-shelf
 www.youtube.com##.ytd-badge-supported-renderer.style-scope.badge-style-type-ypc.badge:has-text(Fundraiser)
 www.youtube.com##yt-lockup-view-model.yt-lockup-view-model--wrapper.lockup.ytd-item-section-renderer:has(.yt-badge-shape--commerce.yt-badge-shape)
 
-! stupid youtube
+! revert 3 items per row
 www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
 
 ! i forgor
@@ -304,6 +305,9 @@ mail.proton.me##.modal-two-backdrop--in.modal-two-backdrop
 
 ! reddit
 www.reddit.com##.block.relative.promotedlink
+
+! genius
+genius.com##[data-exclude-from-selection="true"]:has([id="div-gpt-ad-desktop_song_lyrics_inread-desktop_song_lyrics_inread-1"])
 
 ! spotify network filters
 
@@ -746,6 +750,22 @@ advertising.*.$important
 ||idcta.api.bbc.com^$important
 ||aistekso.net^$important
 
+! paywall
+||tinypass.com^$script,important
+
+! -pa google
+||appsgrowthpromo-pa.clients6.google.com^$important
+||ogads-pa.clients6.google.com^$important
+
+! favicon
+/favicon/*x*.png$image,important
+/icon-*x*.png$image,important
+/apple-touch-icon.png$image,important
+
+! make browserleaks think you have a lot of content filters
+||s_a_f_e..0verflow.$important
+||browserleaks.com/img/proxy-*.gif$important
+
 ! ads cosmetic filters
 ##.adthrive-ad
 ##.cp-module-modal_popup
@@ -786,6 +806,11 @@ advertising.*.$important
 ###cookieBanner
 ##.notice--cookie
 ##.v-snack
+###cookie-banner
+##.cky-consent-bar
+##.moz-consent-banner-content
+##.cookie-warning-banner-view
+###myCookieConsent
 
 ! random stuff i havent organized yet
 
