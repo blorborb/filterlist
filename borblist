@@ -86,10 +86,11 @@ x.com,twitter.com##.r-1loqt21.r-16dba41.r-rjixqe.r-1inkyih.r-37j5jr.r-qvutc0.r-1
 x.com,twitter.com##.r-1ye8kvj.r-13qz1uu.r-f8sm7e.r-3o4zer.r-dd0y9b.r-1777fci.r-16y2uox.r-1awozwy.css-175oi2r
 x.com,twitter.com##.r-1s2bzr4.r-9aw3ui.css-175oi2r:has-text(Ask Grok yourself)
 x.com,twitter.com##a.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.r-18u37iz.css-175oi2r:has-text(Add/remove)
+x.com,twitter.com##a.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.r-18u37iz.css-175oi2r:has-text(Search @)
 x.com,twitter.com##div.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.r-18u37iz.r-1loqt21.css-175oi2r:has-text(Follow @)
 x.com,twitter.com##div.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.r-18u37iz.r-1loqt21.css-175oi2r:has-text(Mute)
+x.com,twitter.com##div.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.r-18u37iz.r-1loqt21.css-175oi2r:has-text(This post)
 x.com,twitter.com##div.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.r-18u37iz.r-1loqt21.css-175oi2r:has-text(Not interested in this post)
-x.com,twitter.com##a.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-13qz1uu.r-3pj75a.r-1mmae3n.r-18u37iz.css-175oi2r:has-text(Search @)
 x.com,twitter.com##.r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-xyw6el.r-18u37iz.r-hv52eu.r-z2wwpe.r-g2wdr4.r-1awozwy.css-175oi2r:has(.r-tuq35u.r-ogg1b9.r-n6v787.r-jwli3a.r-sdzlij.r-l5o3uw.r-1kihuf0.r-m6rgpd.r-lrvibr.r-bnwqim.r-dnmrzs.r-1xvli5t.r-yyyyoo.r-4qtqp9)
 
 ! twitter network filters
@@ -509,6 +510,14 @@ genius.com##[data-exclude-from-selection="true"]:has([id="div-gpt-ad-desktop_son
 ||statcounter.com^$important
 ||statcounter.io^$important
 ||devomatik.com^$important
+||shakebugs.com^$important
+||analyze*.*.com/js/script.manual.js$script
+||launchdarkly.com^$important
+/auth/identity/status$xhr,important
+||ghostboard.io^$important
+/analytics/api/v1/page_hit$xhr,important
+||cdn.jsdelivr.net/ghost/portal@~*/umd/portal.min.js$script,important
+/ghost-stats.min.js$script,important
 
 ! Ads
 
@@ -713,12 +722,16 @@ advertising.*.$important
 ||the-ozone-project.com^$important
 /dotcom-*.js$script,important
 /smp-ads-plugin-toucan.js$script,important
-||jkiaiboyfwgpiv.xyz$important
-/reactAds.*-*.js
+||jkiaiboyfwgpiv.xyz^$important
+/reactAds.*-*.js^$important
+||advoncommerce.com^$important
+/promo/next/mural/*
+/ads-code/*.js$script,important
 
 ! Newsletters
 ||beehiiv.com^$important
 ||getdrip.com^$important
+/newsletter-preferences-popup.*.js$script
 
 ! Geo/IP/DNS
 ||ip-api.com^$important
@@ -747,7 +760,6 @@ advertising.*.$important
 /perfecty-push-sdk.min.js$important
 
 ! unknown
-||idcta.api.bbc.com^$important
 ||aistekso.net^$important
 
 ! paywall
@@ -761,6 +773,11 @@ advertising.*.$important
 /favicon/*x*.png$image,important
 /icon-*x*.png$image,important
 /apple-touch-icon.png$image,important
+/android-chrome-192x192.png$image,important
+
+! fingerprinters
+/fingerprintjs/main.js$script,important
+/fingerprinted/js/m-outer-*.js$script,important
 
 ! make browserleaks think you have a lot of content filters
 ||s_a_f_e..0verflow.$important
@@ -793,6 +810,16 @@ advertising.*.$important
 ##.billboard
 ##.breaker-ad
 ##.vertical-ad
+###mw-ad-slot-right-1
+###mw-ad-slot-right-2
+###right-rail-feature-flag-container
+###mw-ad-slot-sticky-container
+##mdn-placement-sidebar
+##.c-ads
+##mdn-placement-top
+##.page-layout__banner
+##mdn-placement-bottom
+##.js-billboard-container
 
 ! cookie cosmetic filters
 ##.-visible.cc-window
@@ -812,8 +839,16 @@ advertising.*.$important
 ##.cookie-warning-banner-view
 ###myCookieConsent
 
+! footsies
+##.cafemedia-footer-foot
+##.global-footer
+
 ! random stuff i havent organized yet
 
 ||www.gstatic.com/firebasejs/*/firebase-*.js$script,important
+||ajax.googleapis.com/ajax/libs/jquery/*/jquery.min.js$script,important
 
-top.gg##.flex-col.flex.w-full > .w-full.gap-2.p-2.self-center.\!border-ui\/10.\!border.rounded-sm.justify-center.items-center.flex-col.flex
+top.gg##.w-full.gap-2.p-2.self-center.\!border-ui\/10.\!border.rounded-sm.justify-center.items-center.flex-col.flex
+top.gg##.md\:flex.hidden.shrink-0
+
+amiunique.org##.mb-12.mt-6.lo-content-box
