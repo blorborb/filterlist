@@ -518,6 +518,9 @@ genius.com##[data-exclude-from-selection="true"]:has([id="div-gpt-ad-desktop_son
 /analytics/api/v1/page_hit$xhr,important
 ||cdn.jsdelivr.net/ghost/portal@~*/umd/portal.min.js$script,important
 /ghost-stats.min.js$script,important
+||browser-intake-datadoghq.com^$important
+||heapanalytics.com^$important
+||minute.ly^$important
 
 ! Ads
 
@@ -820,6 +823,9 @@ advertising.*.$important
 ##.page-layout__banner
 ##mdn-placement-bottom
 ##.js-billboard-container
+##.strike-ad-container
+##div.adsense-area
+###adsense-area-label
 
 ! cookie cosmetic filters
 ##.-visible.cc-window
@@ -838,6 +844,7 @@ advertising.*.$important
 ##.moz-consent-banner-content
 ##.cookie-warning-banner-view
 ###myCookieConsent
+##.gdpr
 
 ! footsies
 ##.cafemedia-footer-foot
@@ -852,3 +859,12 @@ top.gg##.w-full.gap-2.p-2.self-center.\!border-ui\/10.\!border.rounded-sm.justif
 top.gg##.md\:flex.hidden.shrink-0
 
 amiunique.org##.mb-12.mt-6.lo-content-box
+
+||twitter.com/i/api/1.1/jot/$important
+||abs.twimg.com/responsive-web/client-web/loader.FwdForSdk.*.js$script
+||abs.twimg.com/responsive-web/client-web/loader.DMDrawer.*.js$script
+
+##.fox-weather
+##.dds__modal--show.dds__modal--lg.dds__modal
+
+##.disqus-container
